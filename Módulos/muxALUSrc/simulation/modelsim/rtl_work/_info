@@ -1,0 +1,57 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\MyPC\Desktop\muxALUSrc\simulation\modelsim
+Emux_alusrc
+Z1 w1486259395
+Z2 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z3 dC:\Users\MyPC\Desktop\muxALUSrc\simulation\modelsim
+Z4 8C:/Users/MyPC/Desktop/muxALUSrc/mux_ALUSrc.vhd
+Z5 FC:/Users/MyPC/Desktop/muxALUSrc/mux_ALUSrc.vhd
+l0
+L4
+Va_n?hlRXEF5SZ[?blL2`^1
+Z6 OV;C;6.6c;45
+31
+Z7 o-93 -work work -O0
+Z8 tExplicit 1
+!s100 IPUV`j>=6FTGkDl9eaDE73
+Abehavioral
+R2
+DEx4 work 10 mux_alusrc 0 22 a_n?hlRXEF5SZ[?blL2`^1
+l17
+L15
+V0CC2^ogCS>0YR_fVgH4jj3
+R6
+31
+Z9 Mx1 4 ieee 14 std_logic_1164
+R7
+R8
+!s100 `S0:4Y_^N:Y3:ab6hOVCj3
+Emux_alusrc_tb
+Z10 w1486259508
+R2
+R3
+Z11 8C:/Users/MyPC/Desktop/muxALUSrc/mux_ALUSrc_tb.vhd
+Z12 FC:/Users/MyPC/Desktop/muxALUSrc/mux_ALUSrc_tb.vhd
+l0
+L30
+VL`1>Ic<P@j1;8F8G12dQl3
+!s100 Ij@>5@5;@5eX>]]Ff8kl70
+R6
+31
+R7
+R8
+Amux_alusrc_arch
+R2
+DEx4 work 13 mux_alusrc_tb 0 22 L`1>Ic<P@j1;8F8G12dQl3
+l50
+L33
+VAe_VEW56HmId@0=UdSTll0
+!s100 6hDmaiZ[=`Z?[cGZ07NRU1
+R6
+31
+R9
+R7
+R8

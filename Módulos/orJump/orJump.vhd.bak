@@ -1,0 +1,18 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity orJump is
+
+	port( 
+		insJump			: in std_logic_vector(25 downto 0);
+		j_address		: out std_logic_vector(27 downto 0)
+	);
+	
+end orJump;
+
+architecture comportamental of orJump is
+
+begin
+	j_address <= insJump (25 downto 0) & '0' or '0';
+	
+end architecture;

@@ -1,0 +1,513 @@
+TimeQuest Timing Analyzer report for pc
+Mon Feb 06 04:42:58 2017
+Quartus II 64-Bit Version 10.1 Build 153 11/29/2010 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Slow Model Fmax Summary
+  6. Slow Model Setup Summary
+  7. Slow Model Hold Summary
+  8. Slow Model Recovery Summary
+  9. Slow Model Removal Summary
+ 10. Slow Model Minimum Pulse Width Summary
+ 11. Propagation Delay
+ 12. Minimum Propagation Delay
+ 13. Fast Model Setup Summary
+ 14. Fast Model Hold Summary
+ 15. Fast Model Recovery Summary
+ 16. Fast Model Removal Summary
+ 17. Fast Model Minimum Pulse Width Summary
+ 18. Propagation Delay
+ 19. Minimum Propagation Delay
+ 20. Multicorner Timing Analysis Summary
+ 21. Progagation Delay
+ 22. Minimum Progagation Delay
+ 23. Clock Transfers
+ 24. Report TCCS
+ 25. Report RSKM
+ 26. Unconstrained Paths
+ 27. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                     ;
++--------------------+--------------------------------------------------+
+; Quartus II Version ; Version 10.1 Build 153 11/29/2010 SJ Web Edition ;
+; Revision Name      ; pc                                               ;
+; Device Family      ; Cyclone II                                       ;
+; Device Name        ; EP2C70F896C6                                     ;
+; Timing Models      ; Final                                            ;
+; Delay Model        ; Combined                                         ;
+; Rise/Fall Delays   ; Unavailable                                      ;
++--------------------+--------------------------------------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 2      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
+----------
+; Clocks ;
+----------
+No clocks to report.
+
+
+---------------------------
+; Slow Model Fmax Summary ;
+---------------------------
+No paths to report.
+
+
+----------------------------
+; Slow Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Slow Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Slow Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Slow Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Slow Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++-----------------------------------------------------+
+; Propagation Delay                                   ;
++-------------+-------------+-------+----+----+-------+
+; Input Port  ; Output Port ; RR    ; RF ; FR ; FF    ;
++-------------+-------------+-------+----+----+-------+
+; nextIns[0]  ; c_out[0]    ; 4.820 ;    ;    ; 4.820 ;
+; nextIns[1]  ; c_out[1]    ; 8.900 ;    ;    ; 8.900 ;
+; nextIns[2]  ; c_out[2]    ; 8.848 ;    ;    ; 8.848 ;
+; nextIns[3]  ; c_out[3]    ; 7.904 ;    ;    ; 7.904 ;
+; nextIns[4]  ; c_out[4]    ; 7.910 ;    ;    ; 7.910 ;
+; nextIns[5]  ; c_out[5]    ; 8.806 ;    ;    ; 8.806 ;
+; nextIns[6]  ; c_out[6]    ; 8.840 ;    ;    ; 8.840 ;
+; nextIns[7]  ; c_out[7]    ; 8.914 ;    ;    ; 8.914 ;
+; nextIns[8]  ; c_out[8]    ; 8.795 ;    ;    ; 8.795 ;
+; nextIns[9]  ; c_out[9]    ; 8.939 ;    ;    ; 8.939 ;
+; nextIns[10] ; c_out[10]   ; 8.883 ;    ;    ; 8.883 ;
+; nextIns[11] ; c_out[11]   ; 7.904 ;    ;    ; 7.904 ;
+; nextIns[12] ; c_out[12]   ; 8.043 ;    ;    ; 8.043 ;
+; nextIns[13] ; c_out[13]   ; 7.946 ;    ;    ; 7.946 ;
+; nextIns[14] ; c_out[14]   ; 8.856 ;    ;    ; 8.856 ;
+; nextIns[15] ; c_out[15]   ; 8.210 ;    ;    ; 8.210 ;
+; nextIns[16] ; c_out[16]   ; 8.790 ;    ;    ; 8.790 ;
+; nextIns[17] ; c_out[17]   ; 8.839 ;    ;    ; 8.839 ;
+; nextIns[18] ; c_out[18]   ; 8.860 ;    ;    ; 8.860 ;
+; nextIns[19] ; c_out[19]   ; 8.596 ;    ;    ; 8.596 ;
+; nextIns[20] ; c_out[20]   ; 8.563 ;    ;    ; 8.563 ;
+; nextIns[21] ; c_out[21]   ; 8.821 ;    ;    ; 8.821 ;
+; nextIns[22] ; c_out[22]   ; 8.814 ;    ;    ; 8.814 ;
+; nextIns[23] ; c_out[23]   ; 8.882 ;    ;    ; 8.882 ;
+; nextIns[24] ; c_out[24]   ; 8.835 ;    ;    ; 8.835 ;
+; nextIns[25] ; c_out[25]   ; 8.869 ;    ;    ; 8.869 ;
+; nextIns[26] ; c_out[26]   ; 7.916 ;    ;    ; 7.916 ;
+; nextIns[27] ; c_out[27]   ; 8.635 ;    ;    ; 8.635 ;
+; nextIns[28] ; c_out[28]   ; 8.797 ;    ;    ; 8.797 ;
+; nextIns[29] ; c_out[29]   ; 8.678 ;    ;    ; 8.678 ;
+; nextIns[30] ; c_out[30]   ; 8.777 ;    ;    ; 8.777 ;
+; nextIns[31] ; c_out[31]   ; 8.676 ;    ;    ; 8.676 ;
++-------------+-------------+-------+----+----+-------+
+
+
++-----------------------------------------------------+
+; Minimum Propagation Delay                           ;
++-------------+-------------+-------+----+----+-------+
+; Input Port  ; Output Port ; RR    ; RF ; FR ; FF    ;
++-------------+-------------+-------+----+----+-------+
+; nextIns[0]  ; c_out[0]    ; 4.820 ;    ;    ; 4.820 ;
+; nextIns[1]  ; c_out[1]    ; 8.900 ;    ;    ; 8.900 ;
+; nextIns[2]  ; c_out[2]    ; 8.848 ;    ;    ; 8.848 ;
+; nextIns[3]  ; c_out[3]    ; 7.904 ;    ;    ; 7.904 ;
+; nextIns[4]  ; c_out[4]    ; 7.910 ;    ;    ; 7.910 ;
+; nextIns[5]  ; c_out[5]    ; 8.806 ;    ;    ; 8.806 ;
+; nextIns[6]  ; c_out[6]    ; 8.840 ;    ;    ; 8.840 ;
+; nextIns[7]  ; c_out[7]    ; 8.914 ;    ;    ; 8.914 ;
+; nextIns[8]  ; c_out[8]    ; 8.795 ;    ;    ; 8.795 ;
+; nextIns[9]  ; c_out[9]    ; 8.939 ;    ;    ; 8.939 ;
+; nextIns[10] ; c_out[10]   ; 8.883 ;    ;    ; 8.883 ;
+; nextIns[11] ; c_out[11]   ; 7.904 ;    ;    ; 7.904 ;
+; nextIns[12] ; c_out[12]   ; 8.043 ;    ;    ; 8.043 ;
+; nextIns[13] ; c_out[13]   ; 7.946 ;    ;    ; 7.946 ;
+; nextIns[14] ; c_out[14]   ; 8.856 ;    ;    ; 8.856 ;
+; nextIns[15] ; c_out[15]   ; 8.210 ;    ;    ; 8.210 ;
+; nextIns[16] ; c_out[16]   ; 8.790 ;    ;    ; 8.790 ;
+; nextIns[17] ; c_out[17]   ; 8.839 ;    ;    ; 8.839 ;
+; nextIns[18] ; c_out[18]   ; 8.860 ;    ;    ; 8.860 ;
+; nextIns[19] ; c_out[19]   ; 8.596 ;    ;    ; 8.596 ;
+; nextIns[20] ; c_out[20]   ; 8.563 ;    ;    ; 8.563 ;
+; nextIns[21] ; c_out[21]   ; 8.821 ;    ;    ; 8.821 ;
+; nextIns[22] ; c_out[22]   ; 8.814 ;    ;    ; 8.814 ;
+; nextIns[23] ; c_out[23]   ; 8.882 ;    ;    ; 8.882 ;
+; nextIns[24] ; c_out[24]   ; 8.835 ;    ;    ; 8.835 ;
+; nextIns[25] ; c_out[25]   ; 8.869 ;    ;    ; 8.869 ;
+; nextIns[26] ; c_out[26]   ; 7.916 ;    ;    ; 7.916 ;
+; nextIns[27] ; c_out[27]   ; 8.635 ;    ;    ; 8.635 ;
+; nextIns[28] ; c_out[28]   ; 8.797 ;    ;    ; 8.797 ;
+; nextIns[29] ; c_out[29]   ; 8.678 ;    ;    ; 8.678 ;
+; nextIns[30] ; c_out[30]   ; 8.777 ;    ;    ; 8.777 ;
+; nextIns[31] ; c_out[31]   ; 8.676 ;    ;    ; 8.676 ;
++-------------+-------------+-------+----+----+-------+
+
+
+----------------------------
+; Fast Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Fast Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Fast Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Fast Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Fast Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++-----------------------------------------------------+
+; Propagation Delay                                   ;
++-------------+-------------+-------+----+----+-------+
+; Input Port  ; Output Port ; RR    ; RF ; FR ; FF    ;
++-------------+-------------+-------+----+----+-------+
+; nextIns[0]  ; c_out[0]    ; 2.577 ;    ;    ; 2.577 ;
+; nextIns[1]  ; c_out[1]    ; 5.083 ;    ;    ; 5.083 ;
+; nextIns[2]  ; c_out[2]    ; 5.046 ;    ;    ; 5.046 ;
+; nextIns[3]  ; c_out[3]    ; 4.561 ;    ;    ; 4.561 ;
+; nextIns[4]  ; c_out[4]    ; 4.557 ;    ;    ; 4.557 ;
+; nextIns[5]  ; c_out[5]    ; 5.006 ;    ;    ; 5.006 ;
+; nextIns[6]  ; c_out[6]    ; 5.038 ;    ;    ; 5.038 ;
+; nextIns[7]  ; c_out[7]    ; 5.079 ;    ;    ; 5.079 ;
+; nextIns[8]  ; c_out[8]    ; 4.996 ;    ;    ; 4.996 ;
+; nextIns[9]  ; c_out[9]    ; 5.112 ;    ;    ; 5.112 ;
+; nextIns[10] ; c_out[10]   ; 5.075 ;    ;    ; 5.075 ;
+; nextIns[11] ; c_out[11]   ; 4.561 ;    ;    ; 4.561 ;
+; nextIns[12] ; c_out[12]   ; 4.662 ;    ;    ; 4.662 ;
+; nextIns[13] ; c_out[13]   ; 4.602 ;    ;    ; 4.602 ;
+; nextIns[14] ; c_out[14]   ; 5.042 ;    ;    ; 5.042 ;
+; nextIns[15] ; c_out[15]   ; 4.749 ;    ;    ; 4.749 ;
+; nextIns[16] ; c_out[16]   ; 5.000 ;    ;    ; 5.000 ;
+; nextIns[17] ; c_out[17]   ; 5.042 ;    ;    ; 5.042 ;
+; nextIns[18] ; c_out[18]   ; 5.057 ;    ;    ; 5.057 ;
+; nextIns[19] ; c_out[19]   ; 4.909 ;    ;    ; 4.909 ;
+; nextIns[20] ; c_out[20]   ; 4.895 ;    ;    ; 4.895 ;
+; nextIns[21] ; c_out[21]   ; 5.013 ;    ;    ; 5.013 ;
+; nextIns[22] ; c_out[22]   ; 5.008 ;    ;    ; 5.008 ;
+; nextIns[23] ; c_out[23]   ; 5.075 ;    ;    ; 5.075 ;
+; nextIns[24] ; c_out[24]   ; 5.024 ;    ;    ; 5.024 ;
+; nextIns[25] ; c_out[25]   ; 5.044 ;    ;    ; 5.044 ;
+; nextIns[26] ; c_out[26]   ; 4.562 ;    ;    ; 4.562 ;
+; nextIns[27] ; c_out[27]   ; 4.948 ;    ;    ; 4.948 ;
+; nextIns[28] ; c_out[28]   ; 4.997 ;    ;    ; 4.997 ;
+; nextIns[29] ; c_out[29]   ; 4.990 ;    ;    ; 4.990 ;
+; nextIns[30] ; c_out[30]   ; 4.975 ;    ;    ; 4.975 ;
+; nextIns[31] ; c_out[31]   ; 4.989 ;    ;    ; 4.989 ;
++-------------+-------------+-------+----+----+-------+
+
+
++-----------------------------------------------------+
+; Minimum Propagation Delay                           ;
++-------------+-------------+-------+----+----+-------+
+; Input Port  ; Output Port ; RR    ; RF ; FR ; FF    ;
++-------------+-------------+-------+----+----+-------+
+; nextIns[0]  ; c_out[0]    ; 2.577 ;    ;    ; 2.577 ;
+; nextIns[1]  ; c_out[1]    ; 5.083 ;    ;    ; 5.083 ;
+; nextIns[2]  ; c_out[2]    ; 5.046 ;    ;    ; 5.046 ;
+; nextIns[3]  ; c_out[3]    ; 4.561 ;    ;    ; 4.561 ;
+; nextIns[4]  ; c_out[4]    ; 4.557 ;    ;    ; 4.557 ;
+; nextIns[5]  ; c_out[5]    ; 5.006 ;    ;    ; 5.006 ;
+; nextIns[6]  ; c_out[6]    ; 5.038 ;    ;    ; 5.038 ;
+; nextIns[7]  ; c_out[7]    ; 5.079 ;    ;    ; 5.079 ;
+; nextIns[8]  ; c_out[8]    ; 4.996 ;    ;    ; 4.996 ;
+; nextIns[9]  ; c_out[9]    ; 5.112 ;    ;    ; 5.112 ;
+; nextIns[10] ; c_out[10]   ; 5.075 ;    ;    ; 5.075 ;
+; nextIns[11] ; c_out[11]   ; 4.561 ;    ;    ; 4.561 ;
+; nextIns[12] ; c_out[12]   ; 4.662 ;    ;    ; 4.662 ;
+; nextIns[13] ; c_out[13]   ; 4.602 ;    ;    ; 4.602 ;
+; nextIns[14] ; c_out[14]   ; 5.042 ;    ;    ; 5.042 ;
+; nextIns[15] ; c_out[15]   ; 4.749 ;    ;    ; 4.749 ;
+; nextIns[16] ; c_out[16]   ; 5.000 ;    ;    ; 5.000 ;
+; nextIns[17] ; c_out[17]   ; 5.042 ;    ;    ; 5.042 ;
+; nextIns[18] ; c_out[18]   ; 5.057 ;    ;    ; 5.057 ;
+; nextIns[19] ; c_out[19]   ; 4.909 ;    ;    ; 4.909 ;
+; nextIns[20] ; c_out[20]   ; 4.895 ;    ;    ; 4.895 ;
+; nextIns[21] ; c_out[21]   ; 5.013 ;    ;    ; 5.013 ;
+; nextIns[22] ; c_out[22]   ; 5.008 ;    ;    ; 5.008 ;
+; nextIns[23] ; c_out[23]   ; 5.075 ;    ;    ; 5.075 ;
+; nextIns[24] ; c_out[24]   ; 5.024 ;    ;    ; 5.024 ;
+; nextIns[25] ; c_out[25]   ; 5.044 ;    ;    ; 5.044 ;
+; nextIns[26] ; c_out[26]   ; 4.562 ;    ;    ; 4.562 ;
+; nextIns[27] ; c_out[27]   ; 4.948 ;    ;    ; 4.948 ;
+; nextIns[28] ; c_out[28]   ; 4.997 ;    ;    ; 4.997 ;
+; nextIns[29] ; c_out[29]   ; 4.990 ;    ;    ; 4.990 ;
+; nextIns[30] ; c_out[30]   ; 4.975 ;    ;    ; 4.975 ;
+; nextIns[31] ; c_out[31]   ; 4.989 ;    ;    ; 4.989 ;
++-------------+-------------+-------+----+----+-------+
+
+
++----------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                        ;
++------------------+-------+------+----------+---------+---------------------+
+; Clock            ; Setup ; Hold ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+-------+------+----------+---------+---------------------+
+; Worst-case Slack ; N/A   ; N/A  ; N/A      ; N/A     ; N/A                 ;
+; Design-wide TNS  ; 0.0   ; 0.0  ; 0.0      ; 0.0     ; 0.0                 ;
++------------------+-------+------+----------+---------+---------------------+
+
+
++-----------------------------------------------------+
+; Progagation Delay                                   ;
++-------------+-------------+-------+----+----+-------+
+; Input Port  ; Output Port ; RR    ; RF ; FR ; FF    ;
++-------------+-------------+-------+----+----+-------+
+; nextIns[0]  ; c_out[0]    ; 4.820 ;    ;    ; 4.820 ;
+; nextIns[1]  ; c_out[1]    ; 8.900 ;    ;    ; 8.900 ;
+; nextIns[2]  ; c_out[2]    ; 8.848 ;    ;    ; 8.848 ;
+; nextIns[3]  ; c_out[3]    ; 7.904 ;    ;    ; 7.904 ;
+; nextIns[4]  ; c_out[4]    ; 7.910 ;    ;    ; 7.910 ;
+; nextIns[5]  ; c_out[5]    ; 8.806 ;    ;    ; 8.806 ;
+; nextIns[6]  ; c_out[6]    ; 8.840 ;    ;    ; 8.840 ;
+; nextIns[7]  ; c_out[7]    ; 8.914 ;    ;    ; 8.914 ;
+; nextIns[8]  ; c_out[8]    ; 8.795 ;    ;    ; 8.795 ;
+; nextIns[9]  ; c_out[9]    ; 8.939 ;    ;    ; 8.939 ;
+; nextIns[10] ; c_out[10]   ; 8.883 ;    ;    ; 8.883 ;
+; nextIns[11] ; c_out[11]   ; 7.904 ;    ;    ; 7.904 ;
+; nextIns[12] ; c_out[12]   ; 8.043 ;    ;    ; 8.043 ;
+; nextIns[13] ; c_out[13]   ; 7.946 ;    ;    ; 7.946 ;
+; nextIns[14] ; c_out[14]   ; 8.856 ;    ;    ; 8.856 ;
+; nextIns[15] ; c_out[15]   ; 8.210 ;    ;    ; 8.210 ;
+; nextIns[16] ; c_out[16]   ; 8.790 ;    ;    ; 8.790 ;
+; nextIns[17] ; c_out[17]   ; 8.839 ;    ;    ; 8.839 ;
+; nextIns[18] ; c_out[18]   ; 8.860 ;    ;    ; 8.860 ;
+; nextIns[19] ; c_out[19]   ; 8.596 ;    ;    ; 8.596 ;
+; nextIns[20] ; c_out[20]   ; 8.563 ;    ;    ; 8.563 ;
+; nextIns[21] ; c_out[21]   ; 8.821 ;    ;    ; 8.821 ;
+; nextIns[22] ; c_out[22]   ; 8.814 ;    ;    ; 8.814 ;
+; nextIns[23] ; c_out[23]   ; 8.882 ;    ;    ; 8.882 ;
+; nextIns[24] ; c_out[24]   ; 8.835 ;    ;    ; 8.835 ;
+; nextIns[25] ; c_out[25]   ; 8.869 ;    ;    ; 8.869 ;
+; nextIns[26] ; c_out[26]   ; 7.916 ;    ;    ; 7.916 ;
+; nextIns[27] ; c_out[27]   ; 8.635 ;    ;    ; 8.635 ;
+; nextIns[28] ; c_out[28]   ; 8.797 ;    ;    ; 8.797 ;
+; nextIns[29] ; c_out[29]   ; 8.678 ;    ;    ; 8.678 ;
+; nextIns[30] ; c_out[30]   ; 8.777 ;    ;    ; 8.777 ;
+; nextIns[31] ; c_out[31]   ; 8.676 ;    ;    ; 8.676 ;
++-------------+-------------+-------+----+----+-------+
+
+
++-----------------------------------------------------+
+; Minimum Progagation Delay                           ;
++-------------+-------------+-------+----+----+-------+
+; Input Port  ; Output Port ; RR    ; RF ; FR ; FF    ;
++-------------+-------------+-------+----+----+-------+
+; nextIns[0]  ; c_out[0]    ; 2.577 ;    ;    ; 2.577 ;
+; nextIns[1]  ; c_out[1]    ; 5.083 ;    ;    ; 5.083 ;
+; nextIns[2]  ; c_out[2]    ; 5.046 ;    ;    ; 5.046 ;
+; nextIns[3]  ; c_out[3]    ; 4.561 ;    ;    ; 4.561 ;
+; nextIns[4]  ; c_out[4]    ; 4.557 ;    ;    ; 4.557 ;
+; nextIns[5]  ; c_out[5]    ; 5.006 ;    ;    ; 5.006 ;
+; nextIns[6]  ; c_out[6]    ; 5.038 ;    ;    ; 5.038 ;
+; nextIns[7]  ; c_out[7]    ; 5.079 ;    ;    ; 5.079 ;
+; nextIns[8]  ; c_out[8]    ; 4.996 ;    ;    ; 4.996 ;
+; nextIns[9]  ; c_out[9]    ; 5.112 ;    ;    ; 5.112 ;
+; nextIns[10] ; c_out[10]   ; 5.075 ;    ;    ; 5.075 ;
+; nextIns[11] ; c_out[11]   ; 4.561 ;    ;    ; 4.561 ;
+; nextIns[12] ; c_out[12]   ; 4.662 ;    ;    ; 4.662 ;
+; nextIns[13] ; c_out[13]   ; 4.602 ;    ;    ; 4.602 ;
+; nextIns[14] ; c_out[14]   ; 5.042 ;    ;    ; 5.042 ;
+; nextIns[15] ; c_out[15]   ; 4.749 ;    ;    ; 4.749 ;
+; nextIns[16] ; c_out[16]   ; 5.000 ;    ;    ; 5.000 ;
+; nextIns[17] ; c_out[17]   ; 5.042 ;    ;    ; 5.042 ;
+; nextIns[18] ; c_out[18]   ; 5.057 ;    ;    ; 5.057 ;
+; nextIns[19] ; c_out[19]   ; 4.909 ;    ;    ; 4.909 ;
+; nextIns[20] ; c_out[20]   ; 4.895 ;    ;    ; 4.895 ;
+; nextIns[21] ; c_out[21]   ; 5.013 ;    ;    ; 5.013 ;
+; nextIns[22] ; c_out[22]   ; 5.008 ;    ;    ; 5.008 ;
+; nextIns[23] ; c_out[23]   ; 5.075 ;    ;    ; 5.075 ;
+; nextIns[24] ; c_out[24]   ; 5.024 ;    ;    ; 5.024 ;
+; nextIns[25] ; c_out[25]   ; 5.044 ;    ;    ; 5.044 ;
+; nextIns[26] ; c_out[26]   ; 4.562 ;    ;    ; 4.562 ;
+; nextIns[27] ; c_out[27]   ; 4.948 ;    ;    ; 4.948 ;
+; nextIns[28] ; c_out[28]   ; 4.997 ;    ;    ; 4.997 ;
+; nextIns[29] ; c_out[29]   ; 4.990 ;    ;    ; 4.990 ;
+; nextIns[30] ; c_out[30]   ; 4.975 ;    ;    ; 4.975 ;
+; nextIns[31] ; c_out[31]   ; 4.989 ;    ;    ; 4.989 ;
++-------------+-------------+-------+----+----+-------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 32    ; 32   ;
+; Unconstrained Input Port Paths  ; 32    ; 32   ;
+; Unconstrained Output Ports      ; 32    ; 32   ;
+; Unconstrained Output Port Paths ; 32    ; 32   ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
+    Info: Version 10.1 Build 153 11/29/2010 SJ Web Edition
+    Info: Processing started: Mon Feb 06 04:42:56 2017
+Info: Command: quartus_sta pc -c pc
+Info: qsta_default_script.tcl version: #1
+Info: Low junction temperature is 0 degrees C
+Info: High junction temperature is 85 degrees C
+Critical Warning: Synopsys Design Constraints File file not found: 'pc.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info: No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info: The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning: No clocks defined in design.
+Info: No clocks to report
+Info: Analyzing Slow Model
+Info: No fmax paths to report
+Info: No Setup paths to report
+Info: No Hold paths to report
+Info: No Recovery paths to report
+Info: No Removal paths to report
+Info: No Minimum Pulse Width paths to report
+Info: The selected device family is not supported by the report_metastability command.
+Info: Analyzing Fast Model
+Info: Started post-fitting delay annotation
+Warning: Found 32 output pins without output pin load capacitance assignment
+    Info: Pin "c_out[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "c_out[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "c_out[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "c_out[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "c_out[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "c_out[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "c_out[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "c_out[7]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "c_out[8]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "c_out[9]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "c_out[10]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "c_out[11]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "c_out[12]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "c_out[13]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "c_out[14]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "c_out[15]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "c_out[16]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "c_out[17]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "c_out[18]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "c_out[19]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "c_out[20]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "c_out[21]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "c_out[22]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "c_out[23]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "c_out[24]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "c_out[25]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "c_out[26]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "c_out[27]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "c_out[28]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "c_out[29]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "c_out[30]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "c_out[31]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+Info: Delay annotation completed successfully
+Info: No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info: The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning: No clocks defined in design.
+Info: No Setup paths to report
+Info: No Hold paths to report
+Info: No Recovery paths to report
+Info: No Removal paths to report
+Info: No Minimum Pulse Width paths to report
+Info: The selected device family is not supported by the report_metastability command.
+Info: Design is not fully constrained for setup requirements
+Info: Design is not fully constrained for hold requirements
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 353 megabytes
+    Info: Processing ended: Mon Feb 06 04:42:58 2017
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
+
+

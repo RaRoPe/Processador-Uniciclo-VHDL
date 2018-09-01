@@ -1,0 +1,60 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\MyPC\Desktop\Sign_Extd\simulation\modelsim
+Esignextd
+Z1 w1486316988
+Z2 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z4 dC:\Users\MyPC\Desktop\Sign_Extd\simulation\modelsim
+Z5 8C:/Users/MyPC/Desktop/Sign_Extd/signExtd.vhd
+Z6 FC:/Users/MyPC/Desktop/Sign_Extd/signExtd.vhd
+l0
+L5
+V;4m9_ER]Gm;l1dKX29;gZ3
+Z7 OV;C;6.6c;45
+31
+Z8 o-93 -work work -O0
+Z9 tExplicit 1
+!s100 V17<Z^;LoRYfnLo[WSfWk1
+Abehavioral
+R2
+R3
+DEx4 work 8 signextd 0 22 ;4m9_ER]Gm;l1dKX29;gZ3
+l14
+L12
+V=UAK2_?5fO>45;0hzmMoK0
+R7
+31
+Z10 Mx2 4 ieee 14 std_logic_1164
+Mx1 4 ieee 11 numeric_std
+R8
+R9
+!s100 5<<jY?288c839OjF5TdN;3
+Esignextd_tb
+Z11 w1486317504
+R3
+R4
+Z12 8C:/Users/MyPC/Desktop/Sign_Extd/signExtd_tb.vhd
+Z13 FC:/Users/MyPC/Desktop/Sign_Extd/signExtd_tb.vhd
+l0
+L30
+Vmoi2?4G9_gHmH2V0XY7Jk0
+!s100 maFam^bM4zcFXkDfO@EO52
+R7
+31
+R8
+R9
+Asignextd_arch
+R3
+DEx4 work 11 signextd_tb 0 22 moi2?4G9_gHmH2V0XY7Jk0
+l47
+L33
+V54kMF1;@4`1EKSFTNP8o22
+!s100 SJ:g:Z<M=UjaO7YL^SQ1i1
+R7
+31
+Z14 Mx1 4 ieee 14 std_logic_1164
+R8
+R9

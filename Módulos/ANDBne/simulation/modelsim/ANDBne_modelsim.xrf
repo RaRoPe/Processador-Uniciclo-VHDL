@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/MyPC/Desktop/ANDBne/ANDBne_tb.vhd
+source_file = 1, C:/Users/MyPC/Desktop/ANDBne/ANDBne.vhd
+source_file = 1, C:/Users/MyPC/Desktop/ANDBne/db/ANDBne.cbx.xml
+source_file = 1, c:/altera/10.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/10.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/10.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/10.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = ANDBne
+instance = comp, \bneControl~I\, bneControl, ANDBne, 1
+instance = comp, \zeroULABne~I\, zeroULABne, ANDBne, 1
+instance = comp, \andBne_out~0\, andBne_out~0, ANDBne, 1
+instance = comp, \andBne_out~I\, andBne_out, ANDBne, 1

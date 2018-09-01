@@ -1,0 +1,57 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\MyPC\Desktop\AND\simulation\modelsim
+Eandport
+Z1 w1486364241
+Z2 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z3 dC:\Users\MyPC\Desktop\AND\simulation\modelsim
+Z4 8C:/Users/MyPC/Desktop/AND/andPort.vhd
+Z5 FC:/Users/MyPC/Desktop/AND/andPort.vhd
+l0
+L4
+VLAG:LfB`S1z?C=XjGaJF?2
+Z6 OV;C;6.6c;45
+31
+Z7 o-93 -work work -O0
+Z8 tExplicit 1
+!s100 9V@i[^WUD9[D?C]V567SY0
+Abehavioral
+R2
+DEx4 work 7 andport 0 22 LAG:LfB`S1z?C=XjGaJF?2
+l16
+L14
+VmH1aFRXK;?Cj27U0]0?Dg0
+R6
+31
+Z9 Mx1 4 ieee 14 std_logic_1164
+R7
+R8
+!s100 MSoR=QRg@n?2EInQfdn^f2
+Eandport_tb
+Z10 w1486365035
+R2
+R3
+Z11 8C:/Users/MyPC/Desktop/AND/andPort_tb.vhd
+Z12 FC:/Users/MyPC/Desktop/AND/andPort_tb.vhd
+l0
+L30
+VY0C8Dh?I3=CXC`Z0kIzPa2
+!s100 :b8>nHfdQR2^>O3bK3;^F3
+R6
+31
+R7
+R8
+Aandport_arch
+R2
+DEx4 work 10 andport_tb 0 22 Y0C8Dh?I3=CXC`Z0kIzPa2
+l51
+L33
+V_H8ZjGREBCCG]@=o;e`X=3
+!s100 XWK:o]UC8f@Dk581`Y0JM3
+R6
+31
+R9
+R7
+R8

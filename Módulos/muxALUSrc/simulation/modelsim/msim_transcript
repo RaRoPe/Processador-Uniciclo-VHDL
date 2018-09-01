@@ -1,0 +1,39 @@
+# Reading C:/altera/10.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do muxALUSrc_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\10.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\10.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/MyPC/Desktop/muxALUSrc/mux_ALUSrc.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity mux_alusrc
+# -- Compiling architecture behavioral of mux_alusrc
+# 
+# vcom -93 -work work {C:/Users/MyPC/Desktop/muxALUSrc/mux_ALUSrc_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity mux_alusrc_tb
+# -- Compiling architecture mux_alusrc_arch of mux_alusrc_tb
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc" mux_ALUSrc_tb
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps mux_ALUSrc_tb 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.mux_alusrc_tb(mux_alusrc_arch)
+# Loading work.mux_alusrc(behavioral)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 5120 ps

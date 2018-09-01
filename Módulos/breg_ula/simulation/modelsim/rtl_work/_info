@@ -1,0 +1,182 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\MyPC\Desktop\breg_ula\simulation\modelsim
+Ebreg
+Z1 w1485387420
+Z2 DPx4 work 8 mips_pkg 0 22 hjf3PmgezM>jLE^d@kAgL3
+Z3 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z5 dC:\Users\MyPC\Desktop\breg_ula\simulation\modelsim
+Z6 8C:/Users/MyPC/Desktop/breg_ula/breg.vhd
+Z7 FC:/Users/MyPC/Desktop/breg_ula/breg.vhd
+l0
+L6
+VeoAXJXnMCzO`MLJBRjPe?3
+Z8 OV;C;6.6c;45
+31
+Z9 o-93 -work work -O0
+Z10 tExplicit 1
+!s100 O2I3:d02<5_1M>iLPklQN0
+Artl
+R2
+R3
+R4
+Z11 DEx4 work 4 breg 0 22 eoAXJXnMCzO`MLJBRjPe?3
+l26
+L20
+VbJD[azYGM2gIDWV4jVTeJ3
+R8
+31
+Z12 Mx3 4 ieee 14 std_logic_1164
+Z13 Mx2 4 ieee 11 numeric_std
+Z14 Mx1 4 work 8 mips_pkg
+R9
+R10
+!s100 D>>omojImOB4]i3QkMih=2
+Ebreg_ula
+Z15 w1485386349
+R2
+R3
+R4
+R5
+Z16 8C:/Users/MyPC/Desktop/breg_ula/breg_ula.vhd
+Z17 FC:/Users/MyPC/Desktop/breg_ula/breg_ula.vhd
+l0
+L6
+Vmm_]@]i96K7^@Xo4868iT1
+R8
+31
+R9
+R10
+!s100 XBGSWV=iVKmGo8o@GVk<j3
+Artl
+Z18 DEx4 work 5 c_ula 0 22 k6_A:WC91EjBLEC8QmFG50
+R11
+Z19 DEx4 work 3 ula 0 22 VE1nKgneU^?RX@fAfaPNk0
+R2
+R3
+R4
+DEx4 work 8 breg_ula 0 22 mm_]@]i96K7^@Xo4868iT1
+l25
+L20
+VFn8BoA@J4[e]>Q9<S1QEk2
+R8
+31
+R12
+R13
+R14
+R9
+R10
+!s100 dVHXPN7BRIDl2ODei=IZl3
+Ebreg_ula_tb
+Z20 w1485406462
+R3
+R4
+R5
+Z21 8C:/Users/MyPC/Desktop/breg_ula/breg_ula_tb.vhd
+Z22 FC:/Users/MyPC/Desktop/breg_ula/breg_ula_tb.vhd
+l0
+L32
+VClTmPJ0FoXIoR1EfcJ5Jn0
+!s100 X3SX;EoON7iR65izT?A^52
+R8
+31
+R9
+R10
+Abreg_ula_arch
+R3
+R4
+DEx4 work 11 breg_ula_tb 0 22 ClTmPJ0FoXIoR1EfcJ5Jn0
+l65
+L35
+V`T[^M:23:0n?o4QHd:a:e3
+!s100 1GNGLI5f;ViYM]AK9fzPS0
+R8
+31
+Z23 Mx2 4 ieee 14 std_logic_1164
+Z24 Mx1 4 ieee 11 numeric_std
+R9
+R10
+Ec_ula
+Z25 w1485405670
+R2
+R3
+R4
+R5
+Z26 8C:/Users/MyPC/Desktop/breg_ula/c_ula.vhd
+Z27 FC:/Users/MyPC/Desktop/breg_ula/c_ula.vhd
+l0
+L6
+Vk6_A:WC91EjBLEC8QmFG50
+R8
+31
+R9
+R10
+!s100 eJzJ4HKHXMKF[IV5j18:X3
+Artl2
+R2
+R3
+R4
+R18
+l16
+L14
+V>BLgkm5?0<F3c:hT<81h`3
+R8
+31
+R12
+R13
+R14
+R9
+R10
+!s100 zYT:1:gKb8a80biYISl[:3
+Pmips_pkg
+R3
+R4
+w1485287415
+R5
+8C:/Users/MyPC/Desktop/breg_ula/mips_pkg.vhd
+FC:/Users/MyPC/Desktop/breg_ula/mips_pkg.vhd
+l0
+L5
+Vhjf3PmgezM>jLE^d@kAgL3
+R8
+31
+R23
+R24
+R9
+R10
+!s100 7H`5Vb3W6NnPk<CRBNW4_0
+Eula
+Z28 w1485405931
+R2
+R3
+R4
+R5
+Z29 8C:/Users/MyPC/Desktop/breg_ula/ula.vhd
+Z30 FC:/Users/MyPC/Desktop/breg_ula/ula.vhd
+l0
+L6
+VVE1nKgneU^?RX@fAfaPNk0
+R8
+31
+R9
+R10
+!s100 H>lk^z2EF?_g^R=2WQhLn1
+Abehavioral
+R2
+R3
+R4
+R19
+l22
+L15
+VedGJccDGb0CJE_^9El>F60
+R8
+31
+R12
+R13
+R14
+R9
+R10
+!s100 PJA7AeLU924n9ll`4OlZ30

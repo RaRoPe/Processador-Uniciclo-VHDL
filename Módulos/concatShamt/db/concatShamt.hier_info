@@ -1,0 +1,40 @@
+|concatShamt
+inShamt[0] => exitShamt[0].DATAIN
+inShamt[1] => exitShamt[1].DATAIN
+inShamt[2] => exitShamt[2].DATAIN
+inShamt[3] => exitShamt[3].DATAIN
+inShamt[4] => exitShamt[4].DATAIN
+exitShamt[0] <= inShamt[0].DB_MAX_OUTPUT_PORT_TYPE
+exitShamt[1] <= inShamt[1].DB_MAX_OUTPUT_PORT_TYPE
+exitShamt[2] <= inShamt[2].DB_MAX_OUTPUT_PORT_TYPE
+exitShamt[3] <= inShamt[3].DB_MAX_OUTPUT_PORT_TYPE
+exitShamt[4] <= inShamt[4].DB_MAX_OUTPUT_PORT_TYPE
+exitShamt[5] <= <GND>
+exitShamt[6] <= <GND>
+exitShamt[7] <= <GND>
+exitShamt[8] <= <GND>
+exitShamt[9] <= <GND>
+exitShamt[10] <= <GND>
+exitShamt[11] <= <GND>
+exitShamt[12] <= <GND>
+exitShamt[13] <= <GND>
+exitShamt[14] <= <GND>
+exitShamt[15] <= <GND>
+exitShamt[16] <= <GND>
+exitShamt[17] <= <GND>
+exitShamt[18] <= <GND>
+exitShamt[19] <= <GND>
+exitShamt[20] <= <GND>
+exitShamt[21] <= <GND>
+exitShamt[22] <= <GND>
+exitShamt[23] <= <GND>
+exitShamt[24] <= <GND>
+exitShamt[25] <= <GND>
+exitShamt[26] <= <GND>
+exitShamt[27] <= <GND>
+exitShamt[28] <= <GND>
+exitShamt[29] <= <GND>
+exitShamt[30] <= <GND>
+exitShamt[31] <= <GND>
+
+

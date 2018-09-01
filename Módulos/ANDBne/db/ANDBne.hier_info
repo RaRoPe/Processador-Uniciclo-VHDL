@@ -1,0 +1,6 @@
+|ANDBne
+bneControl => andBne_out.IN0
+zeroULABne => andBne_out.IN1
+andBne_out <= andBne_out.DB_MAX_OUTPUT_PORT_TYPE
+
+

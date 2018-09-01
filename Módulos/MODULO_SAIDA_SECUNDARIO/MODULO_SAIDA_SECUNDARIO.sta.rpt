@@ -1,0 +1,1073 @@
+TimeQuest Timing Analyzer report for MODULO_SAIDA_SECUNDARIO
+Mon Feb 06 22:14:13 2017
+Quartus II 64-Bit Version 10.1 Build 153 11/29/2010 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Slow Model Fmax Summary
+  6. Slow Model Setup Summary
+  7. Slow Model Hold Summary
+  8. Slow Model Recovery Summary
+  9. Slow Model Removal Summary
+ 10. Slow Model Minimum Pulse Width Summary
+ 11. Propagation Delay
+ 12. Minimum Propagation Delay
+ 13. Fast Model Setup Summary
+ 14. Fast Model Hold Summary
+ 15. Fast Model Recovery Summary
+ 16. Fast Model Removal Summary
+ 17. Fast Model Minimum Pulse Width Summary
+ 18. Propagation Delay
+ 19. Minimum Propagation Delay
+ 20. Multicorner Timing Analysis Summary
+ 21. Progagation Delay
+ 22. Minimum Progagation Delay
+ 23. Clock Transfers
+ 24. Report TCCS
+ 25. Report RSKM
+ 26. Unconstrained Paths
+ 27. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                     ;
++--------------------+--------------------------------------------------+
+; Quartus II Version ; Version 10.1 Build 153 11/29/2010 SJ Web Edition ;
+; Revision Name      ; MODULO_SAIDA_SECUNDARIO                          ;
+; Device Family      ; Cyclone II                                       ;
+; Device Name        ; EP2C70F896C6                                     ;
+; Timing Models      ; Final                                            ;
+; Delay Model        ; Combined                                         ;
+; Rise/Fall Delays   ; Unavailable                                      ;
++--------------------+--------------------------------------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 2      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
+----------
+; Clocks ;
+----------
+No clocks to report.
+
+
+---------------------------
+; Slow Model Fmax Summary ;
+---------------------------
+No paths to report.
+
+
+----------------------------
+; Slow Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Slow Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Slow Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Slow Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Slow Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++--------------------------------------------------------------------+
+; Propagation Delay                                                  ;
++--------------------+---------------------+-------+----+----+-------+
+; Input Port         ; Output Port         ; RR    ; RF ; FR ; FF    ;
++--------------------+---------------------+-------+----+----+-------+
+; SAIDA_CONTROLE[0]  ; VSAIDA_CONTROLE[0]  ; 8.000 ;    ;    ; 8.000 ;
+; SAIDA_CONTROLE[1]  ; VSAIDA_CONTROLE[1]  ; 8.870 ;    ;    ; 8.870 ;
+; SAIDA_CONTROLE[2]  ; VSAIDA_CONTROLE[2]  ; 8.813 ;    ;    ; 8.813 ;
+; SAIDA_CONTROLE[3]  ; VSAIDA_CONTROLE[3]  ; 8.870 ;    ;    ; 8.870 ;
+; SAIDA_CONTROLE[4]  ; VSAIDA_CONTROLE[4]  ; 7.986 ;    ;    ; 7.986 ;
+; SAIDA_CONTROLE[5]  ; VSAIDA_CONTROLE[5]  ; 7.914 ;    ;    ; 7.914 ;
+; SAIDA_CONTROLE[6]  ; VSAIDA_CONTROLE[6]  ; 7.896 ;    ;    ; 7.896 ;
+; SAIDA_CONTROLE[7]  ; VSAIDA_CONTROLE[7]  ; 8.925 ;    ;    ; 8.925 ;
+; SAIDA_CONTROLE[8]  ; VSAIDA_CONTROLE[8]  ; 8.090 ;    ;    ; 8.090 ;
+; SAIDA_CONTROLE[9]  ; VSAIDA_CONTROLE[9]  ; 8.666 ;    ;    ; 8.666 ;
+; SAIDA_CONTROLE[10] ; VSAIDA_CONTROLE[10] ; 8.917 ;    ;    ; 8.917 ;
+; SAIDA_MUXAB[0]     ; VSAIDA_MUXAB[0]     ; 8.921 ;    ;    ; 8.921 ;
+; SAIDA_MUXAB[1]     ; VSAIDA_MUXAB[1]     ; 8.735 ;    ;    ; 8.735 ;
+; SAIDA_MUXAB[2]     ; VSAIDA_MUXAB[2]     ; 8.820 ;    ;    ; 8.820 ;
+; SAIDA_MUXAB[3]     ; VSAIDA_MUXAB[3]     ; 8.130 ;    ;    ; 8.130 ;
+; SAIDA_MUXAB[4]     ; VSAIDA_MUXAB[4]     ; 8.900 ;    ;    ; 8.900 ;
+; SAIDA_MUXAB[5]     ; VSAIDA_MUXAB[5]     ; 8.140 ;    ;    ; 8.140 ;
+; SAIDA_MUXAB[6]     ; VSAIDA_MUXAB[6]     ; 8.110 ;    ;    ; 8.110 ;
+; SAIDA_MUXAB[7]     ; VSAIDA_MUXAB[7]     ; 8.799 ;    ;    ; 8.799 ;
+; SAIDA_MUXAB[8]     ; VSAIDA_MUXAB[8]     ; 8.763 ;    ;    ; 8.763 ;
+; SAIDA_MUXAB[9]     ; VSAIDA_MUXAB[9]     ; 7.944 ;    ;    ; 7.944 ;
+; SAIDA_MUXAB[10]    ; VSAIDA_MUXAB[10]    ; 8.887 ;    ;    ; 8.887 ;
+; SAIDA_MUXAB[11]    ; VSAIDA_MUXAB[11]    ; 8.772 ;    ;    ; 8.772 ;
+; SAIDA_MUXAB[12]    ; VSAIDA_MUXAB[12]    ; 7.950 ;    ;    ; 7.950 ;
+; SAIDA_MUXAB[13]    ; VSAIDA_MUXAB[13]    ; 8.667 ;    ;    ; 8.667 ;
+; SAIDA_MUXAB[14]    ; VSAIDA_MUXAB[14]    ; 7.966 ;    ;    ; 7.966 ;
+; SAIDA_MUXAB[15]    ; VSAIDA_MUXAB[15]    ; 7.936 ;    ;    ; 7.936 ;
+; SAIDA_MUXAB[16]    ; VSAIDA_MUXAB[16]    ; 8.839 ;    ;    ; 8.839 ;
+; SAIDA_MUXAB[17]    ; VSAIDA_MUXAB[17]    ; 8.830 ;    ;    ; 8.830 ;
+; SAIDA_MUXAB[18]    ; VSAIDA_MUXAB[18]    ; 8.916 ;    ;    ; 8.916 ;
+; SAIDA_MUXAB[19]    ; VSAIDA_MUXAB[19]    ; 8.844 ;    ;    ; 8.844 ;
+; SAIDA_MUXAB[20]    ; VSAIDA_MUXAB[20]    ; 7.922 ;    ;    ; 7.922 ;
+; SAIDA_MUXAB[21]    ; VSAIDA_MUXAB[21]    ; 7.940 ;    ;    ; 7.940 ;
+; SAIDA_MUXAB[22]    ; VSAIDA_MUXAB[22]    ; 7.904 ;    ;    ; 7.904 ;
+; SAIDA_MUXAB[23]    ; VSAIDA_MUXAB[23]    ; 7.896 ;    ;    ; 7.896 ;
+; SAIDA_MUXAB[24]    ; VSAIDA_MUXAB[24]    ; 8.000 ;    ;    ; 8.000 ;
+; SAIDA_MUXAB[25]    ; VSAIDA_MUXAB[25]    ; 8.794 ;    ;    ; 8.794 ;
+; SAIDA_MUXAB[26]    ; VSAIDA_MUXAB[26]    ; 7.964 ;    ;    ; 7.964 ;
+; SAIDA_MUXAB[27]    ; VSAIDA_MUXAB[27]    ; 8.842 ;    ;    ; 8.842 ;
+; SAIDA_MUXAB[28]    ; VSAIDA_MUXAB[28]    ; 7.896 ;    ;    ; 7.896 ;
+; SAIDA_MUXAB[29]    ; VSAIDA_MUXAB[29]    ; 8.631 ;    ;    ; 8.631 ;
+; SAIDA_MUXAB[30]    ; VSAIDA_MUXAB[30]    ; 7.984 ;    ;    ; 7.984 ;
+; SAIDA_MUXAB[31]    ; VSAIDA_MUXAB[31]    ; 8.840 ;    ;    ; 8.840 ;
+; SAIDA_MUXALU[0]    ; VSAIDA_MUXALU[0]    ; 8.793 ;    ;    ; 8.793 ;
+; SAIDA_MUXALU[1]    ; VSAIDA_MUXALU[1]    ; 8.931 ;    ;    ; 8.931 ;
+; SAIDA_MUXALU[2]    ; VSAIDA_MUXALU[2]    ; 7.970 ;    ;    ; 7.970 ;
+; SAIDA_MUXALU[3]    ; VSAIDA_MUXALU[3]    ; 8.856 ;    ;    ; 8.856 ;
+; SAIDA_MUXALU[4]    ; VSAIDA_MUXALU[4]    ; 8.872 ;    ;    ; 8.872 ;
+; SAIDA_MUXALU[5]    ; VSAIDA_MUXALU[5]    ; 8.906 ;    ;    ; 8.906 ;
+; SAIDA_MUXALU[6]    ; VSAIDA_MUXALU[6]    ; 8.799 ;    ;    ; 8.799 ;
+; SAIDA_MUXALU[7]    ; VSAIDA_MUXALU[7]    ; 8.907 ;    ;    ; 8.907 ;
+; SAIDA_MUXALU[8]    ; VSAIDA_MUXALU[8]    ; 8.729 ;    ;    ; 8.729 ;
+; SAIDA_MUXALU[9]    ; VSAIDA_MUXALU[9]    ; 8.827 ;    ;    ; 8.827 ;
+; SAIDA_MUXALU[10]   ; VSAIDA_MUXALU[10]   ; 8.854 ;    ;    ; 8.854 ;
+; SAIDA_MUXALU[11]   ; VSAIDA_MUXALU[11]   ; 8.220 ;    ;    ; 8.220 ;
+; SAIDA_MUXALU[12]   ; VSAIDA_MUXALU[12]   ; 8.791 ;    ;    ; 8.791 ;
+; SAIDA_MUXALU[13]   ; VSAIDA_MUXALU[13]   ; 8.848 ;    ;    ; 8.848 ;
+; SAIDA_MUXALU[14]   ; VSAIDA_MUXALU[14]   ; 8.817 ;    ;    ; 8.817 ;
+; SAIDA_MUXALU[15]   ; VSAIDA_MUXALU[15]   ; 7.906 ;    ;    ; 7.906 ;
+; SAIDA_MUXALU[16]   ; VSAIDA_MUXALU[16]   ; 8.140 ;    ;    ; 8.140 ;
+; SAIDA_MUXALU[17]   ; VSAIDA_MUXALU[17]   ; 8.030 ;    ;    ; 8.030 ;
+; SAIDA_MUXALU[18]   ; VSAIDA_MUXALU[18]   ; 8.837 ;    ;    ; 8.837 ;
+; SAIDA_MUXALU[19]   ; VSAIDA_MUXALU[19]   ; 7.896 ;    ;    ; 7.896 ;
+; SAIDA_MUXALU[20]   ; VSAIDA_MUXALU[20]   ; 8.000 ;    ;    ; 8.000 ;
+; SAIDA_MUXALU[21]   ; VSAIDA_MUXALU[21]   ; 7.926 ;    ;    ; 7.926 ;
+; SAIDA_MUXALU[22]   ; VSAIDA_MUXALU[22]   ; 8.806 ;    ;    ; 8.806 ;
+; SAIDA_MUXALU[23]   ; VSAIDA_MUXALU[23]   ; 7.926 ;    ;    ; 7.926 ;
+; SAIDA_MUXALU[24]   ; VSAIDA_MUXALU[24]   ; 8.880 ;    ;    ; 8.880 ;
+; SAIDA_MUXALU[25]   ; VSAIDA_MUXALU[25]   ; 8.903 ;    ;    ; 8.903 ;
+; SAIDA_MUXALU[26]   ; VSAIDA_MUXALU[26]   ; 7.986 ;    ;    ; 7.986 ;
+; SAIDA_MUXALU[27]   ; VSAIDA_MUXALU[27]   ; 8.766 ;    ;    ; 8.766 ;
+; SAIDA_MUXALU[28]   ; VSAIDA_MUXALU[28]   ; 7.884 ;    ;    ; 7.884 ;
+; SAIDA_MUXALU[29]   ; VSAIDA_MUXALU[29]   ; 8.952 ;    ;    ; 8.952 ;
+; SAIDA_MUXALU[30]   ; VSAIDA_MUXALU[30]   ; 8.100 ;    ;    ; 8.100 ;
+; SAIDA_MUXALU[31]   ; VSAIDA_MUXALU[31]   ; 8.821 ;    ;    ; 8.821 ;
+; SAIDA_MUXB[0]      ; VSAIDA_MUXB[0]      ; 8.900 ;    ;    ; 8.900 ;
+; SAIDA_MUXB[1]      ; VSAIDA_MUXB[1]      ; 8.816 ;    ;    ; 8.816 ;
+; SAIDA_MUXB[2]      ; VSAIDA_MUXB[2]      ; 7.876 ;    ;    ; 7.876 ;
+; SAIDA_MUXB[3]      ; VSAIDA_MUXB[3]      ; 7.966 ;    ;    ; 7.966 ;
+; SAIDA_MUXB[4]      ; VSAIDA_MUXB[4]      ; 8.807 ;    ;    ; 8.807 ;
+; SAIDA_MUXB[5]      ; VSAIDA_MUXB[5]      ; 7.936 ;    ;    ; 7.936 ;
+; SAIDA_MUXB[6]      ; VSAIDA_MUXB[6]      ; 7.930 ;    ;    ; 7.930 ;
+; SAIDA_MUXB[7]      ; VSAIDA_MUXB[7]      ; 7.934 ;    ;    ; 7.934 ;
+; SAIDA_MUXB[8]      ; VSAIDA_MUXB[8]      ; 8.180 ;    ;    ; 8.180 ;
+; SAIDA_MUXB[9]      ; VSAIDA_MUXB[9]      ; 8.883 ;    ;    ; 8.883 ;
+; SAIDA_MUXB[10]     ; VSAIDA_MUXB[10]     ; 8.794 ;    ;    ; 8.794 ;
+; SAIDA_MUXB[11]     ; VSAIDA_MUXB[11]     ; 8.860 ;    ;    ; 8.860 ;
+; SAIDA_MUXB[12]     ; VSAIDA_MUXB[12]     ; 8.866 ;    ;    ; 8.866 ;
+; SAIDA_MUXB[13]     ; VSAIDA_MUXB[13]     ; 8.867 ;    ;    ; 8.867 ;
+; SAIDA_MUXB[14]     ; VSAIDA_MUXB[14]     ; 7.990 ;    ;    ; 7.990 ;
+; SAIDA_MUXB[15]     ; VSAIDA_MUXB[15]     ; 8.768 ;    ;    ; 8.768 ;
+; SAIDA_MUXB[16]     ; VSAIDA_MUXB[16]     ; 8.881 ;    ;    ; 8.881 ;
+; SAIDA_MUXB[17]     ; VSAIDA_MUXB[17]     ; 8.040 ;    ;    ; 8.040 ;
+; SAIDA_MUXB[18]     ; VSAIDA_MUXB[18]     ; 8.799 ;    ;    ; 8.799 ;
+; SAIDA_MUXB[19]     ; VSAIDA_MUXB[19]     ; 8.781 ;    ;    ; 8.781 ;
+; SAIDA_MUXB[20]     ; VSAIDA_MUXB[20]     ; 8.210 ;    ;    ; 8.210 ;
+; SAIDA_MUXB[21]     ; VSAIDA_MUXB[21]     ; 8.784 ;    ;    ; 8.784 ;
+; SAIDA_MUXB[22]     ; VSAIDA_MUXB[22]     ; 8.902 ;    ;    ; 8.902 ;
+; SAIDA_MUXB[23]     ; VSAIDA_MUXB[23]     ; 7.924 ;    ;    ; 7.924 ;
+; SAIDA_MUXB[24]     ; VSAIDA_MUXB[24]     ; 8.853 ;    ;    ; 8.853 ;
+; SAIDA_MUXB[25]     ; VSAIDA_MUXB[25]     ; 8.833 ;    ;    ; 8.833 ;
+; SAIDA_MUXB[26]     ; VSAIDA_MUXB[26]     ; 7.896 ;    ;    ; 7.896 ;
+; SAIDA_MUXB[27]     ; VSAIDA_MUXB[27]     ; 7.956 ;    ;    ; 7.956 ;
+; SAIDA_MUXB[28]     ; VSAIDA_MUXB[28]     ; 7.936 ;    ;    ; 7.936 ;
+; SAIDA_MUXB[29]     ; VSAIDA_MUXB[29]     ; 8.777 ;    ;    ; 8.777 ;
+; SAIDA_MUXB[30]     ; VSAIDA_MUXB[30]     ; 8.825 ;    ;    ; 8.825 ;
+; SAIDA_MUXB[31]     ; VSAIDA_MUXB[31]     ; 8.890 ;    ;    ; 8.890 ;
+; SAIDA_MUXRD[0]     ; VSAIDA_MUXRD[0]     ; 4.760 ;    ;    ; 4.760 ;
+; SAIDA_MUXRD[1]     ; VSAIDA_MUXRD[1]     ; 5.014 ;    ;    ; 5.014 ;
+; SAIDA_MUXRD[2]     ; VSAIDA_MUXRD[2]     ; 8.837 ;    ;    ; 8.837 ;
+; SAIDA_MUXRD[3]     ; VSAIDA_MUXRD[3]     ; 7.946 ;    ;    ; 7.946 ;
+; SAIDA_MUXRD[4]     ; VSAIDA_MUXRD[4]     ; 7.950 ;    ;    ; 7.950 ;
++--------------------+---------------------+-------+----+----+-------+
+
+
++--------------------------------------------------------------------+
+; Minimum Propagation Delay                                          ;
++--------------------+---------------------+-------+----+----+-------+
+; Input Port         ; Output Port         ; RR    ; RF ; FR ; FF    ;
++--------------------+---------------------+-------+----+----+-------+
+; SAIDA_CONTROLE[0]  ; VSAIDA_CONTROLE[0]  ; 8.000 ;    ;    ; 8.000 ;
+; SAIDA_CONTROLE[1]  ; VSAIDA_CONTROLE[1]  ; 8.870 ;    ;    ; 8.870 ;
+; SAIDA_CONTROLE[2]  ; VSAIDA_CONTROLE[2]  ; 8.813 ;    ;    ; 8.813 ;
+; SAIDA_CONTROLE[3]  ; VSAIDA_CONTROLE[3]  ; 8.870 ;    ;    ; 8.870 ;
+; SAIDA_CONTROLE[4]  ; VSAIDA_CONTROLE[4]  ; 7.986 ;    ;    ; 7.986 ;
+; SAIDA_CONTROLE[5]  ; VSAIDA_CONTROLE[5]  ; 7.914 ;    ;    ; 7.914 ;
+; SAIDA_CONTROLE[6]  ; VSAIDA_CONTROLE[6]  ; 7.896 ;    ;    ; 7.896 ;
+; SAIDA_CONTROLE[7]  ; VSAIDA_CONTROLE[7]  ; 8.925 ;    ;    ; 8.925 ;
+; SAIDA_CONTROLE[8]  ; VSAIDA_CONTROLE[8]  ; 8.090 ;    ;    ; 8.090 ;
+; SAIDA_CONTROLE[9]  ; VSAIDA_CONTROLE[9]  ; 8.666 ;    ;    ; 8.666 ;
+; SAIDA_CONTROLE[10] ; VSAIDA_CONTROLE[10] ; 8.917 ;    ;    ; 8.917 ;
+; SAIDA_MUXAB[0]     ; VSAIDA_MUXAB[0]     ; 8.921 ;    ;    ; 8.921 ;
+; SAIDA_MUXAB[1]     ; VSAIDA_MUXAB[1]     ; 8.735 ;    ;    ; 8.735 ;
+; SAIDA_MUXAB[2]     ; VSAIDA_MUXAB[2]     ; 8.820 ;    ;    ; 8.820 ;
+; SAIDA_MUXAB[3]     ; VSAIDA_MUXAB[3]     ; 8.130 ;    ;    ; 8.130 ;
+; SAIDA_MUXAB[4]     ; VSAIDA_MUXAB[4]     ; 8.900 ;    ;    ; 8.900 ;
+; SAIDA_MUXAB[5]     ; VSAIDA_MUXAB[5]     ; 8.140 ;    ;    ; 8.140 ;
+; SAIDA_MUXAB[6]     ; VSAIDA_MUXAB[6]     ; 8.110 ;    ;    ; 8.110 ;
+; SAIDA_MUXAB[7]     ; VSAIDA_MUXAB[7]     ; 8.799 ;    ;    ; 8.799 ;
+; SAIDA_MUXAB[8]     ; VSAIDA_MUXAB[8]     ; 8.763 ;    ;    ; 8.763 ;
+; SAIDA_MUXAB[9]     ; VSAIDA_MUXAB[9]     ; 7.944 ;    ;    ; 7.944 ;
+; SAIDA_MUXAB[10]    ; VSAIDA_MUXAB[10]    ; 8.887 ;    ;    ; 8.887 ;
+; SAIDA_MUXAB[11]    ; VSAIDA_MUXAB[11]    ; 8.772 ;    ;    ; 8.772 ;
+; SAIDA_MUXAB[12]    ; VSAIDA_MUXAB[12]    ; 7.950 ;    ;    ; 7.950 ;
+; SAIDA_MUXAB[13]    ; VSAIDA_MUXAB[13]    ; 8.667 ;    ;    ; 8.667 ;
+; SAIDA_MUXAB[14]    ; VSAIDA_MUXAB[14]    ; 7.966 ;    ;    ; 7.966 ;
+; SAIDA_MUXAB[15]    ; VSAIDA_MUXAB[15]    ; 7.936 ;    ;    ; 7.936 ;
+; SAIDA_MUXAB[16]    ; VSAIDA_MUXAB[16]    ; 8.839 ;    ;    ; 8.839 ;
+; SAIDA_MUXAB[17]    ; VSAIDA_MUXAB[17]    ; 8.830 ;    ;    ; 8.830 ;
+; SAIDA_MUXAB[18]    ; VSAIDA_MUXAB[18]    ; 8.916 ;    ;    ; 8.916 ;
+; SAIDA_MUXAB[19]    ; VSAIDA_MUXAB[19]    ; 8.844 ;    ;    ; 8.844 ;
+; SAIDA_MUXAB[20]    ; VSAIDA_MUXAB[20]    ; 7.922 ;    ;    ; 7.922 ;
+; SAIDA_MUXAB[21]    ; VSAIDA_MUXAB[21]    ; 7.940 ;    ;    ; 7.940 ;
+; SAIDA_MUXAB[22]    ; VSAIDA_MUXAB[22]    ; 7.904 ;    ;    ; 7.904 ;
+; SAIDA_MUXAB[23]    ; VSAIDA_MUXAB[23]    ; 7.896 ;    ;    ; 7.896 ;
+; SAIDA_MUXAB[24]    ; VSAIDA_MUXAB[24]    ; 8.000 ;    ;    ; 8.000 ;
+; SAIDA_MUXAB[25]    ; VSAIDA_MUXAB[25]    ; 8.794 ;    ;    ; 8.794 ;
+; SAIDA_MUXAB[26]    ; VSAIDA_MUXAB[26]    ; 7.964 ;    ;    ; 7.964 ;
+; SAIDA_MUXAB[27]    ; VSAIDA_MUXAB[27]    ; 8.842 ;    ;    ; 8.842 ;
+; SAIDA_MUXAB[28]    ; VSAIDA_MUXAB[28]    ; 7.896 ;    ;    ; 7.896 ;
+; SAIDA_MUXAB[29]    ; VSAIDA_MUXAB[29]    ; 8.631 ;    ;    ; 8.631 ;
+; SAIDA_MUXAB[30]    ; VSAIDA_MUXAB[30]    ; 7.984 ;    ;    ; 7.984 ;
+; SAIDA_MUXAB[31]    ; VSAIDA_MUXAB[31]    ; 8.840 ;    ;    ; 8.840 ;
+; SAIDA_MUXALU[0]    ; VSAIDA_MUXALU[0]    ; 8.793 ;    ;    ; 8.793 ;
+; SAIDA_MUXALU[1]    ; VSAIDA_MUXALU[1]    ; 8.931 ;    ;    ; 8.931 ;
+; SAIDA_MUXALU[2]    ; VSAIDA_MUXALU[2]    ; 7.970 ;    ;    ; 7.970 ;
+; SAIDA_MUXALU[3]    ; VSAIDA_MUXALU[3]    ; 8.856 ;    ;    ; 8.856 ;
+; SAIDA_MUXALU[4]    ; VSAIDA_MUXALU[4]    ; 8.872 ;    ;    ; 8.872 ;
+; SAIDA_MUXALU[5]    ; VSAIDA_MUXALU[5]    ; 8.906 ;    ;    ; 8.906 ;
+; SAIDA_MUXALU[6]    ; VSAIDA_MUXALU[6]    ; 8.799 ;    ;    ; 8.799 ;
+; SAIDA_MUXALU[7]    ; VSAIDA_MUXALU[7]    ; 8.907 ;    ;    ; 8.907 ;
+; SAIDA_MUXALU[8]    ; VSAIDA_MUXALU[8]    ; 8.729 ;    ;    ; 8.729 ;
+; SAIDA_MUXALU[9]    ; VSAIDA_MUXALU[9]    ; 8.827 ;    ;    ; 8.827 ;
+; SAIDA_MUXALU[10]   ; VSAIDA_MUXALU[10]   ; 8.854 ;    ;    ; 8.854 ;
+; SAIDA_MUXALU[11]   ; VSAIDA_MUXALU[11]   ; 8.220 ;    ;    ; 8.220 ;
+; SAIDA_MUXALU[12]   ; VSAIDA_MUXALU[12]   ; 8.791 ;    ;    ; 8.791 ;
+; SAIDA_MUXALU[13]   ; VSAIDA_MUXALU[13]   ; 8.848 ;    ;    ; 8.848 ;
+; SAIDA_MUXALU[14]   ; VSAIDA_MUXALU[14]   ; 8.817 ;    ;    ; 8.817 ;
+; SAIDA_MUXALU[15]   ; VSAIDA_MUXALU[15]   ; 7.906 ;    ;    ; 7.906 ;
+; SAIDA_MUXALU[16]   ; VSAIDA_MUXALU[16]   ; 8.140 ;    ;    ; 8.140 ;
+; SAIDA_MUXALU[17]   ; VSAIDA_MUXALU[17]   ; 8.030 ;    ;    ; 8.030 ;
+; SAIDA_MUXALU[18]   ; VSAIDA_MUXALU[18]   ; 8.837 ;    ;    ; 8.837 ;
+; SAIDA_MUXALU[19]   ; VSAIDA_MUXALU[19]   ; 7.896 ;    ;    ; 7.896 ;
+; SAIDA_MUXALU[20]   ; VSAIDA_MUXALU[20]   ; 8.000 ;    ;    ; 8.000 ;
+; SAIDA_MUXALU[21]   ; VSAIDA_MUXALU[21]   ; 7.926 ;    ;    ; 7.926 ;
+; SAIDA_MUXALU[22]   ; VSAIDA_MUXALU[22]   ; 8.806 ;    ;    ; 8.806 ;
+; SAIDA_MUXALU[23]   ; VSAIDA_MUXALU[23]   ; 7.926 ;    ;    ; 7.926 ;
+; SAIDA_MUXALU[24]   ; VSAIDA_MUXALU[24]   ; 8.880 ;    ;    ; 8.880 ;
+; SAIDA_MUXALU[25]   ; VSAIDA_MUXALU[25]   ; 8.903 ;    ;    ; 8.903 ;
+; SAIDA_MUXALU[26]   ; VSAIDA_MUXALU[26]   ; 7.986 ;    ;    ; 7.986 ;
+; SAIDA_MUXALU[27]   ; VSAIDA_MUXALU[27]   ; 8.766 ;    ;    ; 8.766 ;
+; SAIDA_MUXALU[28]   ; VSAIDA_MUXALU[28]   ; 7.884 ;    ;    ; 7.884 ;
+; SAIDA_MUXALU[29]   ; VSAIDA_MUXALU[29]   ; 8.952 ;    ;    ; 8.952 ;
+; SAIDA_MUXALU[30]   ; VSAIDA_MUXALU[30]   ; 8.100 ;    ;    ; 8.100 ;
+; SAIDA_MUXALU[31]   ; VSAIDA_MUXALU[31]   ; 8.821 ;    ;    ; 8.821 ;
+; SAIDA_MUXB[0]      ; VSAIDA_MUXB[0]      ; 8.900 ;    ;    ; 8.900 ;
+; SAIDA_MUXB[1]      ; VSAIDA_MUXB[1]      ; 8.816 ;    ;    ; 8.816 ;
+; SAIDA_MUXB[2]      ; VSAIDA_MUXB[2]      ; 7.876 ;    ;    ; 7.876 ;
+; SAIDA_MUXB[3]      ; VSAIDA_MUXB[3]      ; 7.966 ;    ;    ; 7.966 ;
+; SAIDA_MUXB[4]      ; VSAIDA_MUXB[4]      ; 8.807 ;    ;    ; 8.807 ;
+; SAIDA_MUXB[5]      ; VSAIDA_MUXB[5]      ; 7.936 ;    ;    ; 7.936 ;
+; SAIDA_MUXB[6]      ; VSAIDA_MUXB[6]      ; 7.930 ;    ;    ; 7.930 ;
+; SAIDA_MUXB[7]      ; VSAIDA_MUXB[7]      ; 7.934 ;    ;    ; 7.934 ;
+; SAIDA_MUXB[8]      ; VSAIDA_MUXB[8]      ; 8.180 ;    ;    ; 8.180 ;
+; SAIDA_MUXB[9]      ; VSAIDA_MUXB[9]      ; 8.883 ;    ;    ; 8.883 ;
+; SAIDA_MUXB[10]     ; VSAIDA_MUXB[10]     ; 8.794 ;    ;    ; 8.794 ;
+; SAIDA_MUXB[11]     ; VSAIDA_MUXB[11]     ; 8.860 ;    ;    ; 8.860 ;
+; SAIDA_MUXB[12]     ; VSAIDA_MUXB[12]     ; 8.866 ;    ;    ; 8.866 ;
+; SAIDA_MUXB[13]     ; VSAIDA_MUXB[13]     ; 8.867 ;    ;    ; 8.867 ;
+; SAIDA_MUXB[14]     ; VSAIDA_MUXB[14]     ; 7.990 ;    ;    ; 7.990 ;
+; SAIDA_MUXB[15]     ; VSAIDA_MUXB[15]     ; 8.768 ;    ;    ; 8.768 ;
+; SAIDA_MUXB[16]     ; VSAIDA_MUXB[16]     ; 8.881 ;    ;    ; 8.881 ;
+; SAIDA_MUXB[17]     ; VSAIDA_MUXB[17]     ; 8.040 ;    ;    ; 8.040 ;
+; SAIDA_MUXB[18]     ; VSAIDA_MUXB[18]     ; 8.799 ;    ;    ; 8.799 ;
+; SAIDA_MUXB[19]     ; VSAIDA_MUXB[19]     ; 8.781 ;    ;    ; 8.781 ;
+; SAIDA_MUXB[20]     ; VSAIDA_MUXB[20]     ; 8.210 ;    ;    ; 8.210 ;
+; SAIDA_MUXB[21]     ; VSAIDA_MUXB[21]     ; 8.784 ;    ;    ; 8.784 ;
+; SAIDA_MUXB[22]     ; VSAIDA_MUXB[22]     ; 8.902 ;    ;    ; 8.902 ;
+; SAIDA_MUXB[23]     ; VSAIDA_MUXB[23]     ; 7.924 ;    ;    ; 7.924 ;
+; SAIDA_MUXB[24]     ; VSAIDA_MUXB[24]     ; 8.853 ;    ;    ; 8.853 ;
+; SAIDA_MUXB[25]     ; VSAIDA_MUXB[25]     ; 8.833 ;    ;    ; 8.833 ;
+; SAIDA_MUXB[26]     ; VSAIDA_MUXB[26]     ; 7.896 ;    ;    ; 7.896 ;
+; SAIDA_MUXB[27]     ; VSAIDA_MUXB[27]     ; 7.956 ;    ;    ; 7.956 ;
+; SAIDA_MUXB[28]     ; VSAIDA_MUXB[28]     ; 7.936 ;    ;    ; 7.936 ;
+; SAIDA_MUXB[29]     ; VSAIDA_MUXB[29]     ; 8.777 ;    ;    ; 8.777 ;
+; SAIDA_MUXB[30]     ; VSAIDA_MUXB[30]     ; 8.825 ;    ;    ; 8.825 ;
+; SAIDA_MUXB[31]     ; VSAIDA_MUXB[31]     ; 8.890 ;    ;    ; 8.890 ;
+; SAIDA_MUXRD[0]     ; VSAIDA_MUXRD[0]     ; 4.760 ;    ;    ; 4.760 ;
+; SAIDA_MUXRD[1]     ; VSAIDA_MUXRD[1]     ; 5.014 ;    ;    ; 5.014 ;
+; SAIDA_MUXRD[2]     ; VSAIDA_MUXRD[2]     ; 8.837 ;    ;    ; 8.837 ;
+; SAIDA_MUXRD[3]     ; VSAIDA_MUXRD[3]     ; 7.946 ;    ;    ; 7.946 ;
+; SAIDA_MUXRD[4]     ; VSAIDA_MUXRD[4]     ; 7.950 ;    ;    ; 7.950 ;
++--------------------+---------------------+-------+----+----+-------+
+
+
+----------------------------
+; Fast Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Fast Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Fast Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Fast Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Fast Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++--------------------------------------------------------------------+
+; Propagation Delay                                                  ;
++--------------------+---------------------+-------+----+----+-------+
+; Input Port         ; Output Port         ; RR    ; RF ; FR ; FF    ;
++--------------------+---------------------+-------+----+----+-------+
+; SAIDA_CONTROLE[0]  ; VSAIDA_CONTROLE[0]  ; 4.647 ;    ;    ; 4.647 ;
+; SAIDA_CONTROLE[1]  ; VSAIDA_CONTROLE[1]  ; 5.054 ;    ;    ; 5.054 ;
+; SAIDA_CONTROLE[2]  ; VSAIDA_CONTROLE[2]  ; 5.014 ;    ;    ; 5.014 ;
+; SAIDA_CONTROLE[3]  ; VSAIDA_CONTROLE[3]  ; 5.046 ;    ;    ; 5.046 ;
+; SAIDA_CONTROLE[4]  ; VSAIDA_CONTROLE[4]  ; 4.642 ;    ;    ; 4.642 ;
+; SAIDA_CONTROLE[5]  ; VSAIDA_CONTROLE[5]  ; 4.571 ;    ;    ; 4.571 ;
+; SAIDA_CONTROLE[6]  ; VSAIDA_CONTROLE[6]  ; 4.552 ;    ;    ; 4.552 ;
+; SAIDA_CONTROLE[7]  ; VSAIDA_CONTROLE[7]  ; 5.099 ;    ;    ; 5.099 ;
+; SAIDA_CONTROLE[8]  ; VSAIDA_CONTROLE[8]  ; 4.629 ;    ;    ; 4.629 ;
+; SAIDA_CONTROLE[9]  ; VSAIDA_CONTROLE[9]  ; 4.979 ;    ;    ; 4.979 ;
+; SAIDA_CONTROLE[10] ; VSAIDA_CONTROLE[10] ; 5.090 ;    ;    ; 5.090 ;
+; SAIDA_MUXAB[0]     ; VSAIDA_MUXAB[0]     ; 5.096 ;    ;    ; 5.096 ;
+; SAIDA_MUXAB[1]     ; VSAIDA_MUXAB[1]     ; 4.937 ;    ;    ; 4.937 ;
+; SAIDA_MUXAB[2]     ; VSAIDA_MUXAB[2]     ; 5.017 ;    ;    ; 5.017 ;
+; SAIDA_MUXAB[3]     ; VSAIDA_MUXAB[3]     ; 4.669 ;    ;    ; 4.669 ;
+; SAIDA_MUXAB[4]     ; VSAIDA_MUXAB[4]     ; 5.075 ;    ;    ; 5.075 ;
+; SAIDA_MUXAB[5]     ; VSAIDA_MUXAB[5]     ; 4.679 ;    ;    ; 4.679 ;
+; SAIDA_MUXAB[6]     ; VSAIDA_MUXAB[6]     ; 4.649 ;    ;    ; 4.649 ;
+; SAIDA_MUXAB[7]     ; VSAIDA_MUXAB[7]     ; 5.002 ;    ;    ; 5.002 ;
+; SAIDA_MUXAB[8]     ; VSAIDA_MUXAB[8]     ; 4.963 ;    ;    ; 4.963 ;
+; SAIDA_MUXAB[9]     ; VSAIDA_MUXAB[9]     ; 4.601 ;    ;    ; 4.601 ;
+; SAIDA_MUXAB[10]    ; VSAIDA_MUXAB[10]    ; 5.073 ;    ;    ; 5.073 ;
+; SAIDA_MUXAB[11]    ; VSAIDA_MUXAB[11]    ; 4.980 ;    ;    ; 4.980 ;
+; SAIDA_MUXAB[12]    ; VSAIDA_MUXAB[12]    ; 4.597 ;    ;    ; 4.597 ;
+; SAIDA_MUXAB[13]    ; VSAIDA_MUXAB[13]    ; 4.979 ;    ;    ; 4.979 ;
+; SAIDA_MUXAB[14]    ; VSAIDA_MUXAB[14]    ; 4.622 ;    ;    ; 4.622 ;
+; SAIDA_MUXAB[15]    ; VSAIDA_MUXAB[15]    ; 4.582 ;    ;    ; 4.582 ;
+; SAIDA_MUXAB[16]    ; VSAIDA_MUXAB[16]    ; 5.042 ;    ;    ; 5.042 ;
+; SAIDA_MUXAB[17]    ; VSAIDA_MUXAB[17]    ; 5.029 ;    ;    ; 5.029 ;
+; SAIDA_MUXAB[18]    ; VSAIDA_MUXAB[18]    ; 5.081 ;    ;    ; 5.081 ;
+; SAIDA_MUXAB[19]    ; VSAIDA_MUXAB[19]    ; 5.027 ;    ;    ; 5.027 ;
+; SAIDA_MUXAB[20]    ; VSAIDA_MUXAB[20]    ; 4.568 ;    ;    ; 4.568 ;
+; SAIDA_MUXAB[21]    ; VSAIDA_MUXAB[21]    ; 4.587 ;    ;    ; 4.587 ;
+; SAIDA_MUXAB[22]    ; VSAIDA_MUXAB[22]    ; 4.561 ;    ;    ; 4.561 ;
+; SAIDA_MUXAB[23]    ; VSAIDA_MUXAB[23]    ; 4.552 ;    ;    ; 4.552 ;
+; SAIDA_MUXAB[24]    ; VSAIDA_MUXAB[24]    ; 4.647 ;    ;    ; 4.647 ;
+; SAIDA_MUXAB[25]    ; VSAIDA_MUXAB[25]    ; 5.005 ;    ;    ; 5.005 ;
+; SAIDA_MUXAB[26]    ; VSAIDA_MUXAB[26]    ; 4.621 ;    ;    ; 4.621 ;
+; SAIDA_MUXAB[27]    ; VSAIDA_MUXAB[27]    ; 5.035 ;    ;    ; 5.035 ;
+; SAIDA_MUXAB[28]    ; VSAIDA_MUXAB[28]    ; 4.550 ;    ;    ; 4.550 ;
+; SAIDA_MUXAB[29]    ; VSAIDA_MUXAB[29]    ; 4.941 ;    ;    ; 4.941 ;
+; SAIDA_MUXAB[30]    ; VSAIDA_MUXAB[30]    ; 4.641 ;    ;    ; 4.641 ;
+; SAIDA_MUXAB[31]    ; VSAIDA_MUXAB[31]    ; 5.024 ;    ;    ; 5.024 ;
+; SAIDA_MUXALU[0]    ; VSAIDA_MUXALU[0]    ; 4.993 ;    ;    ; 4.993 ;
+; SAIDA_MUXALU[1]    ; VSAIDA_MUXALU[1]    ; 5.106 ;    ;    ; 5.106 ;
+; SAIDA_MUXALU[2]    ; VSAIDA_MUXALU[2]    ; 4.617 ;    ;    ; 4.617 ;
+; SAIDA_MUXALU[3]    ; VSAIDA_MUXALU[3]    ; 5.050 ;    ;    ; 5.050 ;
+; SAIDA_MUXALU[4]    ; VSAIDA_MUXALU[4]    ; 5.066 ;    ;    ; 5.066 ;
+; SAIDA_MUXALU[5]    ; VSAIDA_MUXALU[5]    ; 5.065 ;    ;    ; 5.065 ;
+; SAIDA_MUXALU[6]    ; VSAIDA_MUXALU[6]    ; 5.010 ;    ;    ; 5.010 ;
+; SAIDA_MUXALU[7]    ; VSAIDA_MUXALU[7]    ; 5.075 ;    ;    ; 5.075 ;
+; SAIDA_MUXALU[8]    ; VSAIDA_MUXALU[8]    ; 5.031 ;    ;    ; 5.031 ;
+; SAIDA_MUXALU[9]    ; VSAIDA_MUXALU[9]    ; 5.027 ;    ;    ; 5.027 ;
+; SAIDA_MUXALU[10]   ; VSAIDA_MUXALU[10]   ; 5.032 ;    ;    ; 5.032 ;
+; SAIDA_MUXALU[11]   ; VSAIDA_MUXALU[11]   ; 4.759 ;    ;    ; 4.759 ;
+; SAIDA_MUXALU[12]   ; VSAIDA_MUXALU[12]   ; 4.994 ;    ;    ; 4.994 ;
+; SAIDA_MUXALU[13]   ; VSAIDA_MUXALU[13]   ; 5.014 ;    ;    ; 5.014 ;
+; SAIDA_MUXALU[14]   ; VSAIDA_MUXALU[14]   ; 5.026 ;    ;    ; 5.026 ;
+; SAIDA_MUXALU[15]   ; VSAIDA_MUXALU[15]   ; 4.552 ;    ;    ; 4.552 ;
+; SAIDA_MUXALU[16]   ; VSAIDA_MUXALU[16]   ; 4.679 ;    ;    ; 4.679 ;
+; SAIDA_MUXALU[17]   ; VSAIDA_MUXALU[17]   ; 4.677 ;    ;    ; 4.677 ;
+; SAIDA_MUXALU[18]   ; VSAIDA_MUXALU[18]   ; 5.036 ;    ;    ; 5.036 ;
+; SAIDA_MUXALU[19]   ; VSAIDA_MUXALU[19]   ; 4.550 ;    ;    ; 4.550 ;
+; SAIDA_MUXALU[20]   ; VSAIDA_MUXALU[20]   ; 4.647 ;    ;    ; 4.647 ;
+; SAIDA_MUXALU[21]   ; VSAIDA_MUXALU[21]   ; 4.572 ;    ;    ; 4.572 ;
+; SAIDA_MUXALU[22]   ; VSAIDA_MUXALU[22]   ; 4.990 ;    ;    ; 4.990 ;
+; SAIDA_MUXALU[23]   ; VSAIDA_MUXALU[23]   ; 4.580 ;    ;    ; 4.580 ;
+; SAIDA_MUXALU[24]   ; VSAIDA_MUXALU[24]   ; 5.063 ;    ;    ; 5.063 ;
+; SAIDA_MUXALU[25]   ; VSAIDA_MUXALU[25]   ; 5.077 ;    ;    ; 5.077 ;
+; SAIDA_MUXALU[26]   ; VSAIDA_MUXALU[26]   ; 4.632 ;    ;    ; 4.632 ;
+; SAIDA_MUXALU[27]   ; VSAIDA_MUXALU[27]   ; 4.966 ;    ;    ; 4.966 ;
+; SAIDA_MUXALU[28]   ; VSAIDA_MUXALU[28]   ; 4.541 ;    ;    ; 4.541 ;
+; SAIDA_MUXALU[29]   ; VSAIDA_MUXALU[29]   ; 5.127 ;    ;    ; 5.127 ;
+; SAIDA_MUXALU[30]   ; VSAIDA_MUXALU[30]   ; 4.639 ;    ;    ; 4.639 ;
+; SAIDA_MUXALU[31]   ; VSAIDA_MUXALU[31]   ; 5.011 ;    ;    ; 5.011 ;
+; SAIDA_MUXB[0]      ; VSAIDA_MUXB[0]      ; 5.083 ;    ;    ; 5.083 ;
+; SAIDA_MUXB[1]      ; VSAIDA_MUXB[1]      ; 5.016 ;    ;    ; 5.016 ;
+; SAIDA_MUXB[2]      ; VSAIDA_MUXB[2]      ; 4.532 ;    ;    ; 4.532 ;
+; SAIDA_MUXB[3]      ; VSAIDA_MUXB[3]      ; 4.622 ;    ;    ; 4.622 ;
+; SAIDA_MUXB[4]      ; VSAIDA_MUXB[4]      ; 5.004 ;    ;    ; 5.004 ;
+; SAIDA_MUXB[5]      ; VSAIDA_MUXB[5]      ; 4.590 ;    ;    ; 4.590 ;
+; SAIDA_MUXB[6]      ; VSAIDA_MUXB[6]      ; 4.577 ;    ;    ; 4.577 ;
+; SAIDA_MUXB[7]      ; VSAIDA_MUXB[7]      ; 4.591 ;    ;    ; 4.591 ;
+; SAIDA_MUXB[8]      ; VSAIDA_MUXB[8]      ; 4.719 ;    ;    ; 4.719 ;
+; SAIDA_MUXB[9]      ; VSAIDA_MUXB[9]      ; 5.062 ;    ;    ; 5.062 ;
+; SAIDA_MUXB[10]     ; VSAIDA_MUXB[10]     ; 4.988 ;    ;    ; 4.988 ;
+; SAIDA_MUXB[11]     ; VSAIDA_MUXB[11]     ; 5.035 ;    ;    ; 5.035 ;
+; SAIDA_MUXB[12]     ; VSAIDA_MUXB[12]     ; 5.042 ;    ;    ; 5.042 ;
+; SAIDA_MUXB[13]     ; VSAIDA_MUXB[13]     ; 5.061 ;    ;    ; 5.061 ;
+; SAIDA_MUXB[14]     ; VSAIDA_MUXB[14]     ; 4.637 ;    ;    ; 4.637 ;
+; SAIDA_MUXB[15]     ; VSAIDA_MUXB[15]     ; 4.971 ;    ;    ; 4.971 ;
+; SAIDA_MUXB[16]     ; VSAIDA_MUXB[16]     ; 5.069 ;    ;    ; 5.069 ;
+; SAIDA_MUXB[17]     ; VSAIDA_MUXB[17]     ; 4.687 ;    ;    ; 4.687 ;
+; SAIDA_MUXB[18]     ; VSAIDA_MUXB[18]     ; 5.006 ;    ;    ; 5.006 ;
+; SAIDA_MUXB[19]     ; VSAIDA_MUXB[19]     ; 4.983 ;    ;    ; 4.983 ;
+; SAIDA_MUXB[20]     ; VSAIDA_MUXB[20]     ; 4.749 ;    ;    ; 4.749 ;
+; SAIDA_MUXB[21]     ; VSAIDA_MUXB[21]     ; 4.983 ;    ;    ; 4.983 ;
+; SAIDA_MUXB[22]     ; VSAIDA_MUXB[22]     ; 5.085 ;    ;    ; 5.085 ;
+; SAIDA_MUXB[23]     ; VSAIDA_MUXB[23]     ; 4.581 ;    ;    ; 4.581 ;
+; SAIDA_MUXB[24]     ; VSAIDA_MUXB[24]     ; 5.045 ;    ;    ; 5.045 ;
+; SAIDA_MUXB[25]     ; VSAIDA_MUXB[25]     ; 5.020 ;    ;    ; 5.020 ;
+; SAIDA_MUXB[26]     ; VSAIDA_MUXB[26]     ; 4.550 ;    ;    ; 4.550 ;
+; SAIDA_MUXB[27]     ; VSAIDA_MUXB[27]     ; 4.602 ;    ;    ; 4.602 ;
+; SAIDA_MUXB[28]     ; VSAIDA_MUXB[28]     ; 4.582 ;    ;    ; 4.582 ;
+; SAIDA_MUXB[29]     ; VSAIDA_MUXB[29]     ; 4.975 ;    ;    ; 4.975 ;
+; SAIDA_MUXB[30]     ; VSAIDA_MUXB[30]     ; 5.024 ;    ;    ; 5.024 ;
+; SAIDA_MUXB[31]     ; VSAIDA_MUXB[31]     ; 5.066 ;    ;    ; 5.066 ;
+; SAIDA_MUXRD[0]     ; VSAIDA_MUXRD[0]     ; 2.531 ;    ;    ; 2.531 ;
+; SAIDA_MUXRD[1]     ; VSAIDA_MUXRD[1]     ; 2.695 ;    ;    ; 2.695 ;
+; SAIDA_MUXRD[2]     ; VSAIDA_MUXRD[2]     ; 5.036 ;    ;    ; 5.036 ;
+; SAIDA_MUXRD[3]     ; VSAIDA_MUXRD[3]     ; 4.602 ;    ;    ; 4.602 ;
+; SAIDA_MUXRD[4]     ; VSAIDA_MUXRD[4]     ; 4.597 ;    ;    ; 4.597 ;
++--------------------+---------------------+-------+----+----+-------+
+
+
++--------------------------------------------------------------------+
+; Minimum Propagation Delay                                          ;
++--------------------+---------------------+-------+----+----+-------+
+; Input Port         ; Output Port         ; RR    ; RF ; FR ; FF    ;
++--------------------+---------------------+-------+----+----+-------+
+; SAIDA_CONTROLE[0]  ; VSAIDA_CONTROLE[0]  ; 4.647 ;    ;    ; 4.647 ;
+; SAIDA_CONTROLE[1]  ; VSAIDA_CONTROLE[1]  ; 5.054 ;    ;    ; 5.054 ;
+; SAIDA_CONTROLE[2]  ; VSAIDA_CONTROLE[2]  ; 5.014 ;    ;    ; 5.014 ;
+; SAIDA_CONTROLE[3]  ; VSAIDA_CONTROLE[3]  ; 5.046 ;    ;    ; 5.046 ;
+; SAIDA_CONTROLE[4]  ; VSAIDA_CONTROLE[4]  ; 4.642 ;    ;    ; 4.642 ;
+; SAIDA_CONTROLE[5]  ; VSAIDA_CONTROLE[5]  ; 4.571 ;    ;    ; 4.571 ;
+; SAIDA_CONTROLE[6]  ; VSAIDA_CONTROLE[6]  ; 4.552 ;    ;    ; 4.552 ;
+; SAIDA_CONTROLE[7]  ; VSAIDA_CONTROLE[7]  ; 5.099 ;    ;    ; 5.099 ;
+; SAIDA_CONTROLE[8]  ; VSAIDA_CONTROLE[8]  ; 4.629 ;    ;    ; 4.629 ;
+; SAIDA_CONTROLE[9]  ; VSAIDA_CONTROLE[9]  ; 4.979 ;    ;    ; 4.979 ;
+; SAIDA_CONTROLE[10] ; VSAIDA_CONTROLE[10] ; 5.090 ;    ;    ; 5.090 ;
+; SAIDA_MUXAB[0]     ; VSAIDA_MUXAB[0]     ; 5.096 ;    ;    ; 5.096 ;
+; SAIDA_MUXAB[1]     ; VSAIDA_MUXAB[1]     ; 4.937 ;    ;    ; 4.937 ;
+; SAIDA_MUXAB[2]     ; VSAIDA_MUXAB[2]     ; 5.017 ;    ;    ; 5.017 ;
+; SAIDA_MUXAB[3]     ; VSAIDA_MUXAB[3]     ; 4.669 ;    ;    ; 4.669 ;
+; SAIDA_MUXAB[4]     ; VSAIDA_MUXAB[4]     ; 5.075 ;    ;    ; 5.075 ;
+; SAIDA_MUXAB[5]     ; VSAIDA_MUXAB[5]     ; 4.679 ;    ;    ; 4.679 ;
+; SAIDA_MUXAB[6]     ; VSAIDA_MUXAB[6]     ; 4.649 ;    ;    ; 4.649 ;
+; SAIDA_MUXAB[7]     ; VSAIDA_MUXAB[7]     ; 5.002 ;    ;    ; 5.002 ;
+; SAIDA_MUXAB[8]     ; VSAIDA_MUXAB[8]     ; 4.963 ;    ;    ; 4.963 ;
+; SAIDA_MUXAB[9]     ; VSAIDA_MUXAB[9]     ; 4.601 ;    ;    ; 4.601 ;
+; SAIDA_MUXAB[10]    ; VSAIDA_MUXAB[10]    ; 5.073 ;    ;    ; 5.073 ;
+; SAIDA_MUXAB[11]    ; VSAIDA_MUXAB[11]    ; 4.980 ;    ;    ; 4.980 ;
+; SAIDA_MUXAB[12]    ; VSAIDA_MUXAB[12]    ; 4.597 ;    ;    ; 4.597 ;
+; SAIDA_MUXAB[13]    ; VSAIDA_MUXAB[13]    ; 4.979 ;    ;    ; 4.979 ;
+; SAIDA_MUXAB[14]    ; VSAIDA_MUXAB[14]    ; 4.622 ;    ;    ; 4.622 ;
+; SAIDA_MUXAB[15]    ; VSAIDA_MUXAB[15]    ; 4.582 ;    ;    ; 4.582 ;
+; SAIDA_MUXAB[16]    ; VSAIDA_MUXAB[16]    ; 5.042 ;    ;    ; 5.042 ;
+; SAIDA_MUXAB[17]    ; VSAIDA_MUXAB[17]    ; 5.029 ;    ;    ; 5.029 ;
+; SAIDA_MUXAB[18]    ; VSAIDA_MUXAB[18]    ; 5.081 ;    ;    ; 5.081 ;
+; SAIDA_MUXAB[19]    ; VSAIDA_MUXAB[19]    ; 5.027 ;    ;    ; 5.027 ;
+; SAIDA_MUXAB[20]    ; VSAIDA_MUXAB[20]    ; 4.568 ;    ;    ; 4.568 ;
+; SAIDA_MUXAB[21]    ; VSAIDA_MUXAB[21]    ; 4.587 ;    ;    ; 4.587 ;
+; SAIDA_MUXAB[22]    ; VSAIDA_MUXAB[22]    ; 4.561 ;    ;    ; 4.561 ;
+; SAIDA_MUXAB[23]    ; VSAIDA_MUXAB[23]    ; 4.552 ;    ;    ; 4.552 ;
+; SAIDA_MUXAB[24]    ; VSAIDA_MUXAB[24]    ; 4.647 ;    ;    ; 4.647 ;
+; SAIDA_MUXAB[25]    ; VSAIDA_MUXAB[25]    ; 5.005 ;    ;    ; 5.005 ;
+; SAIDA_MUXAB[26]    ; VSAIDA_MUXAB[26]    ; 4.621 ;    ;    ; 4.621 ;
+; SAIDA_MUXAB[27]    ; VSAIDA_MUXAB[27]    ; 5.035 ;    ;    ; 5.035 ;
+; SAIDA_MUXAB[28]    ; VSAIDA_MUXAB[28]    ; 4.550 ;    ;    ; 4.550 ;
+; SAIDA_MUXAB[29]    ; VSAIDA_MUXAB[29]    ; 4.941 ;    ;    ; 4.941 ;
+; SAIDA_MUXAB[30]    ; VSAIDA_MUXAB[30]    ; 4.641 ;    ;    ; 4.641 ;
+; SAIDA_MUXAB[31]    ; VSAIDA_MUXAB[31]    ; 5.024 ;    ;    ; 5.024 ;
+; SAIDA_MUXALU[0]    ; VSAIDA_MUXALU[0]    ; 4.993 ;    ;    ; 4.993 ;
+; SAIDA_MUXALU[1]    ; VSAIDA_MUXALU[1]    ; 5.106 ;    ;    ; 5.106 ;
+; SAIDA_MUXALU[2]    ; VSAIDA_MUXALU[2]    ; 4.617 ;    ;    ; 4.617 ;
+; SAIDA_MUXALU[3]    ; VSAIDA_MUXALU[3]    ; 5.050 ;    ;    ; 5.050 ;
+; SAIDA_MUXALU[4]    ; VSAIDA_MUXALU[4]    ; 5.066 ;    ;    ; 5.066 ;
+; SAIDA_MUXALU[5]    ; VSAIDA_MUXALU[5]    ; 5.065 ;    ;    ; 5.065 ;
+; SAIDA_MUXALU[6]    ; VSAIDA_MUXALU[6]    ; 5.010 ;    ;    ; 5.010 ;
+; SAIDA_MUXALU[7]    ; VSAIDA_MUXALU[7]    ; 5.075 ;    ;    ; 5.075 ;
+; SAIDA_MUXALU[8]    ; VSAIDA_MUXALU[8]    ; 5.031 ;    ;    ; 5.031 ;
+; SAIDA_MUXALU[9]    ; VSAIDA_MUXALU[9]    ; 5.027 ;    ;    ; 5.027 ;
+; SAIDA_MUXALU[10]   ; VSAIDA_MUXALU[10]   ; 5.032 ;    ;    ; 5.032 ;
+; SAIDA_MUXALU[11]   ; VSAIDA_MUXALU[11]   ; 4.759 ;    ;    ; 4.759 ;
+; SAIDA_MUXALU[12]   ; VSAIDA_MUXALU[12]   ; 4.994 ;    ;    ; 4.994 ;
+; SAIDA_MUXALU[13]   ; VSAIDA_MUXALU[13]   ; 5.014 ;    ;    ; 5.014 ;
+; SAIDA_MUXALU[14]   ; VSAIDA_MUXALU[14]   ; 5.026 ;    ;    ; 5.026 ;
+; SAIDA_MUXALU[15]   ; VSAIDA_MUXALU[15]   ; 4.552 ;    ;    ; 4.552 ;
+; SAIDA_MUXALU[16]   ; VSAIDA_MUXALU[16]   ; 4.679 ;    ;    ; 4.679 ;
+; SAIDA_MUXALU[17]   ; VSAIDA_MUXALU[17]   ; 4.677 ;    ;    ; 4.677 ;
+; SAIDA_MUXALU[18]   ; VSAIDA_MUXALU[18]   ; 5.036 ;    ;    ; 5.036 ;
+; SAIDA_MUXALU[19]   ; VSAIDA_MUXALU[19]   ; 4.550 ;    ;    ; 4.550 ;
+; SAIDA_MUXALU[20]   ; VSAIDA_MUXALU[20]   ; 4.647 ;    ;    ; 4.647 ;
+; SAIDA_MUXALU[21]   ; VSAIDA_MUXALU[21]   ; 4.572 ;    ;    ; 4.572 ;
+; SAIDA_MUXALU[22]   ; VSAIDA_MUXALU[22]   ; 4.990 ;    ;    ; 4.990 ;
+; SAIDA_MUXALU[23]   ; VSAIDA_MUXALU[23]   ; 4.580 ;    ;    ; 4.580 ;
+; SAIDA_MUXALU[24]   ; VSAIDA_MUXALU[24]   ; 5.063 ;    ;    ; 5.063 ;
+; SAIDA_MUXALU[25]   ; VSAIDA_MUXALU[25]   ; 5.077 ;    ;    ; 5.077 ;
+; SAIDA_MUXALU[26]   ; VSAIDA_MUXALU[26]   ; 4.632 ;    ;    ; 4.632 ;
+; SAIDA_MUXALU[27]   ; VSAIDA_MUXALU[27]   ; 4.966 ;    ;    ; 4.966 ;
+; SAIDA_MUXALU[28]   ; VSAIDA_MUXALU[28]   ; 4.541 ;    ;    ; 4.541 ;
+; SAIDA_MUXALU[29]   ; VSAIDA_MUXALU[29]   ; 5.127 ;    ;    ; 5.127 ;
+; SAIDA_MUXALU[30]   ; VSAIDA_MUXALU[30]   ; 4.639 ;    ;    ; 4.639 ;
+; SAIDA_MUXALU[31]   ; VSAIDA_MUXALU[31]   ; 5.011 ;    ;    ; 5.011 ;
+; SAIDA_MUXB[0]      ; VSAIDA_MUXB[0]      ; 5.083 ;    ;    ; 5.083 ;
+; SAIDA_MUXB[1]      ; VSAIDA_MUXB[1]      ; 5.016 ;    ;    ; 5.016 ;
+; SAIDA_MUXB[2]      ; VSAIDA_MUXB[2]      ; 4.532 ;    ;    ; 4.532 ;
+; SAIDA_MUXB[3]      ; VSAIDA_MUXB[3]      ; 4.622 ;    ;    ; 4.622 ;
+; SAIDA_MUXB[4]      ; VSAIDA_MUXB[4]      ; 5.004 ;    ;    ; 5.004 ;
+; SAIDA_MUXB[5]      ; VSAIDA_MUXB[5]      ; 4.590 ;    ;    ; 4.590 ;
+; SAIDA_MUXB[6]      ; VSAIDA_MUXB[6]      ; 4.577 ;    ;    ; 4.577 ;
+; SAIDA_MUXB[7]      ; VSAIDA_MUXB[7]      ; 4.591 ;    ;    ; 4.591 ;
+; SAIDA_MUXB[8]      ; VSAIDA_MUXB[8]      ; 4.719 ;    ;    ; 4.719 ;
+; SAIDA_MUXB[9]      ; VSAIDA_MUXB[9]      ; 5.062 ;    ;    ; 5.062 ;
+; SAIDA_MUXB[10]     ; VSAIDA_MUXB[10]     ; 4.988 ;    ;    ; 4.988 ;
+; SAIDA_MUXB[11]     ; VSAIDA_MUXB[11]     ; 5.035 ;    ;    ; 5.035 ;
+; SAIDA_MUXB[12]     ; VSAIDA_MUXB[12]     ; 5.042 ;    ;    ; 5.042 ;
+; SAIDA_MUXB[13]     ; VSAIDA_MUXB[13]     ; 5.061 ;    ;    ; 5.061 ;
+; SAIDA_MUXB[14]     ; VSAIDA_MUXB[14]     ; 4.637 ;    ;    ; 4.637 ;
+; SAIDA_MUXB[15]     ; VSAIDA_MUXB[15]     ; 4.971 ;    ;    ; 4.971 ;
+; SAIDA_MUXB[16]     ; VSAIDA_MUXB[16]     ; 5.069 ;    ;    ; 5.069 ;
+; SAIDA_MUXB[17]     ; VSAIDA_MUXB[17]     ; 4.687 ;    ;    ; 4.687 ;
+; SAIDA_MUXB[18]     ; VSAIDA_MUXB[18]     ; 5.006 ;    ;    ; 5.006 ;
+; SAIDA_MUXB[19]     ; VSAIDA_MUXB[19]     ; 4.983 ;    ;    ; 4.983 ;
+; SAIDA_MUXB[20]     ; VSAIDA_MUXB[20]     ; 4.749 ;    ;    ; 4.749 ;
+; SAIDA_MUXB[21]     ; VSAIDA_MUXB[21]     ; 4.983 ;    ;    ; 4.983 ;
+; SAIDA_MUXB[22]     ; VSAIDA_MUXB[22]     ; 5.085 ;    ;    ; 5.085 ;
+; SAIDA_MUXB[23]     ; VSAIDA_MUXB[23]     ; 4.581 ;    ;    ; 4.581 ;
+; SAIDA_MUXB[24]     ; VSAIDA_MUXB[24]     ; 5.045 ;    ;    ; 5.045 ;
+; SAIDA_MUXB[25]     ; VSAIDA_MUXB[25]     ; 5.020 ;    ;    ; 5.020 ;
+; SAIDA_MUXB[26]     ; VSAIDA_MUXB[26]     ; 4.550 ;    ;    ; 4.550 ;
+; SAIDA_MUXB[27]     ; VSAIDA_MUXB[27]     ; 4.602 ;    ;    ; 4.602 ;
+; SAIDA_MUXB[28]     ; VSAIDA_MUXB[28]     ; 4.582 ;    ;    ; 4.582 ;
+; SAIDA_MUXB[29]     ; VSAIDA_MUXB[29]     ; 4.975 ;    ;    ; 4.975 ;
+; SAIDA_MUXB[30]     ; VSAIDA_MUXB[30]     ; 5.024 ;    ;    ; 5.024 ;
+; SAIDA_MUXB[31]     ; VSAIDA_MUXB[31]     ; 5.066 ;    ;    ; 5.066 ;
+; SAIDA_MUXRD[0]     ; VSAIDA_MUXRD[0]     ; 2.531 ;    ;    ; 2.531 ;
+; SAIDA_MUXRD[1]     ; VSAIDA_MUXRD[1]     ; 2.695 ;    ;    ; 2.695 ;
+; SAIDA_MUXRD[2]     ; VSAIDA_MUXRD[2]     ; 5.036 ;    ;    ; 5.036 ;
+; SAIDA_MUXRD[3]     ; VSAIDA_MUXRD[3]     ; 4.602 ;    ;    ; 4.602 ;
+; SAIDA_MUXRD[4]     ; VSAIDA_MUXRD[4]     ; 4.597 ;    ;    ; 4.597 ;
++--------------------+---------------------+-------+----+----+-------+
+
+
++----------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                        ;
++------------------+-------+------+----------+---------+---------------------+
+; Clock            ; Setup ; Hold ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+-------+------+----------+---------+---------------------+
+; Worst-case Slack ; N/A   ; N/A  ; N/A      ; N/A     ; N/A                 ;
+; Design-wide TNS  ; 0.0   ; 0.0  ; 0.0      ; 0.0     ; 0.0                 ;
++------------------+-------+------+----------+---------+---------------------+
+
+
++--------------------------------------------------------------------+
+; Progagation Delay                                                  ;
++--------------------+---------------------+-------+----+----+-------+
+; Input Port         ; Output Port         ; RR    ; RF ; FR ; FF    ;
++--------------------+---------------------+-------+----+----+-------+
+; SAIDA_CONTROLE[0]  ; VSAIDA_CONTROLE[0]  ; 8.000 ;    ;    ; 8.000 ;
+; SAIDA_CONTROLE[1]  ; VSAIDA_CONTROLE[1]  ; 8.870 ;    ;    ; 8.870 ;
+; SAIDA_CONTROLE[2]  ; VSAIDA_CONTROLE[2]  ; 8.813 ;    ;    ; 8.813 ;
+; SAIDA_CONTROLE[3]  ; VSAIDA_CONTROLE[3]  ; 8.870 ;    ;    ; 8.870 ;
+; SAIDA_CONTROLE[4]  ; VSAIDA_CONTROLE[4]  ; 7.986 ;    ;    ; 7.986 ;
+; SAIDA_CONTROLE[5]  ; VSAIDA_CONTROLE[5]  ; 7.914 ;    ;    ; 7.914 ;
+; SAIDA_CONTROLE[6]  ; VSAIDA_CONTROLE[6]  ; 7.896 ;    ;    ; 7.896 ;
+; SAIDA_CONTROLE[7]  ; VSAIDA_CONTROLE[7]  ; 8.925 ;    ;    ; 8.925 ;
+; SAIDA_CONTROLE[8]  ; VSAIDA_CONTROLE[8]  ; 8.090 ;    ;    ; 8.090 ;
+; SAIDA_CONTROLE[9]  ; VSAIDA_CONTROLE[9]  ; 8.666 ;    ;    ; 8.666 ;
+; SAIDA_CONTROLE[10] ; VSAIDA_CONTROLE[10] ; 8.917 ;    ;    ; 8.917 ;
+; SAIDA_MUXAB[0]     ; VSAIDA_MUXAB[0]     ; 8.921 ;    ;    ; 8.921 ;
+; SAIDA_MUXAB[1]     ; VSAIDA_MUXAB[1]     ; 8.735 ;    ;    ; 8.735 ;
+; SAIDA_MUXAB[2]     ; VSAIDA_MUXAB[2]     ; 8.820 ;    ;    ; 8.820 ;
+; SAIDA_MUXAB[3]     ; VSAIDA_MUXAB[3]     ; 8.130 ;    ;    ; 8.130 ;
+; SAIDA_MUXAB[4]     ; VSAIDA_MUXAB[4]     ; 8.900 ;    ;    ; 8.900 ;
+; SAIDA_MUXAB[5]     ; VSAIDA_MUXAB[5]     ; 8.140 ;    ;    ; 8.140 ;
+; SAIDA_MUXAB[6]     ; VSAIDA_MUXAB[6]     ; 8.110 ;    ;    ; 8.110 ;
+; SAIDA_MUXAB[7]     ; VSAIDA_MUXAB[7]     ; 8.799 ;    ;    ; 8.799 ;
+; SAIDA_MUXAB[8]     ; VSAIDA_MUXAB[8]     ; 8.763 ;    ;    ; 8.763 ;
+; SAIDA_MUXAB[9]     ; VSAIDA_MUXAB[9]     ; 7.944 ;    ;    ; 7.944 ;
+; SAIDA_MUXAB[10]    ; VSAIDA_MUXAB[10]    ; 8.887 ;    ;    ; 8.887 ;
+; SAIDA_MUXAB[11]    ; VSAIDA_MUXAB[11]    ; 8.772 ;    ;    ; 8.772 ;
+; SAIDA_MUXAB[12]    ; VSAIDA_MUXAB[12]    ; 7.950 ;    ;    ; 7.950 ;
+; SAIDA_MUXAB[13]    ; VSAIDA_MUXAB[13]    ; 8.667 ;    ;    ; 8.667 ;
+; SAIDA_MUXAB[14]    ; VSAIDA_MUXAB[14]    ; 7.966 ;    ;    ; 7.966 ;
+; SAIDA_MUXAB[15]    ; VSAIDA_MUXAB[15]    ; 7.936 ;    ;    ; 7.936 ;
+; SAIDA_MUXAB[16]    ; VSAIDA_MUXAB[16]    ; 8.839 ;    ;    ; 8.839 ;
+; SAIDA_MUXAB[17]    ; VSAIDA_MUXAB[17]    ; 8.830 ;    ;    ; 8.830 ;
+; SAIDA_MUXAB[18]    ; VSAIDA_MUXAB[18]    ; 8.916 ;    ;    ; 8.916 ;
+; SAIDA_MUXAB[19]    ; VSAIDA_MUXAB[19]    ; 8.844 ;    ;    ; 8.844 ;
+; SAIDA_MUXAB[20]    ; VSAIDA_MUXAB[20]    ; 7.922 ;    ;    ; 7.922 ;
+; SAIDA_MUXAB[21]    ; VSAIDA_MUXAB[21]    ; 7.940 ;    ;    ; 7.940 ;
+; SAIDA_MUXAB[22]    ; VSAIDA_MUXAB[22]    ; 7.904 ;    ;    ; 7.904 ;
+; SAIDA_MUXAB[23]    ; VSAIDA_MUXAB[23]    ; 7.896 ;    ;    ; 7.896 ;
+; SAIDA_MUXAB[24]    ; VSAIDA_MUXAB[24]    ; 8.000 ;    ;    ; 8.000 ;
+; SAIDA_MUXAB[25]    ; VSAIDA_MUXAB[25]    ; 8.794 ;    ;    ; 8.794 ;
+; SAIDA_MUXAB[26]    ; VSAIDA_MUXAB[26]    ; 7.964 ;    ;    ; 7.964 ;
+; SAIDA_MUXAB[27]    ; VSAIDA_MUXAB[27]    ; 8.842 ;    ;    ; 8.842 ;
+; SAIDA_MUXAB[28]    ; VSAIDA_MUXAB[28]    ; 7.896 ;    ;    ; 7.896 ;
+; SAIDA_MUXAB[29]    ; VSAIDA_MUXAB[29]    ; 8.631 ;    ;    ; 8.631 ;
+; SAIDA_MUXAB[30]    ; VSAIDA_MUXAB[30]    ; 7.984 ;    ;    ; 7.984 ;
+; SAIDA_MUXAB[31]    ; VSAIDA_MUXAB[31]    ; 8.840 ;    ;    ; 8.840 ;
+; SAIDA_MUXALU[0]    ; VSAIDA_MUXALU[0]    ; 8.793 ;    ;    ; 8.793 ;
+; SAIDA_MUXALU[1]    ; VSAIDA_MUXALU[1]    ; 8.931 ;    ;    ; 8.931 ;
+; SAIDA_MUXALU[2]    ; VSAIDA_MUXALU[2]    ; 7.970 ;    ;    ; 7.970 ;
+; SAIDA_MUXALU[3]    ; VSAIDA_MUXALU[3]    ; 8.856 ;    ;    ; 8.856 ;
+; SAIDA_MUXALU[4]    ; VSAIDA_MUXALU[4]    ; 8.872 ;    ;    ; 8.872 ;
+; SAIDA_MUXALU[5]    ; VSAIDA_MUXALU[5]    ; 8.906 ;    ;    ; 8.906 ;
+; SAIDA_MUXALU[6]    ; VSAIDA_MUXALU[6]    ; 8.799 ;    ;    ; 8.799 ;
+; SAIDA_MUXALU[7]    ; VSAIDA_MUXALU[7]    ; 8.907 ;    ;    ; 8.907 ;
+; SAIDA_MUXALU[8]    ; VSAIDA_MUXALU[8]    ; 8.729 ;    ;    ; 8.729 ;
+; SAIDA_MUXALU[9]    ; VSAIDA_MUXALU[9]    ; 8.827 ;    ;    ; 8.827 ;
+; SAIDA_MUXALU[10]   ; VSAIDA_MUXALU[10]   ; 8.854 ;    ;    ; 8.854 ;
+; SAIDA_MUXALU[11]   ; VSAIDA_MUXALU[11]   ; 8.220 ;    ;    ; 8.220 ;
+; SAIDA_MUXALU[12]   ; VSAIDA_MUXALU[12]   ; 8.791 ;    ;    ; 8.791 ;
+; SAIDA_MUXALU[13]   ; VSAIDA_MUXALU[13]   ; 8.848 ;    ;    ; 8.848 ;
+; SAIDA_MUXALU[14]   ; VSAIDA_MUXALU[14]   ; 8.817 ;    ;    ; 8.817 ;
+; SAIDA_MUXALU[15]   ; VSAIDA_MUXALU[15]   ; 7.906 ;    ;    ; 7.906 ;
+; SAIDA_MUXALU[16]   ; VSAIDA_MUXALU[16]   ; 8.140 ;    ;    ; 8.140 ;
+; SAIDA_MUXALU[17]   ; VSAIDA_MUXALU[17]   ; 8.030 ;    ;    ; 8.030 ;
+; SAIDA_MUXALU[18]   ; VSAIDA_MUXALU[18]   ; 8.837 ;    ;    ; 8.837 ;
+; SAIDA_MUXALU[19]   ; VSAIDA_MUXALU[19]   ; 7.896 ;    ;    ; 7.896 ;
+; SAIDA_MUXALU[20]   ; VSAIDA_MUXALU[20]   ; 8.000 ;    ;    ; 8.000 ;
+; SAIDA_MUXALU[21]   ; VSAIDA_MUXALU[21]   ; 7.926 ;    ;    ; 7.926 ;
+; SAIDA_MUXALU[22]   ; VSAIDA_MUXALU[22]   ; 8.806 ;    ;    ; 8.806 ;
+; SAIDA_MUXALU[23]   ; VSAIDA_MUXALU[23]   ; 7.926 ;    ;    ; 7.926 ;
+; SAIDA_MUXALU[24]   ; VSAIDA_MUXALU[24]   ; 8.880 ;    ;    ; 8.880 ;
+; SAIDA_MUXALU[25]   ; VSAIDA_MUXALU[25]   ; 8.903 ;    ;    ; 8.903 ;
+; SAIDA_MUXALU[26]   ; VSAIDA_MUXALU[26]   ; 7.986 ;    ;    ; 7.986 ;
+; SAIDA_MUXALU[27]   ; VSAIDA_MUXALU[27]   ; 8.766 ;    ;    ; 8.766 ;
+; SAIDA_MUXALU[28]   ; VSAIDA_MUXALU[28]   ; 7.884 ;    ;    ; 7.884 ;
+; SAIDA_MUXALU[29]   ; VSAIDA_MUXALU[29]   ; 8.952 ;    ;    ; 8.952 ;
+; SAIDA_MUXALU[30]   ; VSAIDA_MUXALU[30]   ; 8.100 ;    ;    ; 8.100 ;
+; SAIDA_MUXALU[31]   ; VSAIDA_MUXALU[31]   ; 8.821 ;    ;    ; 8.821 ;
+; SAIDA_MUXB[0]      ; VSAIDA_MUXB[0]      ; 8.900 ;    ;    ; 8.900 ;
+; SAIDA_MUXB[1]      ; VSAIDA_MUXB[1]      ; 8.816 ;    ;    ; 8.816 ;
+; SAIDA_MUXB[2]      ; VSAIDA_MUXB[2]      ; 7.876 ;    ;    ; 7.876 ;
+; SAIDA_MUXB[3]      ; VSAIDA_MUXB[3]      ; 7.966 ;    ;    ; 7.966 ;
+; SAIDA_MUXB[4]      ; VSAIDA_MUXB[4]      ; 8.807 ;    ;    ; 8.807 ;
+; SAIDA_MUXB[5]      ; VSAIDA_MUXB[5]      ; 7.936 ;    ;    ; 7.936 ;
+; SAIDA_MUXB[6]      ; VSAIDA_MUXB[6]      ; 7.930 ;    ;    ; 7.930 ;
+; SAIDA_MUXB[7]      ; VSAIDA_MUXB[7]      ; 7.934 ;    ;    ; 7.934 ;
+; SAIDA_MUXB[8]      ; VSAIDA_MUXB[8]      ; 8.180 ;    ;    ; 8.180 ;
+; SAIDA_MUXB[9]      ; VSAIDA_MUXB[9]      ; 8.883 ;    ;    ; 8.883 ;
+; SAIDA_MUXB[10]     ; VSAIDA_MUXB[10]     ; 8.794 ;    ;    ; 8.794 ;
+; SAIDA_MUXB[11]     ; VSAIDA_MUXB[11]     ; 8.860 ;    ;    ; 8.860 ;
+; SAIDA_MUXB[12]     ; VSAIDA_MUXB[12]     ; 8.866 ;    ;    ; 8.866 ;
+; SAIDA_MUXB[13]     ; VSAIDA_MUXB[13]     ; 8.867 ;    ;    ; 8.867 ;
+; SAIDA_MUXB[14]     ; VSAIDA_MUXB[14]     ; 7.990 ;    ;    ; 7.990 ;
+; SAIDA_MUXB[15]     ; VSAIDA_MUXB[15]     ; 8.768 ;    ;    ; 8.768 ;
+; SAIDA_MUXB[16]     ; VSAIDA_MUXB[16]     ; 8.881 ;    ;    ; 8.881 ;
+; SAIDA_MUXB[17]     ; VSAIDA_MUXB[17]     ; 8.040 ;    ;    ; 8.040 ;
+; SAIDA_MUXB[18]     ; VSAIDA_MUXB[18]     ; 8.799 ;    ;    ; 8.799 ;
+; SAIDA_MUXB[19]     ; VSAIDA_MUXB[19]     ; 8.781 ;    ;    ; 8.781 ;
+; SAIDA_MUXB[20]     ; VSAIDA_MUXB[20]     ; 8.210 ;    ;    ; 8.210 ;
+; SAIDA_MUXB[21]     ; VSAIDA_MUXB[21]     ; 8.784 ;    ;    ; 8.784 ;
+; SAIDA_MUXB[22]     ; VSAIDA_MUXB[22]     ; 8.902 ;    ;    ; 8.902 ;
+; SAIDA_MUXB[23]     ; VSAIDA_MUXB[23]     ; 7.924 ;    ;    ; 7.924 ;
+; SAIDA_MUXB[24]     ; VSAIDA_MUXB[24]     ; 8.853 ;    ;    ; 8.853 ;
+; SAIDA_MUXB[25]     ; VSAIDA_MUXB[25]     ; 8.833 ;    ;    ; 8.833 ;
+; SAIDA_MUXB[26]     ; VSAIDA_MUXB[26]     ; 7.896 ;    ;    ; 7.896 ;
+; SAIDA_MUXB[27]     ; VSAIDA_MUXB[27]     ; 7.956 ;    ;    ; 7.956 ;
+; SAIDA_MUXB[28]     ; VSAIDA_MUXB[28]     ; 7.936 ;    ;    ; 7.936 ;
+; SAIDA_MUXB[29]     ; VSAIDA_MUXB[29]     ; 8.777 ;    ;    ; 8.777 ;
+; SAIDA_MUXB[30]     ; VSAIDA_MUXB[30]     ; 8.825 ;    ;    ; 8.825 ;
+; SAIDA_MUXB[31]     ; VSAIDA_MUXB[31]     ; 8.890 ;    ;    ; 8.890 ;
+; SAIDA_MUXRD[0]     ; VSAIDA_MUXRD[0]     ; 4.760 ;    ;    ; 4.760 ;
+; SAIDA_MUXRD[1]     ; VSAIDA_MUXRD[1]     ; 5.014 ;    ;    ; 5.014 ;
+; SAIDA_MUXRD[2]     ; VSAIDA_MUXRD[2]     ; 8.837 ;    ;    ; 8.837 ;
+; SAIDA_MUXRD[3]     ; VSAIDA_MUXRD[3]     ; 7.946 ;    ;    ; 7.946 ;
+; SAIDA_MUXRD[4]     ; VSAIDA_MUXRD[4]     ; 7.950 ;    ;    ; 7.950 ;
++--------------------+---------------------+-------+----+----+-------+
+
+
++--------------------------------------------------------------------+
+; Minimum Progagation Delay                                          ;
++--------------------+---------------------+-------+----+----+-------+
+; Input Port         ; Output Port         ; RR    ; RF ; FR ; FF    ;
++--------------------+---------------------+-------+----+----+-------+
+; SAIDA_CONTROLE[0]  ; VSAIDA_CONTROLE[0]  ; 4.647 ;    ;    ; 4.647 ;
+; SAIDA_CONTROLE[1]  ; VSAIDA_CONTROLE[1]  ; 5.054 ;    ;    ; 5.054 ;
+; SAIDA_CONTROLE[2]  ; VSAIDA_CONTROLE[2]  ; 5.014 ;    ;    ; 5.014 ;
+; SAIDA_CONTROLE[3]  ; VSAIDA_CONTROLE[3]  ; 5.046 ;    ;    ; 5.046 ;
+; SAIDA_CONTROLE[4]  ; VSAIDA_CONTROLE[4]  ; 4.642 ;    ;    ; 4.642 ;
+; SAIDA_CONTROLE[5]  ; VSAIDA_CONTROLE[5]  ; 4.571 ;    ;    ; 4.571 ;
+; SAIDA_CONTROLE[6]  ; VSAIDA_CONTROLE[6]  ; 4.552 ;    ;    ; 4.552 ;
+; SAIDA_CONTROLE[7]  ; VSAIDA_CONTROLE[7]  ; 5.099 ;    ;    ; 5.099 ;
+; SAIDA_CONTROLE[8]  ; VSAIDA_CONTROLE[8]  ; 4.629 ;    ;    ; 4.629 ;
+; SAIDA_CONTROLE[9]  ; VSAIDA_CONTROLE[9]  ; 4.979 ;    ;    ; 4.979 ;
+; SAIDA_CONTROLE[10] ; VSAIDA_CONTROLE[10] ; 5.090 ;    ;    ; 5.090 ;
+; SAIDA_MUXAB[0]     ; VSAIDA_MUXAB[0]     ; 5.096 ;    ;    ; 5.096 ;
+; SAIDA_MUXAB[1]     ; VSAIDA_MUXAB[1]     ; 4.937 ;    ;    ; 4.937 ;
+; SAIDA_MUXAB[2]     ; VSAIDA_MUXAB[2]     ; 5.017 ;    ;    ; 5.017 ;
+; SAIDA_MUXAB[3]     ; VSAIDA_MUXAB[3]     ; 4.669 ;    ;    ; 4.669 ;
+; SAIDA_MUXAB[4]     ; VSAIDA_MUXAB[4]     ; 5.075 ;    ;    ; 5.075 ;
+; SAIDA_MUXAB[5]     ; VSAIDA_MUXAB[5]     ; 4.679 ;    ;    ; 4.679 ;
+; SAIDA_MUXAB[6]     ; VSAIDA_MUXAB[6]     ; 4.649 ;    ;    ; 4.649 ;
+; SAIDA_MUXAB[7]     ; VSAIDA_MUXAB[7]     ; 5.002 ;    ;    ; 5.002 ;
+; SAIDA_MUXAB[8]     ; VSAIDA_MUXAB[8]     ; 4.963 ;    ;    ; 4.963 ;
+; SAIDA_MUXAB[9]     ; VSAIDA_MUXAB[9]     ; 4.601 ;    ;    ; 4.601 ;
+; SAIDA_MUXAB[10]    ; VSAIDA_MUXAB[10]    ; 5.073 ;    ;    ; 5.073 ;
+; SAIDA_MUXAB[11]    ; VSAIDA_MUXAB[11]    ; 4.980 ;    ;    ; 4.980 ;
+; SAIDA_MUXAB[12]    ; VSAIDA_MUXAB[12]    ; 4.597 ;    ;    ; 4.597 ;
+; SAIDA_MUXAB[13]    ; VSAIDA_MUXAB[13]    ; 4.979 ;    ;    ; 4.979 ;
+; SAIDA_MUXAB[14]    ; VSAIDA_MUXAB[14]    ; 4.622 ;    ;    ; 4.622 ;
+; SAIDA_MUXAB[15]    ; VSAIDA_MUXAB[15]    ; 4.582 ;    ;    ; 4.582 ;
+; SAIDA_MUXAB[16]    ; VSAIDA_MUXAB[16]    ; 5.042 ;    ;    ; 5.042 ;
+; SAIDA_MUXAB[17]    ; VSAIDA_MUXAB[17]    ; 5.029 ;    ;    ; 5.029 ;
+; SAIDA_MUXAB[18]    ; VSAIDA_MUXAB[18]    ; 5.081 ;    ;    ; 5.081 ;
+; SAIDA_MUXAB[19]    ; VSAIDA_MUXAB[19]    ; 5.027 ;    ;    ; 5.027 ;
+; SAIDA_MUXAB[20]    ; VSAIDA_MUXAB[20]    ; 4.568 ;    ;    ; 4.568 ;
+; SAIDA_MUXAB[21]    ; VSAIDA_MUXAB[21]    ; 4.587 ;    ;    ; 4.587 ;
+; SAIDA_MUXAB[22]    ; VSAIDA_MUXAB[22]    ; 4.561 ;    ;    ; 4.561 ;
+; SAIDA_MUXAB[23]    ; VSAIDA_MUXAB[23]    ; 4.552 ;    ;    ; 4.552 ;
+; SAIDA_MUXAB[24]    ; VSAIDA_MUXAB[24]    ; 4.647 ;    ;    ; 4.647 ;
+; SAIDA_MUXAB[25]    ; VSAIDA_MUXAB[25]    ; 5.005 ;    ;    ; 5.005 ;
+; SAIDA_MUXAB[26]    ; VSAIDA_MUXAB[26]    ; 4.621 ;    ;    ; 4.621 ;
+; SAIDA_MUXAB[27]    ; VSAIDA_MUXAB[27]    ; 5.035 ;    ;    ; 5.035 ;
+; SAIDA_MUXAB[28]    ; VSAIDA_MUXAB[28]    ; 4.550 ;    ;    ; 4.550 ;
+; SAIDA_MUXAB[29]    ; VSAIDA_MUXAB[29]    ; 4.941 ;    ;    ; 4.941 ;
+; SAIDA_MUXAB[30]    ; VSAIDA_MUXAB[30]    ; 4.641 ;    ;    ; 4.641 ;
+; SAIDA_MUXAB[31]    ; VSAIDA_MUXAB[31]    ; 5.024 ;    ;    ; 5.024 ;
+; SAIDA_MUXALU[0]    ; VSAIDA_MUXALU[0]    ; 4.993 ;    ;    ; 4.993 ;
+; SAIDA_MUXALU[1]    ; VSAIDA_MUXALU[1]    ; 5.106 ;    ;    ; 5.106 ;
+; SAIDA_MUXALU[2]    ; VSAIDA_MUXALU[2]    ; 4.617 ;    ;    ; 4.617 ;
+; SAIDA_MUXALU[3]    ; VSAIDA_MUXALU[3]    ; 5.050 ;    ;    ; 5.050 ;
+; SAIDA_MUXALU[4]    ; VSAIDA_MUXALU[4]    ; 5.066 ;    ;    ; 5.066 ;
+; SAIDA_MUXALU[5]    ; VSAIDA_MUXALU[5]    ; 5.065 ;    ;    ; 5.065 ;
+; SAIDA_MUXALU[6]    ; VSAIDA_MUXALU[6]    ; 5.010 ;    ;    ; 5.010 ;
+; SAIDA_MUXALU[7]    ; VSAIDA_MUXALU[7]    ; 5.075 ;    ;    ; 5.075 ;
+; SAIDA_MUXALU[8]    ; VSAIDA_MUXALU[8]    ; 5.031 ;    ;    ; 5.031 ;
+; SAIDA_MUXALU[9]    ; VSAIDA_MUXALU[9]    ; 5.027 ;    ;    ; 5.027 ;
+; SAIDA_MUXALU[10]   ; VSAIDA_MUXALU[10]   ; 5.032 ;    ;    ; 5.032 ;
+; SAIDA_MUXALU[11]   ; VSAIDA_MUXALU[11]   ; 4.759 ;    ;    ; 4.759 ;
+; SAIDA_MUXALU[12]   ; VSAIDA_MUXALU[12]   ; 4.994 ;    ;    ; 4.994 ;
+; SAIDA_MUXALU[13]   ; VSAIDA_MUXALU[13]   ; 5.014 ;    ;    ; 5.014 ;
+; SAIDA_MUXALU[14]   ; VSAIDA_MUXALU[14]   ; 5.026 ;    ;    ; 5.026 ;
+; SAIDA_MUXALU[15]   ; VSAIDA_MUXALU[15]   ; 4.552 ;    ;    ; 4.552 ;
+; SAIDA_MUXALU[16]   ; VSAIDA_MUXALU[16]   ; 4.679 ;    ;    ; 4.679 ;
+; SAIDA_MUXALU[17]   ; VSAIDA_MUXALU[17]   ; 4.677 ;    ;    ; 4.677 ;
+; SAIDA_MUXALU[18]   ; VSAIDA_MUXALU[18]   ; 5.036 ;    ;    ; 5.036 ;
+; SAIDA_MUXALU[19]   ; VSAIDA_MUXALU[19]   ; 4.550 ;    ;    ; 4.550 ;
+; SAIDA_MUXALU[20]   ; VSAIDA_MUXALU[20]   ; 4.647 ;    ;    ; 4.647 ;
+; SAIDA_MUXALU[21]   ; VSAIDA_MUXALU[21]   ; 4.572 ;    ;    ; 4.572 ;
+; SAIDA_MUXALU[22]   ; VSAIDA_MUXALU[22]   ; 4.990 ;    ;    ; 4.990 ;
+; SAIDA_MUXALU[23]   ; VSAIDA_MUXALU[23]   ; 4.580 ;    ;    ; 4.580 ;
+; SAIDA_MUXALU[24]   ; VSAIDA_MUXALU[24]   ; 5.063 ;    ;    ; 5.063 ;
+; SAIDA_MUXALU[25]   ; VSAIDA_MUXALU[25]   ; 5.077 ;    ;    ; 5.077 ;
+; SAIDA_MUXALU[26]   ; VSAIDA_MUXALU[26]   ; 4.632 ;    ;    ; 4.632 ;
+; SAIDA_MUXALU[27]   ; VSAIDA_MUXALU[27]   ; 4.966 ;    ;    ; 4.966 ;
+; SAIDA_MUXALU[28]   ; VSAIDA_MUXALU[28]   ; 4.541 ;    ;    ; 4.541 ;
+; SAIDA_MUXALU[29]   ; VSAIDA_MUXALU[29]   ; 5.127 ;    ;    ; 5.127 ;
+; SAIDA_MUXALU[30]   ; VSAIDA_MUXALU[30]   ; 4.639 ;    ;    ; 4.639 ;
+; SAIDA_MUXALU[31]   ; VSAIDA_MUXALU[31]   ; 5.011 ;    ;    ; 5.011 ;
+; SAIDA_MUXB[0]      ; VSAIDA_MUXB[0]      ; 5.083 ;    ;    ; 5.083 ;
+; SAIDA_MUXB[1]      ; VSAIDA_MUXB[1]      ; 5.016 ;    ;    ; 5.016 ;
+; SAIDA_MUXB[2]      ; VSAIDA_MUXB[2]      ; 4.532 ;    ;    ; 4.532 ;
+; SAIDA_MUXB[3]      ; VSAIDA_MUXB[3]      ; 4.622 ;    ;    ; 4.622 ;
+; SAIDA_MUXB[4]      ; VSAIDA_MUXB[4]      ; 5.004 ;    ;    ; 5.004 ;
+; SAIDA_MUXB[5]      ; VSAIDA_MUXB[5]      ; 4.590 ;    ;    ; 4.590 ;
+; SAIDA_MUXB[6]      ; VSAIDA_MUXB[6]      ; 4.577 ;    ;    ; 4.577 ;
+; SAIDA_MUXB[7]      ; VSAIDA_MUXB[7]      ; 4.591 ;    ;    ; 4.591 ;
+; SAIDA_MUXB[8]      ; VSAIDA_MUXB[8]      ; 4.719 ;    ;    ; 4.719 ;
+; SAIDA_MUXB[9]      ; VSAIDA_MUXB[9]      ; 5.062 ;    ;    ; 5.062 ;
+; SAIDA_MUXB[10]     ; VSAIDA_MUXB[10]     ; 4.988 ;    ;    ; 4.988 ;
+; SAIDA_MUXB[11]     ; VSAIDA_MUXB[11]     ; 5.035 ;    ;    ; 5.035 ;
+; SAIDA_MUXB[12]     ; VSAIDA_MUXB[12]     ; 5.042 ;    ;    ; 5.042 ;
+; SAIDA_MUXB[13]     ; VSAIDA_MUXB[13]     ; 5.061 ;    ;    ; 5.061 ;
+; SAIDA_MUXB[14]     ; VSAIDA_MUXB[14]     ; 4.637 ;    ;    ; 4.637 ;
+; SAIDA_MUXB[15]     ; VSAIDA_MUXB[15]     ; 4.971 ;    ;    ; 4.971 ;
+; SAIDA_MUXB[16]     ; VSAIDA_MUXB[16]     ; 5.069 ;    ;    ; 5.069 ;
+; SAIDA_MUXB[17]     ; VSAIDA_MUXB[17]     ; 4.687 ;    ;    ; 4.687 ;
+; SAIDA_MUXB[18]     ; VSAIDA_MUXB[18]     ; 5.006 ;    ;    ; 5.006 ;
+; SAIDA_MUXB[19]     ; VSAIDA_MUXB[19]     ; 4.983 ;    ;    ; 4.983 ;
+; SAIDA_MUXB[20]     ; VSAIDA_MUXB[20]     ; 4.749 ;    ;    ; 4.749 ;
+; SAIDA_MUXB[21]     ; VSAIDA_MUXB[21]     ; 4.983 ;    ;    ; 4.983 ;
+; SAIDA_MUXB[22]     ; VSAIDA_MUXB[22]     ; 5.085 ;    ;    ; 5.085 ;
+; SAIDA_MUXB[23]     ; VSAIDA_MUXB[23]     ; 4.581 ;    ;    ; 4.581 ;
+; SAIDA_MUXB[24]     ; VSAIDA_MUXB[24]     ; 5.045 ;    ;    ; 5.045 ;
+; SAIDA_MUXB[25]     ; VSAIDA_MUXB[25]     ; 5.020 ;    ;    ; 5.020 ;
+; SAIDA_MUXB[26]     ; VSAIDA_MUXB[26]     ; 4.550 ;    ;    ; 4.550 ;
+; SAIDA_MUXB[27]     ; VSAIDA_MUXB[27]     ; 4.602 ;    ;    ; 4.602 ;
+; SAIDA_MUXB[28]     ; VSAIDA_MUXB[28]     ; 4.582 ;    ;    ; 4.582 ;
+; SAIDA_MUXB[29]     ; VSAIDA_MUXB[29]     ; 4.975 ;    ;    ; 4.975 ;
+; SAIDA_MUXB[30]     ; VSAIDA_MUXB[30]     ; 5.024 ;    ;    ; 5.024 ;
+; SAIDA_MUXB[31]     ; VSAIDA_MUXB[31]     ; 5.066 ;    ;    ; 5.066 ;
+; SAIDA_MUXRD[0]     ; VSAIDA_MUXRD[0]     ; 2.531 ;    ;    ; 2.531 ;
+; SAIDA_MUXRD[1]     ; VSAIDA_MUXRD[1]     ; 2.695 ;    ;    ; 2.695 ;
+; SAIDA_MUXRD[2]     ; VSAIDA_MUXRD[2]     ; 5.036 ;    ;    ; 5.036 ;
+; SAIDA_MUXRD[3]     ; VSAIDA_MUXRD[3]     ; 4.602 ;    ;    ; 4.602 ;
+; SAIDA_MUXRD[4]     ; VSAIDA_MUXRD[4]     ; 4.597 ;    ;    ; 4.597 ;
++--------------------+---------------------+-------+----+----+-------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 112   ; 112  ;
+; Unconstrained Input Port Paths  ; 112   ; 112  ;
+; Unconstrained Output Ports      ; 112   ; 112  ;
+; Unconstrained Output Port Paths ; 112   ; 112  ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
+    Info: Version 10.1 Build 153 11/29/2010 SJ Web Edition
+    Info: Processing started: Mon Feb 06 22:14:11 2017
+Info: Command: quartus_sta MODULO_SAIDA_SECUNDARIO -c MODULO_SAIDA_SECUNDARIO
+Info: qsta_default_script.tcl version: #1
+Info: Low junction temperature is 0 degrees C
+Info: High junction temperature is 85 degrees C
+Critical Warning: Synopsys Design Constraints File file not found: 'MODULO_SAIDA_SECUNDARIO.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info: No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info: The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning: No clocks defined in design.
+Info: No clocks to report
+Info: Analyzing Slow Model
+Info: No fmax paths to report
+Info: No Setup paths to report
+Info: No Hold paths to report
+Info: No Recovery paths to report
+Info: No Removal paths to report
+Info: No Minimum Pulse Width paths to report
+Info: The selected device family is not supported by the report_metastability command.
+Info: Analyzing Fast Model
+Info: Started post-fitting delay annotation
+Warning: Found 112 output pins without output pin load capacitance assignment
+    Info: Pin "VSAIDA_MUXRD[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXRD[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXRD[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXRD[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXRD[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXALU[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXALU[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXALU[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXALU[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXALU[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXALU[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXALU[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXALU[7]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXALU[8]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXALU[9]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXALU[10]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXALU[11]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXALU[12]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXALU[13]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXALU[14]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXALU[15]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXALU[16]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXALU[17]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXALU[18]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXALU[19]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXALU[20]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXALU[21]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXALU[22]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXALU[23]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXALU[24]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXALU[25]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXALU[26]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXALU[27]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXALU[28]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXALU[29]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXALU[30]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXALU[31]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_CONTROLE[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_CONTROLE[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_CONTROLE[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_CONTROLE[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_CONTROLE[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_CONTROLE[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_CONTROLE[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_CONTROLE[7]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_CONTROLE[8]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_CONTROLE[9]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_CONTROLE[10]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXAB[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXAB[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXAB[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXAB[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXAB[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXAB[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXAB[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXAB[7]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXAB[8]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXAB[9]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXAB[10]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXAB[11]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXAB[12]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXAB[13]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXAB[14]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXAB[15]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXAB[16]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXAB[17]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXAB[18]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXAB[19]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXAB[20]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXAB[21]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXAB[22]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXAB[23]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXAB[24]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXAB[25]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXAB[26]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXAB[27]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXAB[28]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXAB[29]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXAB[30]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXAB[31]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXB[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXB[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXB[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXB[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXB[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXB[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXB[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXB[7]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXB[8]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXB[9]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXB[10]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXB[11]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXB[12]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXB[13]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXB[14]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXB[15]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXB[16]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXB[17]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXB[18]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXB[19]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXB[20]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXB[21]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXB[22]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXB[23]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXB[24]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXB[25]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXB[26]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXB[27]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXB[28]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXB[29]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXB[30]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_MUXB[31]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+Info: Delay annotation completed successfully
+Info: No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info: The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning: No clocks defined in design.
+Info: No Setup paths to report
+Info: No Hold paths to report
+Info: No Recovery paths to report
+Info: No Removal paths to report
+Info: No Minimum Pulse Width paths to report
+Info: The selected device family is not supported by the report_metastability command.
+Info: Design is not fully constrained for setup requirements
+Info: Design is not fully constrained for hold requirements
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 354 megabytes
+    Info: Processing ended: Mon Feb 06 22:14:13 2017
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
+
+

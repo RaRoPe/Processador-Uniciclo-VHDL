@@ -1,0 +1,807 @@
+TimeQuest Timing Analyzer report for MODULO_SAIDA_INSTRUCTION
+Tue Feb 07 10:30:16 2017
+Quartus II 64-Bit Version 10.1 Build 153 11/29/2010 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Slow Model Fmax Summary
+  6. Slow Model Setup Summary
+  7. Slow Model Hold Summary
+  8. Slow Model Recovery Summary
+  9. Slow Model Removal Summary
+ 10. Slow Model Minimum Pulse Width Summary
+ 11. Propagation Delay
+ 12. Minimum Propagation Delay
+ 13. Fast Model Setup Summary
+ 14. Fast Model Hold Summary
+ 15. Fast Model Recovery Summary
+ 16. Fast Model Removal Summary
+ 17. Fast Model Minimum Pulse Width Summary
+ 18. Propagation Delay
+ 19. Minimum Propagation Delay
+ 20. Multicorner Timing Analysis Summary
+ 21. Progagation Delay
+ 22. Minimum Progagation Delay
+ 23. Clock Transfers
+ 24. Report TCCS
+ 25. Report RSKM
+ 26. Unconstrained Paths
+ 27. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                     ;
++--------------------+--------------------------------------------------+
+; Quartus II Version ; Version 10.1 Build 153 11/29/2010 SJ Web Edition ;
+; Revision Name      ; MODULO_SAIDA_INSTRUCTION                         ;
+; Device Family      ; Cyclone II                                       ;
+; Device Name        ; EP2C70F896C6                                     ;
+; Timing Models      ; Final                                            ;
+; Delay Model        ; Combined                                         ;
+; Rise/Fall Delays   ; Unavailable                                      ;
++--------------------+--------------------------------------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 2      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
+----------
+; Clocks ;
+----------
+No clocks to report.
+
+
+---------------------------
+; Slow Model Fmax Summary ;
+---------------------------
+No paths to report.
+
+
+----------------------------
+; Slow Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Slow Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Slow Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Slow Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Slow Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++----------------------------------------------------------------------+
+; Propagation Delay                                                    ;
++---------------------+----------------------+-------+----+----+-------+
+; Input Port          ; Output Port          ; RR    ; RF ; FR ; FF    ;
++---------------------+----------------------+-------+----+----+-------+
+; SAIDA_INS_FUNCT[0]  ; VSAIDA_INS_FUNCT[0]  ; 8.890 ;    ;    ; 8.890 ;
+; SAIDA_INS_FUNCT[1]  ; VSAIDA_INS_FUNCT[1]  ; 7.950 ;    ;    ; 7.950 ;
+; SAIDA_INS_FUNCT[2]  ; VSAIDA_INS_FUNCT[2]  ; 8.829 ;    ;    ; 8.829 ;
+; SAIDA_INS_FUNCT[3]  ; VSAIDA_INS_FUNCT[3]  ; 8.892 ;    ;    ; 8.892 ;
+; SAIDA_INS_FUNCT[4]  ; VSAIDA_INS_FUNCT[4]  ; 8.833 ;    ;    ; 8.833 ;
+; SAIDA_INS_FUNCT[5]  ; VSAIDA_INS_FUNCT[5]  ; 7.916 ;    ;    ; 7.916 ;
+; SAIDA_INS_IMM16[0]  ; VSAIDA_INS_IMM16[0]  ; 8.840 ;    ;    ; 8.840 ;
+; SAIDA_INS_IMM16[1]  ; VSAIDA_INS_IMM16[1]  ; 7.896 ;    ;    ; 7.896 ;
+; SAIDA_INS_IMM16[2]  ; VSAIDA_INS_IMM16[2]  ; 8.848 ;    ;    ; 8.848 ;
+; SAIDA_INS_IMM16[3]  ; VSAIDA_INS_IMM16[3]  ; 7.956 ;    ;    ; 7.956 ;
+; SAIDA_INS_IMM16[4]  ; VSAIDA_INS_IMM16[4]  ; 7.904 ;    ;    ; 7.904 ;
+; SAIDA_INS_IMM16[5]  ; VSAIDA_INS_IMM16[5]  ; 8.860 ;    ;    ; 8.860 ;
+; SAIDA_INS_IMM16[6]  ; VSAIDA_INS_IMM16[6]  ; 7.940 ;    ;    ; 7.940 ;
+; SAIDA_INS_IMM16[7]  ; VSAIDA_INS_IMM16[7]  ; 8.849 ;    ;    ; 8.849 ;
+; SAIDA_INS_IMM16[8]  ; VSAIDA_INS_IMM16[8]  ; 8.786 ;    ;    ; 8.786 ;
+; SAIDA_INS_IMM16[9]  ; VSAIDA_INS_IMM16[9]  ; 8.681 ;    ;    ; 8.681 ;
+; SAIDA_INS_IMM16[10] ; VSAIDA_INS_IMM16[10] ; 7.904 ;    ;    ; 7.904 ;
+; SAIDA_INS_IMM16[11] ; VSAIDA_INS_IMM16[11] ; 7.946 ;    ;    ; 7.946 ;
+; SAIDA_INS_IMM16[12] ; VSAIDA_INS_IMM16[12] ; 8.913 ;    ;    ; 8.913 ;
+; SAIDA_INS_IMM16[13] ; VSAIDA_INS_IMM16[13] ; 8.841 ;    ;    ; 8.841 ;
+; SAIDA_INS_IMM16[14] ; VSAIDA_INS_IMM16[14] ; 7.986 ;    ;    ; 7.986 ;
+; SAIDA_INS_IMM16[15] ; VSAIDA_INS_IMM16[15] ; 8.170 ;    ;    ; 8.170 ;
+; SAIDA_INS_IMM26[0]  ; VSAIDA_INS_IMM26[0]  ; 7.956 ;    ;    ; 7.956 ;
+; SAIDA_INS_IMM26[1]  ; VSAIDA_INS_IMM26[1]  ; 8.053 ;    ;    ; 8.053 ;
+; SAIDA_INS_IMM26[2]  ; VSAIDA_INS_IMM26[2]  ; 8.729 ;    ;    ; 8.729 ;
+; SAIDA_INS_IMM26[3]  ; VSAIDA_INS_IMM26[3]  ; 8.909 ;    ;    ; 8.909 ;
+; SAIDA_INS_IMM26[4]  ; VSAIDA_INS_IMM26[4]  ; 7.996 ;    ;    ; 7.996 ;
+; SAIDA_INS_IMM26[5]  ; VSAIDA_INS_IMM26[5]  ; 7.936 ;    ;    ; 7.936 ;
+; SAIDA_INS_IMM26[6]  ; VSAIDA_INS_IMM26[6]  ; 8.729 ;    ;    ; 8.729 ;
+; SAIDA_INS_IMM26[7]  ; VSAIDA_INS_IMM26[7]  ; 7.920 ;    ;    ; 7.920 ;
+; SAIDA_INS_IMM26[8]  ; VSAIDA_INS_IMM26[8]  ; 7.970 ;    ;    ; 7.970 ;
+; SAIDA_INS_IMM26[9]  ; VSAIDA_INS_IMM26[9]  ; 8.758 ;    ;    ; 8.758 ;
+; SAIDA_INS_IMM26[10] ; VSAIDA_INS_IMM26[10] ; 8.888 ;    ;    ; 8.888 ;
+; SAIDA_INS_IMM26[11] ; VSAIDA_INS_IMM26[11] ; 8.857 ;    ;    ; 8.857 ;
+; SAIDA_INS_IMM26[12] ; VSAIDA_INS_IMM26[12] ; 7.934 ;    ;    ; 7.934 ;
+; SAIDA_INS_IMM26[13] ; VSAIDA_INS_IMM26[13] ; 8.822 ;    ;    ; 8.822 ;
+; SAIDA_INS_IMM26[14] ; VSAIDA_INS_IMM26[14] ; 7.946 ;    ;    ; 7.946 ;
+; SAIDA_INS_IMM26[15] ; VSAIDA_INS_IMM26[15] ; 7.884 ;    ;    ; 7.884 ;
+; SAIDA_INS_IMM26[16] ; VSAIDA_INS_IMM26[16] ; 7.940 ;    ;    ; 7.940 ;
+; SAIDA_INS_IMM26[17] ; VSAIDA_INS_IMM26[17] ; 8.941 ;    ;    ; 8.941 ;
+; SAIDA_INS_IMM26[18] ; VSAIDA_INS_IMM26[18] ; 8.676 ;    ;    ; 8.676 ;
+; SAIDA_INS_IMM26[19] ; VSAIDA_INS_IMM26[19] ; 7.980 ;    ;    ; 7.980 ;
+; SAIDA_INS_IMM26[20] ; VSAIDA_INS_IMM26[20] ; 8.914 ;    ;    ; 8.914 ;
+; SAIDA_INS_IMM26[21] ; VSAIDA_INS_IMM26[21] ; 7.956 ;    ;    ; 7.956 ;
+; SAIDA_INS_IMM26[22] ; VSAIDA_INS_IMM26[22] ; 7.886 ;    ;    ; 7.886 ;
+; SAIDA_INS_IMM26[23] ; VSAIDA_INS_IMM26[23] ; 8.160 ;    ;    ; 8.160 ;
+; SAIDA_INS_IMM26[24] ; VSAIDA_INS_IMM26[24] ; 7.916 ;    ;    ; 7.916 ;
+; SAIDA_INS_IMM26[25] ; VSAIDA_INS_IMM26[25] ; 8.841 ;    ;    ; 8.841 ;
+; SAIDA_INS_OPCODE[0] ; VSAIDA_INS_OPCODE[0] ; 8.897 ;    ;    ; 8.897 ;
+; SAIDA_INS_OPCODE[1] ; VSAIDA_INS_OPCODE[1] ; 8.140 ;    ;    ; 8.140 ;
+; SAIDA_INS_OPCODE[2] ; VSAIDA_INS_OPCODE[2] ; 8.800 ;    ;    ; 8.800 ;
+; SAIDA_INS_OPCODE[3] ; VSAIDA_INS_OPCODE[3] ; 8.831 ;    ;    ; 8.831 ;
+; SAIDA_INS_OPCODE[4] ; VSAIDA_INS_OPCODE[4] ; 8.786 ;    ;    ; 8.786 ;
+; SAIDA_INS_OPCODE[5] ; VSAIDA_INS_OPCODE[5] ; 7.920 ;    ;    ; 7.920 ;
+; SAIDA_INS_RD[0]     ; VSAIDA_INS_RD[0]     ; 8.821 ;    ;    ; 8.821 ;
+; SAIDA_INS_RD[1]     ; VSAIDA_INS_RD[1]     ; 8.775 ;    ;    ; 8.775 ;
+; SAIDA_INS_RD[2]     ; VSAIDA_INS_RD[2]     ; 7.944 ;    ;    ; 7.944 ;
+; SAIDA_INS_RD[3]     ; VSAIDA_INS_RD[3]     ; 8.638 ;    ;    ; 8.638 ;
+; SAIDA_INS_RD[4]     ; VSAIDA_INS_RD[4]     ; 7.924 ;    ;    ; 7.924 ;
+; SAIDA_INS_RS[0]     ; VSAIDA_INS_RS[0]     ; 4.615 ;    ;    ; 4.615 ;
+; SAIDA_INS_RS[1]     ; VSAIDA_INS_RS[1]     ; 4.616 ;    ;    ; 4.616 ;
+; SAIDA_INS_RS[2]     ; VSAIDA_INS_RS[2]     ; 8.836 ;    ;    ; 8.836 ;
+; SAIDA_INS_RS[3]     ; VSAIDA_INS_RS[3]     ; 8.798 ;    ;    ; 8.798 ;
+; SAIDA_INS_RS[4]     ; VSAIDA_INS_RS[4]     ; 8.931 ;    ;    ; 8.931 ;
+; SAIDA_INS_RT[0]     ; VSAIDA_INS_RT[0]     ; 8.837 ;    ;    ; 8.837 ;
+; SAIDA_INS_RT[1]     ; VSAIDA_INS_RT[1]     ; 8.862 ;    ;    ; 8.862 ;
+; SAIDA_INS_RT[2]     ; VSAIDA_INS_RT[2]     ; 8.794 ;    ;    ; 8.794 ;
+; SAIDA_INS_RT[3]     ; VSAIDA_INS_RT[3]     ; 8.210 ;    ;    ; 8.210 ;
+; SAIDA_INS_RT[4]     ; VSAIDA_INS_RT[4]     ; 8.870 ;    ;    ; 8.870 ;
+; SAIDA_INS_SHAMT[0]  ; VSAIDA_INS_SHAMT[0]  ; 8.792 ;    ;    ; 8.792 ;
+; SAIDA_INS_SHAMT[1]  ; VSAIDA_INS_SHAMT[1]  ; 8.821 ;    ;    ; 8.821 ;
+; SAIDA_INS_SHAMT[2]  ; VSAIDA_INS_SHAMT[2]  ; 7.980 ;    ;    ; 7.980 ;
+; SAIDA_INS_SHAMT[3]  ; VSAIDA_INS_SHAMT[3]  ; 8.030 ;    ;    ; 8.030 ;
+; SAIDA_INS_SHAMT[4]  ; VSAIDA_INS_SHAMT[4]  ; 8.789 ;    ;    ; 8.789 ;
++---------------------+----------------------+-------+----+----+-------+
+
+
++----------------------------------------------------------------------+
+; Minimum Propagation Delay                                            ;
++---------------------+----------------------+-------+----+----+-------+
+; Input Port          ; Output Port          ; RR    ; RF ; FR ; FF    ;
++---------------------+----------------------+-------+----+----+-------+
+; SAIDA_INS_FUNCT[0]  ; VSAIDA_INS_FUNCT[0]  ; 8.890 ;    ;    ; 8.890 ;
+; SAIDA_INS_FUNCT[1]  ; VSAIDA_INS_FUNCT[1]  ; 7.950 ;    ;    ; 7.950 ;
+; SAIDA_INS_FUNCT[2]  ; VSAIDA_INS_FUNCT[2]  ; 8.829 ;    ;    ; 8.829 ;
+; SAIDA_INS_FUNCT[3]  ; VSAIDA_INS_FUNCT[3]  ; 8.892 ;    ;    ; 8.892 ;
+; SAIDA_INS_FUNCT[4]  ; VSAIDA_INS_FUNCT[4]  ; 8.833 ;    ;    ; 8.833 ;
+; SAIDA_INS_FUNCT[5]  ; VSAIDA_INS_FUNCT[5]  ; 7.916 ;    ;    ; 7.916 ;
+; SAIDA_INS_IMM16[0]  ; VSAIDA_INS_IMM16[0]  ; 8.840 ;    ;    ; 8.840 ;
+; SAIDA_INS_IMM16[1]  ; VSAIDA_INS_IMM16[1]  ; 7.896 ;    ;    ; 7.896 ;
+; SAIDA_INS_IMM16[2]  ; VSAIDA_INS_IMM16[2]  ; 8.848 ;    ;    ; 8.848 ;
+; SAIDA_INS_IMM16[3]  ; VSAIDA_INS_IMM16[3]  ; 7.956 ;    ;    ; 7.956 ;
+; SAIDA_INS_IMM16[4]  ; VSAIDA_INS_IMM16[4]  ; 7.904 ;    ;    ; 7.904 ;
+; SAIDA_INS_IMM16[5]  ; VSAIDA_INS_IMM16[5]  ; 8.860 ;    ;    ; 8.860 ;
+; SAIDA_INS_IMM16[6]  ; VSAIDA_INS_IMM16[6]  ; 7.940 ;    ;    ; 7.940 ;
+; SAIDA_INS_IMM16[7]  ; VSAIDA_INS_IMM16[7]  ; 8.849 ;    ;    ; 8.849 ;
+; SAIDA_INS_IMM16[8]  ; VSAIDA_INS_IMM16[8]  ; 8.786 ;    ;    ; 8.786 ;
+; SAIDA_INS_IMM16[9]  ; VSAIDA_INS_IMM16[9]  ; 8.681 ;    ;    ; 8.681 ;
+; SAIDA_INS_IMM16[10] ; VSAIDA_INS_IMM16[10] ; 7.904 ;    ;    ; 7.904 ;
+; SAIDA_INS_IMM16[11] ; VSAIDA_INS_IMM16[11] ; 7.946 ;    ;    ; 7.946 ;
+; SAIDA_INS_IMM16[12] ; VSAIDA_INS_IMM16[12] ; 8.913 ;    ;    ; 8.913 ;
+; SAIDA_INS_IMM16[13] ; VSAIDA_INS_IMM16[13] ; 8.841 ;    ;    ; 8.841 ;
+; SAIDA_INS_IMM16[14] ; VSAIDA_INS_IMM16[14] ; 7.986 ;    ;    ; 7.986 ;
+; SAIDA_INS_IMM16[15] ; VSAIDA_INS_IMM16[15] ; 8.170 ;    ;    ; 8.170 ;
+; SAIDA_INS_IMM26[0]  ; VSAIDA_INS_IMM26[0]  ; 7.956 ;    ;    ; 7.956 ;
+; SAIDA_INS_IMM26[1]  ; VSAIDA_INS_IMM26[1]  ; 8.053 ;    ;    ; 8.053 ;
+; SAIDA_INS_IMM26[2]  ; VSAIDA_INS_IMM26[2]  ; 8.729 ;    ;    ; 8.729 ;
+; SAIDA_INS_IMM26[3]  ; VSAIDA_INS_IMM26[3]  ; 8.909 ;    ;    ; 8.909 ;
+; SAIDA_INS_IMM26[4]  ; VSAIDA_INS_IMM26[4]  ; 7.996 ;    ;    ; 7.996 ;
+; SAIDA_INS_IMM26[5]  ; VSAIDA_INS_IMM26[5]  ; 7.936 ;    ;    ; 7.936 ;
+; SAIDA_INS_IMM26[6]  ; VSAIDA_INS_IMM26[6]  ; 8.729 ;    ;    ; 8.729 ;
+; SAIDA_INS_IMM26[7]  ; VSAIDA_INS_IMM26[7]  ; 7.920 ;    ;    ; 7.920 ;
+; SAIDA_INS_IMM26[8]  ; VSAIDA_INS_IMM26[8]  ; 7.970 ;    ;    ; 7.970 ;
+; SAIDA_INS_IMM26[9]  ; VSAIDA_INS_IMM26[9]  ; 8.758 ;    ;    ; 8.758 ;
+; SAIDA_INS_IMM26[10] ; VSAIDA_INS_IMM26[10] ; 8.888 ;    ;    ; 8.888 ;
+; SAIDA_INS_IMM26[11] ; VSAIDA_INS_IMM26[11] ; 8.857 ;    ;    ; 8.857 ;
+; SAIDA_INS_IMM26[12] ; VSAIDA_INS_IMM26[12] ; 7.934 ;    ;    ; 7.934 ;
+; SAIDA_INS_IMM26[13] ; VSAIDA_INS_IMM26[13] ; 8.822 ;    ;    ; 8.822 ;
+; SAIDA_INS_IMM26[14] ; VSAIDA_INS_IMM26[14] ; 7.946 ;    ;    ; 7.946 ;
+; SAIDA_INS_IMM26[15] ; VSAIDA_INS_IMM26[15] ; 7.884 ;    ;    ; 7.884 ;
+; SAIDA_INS_IMM26[16] ; VSAIDA_INS_IMM26[16] ; 7.940 ;    ;    ; 7.940 ;
+; SAIDA_INS_IMM26[17] ; VSAIDA_INS_IMM26[17] ; 8.941 ;    ;    ; 8.941 ;
+; SAIDA_INS_IMM26[18] ; VSAIDA_INS_IMM26[18] ; 8.676 ;    ;    ; 8.676 ;
+; SAIDA_INS_IMM26[19] ; VSAIDA_INS_IMM26[19] ; 7.980 ;    ;    ; 7.980 ;
+; SAIDA_INS_IMM26[20] ; VSAIDA_INS_IMM26[20] ; 8.914 ;    ;    ; 8.914 ;
+; SAIDA_INS_IMM26[21] ; VSAIDA_INS_IMM26[21] ; 7.956 ;    ;    ; 7.956 ;
+; SAIDA_INS_IMM26[22] ; VSAIDA_INS_IMM26[22] ; 7.886 ;    ;    ; 7.886 ;
+; SAIDA_INS_IMM26[23] ; VSAIDA_INS_IMM26[23] ; 8.160 ;    ;    ; 8.160 ;
+; SAIDA_INS_IMM26[24] ; VSAIDA_INS_IMM26[24] ; 7.916 ;    ;    ; 7.916 ;
+; SAIDA_INS_IMM26[25] ; VSAIDA_INS_IMM26[25] ; 8.841 ;    ;    ; 8.841 ;
+; SAIDA_INS_OPCODE[0] ; VSAIDA_INS_OPCODE[0] ; 8.897 ;    ;    ; 8.897 ;
+; SAIDA_INS_OPCODE[1] ; VSAIDA_INS_OPCODE[1] ; 8.140 ;    ;    ; 8.140 ;
+; SAIDA_INS_OPCODE[2] ; VSAIDA_INS_OPCODE[2] ; 8.800 ;    ;    ; 8.800 ;
+; SAIDA_INS_OPCODE[3] ; VSAIDA_INS_OPCODE[3] ; 8.831 ;    ;    ; 8.831 ;
+; SAIDA_INS_OPCODE[4] ; VSAIDA_INS_OPCODE[4] ; 8.786 ;    ;    ; 8.786 ;
+; SAIDA_INS_OPCODE[5] ; VSAIDA_INS_OPCODE[5] ; 7.920 ;    ;    ; 7.920 ;
+; SAIDA_INS_RD[0]     ; VSAIDA_INS_RD[0]     ; 8.821 ;    ;    ; 8.821 ;
+; SAIDA_INS_RD[1]     ; VSAIDA_INS_RD[1]     ; 8.775 ;    ;    ; 8.775 ;
+; SAIDA_INS_RD[2]     ; VSAIDA_INS_RD[2]     ; 7.944 ;    ;    ; 7.944 ;
+; SAIDA_INS_RD[3]     ; VSAIDA_INS_RD[3]     ; 8.638 ;    ;    ; 8.638 ;
+; SAIDA_INS_RD[4]     ; VSAIDA_INS_RD[4]     ; 7.924 ;    ;    ; 7.924 ;
+; SAIDA_INS_RS[0]     ; VSAIDA_INS_RS[0]     ; 4.615 ;    ;    ; 4.615 ;
+; SAIDA_INS_RS[1]     ; VSAIDA_INS_RS[1]     ; 4.616 ;    ;    ; 4.616 ;
+; SAIDA_INS_RS[2]     ; VSAIDA_INS_RS[2]     ; 8.836 ;    ;    ; 8.836 ;
+; SAIDA_INS_RS[3]     ; VSAIDA_INS_RS[3]     ; 8.798 ;    ;    ; 8.798 ;
+; SAIDA_INS_RS[4]     ; VSAIDA_INS_RS[4]     ; 8.931 ;    ;    ; 8.931 ;
+; SAIDA_INS_RT[0]     ; VSAIDA_INS_RT[0]     ; 8.837 ;    ;    ; 8.837 ;
+; SAIDA_INS_RT[1]     ; VSAIDA_INS_RT[1]     ; 8.862 ;    ;    ; 8.862 ;
+; SAIDA_INS_RT[2]     ; VSAIDA_INS_RT[2]     ; 8.794 ;    ;    ; 8.794 ;
+; SAIDA_INS_RT[3]     ; VSAIDA_INS_RT[3]     ; 8.210 ;    ;    ; 8.210 ;
+; SAIDA_INS_RT[4]     ; VSAIDA_INS_RT[4]     ; 8.870 ;    ;    ; 8.870 ;
+; SAIDA_INS_SHAMT[0]  ; VSAIDA_INS_SHAMT[0]  ; 8.792 ;    ;    ; 8.792 ;
+; SAIDA_INS_SHAMT[1]  ; VSAIDA_INS_SHAMT[1]  ; 8.821 ;    ;    ; 8.821 ;
+; SAIDA_INS_SHAMT[2]  ; VSAIDA_INS_SHAMT[2]  ; 7.980 ;    ;    ; 7.980 ;
+; SAIDA_INS_SHAMT[3]  ; VSAIDA_INS_SHAMT[3]  ; 8.030 ;    ;    ; 8.030 ;
+; SAIDA_INS_SHAMT[4]  ; VSAIDA_INS_SHAMT[4]  ; 8.789 ;    ;    ; 8.789 ;
++---------------------+----------------------+-------+----+----+-------+
+
+
+----------------------------
+; Fast Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Fast Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Fast Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Fast Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Fast Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++----------------------------------------------------------------------+
+; Propagation Delay                                                    ;
++---------------------+----------------------+-------+----+----+-------+
+; Input Port          ; Output Port          ; RR    ; RF ; FR ; FF    ;
++---------------------+----------------------+-------+----+----+-------+
+; SAIDA_INS_FUNCT[0]  ; VSAIDA_INS_FUNCT[0]  ; 5.062 ;    ;    ; 5.062 ;
+; SAIDA_INS_FUNCT[1]  ; VSAIDA_INS_FUNCT[1]  ; 4.597 ;    ;    ; 4.597 ;
+; SAIDA_INS_FUNCT[2]  ; VSAIDA_INS_FUNCT[2]  ; 5.018 ;    ;    ; 5.018 ;
+; SAIDA_INS_FUNCT[3]  ; VSAIDA_INS_FUNCT[3]  ; 5.067 ;    ;    ; 5.067 ;
+; SAIDA_INS_FUNCT[4]  ; VSAIDA_INS_FUNCT[4]  ; 5.020 ;    ;    ; 5.020 ;
+; SAIDA_INS_FUNCT[5]  ; VSAIDA_INS_FUNCT[5]  ; 4.572 ;    ;    ; 4.572 ;
+; SAIDA_INS_IMM16[0]  ; VSAIDA_INS_IMM16[0]  ; 5.038 ;    ;    ; 5.038 ;
+; SAIDA_INS_IMM16[1]  ; VSAIDA_INS_IMM16[1]  ; 4.550 ;    ;    ; 4.550 ;
+; SAIDA_INS_IMM16[2]  ; VSAIDA_INS_IMM16[2]  ; 5.058 ;    ;    ; 5.058 ;
+; SAIDA_INS_IMM16[3]  ; VSAIDA_INS_IMM16[3]  ; 4.610 ;    ;    ; 4.610 ;
+; SAIDA_INS_IMM16[4]  ; VSAIDA_INS_IMM16[4]  ; 4.561 ;    ;    ; 4.561 ;
+; SAIDA_INS_IMM16[5]  ; VSAIDA_INS_IMM16[5]  ; 5.044 ;    ;    ; 5.044 ;
+; SAIDA_INS_IMM16[6]  ; VSAIDA_INS_IMM16[6]  ; 4.587 ;    ;    ; 4.587 ;
+; SAIDA_INS_IMM16[7]  ; VSAIDA_INS_IMM16[7]  ; 5.015 ;    ;    ; 5.015 ;
+; SAIDA_INS_IMM16[8]  ; VSAIDA_INS_IMM16[8]  ; 4.986 ;    ;    ; 4.986 ;
+; SAIDA_INS_IMM16[9]  ; VSAIDA_INS_IMM16[9]  ; 4.991 ;    ;    ; 4.991 ;
+; SAIDA_INS_IMM16[10] ; VSAIDA_INS_IMM16[10] ; 4.561 ;    ;    ; 4.561 ;
+; SAIDA_INS_IMM16[11] ; VSAIDA_INS_IMM16[11] ; 4.602 ;    ;    ; 4.602 ;
+; SAIDA_INS_IMM16[12] ; VSAIDA_INS_IMM16[12] ; 5.087 ;    ;    ; 5.087 ;
+; SAIDA_INS_IMM16[13] ; VSAIDA_INS_IMM16[13] ; 5.027 ;    ;    ; 5.027 ;
+; SAIDA_INS_IMM16[14] ; VSAIDA_INS_IMM16[14] ; 4.640 ;    ;    ; 4.640 ;
+; SAIDA_INS_IMM16[15] ; VSAIDA_INS_IMM16[15] ; 4.709 ;    ;    ; 4.709 ;
+; SAIDA_INS_IMM26[0]  ; VSAIDA_INS_IMM26[0]  ; 4.602 ;    ;    ; 4.602 ;
+; SAIDA_INS_IMM26[1]  ; VSAIDA_INS_IMM26[1]  ; 4.670 ;    ;    ; 4.670 ;
+; SAIDA_INS_IMM26[2]  ; VSAIDA_INS_IMM26[2]  ; 5.031 ;    ;    ; 5.031 ;
+; SAIDA_INS_IMM26[3]  ; VSAIDA_INS_IMM26[3]  ; 5.085 ;    ;    ; 5.085 ;
+; SAIDA_INS_IMM26[4]  ; VSAIDA_INS_IMM26[4]  ; 4.652 ;    ;    ; 4.652 ;
+; SAIDA_INS_IMM26[5]  ; VSAIDA_INS_IMM26[5]  ; 4.592 ;    ;    ; 4.592 ;
+; SAIDA_INS_IMM26[6]  ; VSAIDA_INS_IMM26[6]  ; 4.940 ;    ;    ; 4.940 ;
+; SAIDA_INS_IMM26[7]  ; VSAIDA_INS_IMM26[7]  ; 4.567 ;    ;    ; 4.567 ;
+; SAIDA_INS_IMM26[8]  ; VSAIDA_INS_IMM26[8]  ; 4.617 ;    ;    ; 4.617 ;
+; SAIDA_INS_IMM26[9]  ; VSAIDA_INS_IMM26[9]  ; 4.965 ;    ;    ; 4.965 ;
+; SAIDA_INS_IMM26[10] ; VSAIDA_INS_IMM26[10] ; 5.064 ;    ;    ; 5.064 ;
+; SAIDA_INS_IMM26[11] ; VSAIDA_INS_IMM26[11] ; 5.056 ;    ;    ; 5.056 ;
+; SAIDA_INS_IMM26[12] ; VSAIDA_INS_IMM26[12] ; 4.591 ;    ;    ; 4.591 ;
+; SAIDA_INS_IMM26[13] ; VSAIDA_INS_IMM26[13] ; 5.016 ;    ;    ; 5.016 ;
+; SAIDA_INS_IMM26[14] ; VSAIDA_INS_IMM26[14] ; 4.602 ;    ;    ; 4.602 ;
+; SAIDA_INS_IMM26[15] ; VSAIDA_INS_IMM26[15] ; 4.541 ;    ;    ; 4.541 ;
+; SAIDA_INS_IMM26[16] ; VSAIDA_INS_IMM26[16] ; 4.587 ;    ;    ; 4.587 ;
+; SAIDA_INS_IMM26[17] ; VSAIDA_INS_IMM26[17] ; 5.116 ;    ;    ; 5.116 ;
+; SAIDA_INS_IMM26[18] ; VSAIDA_INS_IMM26[18] ; 4.989 ;    ;    ; 4.989 ;
+; SAIDA_INS_IMM26[19] ; VSAIDA_INS_IMM26[19] ; 4.627 ;    ;    ; 4.627 ;
+; SAIDA_INS_IMM26[20] ; VSAIDA_INS_IMM26[20] ; 5.079 ;    ;    ; 5.079 ;
+; SAIDA_INS_IMM26[21] ; VSAIDA_INS_IMM26[21] ; 4.602 ;    ;    ; 4.602 ;
+; SAIDA_INS_IMM26[22] ; VSAIDA_INS_IMM26[22] ; 4.542 ;    ;    ; 4.542 ;
+; SAIDA_INS_IMM26[23] ; VSAIDA_INS_IMM26[23] ; 4.699 ;    ;    ; 4.699 ;
+; SAIDA_INS_IMM26[24] ; VSAIDA_INS_IMM26[24] ; 4.570 ;    ;    ; 4.570 ;
+; SAIDA_INS_IMM26[25] ; VSAIDA_INS_IMM26[25] ; 5.032 ;    ;    ; 5.032 ;
+; SAIDA_INS_OPCODE[0] ; VSAIDA_INS_OPCODE[0] ; 5.073 ;    ;    ; 5.073 ;
+; SAIDA_INS_OPCODE[1] ; VSAIDA_INS_OPCODE[1] ; 4.679 ;    ;    ; 4.679 ;
+; SAIDA_INS_OPCODE[2] ; VSAIDA_INS_OPCODE[2] ; 4.998 ;    ;    ; 4.998 ;
+; SAIDA_INS_OPCODE[3] ; VSAIDA_INS_OPCODE[3] ; 5.006 ;    ;    ; 5.006 ;
+; SAIDA_INS_OPCODE[4] ; VSAIDA_INS_OPCODE[4] ; 4.986 ;    ;    ; 4.986 ;
+; SAIDA_INS_OPCODE[5] ; VSAIDA_INS_OPCODE[5] ; 4.567 ;    ;    ; 4.567 ;
+; SAIDA_INS_RD[0]     ; VSAIDA_INS_RD[0]     ; 5.021 ;    ;    ; 5.021 ;
+; SAIDA_INS_RD[1]     ; VSAIDA_INS_RD[1]     ; 4.976 ;    ;    ; 4.976 ;
+; SAIDA_INS_RD[2]     ; VSAIDA_INS_RD[2]     ; 4.601 ;    ;    ; 4.601 ;
+; SAIDA_INS_RD[3]     ; VSAIDA_INS_RD[3]     ; 4.950 ;    ;    ; 4.950 ;
+; SAIDA_INS_RD[4]     ; VSAIDA_INS_RD[4]     ; 4.581 ;    ;    ; 4.581 ;
+; SAIDA_INS_RS[0]     ; VSAIDA_INS_RS[0]     ; 2.477 ;    ;    ; 2.477 ;
+; SAIDA_INS_RS[1]     ; VSAIDA_INS_RS[1]     ; 2.477 ;    ;    ; 2.477 ;
+; SAIDA_INS_RS[2]     ; VSAIDA_INS_RS[2]     ; 5.022 ;    ;    ; 5.022 ;
+; SAIDA_INS_RS[3]     ; VSAIDA_INS_RS[3]     ; 4.996 ;    ;    ; 4.996 ;
+; SAIDA_INS_RS[4]     ; VSAIDA_INS_RS[4]     ; 5.106 ;    ;    ; 5.106 ;
+; SAIDA_INS_RT[0]     ; VSAIDA_INS_RT[0]     ; 5.036 ;    ;    ; 5.036 ;
+; SAIDA_INS_RT[1]     ; VSAIDA_INS_RT[1]     ; 5.049 ;    ;    ; 5.049 ;
+; SAIDA_INS_RT[2]     ; VSAIDA_INS_RT[2]     ; 4.990 ;    ;    ; 4.990 ;
+; SAIDA_INS_RT[3]     ; VSAIDA_INS_RT[3]     ; 4.749 ;    ;    ; 4.749 ;
+; SAIDA_INS_RT[4]     ; VSAIDA_INS_RT[4]     ; 5.049 ;    ;    ; 5.049 ;
+; SAIDA_INS_SHAMT[0]  ; VSAIDA_INS_SHAMT[0]  ; 4.981 ;    ;    ; 4.981 ;
+; SAIDA_INS_SHAMT[1]  ; VSAIDA_INS_SHAMT[1]  ; 5.023 ;    ;    ; 5.023 ;
+; SAIDA_INS_SHAMT[2]  ; VSAIDA_INS_SHAMT[2]  ; 4.627 ;    ;    ; 4.627 ;
+; SAIDA_INS_SHAMT[3]  ; VSAIDA_INS_SHAMT[3]  ; 4.677 ;    ;    ; 4.677 ;
+; SAIDA_INS_SHAMT[4]  ; VSAIDA_INS_SHAMT[4]  ; 4.990 ;    ;    ; 4.990 ;
++---------------------+----------------------+-------+----+----+-------+
+
+
++----------------------------------------------------------------------+
+; Minimum Propagation Delay                                            ;
++---------------------+----------------------+-------+----+----+-------+
+; Input Port          ; Output Port          ; RR    ; RF ; FR ; FF    ;
++---------------------+----------------------+-------+----+----+-------+
+; SAIDA_INS_FUNCT[0]  ; VSAIDA_INS_FUNCT[0]  ; 5.062 ;    ;    ; 5.062 ;
+; SAIDA_INS_FUNCT[1]  ; VSAIDA_INS_FUNCT[1]  ; 4.597 ;    ;    ; 4.597 ;
+; SAIDA_INS_FUNCT[2]  ; VSAIDA_INS_FUNCT[2]  ; 5.018 ;    ;    ; 5.018 ;
+; SAIDA_INS_FUNCT[3]  ; VSAIDA_INS_FUNCT[3]  ; 5.067 ;    ;    ; 5.067 ;
+; SAIDA_INS_FUNCT[4]  ; VSAIDA_INS_FUNCT[4]  ; 5.020 ;    ;    ; 5.020 ;
+; SAIDA_INS_FUNCT[5]  ; VSAIDA_INS_FUNCT[5]  ; 4.572 ;    ;    ; 4.572 ;
+; SAIDA_INS_IMM16[0]  ; VSAIDA_INS_IMM16[0]  ; 5.038 ;    ;    ; 5.038 ;
+; SAIDA_INS_IMM16[1]  ; VSAIDA_INS_IMM16[1]  ; 4.550 ;    ;    ; 4.550 ;
+; SAIDA_INS_IMM16[2]  ; VSAIDA_INS_IMM16[2]  ; 5.058 ;    ;    ; 5.058 ;
+; SAIDA_INS_IMM16[3]  ; VSAIDA_INS_IMM16[3]  ; 4.610 ;    ;    ; 4.610 ;
+; SAIDA_INS_IMM16[4]  ; VSAIDA_INS_IMM16[4]  ; 4.561 ;    ;    ; 4.561 ;
+; SAIDA_INS_IMM16[5]  ; VSAIDA_INS_IMM16[5]  ; 5.044 ;    ;    ; 5.044 ;
+; SAIDA_INS_IMM16[6]  ; VSAIDA_INS_IMM16[6]  ; 4.587 ;    ;    ; 4.587 ;
+; SAIDA_INS_IMM16[7]  ; VSAIDA_INS_IMM16[7]  ; 5.015 ;    ;    ; 5.015 ;
+; SAIDA_INS_IMM16[8]  ; VSAIDA_INS_IMM16[8]  ; 4.986 ;    ;    ; 4.986 ;
+; SAIDA_INS_IMM16[9]  ; VSAIDA_INS_IMM16[9]  ; 4.991 ;    ;    ; 4.991 ;
+; SAIDA_INS_IMM16[10] ; VSAIDA_INS_IMM16[10] ; 4.561 ;    ;    ; 4.561 ;
+; SAIDA_INS_IMM16[11] ; VSAIDA_INS_IMM16[11] ; 4.602 ;    ;    ; 4.602 ;
+; SAIDA_INS_IMM16[12] ; VSAIDA_INS_IMM16[12] ; 5.087 ;    ;    ; 5.087 ;
+; SAIDA_INS_IMM16[13] ; VSAIDA_INS_IMM16[13] ; 5.027 ;    ;    ; 5.027 ;
+; SAIDA_INS_IMM16[14] ; VSAIDA_INS_IMM16[14] ; 4.640 ;    ;    ; 4.640 ;
+; SAIDA_INS_IMM16[15] ; VSAIDA_INS_IMM16[15] ; 4.709 ;    ;    ; 4.709 ;
+; SAIDA_INS_IMM26[0]  ; VSAIDA_INS_IMM26[0]  ; 4.602 ;    ;    ; 4.602 ;
+; SAIDA_INS_IMM26[1]  ; VSAIDA_INS_IMM26[1]  ; 4.670 ;    ;    ; 4.670 ;
+; SAIDA_INS_IMM26[2]  ; VSAIDA_INS_IMM26[2]  ; 5.031 ;    ;    ; 5.031 ;
+; SAIDA_INS_IMM26[3]  ; VSAIDA_INS_IMM26[3]  ; 5.085 ;    ;    ; 5.085 ;
+; SAIDA_INS_IMM26[4]  ; VSAIDA_INS_IMM26[4]  ; 4.652 ;    ;    ; 4.652 ;
+; SAIDA_INS_IMM26[5]  ; VSAIDA_INS_IMM26[5]  ; 4.592 ;    ;    ; 4.592 ;
+; SAIDA_INS_IMM26[6]  ; VSAIDA_INS_IMM26[6]  ; 4.940 ;    ;    ; 4.940 ;
+; SAIDA_INS_IMM26[7]  ; VSAIDA_INS_IMM26[7]  ; 4.567 ;    ;    ; 4.567 ;
+; SAIDA_INS_IMM26[8]  ; VSAIDA_INS_IMM26[8]  ; 4.617 ;    ;    ; 4.617 ;
+; SAIDA_INS_IMM26[9]  ; VSAIDA_INS_IMM26[9]  ; 4.965 ;    ;    ; 4.965 ;
+; SAIDA_INS_IMM26[10] ; VSAIDA_INS_IMM26[10] ; 5.064 ;    ;    ; 5.064 ;
+; SAIDA_INS_IMM26[11] ; VSAIDA_INS_IMM26[11] ; 5.056 ;    ;    ; 5.056 ;
+; SAIDA_INS_IMM26[12] ; VSAIDA_INS_IMM26[12] ; 4.591 ;    ;    ; 4.591 ;
+; SAIDA_INS_IMM26[13] ; VSAIDA_INS_IMM26[13] ; 5.016 ;    ;    ; 5.016 ;
+; SAIDA_INS_IMM26[14] ; VSAIDA_INS_IMM26[14] ; 4.602 ;    ;    ; 4.602 ;
+; SAIDA_INS_IMM26[15] ; VSAIDA_INS_IMM26[15] ; 4.541 ;    ;    ; 4.541 ;
+; SAIDA_INS_IMM26[16] ; VSAIDA_INS_IMM26[16] ; 4.587 ;    ;    ; 4.587 ;
+; SAIDA_INS_IMM26[17] ; VSAIDA_INS_IMM26[17] ; 5.116 ;    ;    ; 5.116 ;
+; SAIDA_INS_IMM26[18] ; VSAIDA_INS_IMM26[18] ; 4.989 ;    ;    ; 4.989 ;
+; SAIDA_INS_IMM26[19] ; VSAIDA_INS_IMM26[19] ; 4.627 ;    ;    ; 4.627 ;
+; SAIDA_INS_IMM26[20] ; VSAIDA_INS_IMM26[20] ; 5.079 ;    ;    ; 5.079 ;
+; SAIDA_INS_IMM26[21] ; VSAIDA_INS_IMM26[21] ; 4.602 ;    ;    ; 4.602 ;
+; SAIDA_INS_IMM26[22] ; VSAIDA_INS_IMM26[22] ; 4.542 ;    ;    ; 4.542 ;
+; SAIDA_INS_IMM26[23] ; VSAIDA_INS_IMM26[23] ; 4.699 ;    ;    ; 4.699 ;
+; SAIDA_INS_IMM26[24] ; VSAIDA_INS_IMM26[24] ; 4.570 ;    ;    ; 4.570 ;
+; SAIDA_INS_IMM26[25] ; VSAIDA_INS_IMM26[25] ; 5.032 ;    ;    ; 5.032 ;
+; SAIDA_INS_OPCODE[0] ; VSAIDA_INS_OPCODE[0] ; 5.073 ;    ;    ; 5.073 ;
+; SAIDA_INS_OPCODE[1] ; VSAIDA_INS_OPCODE[1] ; 4.679 ;    ;    ; 4.679 ;
+; SAIDA_INS_OPCODE[2] ; VSAIDA_INS_OPCODE[2] ; 4.998 ;    ;    ; 4.998 ;
+; SAIDA_INS_OPCODE[3] ; VSAIDA_INS_OPCODE[3] ; 5.006 ;    ;    ; 5.006 ;
+; SAIDA_INS_OPCODE[4] ; VSAIDA_INS_OPCODE[4] ; 4.986 ;    ;    ; 4.986 ;
+; SAIDA_INS_OPCODE[5] ; VSAIDA_INS_OPCODE[5] ; 4.567 ;    ;    ; 4.567 ;
+; SAIDA_INS_RD[0]     ; VSAIDA_INS_RD[0]     ; 5.021 ;    ;    ; 5.021 ;
+; SAIDA_INS_RD[1]     ; VSAIDA_INS_RD[1]     ; 4.976 ;    ;    ; 4.976 ;
+; SAIDA_INS_RD[2]     ; VSAIDA_INS_RD[2]     ; 4.601 ;    ;    ; 4.601 ;
+; SAIDA_INS_RD[3]     ; VSAIDA_INS_RD[3]     ; 4.950 ;    ;    ; 4.950 ;
+; SAIDA_INS_RD[4]     ; VSAIDA_INS_RD[4]     ; 4.581 ;    ;    ; 4.581 ;
+; SAIDA_INS_RS[0]     ; VSAIDA_INS_RS[0]     ; 2.477 ;    ;    ; 2.477 ;
+; SAIDA_INS_RS[1]     ; VSAIDA_INS_RS[1]     ; 2.477 ;    ;    ; 2.477 ;
+; SAIDA_INS_RS[2]     ; VSAIDA_INS_RS[2]     ; 5.022 ;    ;    ; 5.022 ;
+; SAIDA_INS_RS[3]     ; VSAIDA_INS_RS[3]     ; 4.996 ;    ;    ; 4.996 ;
+; SAIDA_INS_RS[4]     ; VSAIDA_INS_RS[4]     ; 5.106 ;    ;    ; 5.106 ;
+; SAIDA_INS_RT[0]     ; VSAIDA_INS_RT[0]     ; 5.036 ;    ;    ; 5.036 ;
+; SAIDA_INS_RT[1]     ; VSAIDA_INS_RT[1]     ; 5.049 ;    ;    ; 5.049 ;
+; SAIDA_INS_RT[2]     ; VSAIDA_INS_RT[2]     ; 4.990 ;    ;    ; 4.990 ;
+; SAIDA_INS_RT[3]     ; VSAIDA_INS_RT[3]     ; 4.749 ;    ;    ; 4.749 ;
+; SAIDA_INS_RT[4]     ; VSAIDA_INS_RT[4]     ; 5.049 ;    ;    ; 5.049 ;
+; SAIDA_INS_SHAMT[0]  ; VSAIDA_INS_SHAMT[0]  ; 4.981 ;    ;    ; 4.981 ;
+; SAIDA_INS_SHAMT[1]  ; VSAIDA_INS_SHAMT[1]  ; 5.023 ;    ;    ; 5.023 ;
+; SAIDA_INS_SHAMT[2]  ; VSAIDA_INS_SHAMT[2]  ; 4.627 ;    ;    ; 4.627 ;
+; SAIDA_INS_SHAMT[3]  ; VSAIDA_INS_SHAMT[3]  ; 4.677 ;    ;    ; 4.677 ;
+; SAIDA_INS_SHAMT[4]  ; VSAIDA_INS_SHAMT[4]  ; 4.990 ;    ;    ; 4.990 ;
++---------------------+----------------------+-------+----+----+-------+
+
+
++----------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                        ;
++------------------+-------+------+----------+---------+---------------------+
+; Clock            ; Setup ; Hold ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+-------+------+----------+---------+---------------------+
+; Worst-case Slack ; N/A   ; N/A  ; N/A      ; N/A     ; N/A                 ;
+; Design-wide TNS  ; 0.0   ; 0.0  ; 0.0      ; 0.0     ; 0.0                 ;
++------------------+-------+------+----------+---------+---------------------+
+
+
++----------------------------------------------------------------------+
+; Progagation Delay                                                    ;
++---------------------+----------------------+-------+----+----+-------+
+; Input Port          ; Output Port          ; RR    ; RF ; FR ; FF    ;
++---------------------+----------------------+-------+----+----+-------+
+; SAIDA_INS_FUNCT[0]  ; VSAIDA_INS_FUNCT[0]  ; 8.890 ;    ;    ; 8.890 ;
+; SAIDA_INS_FUNCT[1]  ; VSAIDA_INS_FUNCT[1]  ; 7.950 ;    ;    ; 7.950 ;
+; SAIDA_INS_FUNCT[2]  ; VSAIDA_INS_FUNCT[2]  ; 8.829 ;    ;    ; 8.829 ;
+; SAIDA_INS_FUNCT[3]  ; VSAIDA_INS_FUNCT[3]  ; 8.892 ;    ;    ; 8.892 ;
+; SAIDA_INS_FUNCT[4]  ; VSAIDA_INS_FUNCT[4]  ; 8.833 ;    ;    ; 8.833 ;
+; SAIDA_INS_FUNCT[5]  ; VSAIDA_INS_FUNCT[5]  ; 7.916 ;    ;    ; 7.916 ;
+; SAIDA_INS_IMM16[0]  ; VSAIDA_INS_IMM16[0]  ; 8.840 ;    ;    ; 8.840 ;
+; SAIDA_INS_IMM16[1]  ; VSAIDA_INS_IMM16[1]  ; 7.896 ;    ;    ; 7.896 ;
+; SAIDA_INS_IMM16[2]  ; VSAIDA_INS_IMM16[2]  ; 8.848 ;    ;    ; 8.848 ;
+; SAIDA_INS_IMM16[3]  ; VSAIDA_INS_IMM16[3]  ; 7.956 ;    ;    ; 7.956 ;
+; SAIDA_INS_IMM16[4]  ; VSAIDA_INS_IMM16[4]  ; 7.904 ;    ;    ; 7.904 ;
+; SAIDA_INS_IMM16[5]  ; VSAIDA_INS_IMM16[5]  ; 8.860 ;    ;    ; 8.860 ;
+; SAIDA_INS_IMM16[6]  ; VSAIDA_INS_IMM16[6]  ; 7.940 ;    ;    ; 7.940 ;
+; SAIDA_INS_IMM16[7]  ; VSAIDA_INS_IMM16[7]  ; 8.849 ;    ;    ; 8.849 ;
+; SAIDA_INS_IMM16[8]  ; VSAIDA_INS_IMM16[8]  ; 8.786 ;    ;    ; 8.786 ;
+; SAIDA_INS_IMM16[9]  ; VSAIDA_INS_IMM16[9]  ; 8.681 ;    ;    ; 8.681 ;
+; SAIDA_INS_IMM16[10] ; VSAIDA_INS_IMM16[10] ; 7.904 ;    ;    ; 7.904 ;
+; SAIDA_INS_IMM16[11] ; VSAIDA_INS_IMM16[11] ; 7.946 ;    ;    ; 7.946 ;
+; SAIDA_INS_IMM16[12] ; VSAIDA_INS_IMM16[12] ; 8.913 ;    ;    ; 8.913 ;
+; SAIDA_INS_IMM16[13] ; VSAIDA_INS_IMM16[13] ; 8.841 ;    ;    ; 8.841 ;
+; SAIDA_INS_IMM16[14] ; VSAIDA_INS_IMM16[14] ; 7.986 ;    ;    ; 7.986 ;
+; SAIDA_INS_IMM16[15] ; VSAIDA_INS_IMM16[15] ; 8.170 ;    ;    ; 8.170 ;
+; SAIDA_INS_IMM26[0]  ; VSAIDA_INS_IMM26[0]  ; 7.956 ;    ;    ; 7.956 ;
+; SAIDA_INS_IMM26[1]  ; VSAIDA_INS_IMM26[1]  ; 8.053 ;    ;    ; 8.053 ;
+; SAIDA_INS_IMM26[2]  ; VSAIDA_INS_IMM26[2]  ; 8.729 ;    ;    ; 8.729 ;
+; SAIDA_INS_IMM26[3]  ; VSAIDA_INS_IMM26[3]  ; 8.909 ;    ;    ; 8.909 ;
+; SAIDA_INS_IMM26[4]  ; VSAIDA_INS_IMM26[4]  ; 7.996 ;    ;    ; 7.996 ;
+; SAIDA_INS_IMM26[5]  ; VSAIDA_INS_IMM26[5]  ; 7.936 ;    ;    ; 7.936 ;
+; SAIDA_INS_IMM26[6]  ; VSAIDA_INS_IMM26[6]  ; 8.729 ;    ;    ; 8.729 ;
+; SAIDA_INS_IMM26[7]  ; VSAIDA_INS_IMM26[7]  ; 7.920 ;    ;    ; 7.920 ;
+; SAIDA_INS_IMM26[8]  ; VSAIDA_INS_IMM26[8]  ; 7.970 ;    ;    ; 7.970 ;
+; SAIDA_INS_IMM26[9]  ; VSAIDA_INS_IMM26[9]  ; 8.758 ;    ;    ; 8.758 ;
+; SAIDA_INS_IMM26[10] ; VSAIDA_INS_IMM26[10] ; 8.888 ;    ;    ; 8.888 ;
+; SAIDA_INS_IMM26[11] ; VSAIDA_INS_IMM26[11] ; 8.857 ;    ;    ; 8.857 ;
+; SAIDA_INS_IMM26[12] ; VSAIDA_INS_IMM26[12] ; 7.934 ;    ;    ; 7.934 ;
+; SAIDA_INS_IMM26[13] ; VSAIDA_INS_IMM26[13] ; 8.822 ;    ;    ; 8.822 ;
+; SAIDA_INS_IMM26[14] ; VSAIDA_INS_IMM26[14] ; 7.946 ;    ;    ; 7.946 ;
+; SAIDA_INS_IMM26[15] ; VSAIDA_INS_IMM26[15] ; 7.884 ;    ;    ; 7.884 ;
+; SAIDA_INS_IMM26[16] ; VSAIDA_INS_IMM26[16] ; 7.940 ;    ;    ; 7.940 ;
+; SAIDA_INS_IMM26[17] ; VSAIDA_INS_IMM26[17] ; 8.941 ;    ;    ; 8.941 ;
+; SAIDA_INS_IMM26[18] ; VSAIDA_INS_IMM26[18] ; 8.676 ;    ;    ; 8.676 ;
+; SAIDA_INS_IMM26[19] ; VSAIDA_INS_IMM26[19] ; 7.980 ;    ;    ; 7.980 ;
+; SAIDA_INS_IMM26[20] ; VSAIDA_INS_IMM26[20] ; 8.914 ;    ;    ; 8.914 ;
+; SAIDA_INS_IMM26[21] ; VSAIDA_INS_IMM26[21] ; 7.956 ;    ;    ; 7.956 ;
+; SAIDA_INS_IMM26[22] ; VSAIDA_INS_IMM26[22] ; 7.886 ;    ;    ; 7.886 ;
+; SAIDA_INS_IMM26[23] ; VSAIDA_INS_IMM26[23] ; 8.160 ;    ;    ; 8.160 ;
+; SAIDA_INS_IMM26[24] ; VSAIDA_INS_IMM26[24] ; 7.916 ;    ;    ; 7.916 ;
+; SAIDA_INS_IMM26[25] ; VSAIDA_INS_IMM26[25] ; 8.841 ;    ;    ; 8.841 ;
+; SAIDA_INS_OPCODE[0] ; VSAIDA_INS_OPCODE[0] ; 8.897 ;    ;    ; 8.897 ;
+; SAIDA_INS_OPCODE[1] ; VSAIDA_INS_OPCODE[1] ; 8.140 ;    ;    ; 8.140 ;
+; SAIDA_INS_OPCODE[2] ; VSAIDA_INS_OPCODE[2] ; 8.800 ;    ;    ; 8.800 ;
+; SAIDA_INS_OPCODE[3] ; VSAIDA_INS_OPCODE[3] ; 8.831 ;    ;    ; 8.831 ;
+; SAIDA_INS_OPCODE[4] ; VSAIDA_INS_OPCODE[4] ; 8.786 ;    ;    ; 8.786 ;
+; SAIDA_INS_OPCODE[5] ; VSAIDA_INS_OPCODE[5] ; 7.920 ;    ;    ; 7.920 ;
+; SAIDA_INS_RD[0]     ; VSAIDA_INS_RD[0]     ; 8.821 ;    ;    ; 8.821 ;
+; SAIDA_INS_RD[1]     ; VSAIDA_INS_RD[1]     ; 8.775 ;    ;    ; 8.775 ;
+; SAIDA_INS_RD[2]     ; VSAIDA_INS_RD[2]     ; 7.944 ;    ;    ; 7.944 ;
+; SAIDA_INS_RD[3]     ; VSAIDA_INS_RD[3]     ; 8.638 ;    ;    ; 8.638 ;
+; SAIDA_INS_RD[4]     ; VSAIDA_INS_RD[4]     ; 7.924 ;    ;    ; 7.924 ;
+; SAIDA_INS_RS[0]     ; VSAIDA_INS_RS[0]     ; 4.615 ;    ;    ; 4.615 ;
+; SAIDA_INS_RS[1]     ; VSAIDA_INS_RS[1]     ; 4.616 ;    ;    ; 4.616 ;
+; SAIDA_INS_RS[2]     ; VSAIDA_INS_RS[2]     ; 8.836 ;    ;    ; 8.836 ;
+; SAIDA_INS_RS[3]     ; VSAIDA_INS_RS[3]     ; 8.798 ;    ;    ; 8.798 ;
+; SAIDA_INS_RS[4]     ; VSAIDA_INS_RS[4]     ; 8.931 ;    ;    ; 8.931 ;
+; SAIDA_INS_RT[0]     ; VSAIDA_INS_RT[0]     ; 8.837 ;    ;    ; 8.837 ;
+; SAIDA_INS_RT[1]     ; VSAIDA_INS_RT[1]     ; 8.862 ;    ;    ; 8.862 ;
+; SAIDA_INS_RT[2]     ; VSAIDA_INS_RT[2]     ; 8.794 ;    ;    ; 8.794 ;
+; SAIDA_INS_RT[3]     ; VSAIDA_INS_RT[3]     ; 8.210 ;    ;    ; 8.210 ;
+; SAIDA_INS_RT[4]     ; VSAIDA_INS_RT[4]     ; 8.870 ;    ;    ; 8.870 ;
+; SAIDA_INS_SHAMT[0]  ; VSAIDA_INS_SHAMT[0]  ; 8.792 ;    ;    ; 8.792 ;
+; SAIDA_INS_SHAMT[1]  ; VSAIDA_INS_SHAMT[1]  ; 8.821 ;    ;    ; 8.821 ;
+; SAIDA_INS_SHAMT[2]  ; VSAIDA_INS_SHAMT[2]  ; 7.980 ;    ;    ; 7.980 ;
+; SAIDA_INS_SHAMT[3]  ; VSAIDA_INS_SHAMT[3]  ; 8.030 ;    ;    ; 8.030 ;
+; SAIDA_INS_SHAMT[4]  ; VSAIDA_INS_SHAMT[4]  ; 8.789 ;    ;    ; 8.789 ;
++---------------------+----------------------+-------+----+----+-------+
+
+
++----------------------------------------------------------------------+
+; Minimum Progagation Delay                                            ;
++---------------------+----------------------+-------+----+----+-------+
+; Input Port          ; Output Port          ; RR    ; RF ; FR ; FF    ;
++---------------------+----------------------+-------+----+----+-------+
+; SAIDA_INS_FUNCT[0]  ; VSAIDA_INS_FUNCT[0]  ; 5.062 ;    ;    ; 5.062 ;
+; SAIDA_INS_FUNCT[1]  ; VSAIDA_INS_FUNCT[1]  ; 4.597 ;    ;    ; 4.597 ;
+; SAIDA_INS_FUNCT[2]  ; VSAIDA_INS_FUNCT[2]  ; 5.018 ;    ;    ; 5.018 ;
+; SAIDA_INS_FUNCT[3]  ; VSAIDA_INS_FUNCT[3]  ; 5.067 ;    ;    ; 5.067 ;
+; SAIDA_INS_FUNCT[4]  ; VSAIDA_INS_FUNCT[4]  ; 5.020 ;    ;    ; 5.020 ;
+; SAIDA_INS_FUNCT[5]  ; VSAIDA_INS_FUNCT[5]  ; 4.572 ;    ;    ; 4.572 ;
+; SAIDA_INS_IMM16[0]  ; VSAIDA_INS_IMM16[0]  ; 5.038 ;    ;    ; 5.038 ;
+; SAIDA_INS_IMM16[1]  ; VSAIDA_INS_IMM16[1]  ; 4.550 ;    ;    ; 4.550 ;
+; SAIDA_INS_IMM16[2]  ; VSAIDA_INS_IMM16[2]  ; 5.058 ;    ;    ; 5.058 ;
+; SAIDA_INS_IMM16[3]  ; VSAIDA_INS_IMM16[3]  ; 4.610 ;    ;    ; 4.610 ;
+; SAIDA_INS_IMM16[4]  ; VSAIDA_INS_IMM16[4]  ; 4.561 ;    ;    ; 4.561 ;
+; SAIDA_INS_IMM16[5]  ; VSAIDA_INS_IMM16[5]  ; 5.044 ;    ;    ; 5.044 ;
+; SAIDA_INS_IMM16[6]  ; VSAIDA_INS_IMM16[6]  ; 4.587 ;    ;    ; 4.587 ;
+; SAIDA_INS_IMM16[7]  ; VSAIDA_INS_IMM16[7]  ; 5.015 ;    ;    ; 5.015 ;
+; SAIDA_INS_IMM16[8]  ; VSAIDA_INS_IMM16[8]  ; 4.986 ;    ;    ; 4.986 ;
+; SAIDA_INS_IMM16[9]  ; VSAIDA_INS_IMM16[9]  ; 4.991 ;    ;    ; 4.991 ;
+; SAIDA_INS_IMM16[10] ; VSAIDA_INS_IMM16[10] ; 4.561 ;    ;    ; 4.561 ;
+; SAIDA_INS_IMM16[11] ; VSAIDA_INS_IMM16[11] ; 4.602 ;    ;    ; 4.602 ;
+; SAIDA_INS_IMM16[12] ; VSAIDA_INS_IMM16[12] ; 5.087 ;    ;    ; 5.087 ;
+; SAIDA_INS_IMM16[13] ; VSAIDA_INS_IMM16[13] ; 5.027 ;    ;    ; 5.027 ;
+; SAIDA_INS_IMM16[14] ; VSAIDA_INS_IMM16[14] ; 4.640 ;    ;    ; 4.640 ;
+; SAIDA_INS_IMM16[15] ; VSAIDA_INS_IMM16[15] ; 4.709 ;    ;    ; 4.709 ;
+; SAIDA_INS_IMM26[0]  ; VSAIDA_INS_IMM26[0]  ; 4.602 ;    ;    ; 4.602 ;
+; SAIDA_INS_IMM26[1]  ; VSAIDA_INS_IMM26[1]  ; 4.670 ;    ;    ; 4.670 ;
+; SAIDA_INS_IMM26[2]  ; VSAIDA_INS_IMM26[2]  ; 5.031 ;    ;    ; 5.031 ;
+; SAIDA_INS_IMM26[3]  ; VSAIDA_INS_IMM26[3]  ; 5.085 ;    ;    ; 5.085 ;
+; SAIDA_INS_IMM26[4]  ; VSAIDA_INS_IMM26[4]  ; 4.652 ;    ;    ; 4.652 ;
+; SAIDA_INS_IMM26[5]  ; VSAIDA_INS_IMM26[5]  ; 4.592 ;    ;    ; 4.592 ;
+; SAIDA_INS_IMM26[6]  ; VSAIDA_INS_IMM26[6]  ; 4.940 ;    ;    ; 4.940 ;
+; SAIDA_INS_IMM26[7]  ; VSAIDA_INS_IMM26[7]  ; 4.567 ;    ;    ; 4.567 ;
+; SAIDA_INS_IMM26[8]  ; VSAIDA_INS_IMM26[8]  ; 4.617 ;    ;    ; 4.617 ;
+; SAIDA_INS_IMM26[9]  ; VSAIDA_INS_IMM26[9]  ; 4.965 ;    ;    ; 4.965 ;
+; SAIDA_INS_IMM26[10] ; VSAIDA_INS_IMM26[10] ; 5.064 ;    ;    ; 5.064 ;
+; SAIDA_INS_IMM26[11] ; VSAIDA_INS_IMM26[11] ; 5.056 ;    ;    ; 5.056 ;
+; SAIDA_INS_IMM26[12] ; VSAIDA_INS_IMM26[12] ; 4.591 ;    ;    ; 4.591 ;
+; SAIDA_INS_IMM26[13] ; VSAIDA_INS_IMM26[13] ; 5.016 ;    ;    ; 5.016 ;
+; SAIDA_INS_IMM26[14] ; VSAIDA_INS_IMM26[14] ; 4.602 ;    ;    ; 4.602 ;
+; SAIDA_INS_IMM26[15] ; VSAIDA_INS_IMM26[15] ; 4.541 ;    ;    ; 4.541 ;
+; SAIDA_INS_IMM26[16] ; VSAIDA_INS_IMM26[16] ; 4.587 ;    ;    ; 4.587 ;
+; SAIDA_INS_IMM26[17] ; VSAIDA_INS_IMM26[17] ; 5.116 ;    ;    ; 5.116 ;
+; SAIDA_INS_IMM26[18] ; VSAIDA_INS_IMM26[18] ; 4.989 ;    ;    ; 4.989 ;
+; SAIDA_INS_IMM26[19] ; VSAIDA_INS_IMM26[19] ; 4.627 ;    ;    ; 4.627 ;
+; SAIDA_INS_IMM26[20] ; VSAIDA_INS_IMM26[20] ; 5.079 ;    ;    ; 5.079 ;
+; SAIDA_INS_IMM26[21] ; VSAIDA_INS_IMM26[21] ; 4.602 ;    ;    ; 4.602 ;
+; SAIDA_INS_IMM26[22] ; VSAIDA_INS_IMM26[22] ; 4.542 ;    ;    ; 4.542 ;
+; SAIDA_INS_IMM26[23] ; VSAIDA_INS_IMM26[23] ; 4.699 ;    ;    ; 4.699 ;
+; SAIDA_INS_IMM26[24] ; VSAIDA_INS_IMM26[24] ; 4.570 ;    ;    ; 4.570 ;
+; SAIDA_INS_IMM26[25] ; VSAIDA_INS_IMM26[25] ; 5.032 ;    ;    ; 5.032 ;
+; SAIDA_INS_OPCODE[0] ; VSAIDA_INS_OPCODE[0] ; 5.073 ;    ;    ; 5.073 ;
+; SAIDA_INS_OPCODE[1] ; VSAIDA_INS_OPCODE[1] ; 4.679 ;    ;    ; 4.679 ;
+; SAIDA_INS_OPCODE[2] ; VSAIDA_INS_OPCODE[2] ; 4.998 ;    ;    ; 4.998 ;
+; SAIDA_INS_OPCODE[3] ; VSAIDA_INS_OPCODE[3] ; 5.006 ;    ;    ; 5.006 ;
+; SAIDA_INS_OPCODE[4] ; VSAIDA_INS_OPCODE[4] ; 4.986 ;    ;    ; 4.986 ;
+; SAIDA_INS_OPCODE[5] ; VSAIDA_INS_OPCODE[5] ; 4.567 ;    ;    ; 4.567 ;
+; SAIDA_INS_RD[0]     ; VSAIDA_INS_RD[0]     ; 5.021 ;    ;    ; 5.021 ;
+; SAIDA_INS_RD[1]     ; VSAIDA_INS_RD[1]     ; 4.976 ;    ;    ; 4.976 ;
+; SAIDA_INS_RD[2]     ; VSAIDA_INS_RD[2]     ; 4.601 ;    ;    ; 4.601 ;
+; SAIDA_INS_RD[3]     ; VSAIDA_INS_RD[3]     ; 4.950 ;    ;    ; 4.950 ;
+; SAIDA_INS_RD[4]     ; VSAIDA_INS_RD[4]     ; 4.581 ;    ;    ; 4.581 ;
+; SAIDA_INS_RS[0]     ; VSAIDA_INS_RS[0]     ; 2.477 ;    ;    ; 2.477 ;
+; SAIDA_INS_RS[1]     ; VSAIDA_INS_RS[1]     ; 2.477 ;    ;    ; 2.477 ;
+; SAIDA_INS_RS[2]     ; VSAIDA_INS_RS[2]     ; 5.022 ;    ;    ; 5.022 ;
+; SAIDA_INS_RS[3]     ; VSAIDA_INS_RS[3]     ; 4.996 ;    ;    ; 4.996 ;
+; SAIDA_INS_RS[4]     ; VSAIDA_INS_RS[4]     ; 5.106 ;    ;    ; 5.106 ;
+; SAIDA_INS_RT[0]     ; VSAIDA_INS_RT[0]     ; 5.036 ;    ;    ; 5.036 ;
+; SAIDA_INS_RT[1]     ; VSAIDA_INS_RT[1]     ; 5.049 ;    ;    ; 5.049 ;
+; SAIDA_INS_RT[2]     ; VSAIDA_INS_RT[2]     ; 4.990 ;    ;    ; 4.990 ;
+; SAIDA_INS_RT[3]     ; VSAIDA_INS_RT[3]     ; 4.749 ;    ;    ; 4.749 ;
+; SAIDA_INS_RT[4]     ; VSAIDA_INS_RT[4]     ; 5.049 ;    ;    ; 5.049 ;
+; SAIDA_INS_SHAMT[0]  ; VSAIDA_INS_SHAMT[0]  ; 4.981 ;    ;    ; 4.981 ;
+; SAIDA_INS_SHAMT[1]  ; VSAIDA_INS_SHAMT[1]  ; 5.023 ;    ;    ; 5.023 ;
+; SAIDA_INS_SHAMT[2]  ; VSAIDA_INS_SHAMT[2]  ; 4.627 ;    ;    ; 4.627 ;
+; SAIDA_INS_SHAMT[3]  ; VSAIDA_INS_SHAMT[3]  ; 4.677 ;    ;    ; 4.677 ;
+; SAIDA_INS_SHAMT[4]  ; VSAIDA_INS_SHAMT[4]  ; 4.990 ;    ;    ; 4.990 ;
++---------------------+----------------------+-------+----+----+-------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 74    ; 74   ;
+; Unconstrained Input Port Paths  ; 74    ; 74   ;
+; Unconstrained Output Ports      ; 74    ; 74   ;
+; Unconstrained Output Port Paths ; 74    ; 74   ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
+    Info: Version 10.1 Build 153 11/29/2010 SJ Web Edition
+    Info: Processing started: Tue Feb 07 10:30:14 2017
+Info: Command: quartus_sta MODULO_SAIDA_INSTRUCTION -c MODULO_SAIDA_INSTRUCTION
+Info: qsta_default_script.tcl version: #1
+Info: Low junction temperature is 0 degrees C
+Info: High junction temperature is 85 degrees C
+Critical Warning: Synopsys Design Constraints File file not found: 'MODULO_SAIDA_INSTRUCTION.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info: No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info: The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning: No clocks defined in design.
+Info: No clocks to report
+Info: Analyzing Slow Model
+Info: No fmax paths to report
+Info: No Setup paths to report
+Info: No Hold paths to report
+Info: No Recovery paths to report
+Info: No Removal paths to report
+Info: No Minimum Pulse Width paths to report
+Info: The selected device family is not supported by the report_metastability command.
+Info: Analyzing Fast Model
+Info: Started post-fitting delay annotation
+Warning: Found 74 output pins without output pin load capacitance assignment
+    Info: Pin "VSAIDA_INS_RS[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_RS[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_RS[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_RS[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_RS[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_RT[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_RT[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_RT[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_RT[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_RT[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_RD[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_RD[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_RD[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_RD[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_RD[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_SHAMT[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_SHAMT[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_SHAMT[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_SHAMT[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_SHAMT[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_FUNCT[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_FUNCT[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_FUNCT[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_FUNCT[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_FUNCT[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_FUNCT[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_OPCODE[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_OPCODE[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_OPCODE[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_OPCODE[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_OPCODE[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_OPCODE[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM16[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM16[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM16[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM16[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM16[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM16[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM16[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM16[7]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM16[8]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM16[9]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM16[10]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM16[11]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM16[12]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM16[13]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM16[14]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM16[15]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM26[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM26[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM26[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM26[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM26[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM26[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM26[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM26[7]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM26[8]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM26[9]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM26[10]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM26[11]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM26[12]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM26[13]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM26[14]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM26[15]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM26[16]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM26[17]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM26[18]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM26[19]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM26[20]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM26[21]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM26[22]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM26[23]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM26[24]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "VSAIDA_INS_IMM26[25]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+Info: Delay annotation completed successfully
+Info: No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info: The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning: No clocks defined in design.
+Info: No Setup paths to report
+Info: No Hold paths to report
+Info: No Recovery paths to report
+Info: No Removal paths to report
+Info: No Minimum Pulse Width paths to report
+Info: The selected device family is not supported by the report_metastability command.
+Info: Design is not fully constrained for setup requirements
+Info: Design is not fully constrained for hold requirements
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 353 megabytes
+    Info: Processing ended: Tue Feb 07 10:30:16 2017
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
+
+

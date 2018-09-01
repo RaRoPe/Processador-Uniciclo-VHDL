@@ -1,0 +1,72 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\MyPC\Desktop\mem\simulation\modelsim
+Emi
+Z1 w1486155685
+Z2 DPx4 ieee 16 vital_primitives 0 22 ?9@G<YMlTc7lEZ?USDEOL0
+Z3 DPx9 cycloneii 19 cycloneii_atom_pack 0 22 g8LPjl2IIYb]]A1`eQb:b0
+Z4 DPx4 ieee 12 vital_timing 0 22 S^n>oJ2GS[H5aTKMo9OkE0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z6 DPx9 cycloneii 20 cycloneii_components 0 22 [=jEm;AEFcH31MW7I5h=l1
+Z7 dC:\Users\MyPC\Desktop\mem\simulation\modelsim
+Z8 8mem.vho
+Z9 Fmem.vho
+l0
+L34
+VC?334fdXDL3Nmk[TWNijX0
+Z10 OV;C;6.6c;45
+31
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 ;HiQ>@H7PGQT6nhc=:22:1
+Astructure
+R2
+R3
+R4
+R5
+R6
+DEx4 work 2 mi 0 22 C?334fdXDL3Nmk[TWNijX0
+l143
+L86
+VSK^k>k[B]=B7S:QJM]`4_3
+R10
+31
+Mx5 9 cycloneii 20 cycloneii_components
+Mx4 4 ieee 14 std_logic_1164
+Mx3 4 ieee 12 vital_timing
+Mx2 9 cycloneii 19 cycloneii_atom_pack
+Mx1 4 ieee 16 vital_primitives
+R11
+R12
+!s100 [B@?6fCKgzgf[BfJo[Z:01
+Emi_tb
+Z13 w1486084428
+Z14 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+R5
+R7
+Z15 8C:/Users/MyPC/Desktop/mem/MI_tb.vhd
+Z16 FC:/Users/MyPC/Desktop/mem/MI_tb.vhd
+l0
+L31
+VAW@]L@RZ0Ea4k2@hLb`HK0
+!s100 A_YEbEke?51>m0hU1GmT@3
+R10
+31
+R11
+R12
+Ami_arch
+R14
+R5
+DEx4 work 5 mi_tb 0 22 AW@]L@RZ0Ea4k2@hLb`HK0
+l49
+L34
+V5`g1XA6iB5jzb`0FWjTXC3
+!s100 U]@znc^jONa>j4H:[5[P02
+R10
+31
+Z17 Mx2 4 ieee 14 std_logic_1164
+Mx1 4 ieee 11 numeric_std
+R11
+R12

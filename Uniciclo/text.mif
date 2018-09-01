@@ -1,0 +1,32 @@
+-- Quartus II generated Memory Intialization File (mif)
+
+WIDTH=32;
+DEPTH=256;
+
+ADDRESS_RADIX=DEC;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+	0 : 20102000;
+	1 : 20112008;
+	2 : 8e280000;
+	3 : 11090006;
+	4 : 2108ffff;
+	5 : 8e0a0000;
+	6 : 8e0b0004;
+	7 : 014b5022;
+	8 : ae0a0000;
+	9 : 08000003;
+	10: 200d0ff0;
+	11: 01ad7027;
+    	12 : 01cd7825;
+	13 : 01ae402a;
+	14 : 01cd482a;
+	15 : 2129ffff;
+	16 : 152ffffe;
+	17 : 000e5200;
+	18 : 014d5824;
+	19 : 000aa103;
+	20 : 000aa902;
+	[21..255] : 00000000;
+END

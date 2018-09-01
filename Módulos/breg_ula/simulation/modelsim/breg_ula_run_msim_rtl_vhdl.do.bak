@@ -1,0 +1,13 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {C:/Users/MyPC/Desktop/breg_ula2/mips_pkg.vhd}
+vcom -93 -work work {C:/Users/MyPC/Desktop/breg_ula2/ula.vhd}
+vcom -93 -work work {C:/Users/MyPC/Desktop/breg_ula2/c_ula.vhd}
+vcom -93 -work work {C:/Users/MyPC/Desktop/breg_ula2/breg.vhd}
+vcom -93 -work work {C:/Users/MyPC/Desktop/breg_ula2/breg_ula.vhd}
+

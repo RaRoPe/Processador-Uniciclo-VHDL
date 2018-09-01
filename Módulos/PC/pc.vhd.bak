@@ -1,0 +1,46 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use work.mips_pkg.all;
+
+
+entity Program Counter is
+    generic(WSIZE : natural := 32);
+    Port (
+          pc_in    : in std_logic_vector(WSIZE-1 downto 0) ;--:= (others => '0');
+          clk         : in std_logic;-- := '0';
+          pc_out      : out std_logic_vector(WSIZE-1 downto 0)--:= (others => '0');
+			 );
+    end;
+
+architecture comportamental of Program Counter is
+   
+    begin
+        process(clk)
+        begin
+            if( rising_edge(clk)) then
+                pc_in <= pc_next;
+            end if;
+        end process;
+   
+	----pc tem que ser mapeado como pc_in e pc_out no mips pkg e importar lo de la
+	----pcmais4 tem que ser declarado
+	----pcescrita vem dos mux que determina o que se escreve no pc(esses mux não estão ainda feitos) 
+	--- setpc seria o wenable do pc para escrita depois do um ciclo
+	
+	pcmais4 <= std_logic_vector(unsigned (pc_out) + 4);
+	
+	pc_next <=  pc_in when pcescrita = "00" else
+					pc_jump when pcescrita = "01" else
+					pc_branch when pcescrita = "10" else
+					pcmais4;
+					
+	pc_out <= pc;
+	pcescrita <= "00" when set_pc = '1' else
+				"01" when jump = '1' else
+				"10" when dBranch = '1' else
+				"11";
+
+   --mapeamento do pc para MI Ja feita com o clock   mi : mi_rom port map (pc(9 downto 2), f_clk, ri)
+end;
+

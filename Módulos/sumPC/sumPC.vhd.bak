@@ -1,0 +1,26 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity sumPC is
+
+    port( 
+        sumPC_in			: in std_logic_vector(31 downto 0);
+        quatro			: in std_logic_vector(31 downto 0);
+        sumPC_out		: out std_logic_vector(31 downto 0)
+ );
+    
+end sumPC ;
+
+Architecture Behavioral of sumPC is
+
+begin
+     quatro <=  "0000000000000000000000000000100";
+     sumPC_out <= std_logic_vector(unsigned (pc_out) + unsigned(quatro));
+    
+end Architecture;
+
+
+sumPC:	entity work.sumPC port map(	
+		sumPC_in		=> pc_out ,
+		sumBranch_in    => sumPC_out  ,
+	);

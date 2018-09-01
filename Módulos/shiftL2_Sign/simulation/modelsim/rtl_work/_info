@@ -1,0 +1,57 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\MyPC\Desktop\shiftL2_Sign\simulation\modelsim
+Eshiftl2_sign
+Z1 w1486302210
+Z2 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z3 dC:\Users\MyPC\Desktop\shiftL2_Sign\simulation\modelsim
+Z4 8C:/Users/MyPC/Desktop/shiftL2_Sign/shiftL2_Sign.vhd
+Z5 FC:/Users/MyPC/Desktop/shiftL2_Sign/shiftL2_Sign.vhd
+l0
+L4
+V3oN<g9KX2Hg1=W9^`k9Fa0
+Z6 OV;C;6.6c;45
+31
+Z7 o-93 -work work -O0
+Z8 tExplicit 1
+!s100 4[U_17Km7U5`3><AhQdaH3
+Acomportamental
+R2
+DEx4 work 12 shiftl2_sign 0 22 3oN<g9KX2Hg1=W9^`k9Fa0
+l15
+L13
+VTBGZ2j=_6CM0Imz;CSl8`0
+R6
+31
+Z9 Mx1 4 ieee 14 std_logic_1164
+R7
+R8
+!s100 e6;VX]2PE96^`YXZIKF:b1
+Eshiftl2_sign_tb
+Z10 w1486303087
+R2
+R3
+Z11 8C:/Users/MyPC/Desktop/shiftL2_Sign/shiftL2_Sign_tb.vhd
+Z12 FC:/Users/MyPC/Desktop/shiftL2_Sign/shiftL2_Sign_tb.vhd
+l0
+L30
+Vg;kUmlGUki1E?W_eLRVFH1
+!s100 RQ8J87E4Z=^mHCLl;UVoz3
+R6
+31
+R7
+R8
+Ashiftl2_sign_arch
+R2
+DEx4 work 15 shiftl2_sign_tb 0 22 g;kUmlGUki1E?W_eLRVFH1
+l49
+L33
+VleRHFi2]o@CXbL>F[Ao^;1
+!s100 T:jJ?dHfW9]WPT1;K6S:O1
+R6
+31
+R9
+R7
+R8

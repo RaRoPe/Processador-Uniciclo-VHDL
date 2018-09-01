@@ -1,0 +1,31 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\MyPC\Desktop\muxJump\simulation\modelsim
+Emuxjump
+Z1 w1486335584
+Z2 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z3 dC:\Users\MyPC\Desktop\muxJump\simulation\modelsim
+Z4 8C:/Users/MyPC/Desktop/muxJump/muxJump.vhd
+Z5 FC:/Users/MyPC/Desktop/muxJump/muxJump.vhd
+l0
+L4
+VTZ1[OBSA9K9mJHole[U?b0
+!s100 _KiB6jla@=34<M<GKQHYH2
+Z6 OV;C;6.6c;45
+31
+Z7 o-93 -work work -O0
+Z8 tExplicit 1
+Abehavioral
+R2
+DEx4 work 7 muxjump 0 22 TZ1[OBSA9K9mJHole[U?b0
+l17
+L15
+VfH5DVN@^2nb^jJE260;cj2
+!s100 `WLYLMMFgdTg_1V`LflSi2
+R6
+31
+Z9 Mx1 4 ieee 14 std_logic_1164
+R7
+R8

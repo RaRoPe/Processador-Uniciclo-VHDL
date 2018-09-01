@@ -1,0 +1,57 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\MyPC\Desktop\MODULO_SAIDA\simulation\modelsim
+Emodulo_saida
+Z1 w1486396829
+Z2 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z3 dC:\Users\MyPC\Desktop\MODULO_SAIDA\simulation\modelsim
+Z4 8C:/Users/MyPC/Desktop/MODULO_SAIDA/MODULO_SAIDA.vhd
+Z5 FC:/Users/MyPC/Desktop/MODULO_SAIDA/MODULO_SAIDA.vhd
+l0
+L4
+V4`Q5bOT1kiZoDH[2A`eJM1
+Z6 OV;C;6.6c;45
+31
+Z7 o-93 -work work -O0
+Z8 tExplicit 1
+!s100 733X3g=<IQhK4gz90kMIE1
+Abehavioral
+R2
+DEx4 work 12 modulo_saida 0 22 4`Q5bOT1kiZoDH[2A`eJM1
+l39
+L37
+VogF>hE2;f96TeHJTDcno@1
+R6
+31
+Z9 Mx1 4 ieee 14 std_logic_1164
+R7
+R8
+!s100 i04WgHVhn8<@l7^i?68`d0
+Emodulo_saida_tb
+Z10 w1486425337
+R2
+R3
+Z11 8C:/Users/MyPC/Desktop/MODULO_SAIDA/MODULO_SAIDA_tb.vhd
+Z12 FC:/Users/MyPC/Desktop/MODULO_SAIDA/MODULO_SAIDA_tb.vhd
+l0
+L30
+V0ADfHNDlmdh31fB5[Wm=K1
+!s100 zCe21ba=ZRWP:_;kQ:d9>2
+R6
+31
+R7
+R8
+Amodulo_saida_arch
+R2
+DEx4 work 15 modulo_saida_tb 0 22 0ADfHNDlmdh31fB5[Wm=K1
+l67
+L32
+VAG[1eTozIMY`R6[U9RF:X0
+!s100 lE@KTVklcJ45`_jMf:8nO0
+R6
+31
+R9
+R7
+R8

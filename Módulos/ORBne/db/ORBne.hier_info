@@ -1,0 +1,6 @@
+|ORBne
+AND_BEQ => OR_out.IN0
+AND_BNE => OR_out.IN1
+OR_out <= OR_out.DB_MAX_OUTPUT_PORT_TYPE
+
+

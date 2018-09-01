@@ -1,0 +1,57 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\MyPC\Desktop\AddiComplete\simulation\modelsim
+Eaddicomplete
+Z1 w1486383848
+Z2 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z3 dC:\Users\MyPC\Desktop\AddiComplete\simulation\modelsim
+Z4 8C:/Users/MyPC/Desktop/AddiComplete/addiComplete.vhd
+Z5 FC:/Users/MyPC/Desktop/AddiComplete/addiComplete.vhd
+l0
+L4
+V<gQ770[2dbR:e^[n5NY@V1
+Z6 OV;C;6.6c;45
+31
+Z7 o-93 -work work -O0
+Z8 tExplicit 1
+!s100 PIQ@K>>D_<JmVz6DcV25z2
+Acomportamental
+R2
+DEx4 work 12 addicomplete 0 22 <gQ770[2dbR:e^[n5NY@V1
+l15
+L13
+V2n4TeX8?cC38HiH=UIJWQ2
+R6
+31
+Z9 Mx1 4 ieee 14 std_logic_1164
+R7
+R8
+!s100 M<]kEU40_CI_N<DGj7FgQ3
+Eaddicomplete_tb
+Z10 w1486384127
+R2
+R3
+Z11 8C:/Users/MyPC/Desktop/AddiComplete/addiComplete_tb.vhd
+Z12 FC:/Users/MyPC/Desktop/AddiComplete/addiComplete_tb.vhd
+l0
+L30
+V3W:`@e`1Pj`iEjDX4FmRD1
+!s100 KA@zE;FG_T0MnT?R[DVlO2
+R6
+31
+R7
+R8
+Aaddicomplete_arch
+R2
+DEx4 work 15 addicomplete_tb 0 22 3W:`@e`1Pj`iEjDX4FmRD1
+l43
+L32
+VfI6J@C33kLiEP_mbh=_Y:0
+!s100 6R1fQIQ7a00Ge0FC2d=b61
+R6
+31
+R9
+R7
+R8

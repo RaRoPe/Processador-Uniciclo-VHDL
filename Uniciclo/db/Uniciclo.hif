@@ -1,0 +1,2663 @@
+Quartus II
+Version 10.1 Build 153 11/29/2010 SJ Web Edition
+14
+1086
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+Uniciclo
+# storage
+db|Uniciclo.(0).cnf
+db|Uniciclo.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+uniciclo.vhd
+93f57a86af53e9971ebf145ad875146
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# include_file {
+concatshamt.vhd
+f81c88f9598d8c5a161237c3196419b4
+modulo_saida_instruction.vhd
+c3c795382d438f1e846b27d428ab7f0
+modulo_saida.vhd
+c0b61a2c572e5c188c85d0b1e11039ef
+sumpc.vhd
+98770a06fc79cc2c17f7d7646e794
+pc.vhd
+d5e57a693c2c694d8511bc236618463
+mux_memreg.vhd
+656da45dece42d3ce25208be29be72e
+address_calc.vhd
+26d34cf9098b68066db9b9f1a985bd4
+shiftl2_jump.vhd
+c8e64fec628b4384ae89738d734f72
+andport.vhd
+d45d19244f675ed44de8c933fa8033
+md.vhd
+1bc0f79d1ac411da4737bd96908945f7
+controle.vhd
+98b0e61da8a8e5e19e77dcbdc1801fea
+muxshamt.vhd
+db4c52f1736dd6d3c503b91dab8b24
+sumbranch.vhd
+ac989a47ba31a074f88f8a61fc118
+mips_pkg.vhd
+44cf3ff695987c96b994856d684edd8
+mux_regdst.vhd
+68ebee6eb530b6dbef72f62b4fef760
+andbne.vhd
+3297971c78226eadb3d22524c74fa1a
+modulo_saida_secundario.vhd
+b28d88995b4e8a7c9424dfc56fa797ef
+ula.vhd
+c9f832ac81f01fd311a6b137dce333bc
+orjump.vhd
+24e3d14645bf58d8f93417cc2015
+mux_alusrc.vhd
+7eacfd267dd1b5e8c79cfedd47ab8
+mi.vhd
+5417297ec8e8ee6bd1a1d31cae3a84e3
+shiftl2_sign.vhd
+c6b45e60f1c6169626e5c349cb298a3
+addicomplete.vhd
+973cbfb3a5a9e1f7ec696a9e62bfd59
+muxjump.vhd
+8c5399c7a66226d0e02172cf21abed9d
+orbne.vhd
+e451e043cab87a1bf23671226fcf212f
+breg.vhd
+68369d6b3639f8311bd21c693de92867
+signextd.vhd
+edc1b6b762b4197b619d83f87b35c95f
+muxbranch.vhd
+4988f6fa87a764ad57e192aae0d4728b
+}
+# hierarchies {
+|
+}
+# lmf
+|altera|10.1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+ula
+# storage
+db|Uniciclo.(1).cnf
+db|Uniciclo.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+ula.vhd
+c9f832ac81f01fd311a6b137dce333bc
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+wsize
+32
+PARAMETER_SIGNED_DEC
+USR
+ constraint(ulop)
+3 downto 0
+PARAMETER_STRING
+USR
+ constraint(a)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(b)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(aluout)
+31 downto 0
+PARAMETER_STRING
+USR
+}
+# include_file {
+mips_pkg.vhd
+44cf3ff695987c96b994856d684edd8
+}
+# hierarchies {
+ula:ula
+}
+# lmf
+|altera|10.1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+breg
+# storage
+db|Uniciclo.(2).cnf
+db|Uniciclo.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+breg.vhd
+68369d6b3639f8311bd21c693de92867
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+wsize
+32
+PARAMETER_SIGNED_DEC
+USR
+isize
+5
+PARAMETER_SIGNED_DEC
+USR
+bregsize
+32
+PARAMETER_SIGNED_DEC
+USR
+ constraint(rs)
+4 downto 0
+PARAMETER_STRING
+USR
+ constraint(rt)
+4 downto 0
+PARAMETER_STRING
+USR
+ constraint(rd)
+4 downto 0
+PARAMETER_STRING
+USR
+ constraint(d_in)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(rega)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(regb)
+31 downto 0
+PARAMETER_STRING
+USR
+}
+# include_file {
+mips_pkg.vhd
+44cf3ff695987c96b994856d684edd8
+}
+# hierarchies {
+breg:breg
+}
+# lmf
+|altera|10.1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+MD
+# storage
+db|Uniciclo.(3).cnf
+db|Uniciclo.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+md.vhd
+1bc0f79d1ac411da4737bd96908945f7
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(address)
+7 downto 0
+PARAMETER_STRING
+USR
+ constraint(data)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(q)
+31 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+MD:MD
+}
+# lmf
+|altera|10.1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+altsyncram
+# storage
+db|Uniciclo.(4).cnf
+db|Uniciclo.(4).cnf
+# case_insensitive
+# source_file
+|altera|10.1|quartus|libraries|megafunctions|altsyncram.tdf
+a4d10f9e281b56b458be9ebba1027
+7
+# user_parameter {
+BYTE_SIZE_BLOCK
+8
+PARAMETER_UNKNOWN
+DEF
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+WIDTH_BYTEENA
+1
+PARAMETER_UNKNOWN
+DEF
+OPERATION_MODE
+SINGLE_PORT
+PARAMETER_UNKNOWN
+USR
+WIDTH_A
+32
+PARAMETER_SIGNED_DEC
+USR
+WIDTHAD_A
+8
+PARAMETER_SIGNED_DEC
+USR
+NUMWORDS_A
+256
+PARAMETER_SIGNED_DEC
+USR
+OUTDATA_REG_A
+UNREGISTERED
+PARAMETER_UNKNOWN
+USR
+ADDRESS_ACLR_A
+NONE
+PARAMETER_UNKNOWN
+DEF
+OUTDATA_ACLR_A
+NONE
+PARAMETER_UNKNOWN
+USR
+WRCONTROL_ACLR_A
+NONE
+PARAMETER_UNKNOWN
+DEF
+INDATA_ACLR_A
+NONE
+PARAMETER_UNKNOWN
+DEF
+BYTEENA_ACLR_A
+NONE
+PARAMETER_UNKNOWN
+DEF
+WIDTH_B
+1
+PARAMETER_UNKNOWN
+DEF
+WIDTHAD_B
+1
+PARAMETER_UNKNOWN
+DEF
+NUMWORDS_B
+1
+PARAMETER_UNKNOWN
+DEF
+INDATA_REG_B
+CLOCK1
+PARAMETER_UNKNOWN
+DEF
+WRCONTROL_WRADDRESS_REG_B
+CLOCK1
+PARAMETER_UNKNOWN
+DEF
+RDCONTROL_REG_B
+CLOCK1
+PARAMETER_UNKNOWN
+DEF
+ADDRESS_REG_B
+CLOCK1
+PARAMETER_UNKNOWN
+DEF
+OUTDATA_REG_B
+UNREGISTERED
+PARAMETER_UNKNOWN
+DEF
+BYTEENA_REG_B
+CLOCK1
+PARAMETER_UNKNOWN
+DEF
+INDATA_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+DEF
+WRCONTROL_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+DEF
+ADDRESS_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+DEF
+OUTDATA_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+DEF
+RDCONTROL_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+DEF
+BYTEENA_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+DEF
+WIDTH_BYTEENA_A
+1
+PARAMETER_SIGNED_DEC
+USR
+WIDTH_BYTEENA_B
+1
+PARAMETER_UNKNOWN
+DEF
+RAM_BLOCK_TYPE
+AUTO
+PARAMETER_UNKNOWN
+DEF
+BYTE_SIZE
+8
+PARAMETER_UNKNOWN
+DEF
+READ_DURING_WRITE_MODE_MIXED_PORTS
+DONT_CARE
+PARAMETER_UNKNOWN
+DEF
+READ_DURING_WRITE_MODE_PORT_A
+NEW_DATA_NO_NBE_READ
+PARAMETER_UNKNOWN
+DEF
+READ_DURING_WRITE_MODE_PORT_B
+NEW_DATA_NO_NBE_READ
+PARAMETER_UNKNOWN
+DEF
+INIT_FILE
+data.mif
+PARAMETER_UNKNOWN
+USR
+INIT_FILE_LAYOUT
+PORT_A
+PARAMETER_UNKNOWN
+DEF
+MAXIMUM_DEPTH
+0
+PARAMETER_UNKNOWN
+DEF
+CLOCK_ENABLE_INPUT_A
+BYPASS
+PARAMETER_UNKNOWN
+USR
+CLOCK_ENABLE_INPUT_B
+NORMAL
+PARAMETER_UNKNOWN
+DEF
+CLOCK_ENABLE_OUTPUT_A
+BYPASS
+PARAMETER_UNKNOWN
+USR
+CLOCK_ENABLE_OUTPUT_B
+NORMAL
+PARAMETER_UNKNOWN
+DEF
+CLOCK_ENABLE_CORE_A
+USE_INPUT_CLKEN
+PARAMETER_UNKNOWN
+DEF
+CLOCK_ENABLE_CORE_B
+USE_INPUT_CLKEN
+PARAMETER_UNKNOWN
+DEF
+ENABLE_ECC
+FALSE
+PARAMETER_UNKNOWN
+DEF
+WIDTH_ECCSTATUS
+3
+PARAMETER_UNKNOWN
+DEF
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+altsyncram_lnc1
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+wren_a
+-1
+3
+q_a9
+-1
+3
+q_a8
+-1
+3
+q_a7
+-1
+3
+q_a6
+-1
+3
+q_a5
+-1
+3
+q_a4
+-1
+3
+q_a31
+-1
+3
+q_a30
+-1
+3
+q_a3
+-1
+3
+q_a29
+-1
+3
+q_a28
+-1
+3
+q_a27
+-1
+3
+q_a26
+-1
+3
+q_a25
+-1
+3
+q_a24
+-1
+3
+q_a23
+-1
+3
+q_a22
+-1
+3
+q_a21
+-1
+3
+q_a20
+-1
+3
+q_a2
+-1
+3
+q_a19
+-1
+3
+q_a18
+-1
+3
+q_a17
+-1
+3
+q_a16
+-1
+3
+q_a15
+-1
+3
+q_a14
+-1
+3
+q_a13
+-1
+3
+q_a12
+-1
+3
+q_a11
+-1
+3
+q_a10
+-1
+3
+q_a1
+-1
+3
+q_a0
+-1
+3
+data_a9
+-1
+3
+data_a8
+-1
+3
+data_a7
+-1
+3
+data_a6
+-1
+3
+data_a5
+-1
+3
+data_a4
+-1
+3
+data_a31
+-1
+3
+data_a30
+-1
+3
+data_a3
+-1
+3
+data_a29
+-1
+3
+data_a28
+-1
+3
+data_a27
+-1
+3
+data_a26
+-1
+3
+data_a25
+-1
+3
+data_a24
+-1
+3
+data_a23
+-1
+3
+data_a22
+-1
+3
+data_a21
+-1
+3
+data_a20
+-1
+3
+data_a2
+-1
+3
+data_a19
+-1
+3
+data_a18
+-1
+3
+data_a17
+-1
+3
+data_a16
+-1
+3
+data_a15
+-1
+3
+data_a14
+-1
+3
+data_a13
+-1
+3
+data_a12
+-1
+3
+data_a11
+-1
+3
+data_a10
+-1
+3
+data_a1
+-1
+3
+data_a0
+-1
+3
+clock0
+-1
+3
+address_a7
+-1
+3
+address_a6
+-1
+3
+address_a5
+-1
+3
+address_a4
+-1
+3
+address_a3
+-1
+3
+address_a2
+-1
+3
+address_a1
+-1
+3
+address_a0
+-1
+3
+}
+# hierarchies {
+MD:MD|altsyncram:altsyncram_component
+}
+# macro_sequence
+
+# end
+# entity
+altsyncram_lnc1
+# storage
+db|Uniciclo.(5).cnf
+db|Uniciclo.(5).cnf
+# case_insensitive
+# source_file
+db|altsyncram_lnc1.tdf
+4982b4b4b03684825763df8934fc561e
+7
+# used_port {
+wren_a
+-1
+3
+q_a9
+-1
+3
+q_a8
+-1
+3
+q_a7
+-1
+3
+q_a6
+-1
+3
+q_a5
+-1
+3
+q_a4
+-1
+3
+q_a31
+-1
+3
+q_a30
+-1
+3
+q_a3
+-1
+3
+q_a29
+-1
+3
+q_a28
+-1
+3
+q_a27
+-1
+3
+q_a26
+-1
+3
+q_a25
+-1
+3
+q_a24
+-1
+3
+q_a23
+-1
+3
+q_a22
+-1
+3
+q_a21
+-1
+3
+q_a20
+-1
+3
+q_a2
+-1
+3
+q_a19
+-1
+3
+q_a18
+-1
+3
+q_a17
+-1
+3
+q_a16
+-1
+3
+q_a15
+-1
+3
+q_a14
+-1
+3
+q_a13
+-1
+3
+q_a12
+-1
+3
+q_a11
+-1
+3
+q_a10
+-1
+3
+q_a1
+-1
+3
+q_a0
+-1
+3
+data_a9
+-1
+3
+data_a8
+-1
+3
+data_a7
+-1
+3
+data_a6
+-1
+3
+data_a5
+-1
+3
+data_a4
+-1
+3
+data_a31
+-1
+3
+data_a30
+-1
+3
+data_a3
+-1
+3
+data_a29
+-1
+3
+data_a28
+-1
+3
+data_a27
+-1
+3
+data_a26
+-1
+3
+data_a25
+-1
+3
+data_a24
+-1
+3
+data_a23
+-1
+3
+data_a22
+-1
+3
+data_a21
+-1
+3
+data_a20
+-1
+3
+data_a2
+-1
+3
+data_a19
+-1
+3
+data_a18
+-1
+3
+data_a17
+-1
+3
+data_a16
+-1
+3
+data_a15
+-1
+3
+data_a14
+-1
+3
+data_a13
+-1
+3
+data_a12
+-1
+3
+data_a11
+-1
+3
+data_a10
+-1
+3
+data_a1
+-1
+3
+data_a0
+-1
+3
+clock0
+-1
+3
+address_a7
+-1
+3
+address_a6
+-1
+3
+address_a5
+-1
+3
+address_a4
+-1
+3
+address_a3
+-1
+3
+address_a2
+-1
+3
+address_a1
+-1
+3
+address_a0
+-1
+3
+}
+# memory_file {
+data.mif
+3ef74b33ba25dd5f28e67cbed5ad673
+}
+# hierarchies {
+MD:MD|altsyncram:altsyncram_component|altsyncram_lnc1:auto_generated
+}
+# macro_sequence
+
+# end
+# entity
+MI
+# storage
+db|Uniciclo.(6).cnf
+db|Uniciclo.(6).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+mi.vhd
+5417297ec8e8ee6bd1a1d31cae3a84e3
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(address)
+7 downto 0
+PARAMETER_STRING
+USR
+ constraint(q)
+31 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+MI:MI
+}
+# lmf
+|altera|10.1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+altsyncram
+# storage
+db|Uniciclo.(7).cnf
+db|Uniciclo.(7).cnf
+# case_insensitive
+# source_file
+|altera|10.1|quartus|libraries|megafunctions|altsyncram.tdf
+a4d10f9e281b56b458be9ebba1027
+7
+# user_parameter {
+BYTE_SIZE_BLOCK
+8
+PARAMETER_UNKNOWN
+DEF
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+WIDTH_BYTEENA
+1
+PARAMETER_UNKNOWN
+DEF
+OPERATION_MODE
+ROM
+PARAMETER_UNKNOWN
+USR
+WIDTH_A
+32
+PARAMETER_SIGNED_DEC
+USR
+WIDTHAD_A
+8
+PARAMETER_SIGNED_DEC
+USR
+NUMWORDS_A
+256
+PARAMETER_SIGNED_DEC
+USR
+OUTDATA_REG_A
+UNREGISTERED
+PARAMETER_UNKNOWN
+USR
+ADDRESS_ACLR_A
+NONE
+PARAMETER_UNKNOWN
+DEF
+OUTDATA_ACLR_A
+NONE
+PARAMETER_UNKNOWN
+USR
+WRCONTROL_ACLR_A
+NONE
+PARAMETER_UNKNOWN
+DEF
+INDATA_ACLR_A
+NONE
+PARAMETER_UNKNOWN
+DEF
+BYTEENA_ACLR_A
+NONE
+PARAMETER_UNKNOWN
+DEF
+WIDTH_B
+1
+PARAMETER_UNKNOWN
+DEF
+WIDTHAD_B
+1
+PARAMETER_UNKNOWN
+DEF
+NUMWORDS_B
+1
+PARAMETER_UNKNOWN
+DEF
+INDATA_REG_B
+CLOCK1
+PARAMETER_UNKNOWN
+DEF
+WRCONTROL_WRADDRESS_REG_B
+CLOCK1
+PARAMETER_UNKNOWN
+DEF
+RDCONTROL_REG_B
+CLOCK1
+PARAMETER_UNKNOWN
+DEF
+ADDRESS_REG_B
+CLOCK1
+PARAMETER_UNKNOWN
+DEF
+OUTDATA_REG_B
+UNREGISTERED
+PARAMETER_UNKNOWN
+DEF
+BYTEENA_REG_B
+CLOCK1
+PARAMETER_UNKNOWN
+DEF
+INDATA_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+DEF
+WRCONTROL_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+DEF
+ADDRESS_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+DEF
+OUTDATA_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+DEF
+RDCONTROL_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+DEF
+BYTEENA_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+DEF
+WIDTH_BYTEENA_A
+1
+PARAMETER_SIGNED_DEC
+USR
+WIDTH_BYTEENA_B
+1
+PARAMETER_UNKNOWN
+DEF
+RAM_BLOCK_TYPE
+AUTO
+PARAMETER_UNKNOWN
+DEF
+BYTE_SIZE
+8
+PARAMETER_UNKNOWN
+DEF
+READ_DURING_WRITE_MODE_MIXED_PORTS
+DONT_CARE
+PARAMETER_UNKNOWN
+DEF
+READ_DURING_WRITE_MODE_PORT_A
+NEW_DATA_NO_NBE_READ
+PARAMETER_UNKNOWN
+DEF
+READ_DURING_WRITE_MODE_PORT_B
+NEW_DATA_NO_NBE_READ
+PARAMETER_UNKNOWN
+DEF
+INIT_FILE
+text.mif
+PARAMETER_UNKNOWN
+USR
+INIT_FILE_LAYOUT
+PORT_A
+PARAMETER_UNKNOWN
+DEF
+MAXIMUM_DEPTH
+0
+PARAMETER_UNKNOWN
+DEF
+CLOCK_ENABLE_INPUT_A
+BYPASS
+PARAMETER_UNKNOWN
+USR
+CLOCK_ENABLE_INPUT_B
+NORMAL
+PARAMETER_UNKNOWN
+DEF
+CLOCK_ENABLE_OUTPUT_A
+BYPASS
+PARAMETER_UNKNOWN
+USR
+CLOCK_ENABLE_OUTPUT_B
+NORMAL
+PARAMETER_UNKNOWN
+DEF
+CLOCK_ENABLE_CORE_A
+USE_INPUT_CLKEN
+PARAMETER_UNKNOWN
+DEF
+CLOCK_ENABLE_CORE_B
+USE_INPUT_CLKEN
+PARAMETER_UNKNOWN
+DEF
+ENABLE_ECC
+FALSE
+PARAMETER_UNKNOWN
+DEF
+WIDTH_ECCSTATUS
+3
+PARAMETER_UNKNOWN
+DEF
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+altsyncram_tl71
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+q_a9
+-1
+3
+q_a8
+-1
+3
+q_a7
+-1
+3
+q_a6
+-1
+3
+q_a5
+-1
+3
+q_a4
+-1
+3
+q_a31
+-1
+3
+q_a30
+-1
+3
+q_a3
+-1
+3
+q_a29
+-1
+3
+q_a28
+-1
+3
+q_a27
+-1
+3
+q_a26
+-1
+3
+q_a25
+-1
+3
+q_a24
+-1
+3
+q_a23
+-1
+3
+q_a22
+-1
+3
+q_a21
+-1
+3
+q_a20
+-1
+3
+q_a2
+-1
+3
+q_a19
+-1
+3
+q_a18
+-1
+3
+q_a17
+-1
+3
+q_a16
+-1
+3
+q_a15
+-1
+3
+q_a14
+-1
+3
+q_a13
+-1
+3
+q_a12
+-1
+3
+q_a11
+-1
+3
+q_a10
+-1
+3
+q_a1
+-1
+3
+q_a0
+-1
+3
+clock0
+-1
+3
+address_a7
+-1
+3
+address_a6
+-1
+3
+address_a5
+-1
+3
+address_a4
+-1
+3
+address_a3
+-1
+3
+address_a2
+-1
+3
+address_a1
+-1
+3
+address_a0
+-1
+3
+}
+# hierarchies {
+MI:MI|altsyncram:altsyncram_component
+}
+# macro_sequence
+
+# end
+# entity
+altsyncram_tl71
+# storage
+db|Uniciclo.(8).cnf
+db|Uniciclo.(8).cnf
+# case_insensitive
+# source_file
+db|altsyncram_tl71.tdf
+94902f1737a96c6dfeecc7bc826ac367
+7
+# used_port {
+q_a9
+-1
+3
+q_a8
+-1
+3
+q_a7
+-1
+3
+q_a6
+-1
+3
+q_a5
+-1
+3
+q_a4
+-1
+3
+q_a31
+-1
+3
+q_a30
+-1
+3
+q_a3
+-1
+3
+q_a29
+-1
+3
+q_a28
+-1
+3
+q_a27
+-1
+3
+q_a26
+-1
+3
+q_a25
+-1
+3
+q_a24
+-1
+3
+q_a23
+-1
+3
+q_a22
+-1
+3
+q_a21
+-1
+3
+q_a20
+-1
+3
+q_a2
+-1
+3
+q_a19
+-1
+3
+q_a18
+-1
+3
+q_a17
+-1
+3
+q_a16
+-1
+3
+q_a15
+-1
+3
+q_a14
+-1
+3
+q_a13
+-1
+3
+q_a12
+-1
+3
+q_a11
+-1
+3
+q_a10
+-1
+3
+q_a1
+-1
+3
+q_a0
+-1
+3
+clock0
+-1
+3
+address_a7
+-1
+3
+address_a6
+-1
+3
+address_a5
+-1
+3
+address_a4
+-1
+3
+address_a3
+-1
+3
+address_a2
+-1
+3
+address_a1
+-1
+3
+address_a0
+-1
+3
+}
+# memory_file {
+text.mif
+ed547da167921e9b4c190752028ef30
+}
+# hierarchies {
+MI:MI|altsyncram:altsyncram_component|altsyncram_tl71:auto_generated
+}
+# macro_sequence
+
+# end
+# entity
+mux_regdst
+# storage
+db|Uniciclo.(9).cnf
+db|Uniciclo.(9).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+mux_regdst.vhd
+68ebee6eb530b6dbef72f62b4fef760
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(insta)
+4 downto 0
+PARAMETER_STRING
+USR
+ constraint(instb)
+4 downto 0
+PARAMETER_STRING
+USR
+ constraint(writer)
+4 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+mux_regdst:mux_regdst
+}
+# lmf
+|altera|10.1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+mux_ALUSrc
+# storage
+db|Uniciclo.(10).cnf
+db|Uniciclo.(10).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+mux_alusrc.vhd
+7eacfd267dd1b5e8c79cfedd47ab8
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(alusrc)
+1 downto 0
+PARAMETER_STRING
+USR
+ constraint(regb_mux)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(signext)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(addisign)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(writer)
+31 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+mux_ALUSrc:mux_ALUSrc
+}
+# lmf
+|altera|10.1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+mux_MemReg
+# storage
+db|Uniciclo.(11).cnf
+db|Uniciclo.(11).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+mux_memreg.vhd
+656da45dece42d3ce25208be29be72e
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(q_mux)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(aluout_mux)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(d_in_mux)
+31 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+mux_MemReg:mux_MemReg
+}
+# lmf
+|altera|10.1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+shiftL2_Sign
+# storage
+db|Uniciclo.(12).cnf
+db|Uniciclo.(12).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+shiftl2_sign.vhd
+c6b45e60f1c6169626e5c349cb298a3
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(signextd)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(to_sum)
+31 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+shiftL2_Sign:shiftL2_Sign
+}
+# lmf
+|altera|10.1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+signExtd
+# storage
+db|Uniciclo.(13).cnf
+db|Uniciclo.(13).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+signextd.vhd
+edc1b6b762b4197b619d83f87b35c95f
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(imm16)
+15 downto 0
+PARAMETER_STRING
+USR
+ constraint(imm32)
+31 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+signExtd:signExtd
+}
+# lmf
+|altera|10.1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+muxBranch
+# storage
+db|Uniciclo.(14).cnf
+db|Uniciclo.(14).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+muxbranch.vhd
+4988f6fa87a764ad57e192aae0d4728b
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(pc_4)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(addedbranch)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(muxbranchexit)
+31 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+muxBranch:muxBranch
+}
+# lmf
+|altera|10.1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+muxJump
+# storage
+db|Uniciclo.(15).cnf
+db|Uniciclo.(15).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+muxjump.vhd
+8c5399c7a66226d0e02172cf21abed9d
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(mux_shift)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(muxbr_exit)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(muxjumpexit)
+31 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+muxJump:muxJump
+}
+# lmf
+|altera|10.1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+sumPC
+# storage
+db|Uniciclo.(16).cnf
+db|Uniciclo.(16).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+sumpc.vhd
+98770a06fc79cc2c17f7d7646e794
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(sumpc_in)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(quatro)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(sumpc_out)
+31 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+sumPC:sumPC
+}
+# lmf
+|altera|10.1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+sumBranch
+# storage
+db|Uniciclo.(17).cnf
+db|Uniciclo.(17).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+sumbranch.vhd
+ac989a47ba31a074f88f8a61fc118
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(sumbranch_ina)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(sumbranch_inb)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(sumbranch_out)
+31 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+sumBranch:sumBranch
+}
+# lmf
+|altera|10.1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+shiftL2_Jump
+# storage
+db|Uniciclo.(18).cnf
+db|Uniciclo.(18).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+shiftl2_jump.vhd
+c8e64fec628b4384ae89738d734f72
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(insjump)
+25 downto 0
+PARAMETER_STRING
+USR
+ constraint(j_address)
+27 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+shiftL2_Jump:shiftL2_Jump
+}
+# lmf
+|altera|10.1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+orJump
+# storage
+db|Uniciclo.(19).cnf
+db|Uniciclo.(19).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+orjump.vhd
+24e3d14645bf58d8f93417cc2015
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(pcsomado)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(jumpshift)
+27 downto 0
+PARAMETER_STRING
+USR
+ constraint(exittomux)
+31 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+orJump:orJump
+}
+# lmf
+|altera|10.1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+pc
+# storage
+db|Uniciclo.(20).cnf
+db|Uniciclo.(20).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+pc.vhd
+d5e57a693c2c694d8511bc236618463
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(nextins)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(c_out)
+31 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+pc:pc
+}
+# lmf
+|altera|10.1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+andPort
+# storage
+db|Uniciclo.(21).cnf
+db|Uniciclo.(21).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+andport.vhd
+d45d19244f675ed44de8c933fa8033
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+andPort:andPort
+}
+# lmf
+|altera|10.1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+controle
+# storage
+db|Uniciclo.(22).cnf
+db|Uniciclo.(22).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+controle.vhd
+98b0e61da8a8e5e19e77dcbdc1801fea
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(op)
+5 downto 0
+PARAMETER_STRING
+USR
+ constraint(funct)
+5 downto 0
+PARAMETER_STRING
+USR
+ constraint(ulasrc)
+1 downto 0
+PARAMETER_STRING
+USR
+ constraint(ctrula)
+3 downto 0
+PARAMETER_STRING
+USR
+ constraint(sinais_controles)
+11 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+controle:controle
+}
+# lmf
+|altera|10.1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+addiComplete
+# storage
+db|Uniciclo.(23).cnf
+db|Uniciclo.(23).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+addicomplete.vhd
+973cbfb3a5a9e1f7ec696a9e62bfd59
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(imm16addi)
+15 downto 0
+PARAMETER_STRING
+USR
+ constraint(exittomuxsrc)
+31 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+addiComplete:addiComplete
+}
+# lmf
+|altera|10.1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+ANDBne
+# storage
+db|Uniciclo.(24).cnf
+db|Uniciclo.(24).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+andbne.vhd
+3297971c78226eadb3d22524c74fa1a
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+ANDBne:ANDBne
+}
+# lmf
+|altera|10.1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+ORBne
+# storage
+db|Uniciclo.(25).cnf
+db|Uniciclo.(25).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+orbne.vhd
+e451e043cab87a1bf23671226fcf212f
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+ORBne:ORBne
+}
+# lmf
+|altera|10.1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+MODULO_SAIDA
+# storage
+db|Uniciclo.(26).cnf
+db|Uniciclo.(26).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+modulo_saida.vhd
+c0b61a2c572e5c188c85d0b1e11039ef
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(saida_pc)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(saida_mi)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(saida_md)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(saida_breg)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(saida_ula)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(saida_sumdesvio)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(saida_sumpc)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(vsaida_pc)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(vsaida_mi)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(vsaida_md)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(vsaida_breg)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(vsaida_ula)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(vsaida_sumdesvio)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(vsaida_sumpc)
+31 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+MODULO_SAIDA:MODULO_SAIDA
+}
+# lmf
+|altera|10.1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+MODULO_SAIDA_SECUNDARIO
+# storage
+db|Uniciclo.(27).cnf
+db|Uniciclo.(27).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+modulo_saida_secundario.vhd
+b28d88995b4e8a7c9424dfc56fa797ef
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(saida_muxrd)
+4 downto 0
+PARAMETER_STRING
+USR
+ constraint(saida_muxalu)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(saida_muxab)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(saida_muxb)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(vsaida_muxrd)
+4 downto 0
+PARAMETER_STRING
+USR
+ constraint(vsaida_muxalu)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(vsaida_muxab)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(vsaida_muxb)
+31 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+MODULO_SAIDA_SECUNDARIO:MODULO_SAIDA_SECUNDARIO
+}
+# lmf
+|altera|10.1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+MODULO_SAIDA_INSTRUCTION
+# storage
+db|Uniciclo.(28).cnf
+db|Uniciclo.(28).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+modulo_saida_instruction.vhd
+c3c795382d438f1e846b27d428ab7f0
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(saida_ins_rs)
+4 downto 0
+PARAMETER_STRING
+USR
+ constraint(saida_ins_rt)
+4 downto 0
+PARAMETER_STRING
+USR
+ constraint(saida_ins_rd)
+4 downto 0
+PARAMETER_STRING
+USR
+ constraint(saida_ins_shamt)
+4 downto 0
+PARAMETER_STRING
+USR
+ constraint(saida_ins_funct)
+5 downto 0
+PARAMETER_STRING
+USR
+ constraint(saida_ins_opcode)
+5 downto 0
+PARAMETER_STRING
+USR
+ constraint(saida_ins_imm16)
+15 downto 0
+PARAMETER_STRING
+USR
+ constraint(saida_ins_imm26)
+25 downto 0
+PARAMETER_STRING
+USR
+ constraint(vsaida_ins_rs)
+4 downto 0
+PARAMETER_STRING
+USR
+ constraint(vsaida_ins_rt)
+4 downto 0
+PARAMETER_STRING
+USR
+ constraint(vsaida_ins_rd)
+4 downto 0
+PARAMETER_STRING
+USR
+ constraint(vsaida_ins_shamt)
+4 downto 0
+PARAMETER_STRING
+USR
+ constraint(vsaida_ins_funct)
+5 downto 0
+PARAMETER_STRING
+USR
+ constraint(vsaida_ins_opcode)
+5 downto 0
+PARAMETER_STRING
+USR
+ constraint(vsaida_ins_imm16)
+15 downto 0
+PARAMETER_STRING
+USR
+ constraint(vsaida_ins_imm26)
+25 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+MODULO_SAIDA_INSTRUCTION:MODULO_SAIDA_INSTRUCTION
+}
+# lmf
+|altera|10.1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+concatShamt
+# storage
+db|Uniciclo.(29).cnf
+db|Uniciclo.(29).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+concatshamt.vhd
+f81c88f9598d8c5a161237c3196419b4
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(inshamt)
+4 downto 0
+PARAMETER_STRING
+USR
+ constraint(exitshamt)
+31 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+concatShamt:concatShamt
+}
+# lmf
+|altera|10.1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+muxShamt
+# storage
+db|Uniciclo.(30).cnf
+db|Uniciclo.(30).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+muxshamt.vhd
+db4c52f1736dd6d3c503b91dab8b24
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(a1)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(a2)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(muxshamtexit)
+31 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+muxShamt:MuxShamt
+}
+# lmf
+|altera|10.1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+address_calc
+# storage
+db|Uniciclo.(31).cnf
+db|Uniciclo.(31).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+address_calc.vhd
+26d34cf9098b68066db9b9f1a985bd4
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(aluresult)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(addresstomem)
+7 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+address_calc:address_calc
+}
+# lmf
+|altera|10.1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# complete
+

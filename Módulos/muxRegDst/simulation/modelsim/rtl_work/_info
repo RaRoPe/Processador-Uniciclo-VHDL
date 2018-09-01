@@ -1,0 +1,60 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\MyPC\Desktop\muxRegDst\simulation\modelsim
+Emux_regdst
+Z1 w1486263484
+Z2 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z3 dC:\Users\MyPC\Desktop\muxRegDst\simulation\modelsim
+Z4 8C:/Users/MyPC/Desktop/muxRegDst/mux_regdst.vhd
+Z5 FC:/Users/MyPC/Desktop/muxRegDst/mux_regdst.vhd
+l0
+L4
+VPHZjNfYK=8<7K?_FBc4Wf0
+Z6 OV;C;6.6c;45
+31
+Z7 o-93 -work work -O0
+Z8 tExplicit 1
+!s100 ?n7XXKo?dn3Hg_5Z_iZY=1
+Abehavioral
+R2
+DEx4 work 10 mux_regdst 0 22 PHZjNfYK=8<7K?_FBc4Wf0
+l17
+L15
+V4`43Ac4?a<zOFdo]cbPRf2
+R6
+31
+Z9 Mx1 4 ieee 14 std_logic_1164
+R7
+R8
+!s100 aTZi2WBDZZz;;fT2JoJE^1
+Emux_regdst_tb
+Z10 w1486259798
+Z11 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+R2
+R3
+Z12 8C:/Users/MyPC/Desktop/muxRegDst/mux_regdst_tb.vhd
+Z13 FC:/Users/MyPC/Desktop/muxRegDst/mux_regdst_tb.vhd
+l0
+L31
+VAFAj>e9A:jYS?`Z1kB^]W1
+!s100 [z_TD9oRl:ZIzG^MBcUQ]2
+R6
+31
+R7
+R8
+Amux_regdst_arch
+R11
+R2
+DEx4 work 13 mux_regdst_tb 0 22 AFAj>e9A:jYS?`Z1kB^]W1
+l52
+L34
+VbNQ8JbJ`Z9kXiCSBeogYE0
+!s100 o6j9ON7K@z:XR6UbDGo=d3
+R6
+31
+Z14 Mx2 4 ieee 14 std_logic_1164
+Mx1 4 ieee 11 numeric_std
+R7
+R8

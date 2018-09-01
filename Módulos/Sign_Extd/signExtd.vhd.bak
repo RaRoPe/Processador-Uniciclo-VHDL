@@ -1,0 +1,20 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use work.mips_pkg.all;
+
+
+entity sinal_extendido is
+        generic(inst16: integer:= 16);
+        port(IMM16: in std_logic_vector(inst16-1 downto 0);
+             IMM32: out std_logic_vector(WSIZE-1 downto 0)
+         );  
+
+end entity;
+
+architecture comportamental of  sinal_extendido is 
+
+begin
+
+     IMM32<= "0000000000000000" & IMM16 when IMM16(inst16-1)='0' else IMM32<= "1111111111111111" & IMM16 ;
+end architecture;

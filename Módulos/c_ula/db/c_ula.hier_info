@@ -1,0 +1,22 @@
+|c_ula
+func[0] => Mux1.IN10
+func[1] => Mux0.IN5
+func[1] => Mux1.IN9
+func[1] => ctrula[2].DATAB
+func[2] => Mux0.IN4
+func[2] => ctrula[1].DATAB
+func[3] => Mux1.IN8
+func[4] => ~NO_FANOUT~
+func[5] => ~NO_FANOUT~
+opUla[0] => LessThan0.IN4
+opUla[0] => LessThan1.IN4
+opUla[0] => LessThan2.IN4
+opUla[1] => LessThan0.IN3
+opUla[1] => LessThan1.IN3
+opUla[1] => LessThan2.IN3
+ctrula[0] <= ctrula[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+ctrula[1] <= ctrula[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+ctrula[2] <= ctrula[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+ctrula[3] <= ctrula[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

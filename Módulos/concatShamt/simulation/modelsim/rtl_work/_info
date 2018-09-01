@@ -1,0 +1,60 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\MyPC\Desktop\concatShamt\simulation\modelsim
+Econcatshamt
+Z1 w1486483423
+Z2 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z4 dC:\Users\MyPC\Desktop\concatShamt\simulation\modelsim
+Z5 8C:/Users/MyPC/Desktop/concatShamt/concatShamt.vhd
+Z6 FC:/Users/MyPC/Desktop/concatShamt/concatShamt.vhd
+l0
+L5
+VJn1?0JoKTMZhT^STnzl`E0
+Z7 OV;C;6.6c;45
+31
+Z8 o-93 -work work -O0
+Z9 tExplicit 1
+!s100 EW^gYf^3mG4`CYnkhW[<A0
+Abehavioral
+R2
+R3
+DEx4 work 11 concatshamt 0 22 Jn1?0JoKTMZhT^STnzl`E0
+l14
+L12
+VU4Uom_EV2_20aVDNV]K`R3
+R7
+31
+Z10 Mx2 4 ieee 14 std_logic_1164
+Mx1 4 ieee 11 numeric_std
+R8
+R9
+!s100 Sg0IeOTD_U><Dc6QWGhS01
+Econcatshamt_tb
+Z11 w1486486578
+R3
+R4
+Z12 8C:/Users/MyPC/Desktop/concatShamt/concatShamt_tb.vhd
+Z13 FC:/Users/MyPC/Desktop/concatShamt/concatShamt_tb.vhd
+l0
+L30
+V=X_AHM<GRELFfgKb89R8Q1
+!s100 _7]NbZZc6G@O787jV73Ci2
+R7
+31
+R8
+R9
+Aconcatshamt_arch
+R3
+DEx4 work 14 concatshamt_tb 0 22 =X_AHM<GRELFfgKb89R8Q1
+l43
+L32
+VcjM_NZ>>X:@O=?m7So5n83
+!s100 =Ub;kPA@F8h`?hk]3m:0:3
+R7
+31
+Z14 Mx1 4 ieee 14 std_logic_1164
+R8
+R9

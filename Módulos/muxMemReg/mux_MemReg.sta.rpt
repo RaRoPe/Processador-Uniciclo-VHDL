@@ -1,0 +1,897 @@
+TimeQuest Timing Analyzer report for mux_MemReg
+Sun Feb 05 01:03:46 2017
+Quartus II 64-Bit Version 10.1 Build 153 11/29/2010 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Slow Model Fmax Summary
+  6. Slow Model Setup Summary
+  7. Slow Model Hold Summary
+  8. Slow Model Recovery Summary
+  9. Slow Model Removal Summary
+ 10. Slow Model Minimum Pulse Width Summary
+ 11. Propagation Delay
+ 12. Minimum Propagation Delay
+ 13. Fast Model Setup Summary
+ 14. Fast Model Hold Summary
+ 15. Fast Model Recovery Summary
+ 16. Fast Model Removal Summary
+ 17. Fast Model Minimum Pulse Width Summary
+ 18. Propagation Delay
+ 19. Minimum Propagation Delay
+ 20. Multicorner Timing Analysis Summary
+ 21. Progagation Delay
+ 22. Minimum Progagation Delay
+ 23. Clock Transfers
+ 24. Report TCCS
+ 25. Report RSKM
+ 26. Unconstrained Paths
+ 27. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                     ;
++--------------------+--------------------------------------------------+
+; Quartus II Version ; Version 10.1 Build 153 11/29/2010 SJ Web Edition ;
+; Revision Name      ; mux_MemReg                                       ;
+; Device Family      ; Cyclone II                                       ;
+; Device Name        ; EP2C70F896C6                                     ;
+; Timing Models      ; Final                                            ;
+; Delay Model        ; Combined                                         ;
+; Rise/Fall Delays   ; Unavailable                                      ;
++--------------------+--------------------------------------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 2      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
+----------
+; Clocks ;
+----------
+No clocks to report.
+
+
+---------------------------
+; Slow Model Fmax Summary ;
+---------------------------
+No paths to report.
+
+
+----------------------------
+; Slow Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Slow Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Slow Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Slow Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Slow Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++-------------------------------------------------------------------+
+; Propagation Delay                                                 ;
++----------------+--------------+--------+--------+--------+--------+
+; Input Port     ; Output Port  ; RR     ; RF     ; FR     ; FF     ;
++----------------+--------------+--------+--------+--------+--------+
+; MemtoReg       ; d_in_mux[0]  ; 10.809 ; 10.809 ; 10.809 ; 10.809 ;
+; MemtoReg       ; d_in_mux[1]  ; 10.470 ; 10.470 ; 10.470 ; 10.470 ;
+; MemtoReg       ; d_in_mux[2]  ; 13.384 ; 13.384 ; 13.384 ; 13.384 ;
+; MemtoReg       ; d_in_mux[3]  ; 10.801 ; 10.801 ; 10.801 ; 10.801 ;
+; MemtoReg       ; d_in_mux[4]  ; 10.152 ; 10.152 ; 10.152 ; 10.152 ;
+; MemtoReg       ; d_in_mux[5]  ; 10.205 ; 10.205 ; 10.205 ; 10.205 ;
+; MemtoReg       ; d_in_mux[6]  ; 13.402 ; 13.402 ; 13.402 ; 13.402 ;
+; MemtoReg       ; d_in_mux[7]  ; 10.793 ; 10.793 ; 10.793 ; 10.793 ;
+; MemtoReg       ; d_in_mux[8]  ; 10.130 ; 10.130 ; 10.130 ; 10.130 ;
+; MemtoReg       ; d_in_mux[9]  ; 10.776 ; 10.776 ; 10.776 ; 10.776 ;
+; MemtoReg       ; d_in_mux[10] ; 10.784 ; 10.784 ; 10.784 ; 10.784 ;
+; MemtoReg       ; d_in_mux[11] ; 9.930  ; 9.930  ; 9.930  ; 9.930  ;
+; MemtoReg       ; d_in_mux[12] ; 10.384 ; 10.384 ; 10.384 ; 10.384 ;
+; MemtoReg       ; d_in_mux[13] ; 9.952  ; 9.952  ; 9.952  ; 9.952  ;
+; MemtoReg       ; d_in_mux[14] ; 11.368 ; 11.368 ; 11.368 ; 11.368 ;
+; MemtoReg       ; d_in_mux[15] ; 11.480 ; 11.480 ; 11.480 ; 11.480 ;
+; MemtoReg       ; d_in_mux[16] ; 14.554 ; 14.554 ; 14.554 ; 14.554 ;
+; MemtoReg       ; d_in_mux[17] ; 10.831 ; 10.831 ; 10.831 ; 10.831 ;
+; MemtoReg       ; d_in_mux[18] ; 11.328 ; 11.328 ; 11.328 ; 11.328 ;
+; MemtoReg       ; d_in_mux[19] ; 11.190 ; 11.190 ; 11.190 ; 11.190 ;
+; MemtoReg       ; d_in_mux[20] ; 11.315 ; 11.315 ; 11.315 ; 11.315 ;
+; MemtoReg       ; d_in_mux[21] ; 11.294 ; 11.294 ; 11.294 ; 11.294 ;
+; MemtoReg       ; d_in_mux[22] ; 12.512 ; 12.512 ; 12.512 ; 12.512 ;
+; MemtoReg       ; d_in_mux[23] ; 11.081 ; 11.081 ; 11.081 ; 11.081 ;
+; MemtoReg       ; d_in_mux[24] ; 11.188 ; 11.188 ; 11.188 ; 11.188 ;
+; MemtoReg       ; d_in_mux[25] ; 11.509 ; 11.509 ; 11.509 ; 11.509 ;
+; MemtoReg       ; d_in_mux[26] ; 11.521 ; 11.521 ; 11.521 ; 11.521 ;
+; MemtoReg       ; d_in_mux[27] ; 10.851 ; 10.851 ; 10.851 ; 10.851 ;
+; MemtoReg       ; d_in_mux[28] ; 10.224 ; 10.224 ; 10.224 ; 10.224 ;
+; MemtoReg       ; d_in_mux[29] ; 10.204 ; 10.204 ; 10.204 ; 10.204 ;
+; MemtoReg       ; d_in_mux[30] ; 11.741 ; 11.741 ; 11.741 ; 11.741 ;
+; MemtoReg       ; d_in_mux[31] ; 10.414 ; 10.414 ; 10.414 ; 10.414 ;
+; aluout_mux[0]  ; d_in_mux[0]  ; 10.473 ;        ;        ; 10.473 ;
+; aluout_mux[1]  ; d_in_mux[1]  ; 10.833 ;        ;        ; 10.833 ;
+; aluout_mux[2]  ; d_in_mux[2]  ; 13.271 ;        ;        ; 13.271 ;
+; aluout_mux[3]  ; d_in_mux[3]  ; 10.834 ;        ;        ; 10.834 ;
+; aluout_mux[4]  ; d_in_mux[4]  ; 10.206 ;        ;        ; 10.206 ;
+; aluout_mux[5]  ; d_in_mux[5]  ; 10.239 ;        ;        ; 10.239 ;
+; aluout_mux[6]  ; d_in_mux[6]  ; 13.158 ;        ;        ; 13.158 ;
+; aluout_mux[7]  ; d_in_mux[7]  ; 10.311 ;        ;        ; 10.311 ;
+; aluout_mux[8]  ; d_in_mux[8]  ; 10.319 ;        ;        ; 10.319 ;
+; aluout_mux[9]  ; d_in_mux[9]  ; 10.837 ;        ;        ; 10.837 ;
+; aluout_mux[10] ; d_in_mux[10] ; 10.205 ;        ;        ; 10.205 ;
+; aluout_mux[11] ; d_in_mux[11] ; 9.705  ;        ;        ; 9.705  ;
+; aluout_mux[12] ; d_in_mux[12] ; 9.828  ;        ;        ; 9.828  ;
+; aluout_mux[13] ; d_in_mux[13] ; 10.671 ;        ;        ; 10.671 ;
+; aluout_mux[14] ; d_in_mux[14] ; 10.256 ;        ;        ; 10.256 ;
+; aluout_mux[15] ; d_in_mux[15] ; 10.638 ;        ;        ; 10.638 ;
+; aluout_mux[16] ; d_in_mux[16] ; 13.335 ;        ;        ; 13.335 ;
+; aluout_mux[17] ; d_in_mux[17] ; 10.195 ;        ;        ; 10.195 ;
+; aluout_mux[18] ; d_in_mux[18] ; 10.174 ;        ;        ; 10.174 ;
+; aluout_mux[19] ; d_in_mux[19] ; 9.763  ;        ;        ; 9.763  ;
+; aluout_mux[20] ; d_in_mux[20] ; 11.435 ;        ;        ; 11.435 ;
+; aluout_mux[21] ; d_in_mux[21] ; 10.190 ;        ;        ; 10.190 ;
+; aluout_mux[22] ; d_in_mux[22] ; 11.808 ;        ;        ; 11.808 ;
+; aluout_mux[23] ; d_in_mux[23] ; 10.393 ;        ;        ; 10.393 ;
+; aluout_mux[24] ; d_in_mux[24] ; 11.063 ;        ;        ; 11.063 ;
+; aluout_mux[25] ; d_in_mux[25] ; 11.950 ;        ;        ; 11.950 ;
+; aluout_mux[26] ; d_in_mux[26] ; 10.314 ;        ;        ; 10.314 ;
+; aluout_mux[27] ; d_in_mux[27] ; 9.643  ;        ;        ; 9.643  ;
+; aluout_mux[28] ; d_in_mux[28] ; 10.147 ;        ;        ; 10.147 ;
+; aluout_mux[29] ; d_in_mux[29] ; 9.314  ;        ;        ; 9.314  ;
+; aluout_mux[30] ; d_in_mux[30] ; 10.838 ;        ;        ; 10.838 ;
+; aluout_mux[31] ; d_in_mux[31] ; 9.519  ;        ;        ; 9.519  ;
+; q_mux[0]       ; d_in_mux[0]  ; 10.621 ;        ;        ; 10.621 ;
+; q_mux[1]       ; d_in_mux[1]  ; 10.260 ;        ;        ; 10.260 ;
+; q_mux[2]       ; d_in_mux[2]  ; 12.798 ;        ;        ; 12.798 ;
+; q_mux[3]       ; d_in_mux[3]  ; 10.662 ;        ;        ; 10.662 ;
+; q_mux[4]       ; d_in_mux[4]  ; 10.115 ;        ;        ; 10.115 ;
+; q_mux[5]       ; d_in_mux[5]  ; 10.324 ;        ;        ; 10.324 ;
+; q_mux[6]       ; d_in_mux[6]  ; 13.229 ;        ;        ; 13.229 ;
+; q_mux[7]       ; d_in_mux[7]  ; 10.399 ;        ;        ; 10.399 ;
+; q_mux[8]       ; d_in_mux[8]  ; 9.419  ;        ;        ; 9.419  ;
+; q_mux[9]       ; d_in_mux[9]  ; 10.660 ;        ;        ; 10.660 ;
+; q_mux[10]      ; d_in_mux[10] ; 10.933 ;        ;        ; 10.933 ;
+; q_mux[11]      ; d_in_mux[11] ; 9.714  ;        ;        ; 9.714  ;
+; q_mux[12]      ; d_in_mux[12] ; 10.068 ;        ;        ; 10.068 ;
+; q_mux[13]      ; d_in_mux[13] ; 9.610  ;        ;        ; 9.610  ;
+; q_mux[14]      ; d_in_mux[14] ; 10.790 ;        ;        ; 10.790 ;
+; q_mux[15]      ; d_in_mux[15] ; 11.398 ;        ;        ; 11.398 ;
+; q_mux[16]      ; d_in_mux[16] ; 13.856 ;        ;        ; 13.856 ;
+; q_mux[17]      ; d_in_mux[17] ; 9.676  ;        ;        ; 9.676  ;
+; q_mux[18]      ; d_in_mux[18] ; 10.423 ;        ;        ; 10.423 ;
+; q_mux[19]      ; d_in_mux[19] ; 9.943  ;        ;        ; 9.943  ;
+; q_mux[20]      ; d_in_mux[20] ; 9.883  ;        ;        ; 9.883  ;
+; q_mux[21]      ; d_in_mux[21] ; 10.316 ;        ;        ; 10.316 ;
+; q_mux[22]      ; d_in_mux[22] ; 11.570 ;        ;        ; 11.570 ;
+; q_mux[23]      ; d_in_mux[23] ; 10.120 ;        ;        ; 10.120 ;
+; q_mux[24]      ; d_in_mux[24] ; 9.978  ;        ;        ; 9.978  ;
+; q_mux[25]      ; d_in_mux[25] ; 10.333 ;        ;        ; 10.333 ;
+; q_mux[26]      ; d_in_mux[26] ; 10.633 ;        ;        ; 10.633 ;
+; q_mux[27]      ; d_in_mux[27] ; 9.928  ;        ;        ; 9.928  ;
+; q_mux[28]      ; d_in_mux[28] ; 9.208  ;        ;        ; 9.208  ;
+; q_mux[29]      ; d_in_mux[29] ; 10.672 ;        ;        ; 10.672 ;
+; q_mux[30]      ; d_in_mux[30] ; 10.968 ;        ;        ; 10.968 ;
+; q_mux[31]      ; d_in_mux[31] ; 9.583  ;        ;        ; 9.583  ;
++----------------+--------------+--------+--------+--------+--------+
+
+
++-------------------------------------------------------------------+
+; Minimum Propagation Delay                                         ;
++----------------+--------------+--------+--------+--------+--------+
+; Input Port     ; Output Port  ; RR     ; RF     ; FR     ; FF     ;
++----------------+--------------+--------+--------+--------+--------+
+; MemtoReg       ; d_in_mux[0]  ; 10.809 ; 10.809 ; 10.809 ; 10.809 ;
+; MemtoReg       ; d_in_mux[1]  ; 10.470 ; 10.470 ; 10.470 ; 10.470 ;
+; MemtoReg       ; d_in_mux[2]  ; 13.384 ; 13.384 ; 13.384 ; 13.384 ;
+; MemtoReg       ; d_in_mux[3]  ; 10.801 ; 10.801 ; 10.801 ; 10.801 ;
+; MemtoReg       ; d_in_mux[4]  ; 10.152 ; 10.152 ; 10.152 ; 10.152 ;
+; MemtoReg       ; d_in_mux[5]  ; 10.205 ; 10.205 ; 10.205 ; 10.205 ;
+; MemtoReg       ; d_in_mux[6]  ; 13.402 ; 13.402 ; 13.402 ; 13.402 ;
+; MemtoReg       ; d_in_mux[7]  ; 10.793 ; 10.793 ; 10.793 ; 10.793 ;
+; MemtoReg       ; d_in_mux[8]  ; 10.130 ; 10.130 ; 10.130 ; 10.130 ;
+; MemtoReg       ; d_in_mux[9]  ; 10.776 ; 10.776 ; 10.776 ; 10.776 ;
+; MemtoReg       ; d_in_mux[10] ; 10.784 ; 10.784 ; 10.784 ; 10.784 ;
+; MemtoReg       ; d_in_mux[11] ; 9.930  ; 9.930  ; 9.930  ; 9.930  ;
+; MemtoReg       ; d_in_mux[12] ; 10.384 ; 10.384 ; 10.384 ; 10.384 ;
+; MemtoReg       ; d_in_mux[13] ; 9.952  ; 9.952  ; 9.952  ; 9.952  ;
+; MemtoReg       ; d_in_mux[14] ; 11.368 ; 11.368 ; 11.368 ; 11.368 ;
+; MemtoReg       ; d_in_mux[15] ; 11.480 ; 11.480 ; 11.480 ; 11.480 ;
+; MemtoReg       ; d_in_mux[16] ; 14.554 ; 14.554 ; 14.554 ; 14.554 ;
+; MemtoReg       ; d_in_mux[17] ; 10.831 ; 10.831 ; 10.831 ; 10.831 ;
+; MemtoReg       ; d_in_mux[18] ; 11.328 ; 11.328 ; 11.328 ; 11.328 ;
+; MemtoReg       ; d_in_mux[19] ; 11.190 ; 11.190 ; 11.190 ; 11.190 ;
+; MemtoReg       ; d_in_mux[20] ; 11.315 ; 11.315 ; 11.315 ; 11.315 ;
+; MemtoReg       ; d_in_mux[21] ; 11.294 ; 11.294 ; 11.294 ; 11.294 ;
+; MemtoReg       ; d_in_mux[22] ; 12.512 ; 12.512 ; 12.512 ; 12.512 ;
+; MemtoReg       ; d_in_mux[23] ; 11.081 ; 11.081 ; 11.081 ; 11.081 ;
+; MemtoReg       ; d_in_mux[24] ; 11.188 ; 11.188 ; 11.188 ; 11.188 ;
+; MemtoReg       ; d_in_mux[25] ; 11.509 ; 11.509 ; 11.509 ; 11.509 ;
+; MemtoReg       ; d_in_mux[26] ; 11.521 ; 11.521 ; 11.521 ; 11.521 ;
+; MemtoReg       ; d_in_mux[27] ; 10.851 ; 10.851 ; 10.851 ; 10.851 ;
+; MemtoReg       ; d_in_mux[28] ; 10.224 ; 10.224 ; 10.224 ; 10.224 ;
+; MemtoReg       ; d_in_mux[29] ; 10.204 ; 10.204 ; 10.204 ; 10.204 ;
+; MemtoReg       ; d_in_mux[30] ; 11.741 ; 11.741 ; 11.741 ; 11.741 ;
+; MemtoReg       ; d_in_mux[31] ; 10.414 ; 10.414 ; 10.414 ; 10.414 ;
+; aluout_mux[0]  ; d_in_mux[0]  ; 10.473 ;        ;        ; 10.473 ;
+; aluout_mux[1]  ; d_in_mux[1]  ; 10.833 ;        ;        ; 10.833 ;
+; aluout_mux[2]  ; d_in_mux[2]  ; 13.271 ;        ;        ; 13.271 ;
+; aluout_mux[3]  ; d_in_mux[3]  ; 10.834 ;        ;        ; 10.834 ;
+; aluout_mux[4]  ; d_in_mux[4]  ; 10.206 ;        ;        ; 10.206 ;
+; aluout_mux[5]  ; d_in_mux[5]  ; 10.239 ;        ;        ; 10.239 ;
+; aluout_mux[6]  ; d_in_mux[6]  ; 13.158 ;        ;        ; 13.158 ;
+; aluout_mux[7]  ; d_in_mux[7]  ; 10.311 ;        ;        ; 10.311 ;
+; aluout_mux[8]  ; d_in_mux[8]  ; 10.319 ;        ;        ; 10.319 ;
+; aluout_mux[9]  ; d_in_mux[9]  ; 10.837 ;        ;        ; 10.837 ;
+; aluout_mux[10] ; d_in_mux[10] ; 10.205 ;        ;        ; 10.205 ;
+; aluout_mux[11] ; d_in_mux[11] ; 9.705  ;        ;        ; 9.705  ;
+; aluout_mux[12] ; d_in_mux[12] ; 9.828  ;        ;        ; 9.828  ;
+; aluout_mux[13] ; d_in_mux[13] ; 10.671 ;        ;        ; 10.671 ;
+; aluout_mux[14] ; d_in_mux[14] ; 10.256 ;        ;        ; 10.256 ;
+; aluout_mux[15] ; d_in_mux[15] ; 10.638 ;        ;        ; 10.638 ;
+; aluout_mux[16] ; d_in_mux[16] ; 13.335 ;        ;        ; 13.335 ;
+; aluout_mux[17] ; d_in_mux[17] ; 10.195 ;        ;        ; 10.195 ;
+; aluout_mux[18] ; d_in_mux[18] ; 10.174 ;        ;        ; 10.174 ;
+; aluout_mux[19] ; d_in_mux[19] ; 9.763  ;        ;        ; 9.763  ;
+; aluout_mux[20] ; d_in_mux[20] ; 11.435 ;        ;        ; 11.435 ;
+; aluout_mux[21] ; d_in_mux[21] ; 10.190 ;        ;        ; 10.190 ;
+; aluout_mux[22] ; d_in_mux[22] ; 11.808 ;        ;        ; 11.808 ;
+; aluout_mux[23] ; d_in_mux[23] ; 10.393 ;        ;        ; 10.393 ;
+; aluout_mux[24] ; d_in_mux[24] ; 11.063 ;        ;        ; 11.063 ;
+; aluout_mux[25] ; d_in_mux[25] ; 11.950 ;        ;        ; 11.950 ;
+; aluout_mux[26] ; d_in_mux[26] ; 10.314 ;        ;        ; 10.314 ;
+; aluout_mux[27] ; d_in_mux[27] ; 9.643  ;        ;        ; 9.643  ;
+; aluout_mux[28] ; d_in_mux[28] ; 10.147 ;        ;        ; 10.147 ;
+; aluout_mux[29] ; d_in_mux[29] ; 9.314  ;        ;        ; 9.314  ;
+; aluout_mux[30] ; d_in_mux[30] ; 10.838 ;        ;        ; 10.838 ;
+; aluout_mux[31] ; d_in_mux[31] ; 9.519  ;        ;        ; 9.519  ;
+; q_mux[0]       ; d_in_mux[0]  ; 10.621 ;        ;        ; 10.621 ;
+; q_mux[1]       ; d_in_mux[1]  ; 10.260 ;        ;        ; 10.260 ;
+; q_mux[2]       ; d_in_mux[2]  ; 12.798 ;        ;        ; 12.798 ;
+; q_mux[3]       ; d_in_mux[3]  ; 10.662 ;        ;        ; 10.662 ;
+; q_mux[4]       ; d_in_mux[4]  ; 10.115 ;        ;        ; 10.115 ;
+; q_mux[5]       ; d_in_mux[5]  ; 10.324 ;        ;        ; 10.324 ;
+; q_mux[6]       ; d_in_mux[6]  ; 13.229 ;        ;        ; 13.229 ;
+; q_mux[7]       ; d_in_mux[7]  ; 10.399 ;        ;        ; 10.399 ;
+; q_mux[8]       ; d_in_mux[8]  ; 9.419  ;        ;        ; 9.419  ;
+; q_mux[9]       ; d_in_mux[9]  ; 10.660 ;        ;        ; 10.660 ;
+; q_mux[10]      ; d_in_mux[10] ; 10.933 ;        ;        ; 10.933 ;
+; q_mux[11]      ; d_in_mux[11] ; 9.714  ;        ;        ; 9.714  ;
+; q_mux[12]      ; d_in_mux[12] ; 10.068 ;        ;        ; 10.068 ;
+; q_mux[13]      ; d_in_mux[13] ; 9.610  ;        ;        ; 9.610  ;
+; q_mux[14]      ; d_in_mux[14] ; 10.790 ;        ;        ; 10.790 ;
+; q_mux[15]      ; d_in_mux[15] ; 11.398 ;        ;        ; 11.398 ;
+; q_mux[16]      ; d_in_mux[16] ; 13.856 ;        ;        ; 13.856 ;
+; q_mux[17]      ; d_in_mux[17] ; 9.676  ;        ;        ; 9.676  ;
+; q_mux[18]      ; d_in_mux[18] ; 10.423 ;        ;        ; 10.423 ;
+; q_mux[19]      ; d_in_mux[19] ; 9.943  ;        ;        ; 9.943  ;
+; q_mux[20]      ; d_in_mux[20] ; 9.883  ;        ;        ; 9.883  ;
+; q_mux[21]      ; d_in_mux[21] ; 10.316 ;        ;        ; 10.316 ;
+; q_mux[22]      ; d_in_mux[22] ; 11.570 ;        ;        ; 11.570 ;
+; q_mux[23]      ; d_in_mux[23] ; 10.120 ;        ;        ; 10.120 ;
+; q_mux[24]      ; d_in_mux[24] ; 9.978  ;        ;        ; 9.978  ;
+; q_mux[25]      ; d_in_mux[25] ; 10.333 ;        ;        ; 10.333 ;
+; q_mux[26]      ; d_in_mux[26] ; 10.633 ;        ;        ; 10.633 ;
+; q_mux[27]      ; d_in_mux[27] ; 9.928  ;        ;        ; 9.928  ;
+; q_mux[28]      ; d_in_mux[28] ; 9.208  ;        ;        ; 9.208  ;
+; q_mux[29]      ; d_in_mux[29] ; 10.672 ;        ;        ; 10.672 ;
+; q_mux[30]      ; d_in_mux[30] ; 10.968 ;        ;        ; 10.968 ;
+; q_mux[31]      ; d_in_mux[31] ; 9.583  ;        ;        ; 9.583  ;
++----------------+--------------+--------+--------+--------+--------+
+
+
+----------------------------
+; Fast Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Fast Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Fast Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Fast Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Fast Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++---------------------------------------------------------------+
+; Propagation Delay                                             ;
++----------------+--------------+-------+-------+-------+-------+
+; Input Port     ; Output Port  ; RR    ; RF    ; FR    ; FF    ;
++----------------+--------------+-------+-------+-------+-------+
+; MemtoReg       ; d_in_mux[0]  ; 5.906 ; 5.906 ; 5.906 ; 5.906 ;
+; MemtoReg       ; d_in_mux[1]  ; 5.741 ; 5.741 ; 5.741 ; 5.741 ;
+; MemtoReg       ; d_in_mux[2]  ; 7.208 ; 7.208 ; 7.208 ; 7.208 ;
+; MemtoReg       ; d_in_mux[3]  ; 5.872 ; 5.872 ; 5.872 ; 5.872 ;
+; MemtoReg       ; d_in_mux[4]  ; 5.651 ; 5.651 ; 5.651 ; 5.651 ;
+; MemtoReg       ; d_in_mux[5]  ; 5.689 ; 5.689 ; 5.689 ; 5.689 ;
+; MemtoReg       ; d_in_mux[6]  ; 7.210 ; 7.210 ; 7.210 ; 7.210 ;
+; MemtoReg       ; d_in_mux[7]  ; 5.886 ; 5.886 ; 5.886 ; 5.886 ;
+; MemtoReg       ; d_in_mux[8]  ; 5.646 ; 5.646 ; 5.646 ; 5.646 ;
+; MemtoReg       ; d_in_mux[9]  ; 5.891 ; 5.891 ; 5.891 ; 5.891 ;
+; MemtoReg       ; d_in_mux[10] ; 5.880 ; 5.880 ; 5.880 ; 5.880 ;
+; MemtoReg       ; d_in_mux[11] ; 5.573 ; 5.573 ; 5.573 ; 5.573 ;
+; MemtoReg       ; d_in_mux[12] ; 5.775 ; 5.775 ; 5.775 ; 5.775 ;
+; MemtoReg       ; d_in_mux[13] ; 5.571 ; 5.571 ; 5.571 ; 5.571 ;
+; MemtoReg       ; d_in_mux[14] ; 6.275 ; 6.275 ; 6.275 ; 6.275 ;
+; MemtoReg       ; d_in_mux[15] ; 6.292 ; 6.292 ; 6.292 ; 6.292 ;
+; MemtoReg       ; d_in_mux[16] ; 7.808 ; 7.808 ; 7.808 ; 7.808 ;
+; MemtoReg       ; d_in_mux[17] ; 6.021 ; 6.021 ; 6.021 ; 6.021 ;
+; MemtoReg       ; d_in_mux[18] ; 6.268 ; 6.268 ; 6.268 ; 6.268 ;
+; MemtoReg       ; d_in_mux[19] ; 6.217 ; 6.217 ; 6.217 ; 6.217 ;
+; MemtoReg       ; d_in_mux[20] ; 6.244 ; 6.244 ; 6.244 ; 6.244 ;
+; MemtoReg       ; d_in_mux[21] ; 6.228 ; 6.228 ; 6.228 ; 6.228 ;
+; MemtoReg       ; d_in_mux[22] ; 6.847 ; 6.847 ; 6.847 ; 6.847 ;
+; MemtoReg       ; d_in_mux[23] ; 6.149 ; 6.149 ; 6.149 ; 6.149 ;
+; MemtoReg       ; d_in_mux[24] ; 6.216 ; 6.216 ; 6.216 ; 6.216 ;
+; MemtoReg       ; d_in_mux[25] ; 6.330 ; 6.330 ; 6.330 ; 6.330 ;
+; MemtoReg       ; d_in_mux[26] ; 6.328 ; 6.328 ; 6.328 ; 6.328 ;
+; MemtoReg       ; d_in_mux[27] ; 6.041 ; 6.041 ; 6.041 ; 6.041 ;
+; MemtoReg       ; d_in_mux[28] ; 5.717 ; 5.717 ; 5.717 ; 5.717 ;
+; MemtoReg       ; d_in_mux[29] ; 5.696 ; 5.696 ; 5.696 ; 5.696 ;
+; MemtoReg       ; d_in_mux[30] ; 6.323 ; 6.323 ; 6.323 ; 6.323 ;
+; MemtoReg       ; d_in_mux[31] ; 5.786 ; 5.786 ; 5.786 ; 5.786 ;
+; aluout_mux[0]  ; d_in_mux[0]  ; 5.728 ;       ;       ; 5.728 ;
+; aluout_mux[1]  ; d_in_mux[1]  ; 5.887 ;       ;       ; 5.887 ;
+; aluout_mux[2]  ; d_in_mux[2]  ; 7.130 ;       ;       ; 7.130 ;
+; aluout_mux[3]  ; d_in_mux[3]  ; 5.866 ;       ;       ; 5.866 ;
+; aluout_mux[4]  ; d_in_mux[4]  ; 5.621 ;       ;       ; 5.621 ;
+; aluout_mux[5]  ; d_in_mux[5]  ; 5.719 ;       ;       ; 5.719 ;
+; aluout_mux[6]  ; d_in_mux[6]  ; 7.064 ;       ;       ; 7.064 ;
+; aluout_mux[7]  ; d_in_mux[7]  ; 5.638 ;       ;       ; 5.638 ;
+; aluout_mux[8]  ; d_in_mux[8]  ; 5.718 ;       ;       ; 5.718 ;
+; aluout_mux[9]  ; d_in_mux[9]  ; 5.901 ;       ;       ; 5.901 ;
+; aluout_mux[10] ; d_in_mux[10] ; 5.573 ;       ;       ; 5.573 ;
+; aluout_mux[11] ; d_in_mux[11] ; 5.457 ;       ;       ; 5.457 ;
+; aluout_mux[12] ; d_in_mux[12] ; 5.465 ;       ;       ; 5.465 ;
+; aluout_mux[13] ; d_in_mux[13] ; 6.028 ;       ;       ; 6.028 ;
+; aluout_mux[14] ; d_in_mux[14] ; 5.644 ;       ;       ; 5.644 ;
+; aluout_mux[15] ; d_in_mux[15] ; 5.891 ;       ;       ; 5.891 ;
+; aluout_mux[16] ; d_in_mux[16] ; 7.122 ;       ;       ; 7.122 ;
+; aluout_mux[17] ; d_in_mux[17] ; 5.634 ;       ;       ; 5.634 ;
+; aluout_mux[18] ; d_in_mux[18] ; 5.603 ;       ;       ; 5.603 ;
+; aluout_mux[19] ; d_in_mux[19] ; 5.434 ;       ;       ; 5.434 ;
+; aluout_mux[20] ; d_in_mux[20] ; 6.348 ;       ;       ; 6.348 ;
+; aluout_mux[21] ; d_in_mux[21] ; 5.610 ;       ;       ; 5.610 ;
+; aluout_mux[22] ; d_in_mux[22] ; 6.400 ;       ;       ; 6.400 ;
+; aluout_mux[23] ; d_in_mux[23] ; 5.702 ;       ;       ; 5.702 ;
+; aluout_mux[24] ; d_in_mux[24] ; 6.172 ;       ;       ; 6.172 ;
+; aluout_mux[25] ; d_in_mux[25] ; 6.582 ;       ;       ; 6.582 ;
+; aluout_mux[26] ; d_in_mux[26] ; 5.664 ;       ;       ; 5.664 ;
+; aluout_mux[27] ; d_in_mux[27] ; 5.354 ;       ;       ; 5.354 ;
+; aluout_mux[28] ; d_in_mux[28] ; 5.671 ;       ;       ; 5.671 ;
+; aluout_mux[29] ; d_in_mux[29] ; 5.221 ;       ;       ; 5.221 ;
+; aluout_mux[30] ; d_in_mux[30] ; 5.852 ;       ;       ; 5.852 ;
+; aluout_mux[31] ; d_in_mux[31] ; 5.302 ;       ;       ; 5.302 ;
+; q_mux[0]       ; d_in_mux[0]  ; 5.791 ;       ;       ; 5.791 ;
+; q_mux[1]       ; d_in_mux[1]  ; 5.650 ;       ;       ; 5.650 ;
+; q_mux[2]       ; d_in_mux[2]  ; 6.892 ;       ;       ; 6.892 ;
+; q_mux[3]       ; d_in_mux[3]  ; 5.808 ;       ;       ; 5.808 ;
+; q_mux[4]       ; d_in_mux[4]  ; 5.612 ;       ;       ; 5.612 ;
+; q_mux[5]       ; d_in_mux[5]  ; 5.727 ;       ;       ; 5.727 ;
+; q_mux[6]       ; d_in_mux[6]  ; 7.106 ;       ;       ; 7.106 ;
+; q_mux[7]       ; d_in_mux[7]  ; 5.677 ;       ;       ; 5.677 ;
+; q_mux[8]       ; d_in_mux[8]  ; 5.287 ;       ;       ; 5.287 ;
+; q_mux[9]       ; d_in_mux[9]  ; 5.794 ;       ;       ; 5.794 ;
+; q_mux[10]      ; d_in_mux[10] ; 5.947 ;       ;       ; 5.947 ;
+; q_mux[11]      ; d_in_mux[11] ; 5.424 ;       ;       ; 5.424 ;
+; q_mux[12]      ; d_in_mux[12] ; 5.618 ;       ;       ; 5.618 ;
+; q_mux[13]      ; d_in_mux[13] ; 5.380 ;       ;       ; 5.380 ;
+; q_mux[14]      ; d_in_mux[14] ; 5.951 ;       ;       ; 5.951 ;
+; q_mux[15]      ; d_in_mux[15] ; 6.303 ;       ;       ; 6.303 ;
+; q_mux[16]      ; d_in_mux[16] ; 7.352 ;       ;       ; 7.352 ;
+; q_mux[17]      ; d_in_mux[17] ; 5.374 ;       ;       ; 5.374 ;
+; q_mux[18]      ; d_in_mux[18] ; 5.808 ;       ;       ; 5.808 ;
+; q_mux[19]      ; d_in_mux[19] ; 5.511 ;       ;       ; 5.511 ;
+; q_mux[20]      ; d_in_mux[20] ; 5.451 ;       ;       ; 5.451 ;
+; q_mux[21]      ; d_in_mux[21] ; 5.665 ;       ;       ; 5.665 ;
+; q_mux[22]      ; d_in_mux[22] ; 6.362 ;       ;       ; 6.362 ;
+; q_mux[23]      ; d_in_mux[23] ; 5.600 ;       ;       ; 5.600 ;
+; q_mux[24]      ; d_in_mux[24] ; 5.546 ;       ;       ; 5.546 ;
+; q_mux[25]      ; d_in_mux[25] ; 5.700 ;       ;       ; 5.700 ;
+; q_mux[26]      ; d_in_mux[26] ; 5.798 ;       ;       ; 5.798 ;
+; q_mux[27]      ; d_in_mux[27] ; 5.487 ;       ;       ; 5.487 ;
+; q_mux[28]      ; d_in_mux[28] ; 5.194 ;       ;       ; 5.194 ;
+; q_mux[29]      ; d_in_mux[29] ; 6.028 ;       ;       ; 6.028 ;
+; q_mux[30]      ; d_in_mux[30] ; 5.898 ;       ;       ; 5.898 ;
+; q_mux[31]      ; d_in_mux[31] ; 5.322 ;       ;       ; 5.322 ;
++----------------+--------------+-------+-------+-------+-------+
+
+
++---------------------------------------------------------------+
+; Minimum Propagation Delay                                     ;
++----------------+--------------+-------+-------+-------+-------+
+; Input Port     ; Output Port  ; RR    ; RF    ; FR    ; FF    ;
++----------------+--------------+-------+-------+-------+-------+
+; MemtoReg       ; d_in_mux[0]  ; 5.906 ; 5.906 ; 5.906 ; 5.906 ;
+; MemtoReg       ; d_in_mux[1]  ; 5.741 ; 5.741 ; 5.741 ; 5.741 ;
+; MemtoReg       ; d_in_mux[2]  ; 7.208 ; 7.208 ; 7.208 ; 7.208 ;
+; MemtoReg       ; d_in_mux[3]  ; 5.872 ; 5.872 ; 5.872 ; 5.872 ;
+; MemtoReg       ; d_in_mux[4]  ; 5.651 ; 5.651 ; 5.651 ; 5.651 ;
+; MemtoReg       ; d_in_mux[5]  ; 5.689 ; 5.689 ; 5.689 ; 5.689 ;
+; MemtoReg       ; d_in_mux[6]  ; 7.210 ; 7.210 ; 7.210 ; 7.210 ;
+; MemtoReg       ; d_in_mux[7]  ; 5.886 ; 5.886 ; 5.886 ; 5.886 ;
+; MemtoReg       ; d_in_mux[8]  ; 5.646 ; 5.646 ; 5.646 ; 5.646 ;
+; MemtoReg       ; d_in_mux[9]  ; 5.891 ; 5.891 ; 5.891 ; 5.891 ;
+; MemtoReg       ; d_in_mux[10] ; 5.880 ; 5.880 ; 5.880 ; 5.880 ;
+; MemtoReg       ; d_in_mux[11] ; 5.573 ; 5.573 ; 5.573 ; 5.573 ;
+; MemtoReg       ; d_in_mux[12] ; 5.775 ; 5.775 ; 5.775 ; 5.775 ;
+; MemtoReg       ; d_in_mux[13] ; 5.571 ; 5.571 ; 5.571 ; 5.571 ;
+; MemtoReg       ; d_in_mux[14] ; 6.275 ; 6.275 ; 6.275 ; 6.275 ;
+; MemtoReg       ; d_in_mux[15] ; 6.292 ; 6.292 ; 6.292 ; 6.292 ;
+; MemtoReg       ; d_in_mux[16] ; 7.808 ; 7.808 ; 7.808 ; 7.808 ;
+; MemtoReg       ; d_in_mux[17] ; 6.021 ; 6.021 ; 6.021 ; 6.021 ;
+; MemtoReg       ; d_in_mux[18] ; 6.268 ; 6.268 ; 6.268 ; 6.268 ;
+; MemtoReg       ; d_in_mux[19] ; 6.217 ; 6.217 ; 6.217 ; 6.217 ;
+; MemtoReg       ; d_in_mux[20] ; 6.244 ; 6.244 ; 6.244 ; 6.244 ;
+; MemtoReg       ; d_in_mux[21] ; 6.228 ; 6.228 ; 6.228 ; 6.228 ;
+; MemtoReg       ; d_in_mux[22] ; 6.847 ; 6.847 ; 6.847 ; 6.847 ;
+; MemtoReg       ; d_in_mux[23] ; 6.149 ; 6.149 ; 6.149 ; 6.149 ;
+; MemtoReg       ; d_in_mux[24] ; 6.216 ; 6.216 ; 6.216 ; 6.216 ;
+; MemtoReg       ; d_in_mux[25] ; 6.330 ; 6.330 ; 6.330 ; 6.330 ;
+; MemtoReg       ; d_in_mux[26] ; 6.328 ; 6.328 ; 6.328 ; 6.328 ;
+; MemtoReg       ; d_in_mux[27] ; 6.041 ; 6.041 ; 6.041 ; 6.041 ;
+; MemtoReg       ; d_in_mux[28] ; 5.717 ; 5.717 ; 5.717 ; 5.717 ;
+; MemtoReg       ; d_in_mux[29] ; 5.696 ; 5.696 ; 5.696 ; 5.696 ;
+; MemtoReg       ; d_in_mux[30] ; 6.323 ; 6.323 ; 6.323 ; 6.323 ;
+; MemtoReg       ; d_in_mux[31] ; 5.786 ; 5.786 ; 5.786 ; 5.786 ;
+; aluout_mux[0]  ; d_in_mux[0]  ; 5.728 ;       ;       ; 5.728 ;
+; aluout_mux[1]  ; d_in_mux[1]  ; 5.887 ;       ;       ; 5.887 ;
+; aluout_mux[2]  ; d_in_mux[2]  ; 7.130 ;       ;       ; 7.130 ;
+; aluout_mux[3]  ; d_in_mux[3]  ; 5.866 ;       ;       ; 5.866 ;
+; aluout_mux[4]  ; d_in_mux[4]  ; 5.621 ;       ;       ; 5.621 ;
+; aluout_mux[5]  ; d_in_mux[5]  ; 5.719 ;       ;       ; 5.719 ;
+; aluout_mux[6]  ; d_in_mux[6]  ; 7.064 ;       ;       ; 7.064 ;
+; aluout_mux[7]  ; d_in_mux[7]  ; 5.638 ;       ;       ; 5.638 ;
+; aluout_mux[8]  ; d_in_mux[8]  ; 5.718 ;       ;       ; 5.718 ;
+; aluout_mux[9]  ; d_in_mux[9]  ; 5.901 ;       ;       ; 5.901 ;
+; aluout_mux[10] ; d_in_mux[10] ; 5.573 ;       ;       ; 5.573 ;
+; aluout_mux[11] ; d_in_mux[11] ; 5.457 ;       ;       ; 5.457 ;
+; aluout_mux[12] ; d_in_mux[12] ; 5.465 ;       ;       ; 5.465 ;
+; aluout_mux[13] ; d_in_mux[13] ; 6.028 ;       ;       ; 6.028 ;
+; aluout_mux[14] ; d_in_mux[14] ; 5.644 ;       ;       ; 5.644 ;
+; aluout_mux[15] ; d_in_mux[15] ; 5.891 ;       ;       ; 5.891 ;
+; aluout_mux[16] ; d_in_mux[16] ; 7.122 ;       ;       ; 7.122 ;
+; aluout_mux[17] ; d_in_mux[17] ; 5.634 ;       ;       ; 5.634 ;
+; aluout_mux[18] ; d_in_mux[18] ; 5.603 ;       ;       ; 5.603 ;
+; aluout_mux[19] ; d_in_mux[19] ; 5.434 ;       ;       ; 5.434 ;
+; aluout_mux[20] ; d_in_mux[20] ; 6.348 ;       ;       ; 6.348 ;
+; aluout_mux[21] ; d_in_mux[21] ; 5.610 ;       ;       ; 5.610 ;
+; aluout_mux[22] ; d_in_mux[22] ; 6.400 ;       ;       ; 6.400 ;
+; aluout_mux[23] ; d_in_mux[23] ; 5.702 ;       ;       ; 5.702 ;
+; aluout_mux[24] ; d_in_mux[24] ; 6.172 ;       ;       ; 6.172 ;
+; aluout_mux[25] ; d_in_mux[25] ; 6.582 ;       ;       ; 6.582 ;
+; aluout_mux[26] ; d_in_mux[26] ; 5.664 ;       ;       ; 5.664 ;
+; aluout_mux[27] ; d_in_mux[27] ; 5.354 ;       ;       ; 5.354 ;
+; aluout_mux[28] ; d_in_mux[28] ; 5.671 ;       ;       ; 5.671 ;
+; aluout_mux[29] ; d_in_mux[29] ; 5.221 ;       ;       ; 5.221 ;
+; aluout_mux[30] ; d_in_mux[30] ; 5.852 ;       ;       ; 5.852 ;
+; aluout_mux[31] ; d_in_mux[31] ; 5.302 ;       ;       ; 5.302 ;
+; q_mux[0]       ; d_in_mux[0]  ; 5.791 ;       ;       ; 5.791 ;
+; q_mux[1]       ; d_in_mux[1]  ; 5.650 ;       ;       ; 5.650 ;
+; q_mux[2]       ; d_in_mux[2]  ; 6.892 ;       ;       ; 6.892 ;
+; q_mux[3]       ; d_in_mux[3]  ; 5.808 ;       ;       ; 5.808 ;
+; q_mux[4]       ; d_in_mux[4]  ; 5.612 ;       ;       ; 5.612 ;
+; q_mux[5]       ; d_in_mux[5]  ; 5.727 ;       ;       ; 5.727 ;
+; q_mux[6]       ; d_in_mux[6]  ; 7.106 ;       ;       ; 7.106 ;
+; q_mux[7]       ; d_in_mux[7]  ; 5.677 ;       ;       ; 5.677 ;
+; q_mux[8]       ; d_in_mux[8]  ; 5.287 ;       ;       ; 5.287 ;
+; q_mux[9]       ; d_in_mux[9]  ; 5.794 ;       ;       ; 5.794 ;
+; q_mux[10]      ; d_in_mux[10] ; 5.947 ;       ;       ; 5.947 ;
+; q_mux[11]      ; d_in_mux[11] ; 5.424 ;       ;       ; 5.424 ;
+; q_mux[12]      ; d_in_mux[12] ; 5.618 ;       ;       ; 5.618 ;
+; q_mux[13]      ; d_in_mux[13] ; 5.380 ;       ;       ; 5.380 ;
+; q_mux[14]      ; d_in_mux[14] ; 5.951 ;       ;       ; 5.951 ;
+; q_mux[15]      ; d_in_mux[15] ; 6.303 ;       ;       ; 6.303 ;
+; q_mux[16]      ; d_in_mux[16] ; 7.352 ;       ;       ; 7.352 ;
+; q_mux[17]      ; d_in_mux[17] ; 5.374 ;       ;       ; 5.374 ;
+; q_mux[18]      ; d_in_mux[18] ; 5.808 ;       ;       ; 5.808 ;
+; q_mux[19]      ; d_in_mux[19] ; 5.511 ;       ;       ; 5.511 ;
+; q_mux[20]      ; d_in_mux[20] ; 5.451 ;       ;       ; 5.451 ;
+; q_mux[21]      ; d_in_mux[21] ; 5.665 ;       ;       ; 5.665 ;
+; q_mux[22]      ; d_in_mux[22] ; 6.362 ;       ;       ; 6.362 ;
+; q_mux[23]      ; d_in_mux[23] ; 5.600 ;       ;       ; 5.600 ;
+; q_mux[24]      ; d_in_mux[24] ; 5.546 ;       ;       ; 5.546 ;
+; q_mux[25]      ; d_in_mux[25] ; 5.700 ;       ;       ; 5.700 ;
+; q_mux[26]      ; d_in_mux[26] ; 5.798 ;       ;       ; 5.798 ;
+; q_mux[27]      ; d_in_mux[27] ; 5.487 ;       ;       ; 5.487 ;
+; q_mux[28]      ; d_in_mux[28] ; 5.194 ;       ;       ; 5.194 ;
+; q_mux[29]      ; d_in_mux[29] ; 6.028 ;       ;       ; 6.028 ;
+; q_mux[30]      ; d_in_mux[30] ; 5.898 ;       ;       ; 5.898 ;
+; q_mux[31]      ; d_in_mux[31] ; 5.322 ;       ;       ; 5.322 ;
++----------------+--------------+-------+-------+-------+-------+
+
+
++----------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                        ;
++------------------+-------+------+----------+---------+---------------------+
+; Clock            ; Setup ; Hold ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+-------+------+----------+---------+---------------------+
+; Worst-case Slack ; N/A   ; N/A  ; N/A      ; N/A     ; N/A                 ;
+; Design-wide TNS  ; 0.0   ; 0.0  ; 0.0      ; 0.0     ; 0.0                 ;
++------------------+-------+------+----------+---------+---------------------+
+
+
++-------------------------------------------------------------------+
+; Progagation Delay                                                 ;
++----------------+--------------+--------+--------+--------+--------+
+; Input Port     ; Output Port  ; RR     ; RF     ; FR     ; FF     ;
++----------------+--------------+--------+--------+--------+--------+
+; MemtoReg       ; d_in_mux[0]  ; 10.809 ; 10.809 ; 10.809 ; 10.809 ;
+; MemtoReg       ; d_in_mux[1]  ; 10.470 ; 10.470 ; 10.470 ; 10.470 ;
+; MemtoReg       ; d_in_mux[2]  ; 13.384 ; 13.384 ; 13.384 ; 13.384 ;
+; MemtoReg       ; d_in_mux[3]  ; 10.801 ; 10.801 ; 10.801 ; 10.801 ;
+; MemtoReg       ; d_in_mux[4]  ; 10.152 ; 10.152 ; 10.152 ; 10.152 ;
+; MemtoReg       ; d_in_mux[5]  ; 10.205 ; 10.205 ; 10.205 ; 10.205 ;
+; MemtoReg       ; d_in_mux[6]  ; 13.402 ; 13.402 ; 13.402 ; 13.402 ;
+; MemtoReg       ; d_in_mux[7]  ; 10.793 ; 10.793 ; 10.793 ; 10.793 ;
+; MemtoReg       ; d_in_mux[8]  ; 10.130 ; 10.130 ; 10.130 ; 10.130 ;
+; MemtoReg       ; d_in_mux[9]  ; 10.776 ; 10.776 ; 10.776 ; 10.776 ;
+; MemtoReg       ; d_in_mux[10] ; 10.784 ; 10.784 ; 10.784 ; 10.784 ;
+; MemtoReg       ; d_in_mux[11] ; 9.930  ; 9.930  ; 9.930  ; 9.930  ;
+; MemtoReg       ; d_in_mux[12] ; 10.384 ; 10.384 ; 10.384 ; 10.384 ;
+; MemtoReg       ; d_in_mux[13] ; 9.952  ; 9.952  ; 9.952  ; 9.952  ;
+; MemtoReg       ; d_in_mux[14] ; 11.368 ; 11.368 ; 11.368 ; 11.368 ;
+; MemtoReg       ; d_in_mux[15] ; 11.480 ; 11.480 ; 11.480 ; 11.480 ;
+; MemtoReg       ; d_in_mux[16] ; 14.554 ; 14.554 ; 14.554 ; 14.554 ;
+; MemtoReg       ; d_in_mux[17] ; 10.831 ; 10.831 ; 10.831 ; 10.831 ;
+; MemtoReg       ; d_in_mux[18] ; 11.328 ; 11.328 ; 11.328 ; 11.328 ;
+; MemtoReg       ; d_in_mux[19] ; 11.190 ; 11.190 ; 11.190 ; 11.190 ;
+; MemtoReg       ; d_in_mux[20] ; 11.315 ; 11.315 ; 11.315 ; 11.315 ;
+; MemtoReg       ; d_in_mux[21] ; 11.294 ; 11.294 ; 11.294 ; 11.294 ;
+; MemtoReg       ; d_in_mux[22] ; 12.512 ; 12.512 ; 12.512 ; 12.512 ;
+; MemtoReg       ; d_in_mux[23] ; 11.081 ; 11.081 ; 11.081 ; 11.081 ;
+; MemtoReg       ; d_in_mux[24] ; 11.188 ; 11.188 ; 11.188 ; 11.188 ;
+; MemtoReg       ; d_in_mux[25] ; 11.509 ; 11.509 ; 11.509 ; 11.509 ;
+; MemtoReg       ; d_in_mux[26] ; 11.521 ; 11.521 ; 11.521 ; 11.521 ;
+; MemtoReg       ; d_in_mux[27] ; 10.851 ; 10.851 ; 10.851 ; 10.851 ;
+; MemtoReg       ; d_in_mux[28] ; 10.224 ; 10.224 ; 10.224 ; 10.224 ;
+; MemtoReg       ; d_in_mux[29] ; 10.204 ; 10.204 ; 10.204 ; 10.204 ;
+; MemtoReg       ; d_in_mux[30] ; 11.741 ; 11.741 ; 11.741 ; 11.741 ;
+; MemtoReg       ; d_in_mux[31] ; 10.414 ; 10.414 ; 10.414 ; 10.414 ;
+; aluout_mux[0]  ; d_in_mux[0]  ; 10.473 ;        ;        ; 10.473 ;
+; aluout_mux[1]  ; d_in_mux[1]  ; 10.833 ;        ;        ; 10.833 ;
+; aluout_mux[2]  ; d_in_mux[2]  ; 13.271 ;        ;        ; 13.271 ;
+; aluout_mux[3]  ; d_in_mux[3]  ; 10.834 ;        ;        ; 10.834 ;
+; aluout_mux[4]  ; d_in_mux[4]  ; 10.206 ;        ;        ; 10.206 ;
+; aluout_mux[5]  ; d_in_mux[5]  ; 10.239 ;        ;        ; 10.239 ;
+; aluout_mux[6]  ; d_in_mux[6]  ; 13.158 ;        ;        ; 13.158 ;
+; aluout_mux[7]  ; d_in_mux[7]  ; 10.311 ;        ;        ; 10.311 ;
+; aluout_mux[8]  ; d_in_mux[8]  ; 10.319 ;        ;        ; 10.319 ;
+; aluout_mux[9]  ; d_in_mux[9]  ; 10.837 ;        ;        ; 10.837 ;
+; aluout_mux[10] ; d_in_mux[10] ; 10.205 ;        ;        ; 10.205 ;
+; aluout_mux[11] ; d_in_mux[11] ; 9.705  ;        ;        ; 9.705  ;
+; aluout_mux[12] ; d_in_mux[12] ; 9.828  ;        ;        ; 9.828  ;
+; aluout_mux[13] ; d_in_mux[13] ; 10.671 ;        ;        ; 10.671 ;
+; aluout_mux[14] ; d_in_mux[14] ; 10.256 ;        ;        ; 10.256 ;
+; aluout_mux[15] ; d_in_mux[15] ; 10.638 ;        ;        ; 10.638 ;
+; aluout_mux[16] ; d_in_mux[16] ; 13.335 ;        ;        ; 13.335 ;
+; aluout_mux[17] ; d_in_mux[17] ; 10.195 ;        ;        ; 10.195 ;
+; aluout_mux[18] ; d_in_mux[18] ; 10.174 ;        ;        ; 10.174 ;
+; aluout_mux[19] ; d_in_mux[19] ; 9.763  ;        ;        ; 9.763  ;
+; aluout_mux[20] ; d_in_mux[20] ; 11.435 ;        ;        ; 11.435 ;
+; aluout_mux[21] ; d_in_mux[21] ; 10.190 ;        ;        ; 10.190 ;
+; aluout_mux[22] ; d_in_mux[22] ; 11.808 ;        ;        ; 11.808 ;
+; aluout_mux[23] ; d_in_mux[23] ; 10.393 ;        ;        ; 10.393 ;
+; aluout_mux[24] ; d_in_mux[24] ; 11.063 ;        ;        ; 11.063 ;
+; aluout_mux[25] ; d_in_mux[25] ; 11.950 ;        ;        ; 11.950 ;
+; aluout_mux[26] ; d_in_mux[26] ; 10.314 ;        ;        ; 10.314 ;
+; aluout_mux[27] ; d_in_mux[27] ; 9.643  ;        ;        ; 9.643  ;
+; aluout_mux[28] ; d_in_mux[28] ; 10.147 ;        ;        ; 10.147 ;
+; aluout_mux[29] ; d_in_mux[29] ; 9.314  ;        ;        ; 9.314  ;
+; aluout_mux[30] ; d_in_mux[30] ; 10.838 ;        ;        ; 10.838 ;
+; aluout_mux[31] ; d_in_mux[31] ; 9.519  ;        ;        ; 9.519  ;
+; q_mux[0]       ; d_in_mux[0]  ; 10.621 ;        ;        ; 10.621 ;
+; q_mux[1]       ; d_in_mux[1]  ; 10.260 ;        ;        ; 10.260 ;
+; q_mux[2]       ; d_in_mux[2]  ; 12.798 ;        ;        ; 12.798 ;
+; q_mux[3]       ; d_in_mux[3]  ; 10.662 ;        ;        ; 10.662 ;
+; q_mux[4]       ; d_in_mux[4]  ; 10.115 ;        ;        ; 10.115 ;
+; q_mux[5]       ; d_in_mux[5]  ; 10.324 ;        ;        ; 10.324 ;
+; q_mux[6]       ; d_in_mux[6]  ; 13.229 ;        ;        ; 13.229 ;
+; q_mux[7]       ; d_in_mux[7]  ; 10.399 ;        ;        ; 10.399 ;
+; q_mux[8]       ; d_in_mux[8]  ; 9.419  ;        ;        ; 9.419  ;
+; q_mux[9]       ; d_in_mux[9]  ; 10.660 ;        ;        ; 10.660 ;
+; q_mux[10]      ; d_in_mux[10] ; 10.933 ;        ;        ; 10.933 ;
+; q_mux[11]      ; d_in_mux[11] ; 9.714  ;        ;        ; 9.714  ;
+; q_mux[12]      ; d_in_mux[12] ; 10.068 ;        ;        ; 10.068 ;
+; q_mux[13]      ; d_in_mux[13] ; 9.610  ;        ;        ; 9.610  ;
+; q_mux[14]      ; d_in_mux[14] ; 10.790 ;        ;        ; 10.790 ;
+; q_mux[15]      ; d_in_mux[15] ; 11.398 ;        ;        ; 11.398 ;
+; q_mux[16]      ; d_in_mux[16] ; 13.856 ;        ;        ; 13.856 ;
+; q_mux[17]      ; d_in_mux[17] ; 9.676  ;        ;        ; 9.676  ;
+; q_mux[18]      ; d_in_mux[18] ; 10.423 ;        ;        ; 10.423 ;
+; q_mux[19]      ; d_in_mux[19] ; 9.943  ;        ;        ; 9.943  ;
+; q_mux[20]      ; d_in_mux[20] ; 9.883  ;        ;        ; 9.883  ;
+; q_mux[21]      ; d_in_mux[21] ; 10.316 ;        ;        ; 10.316 ;
+; q_mux[22]      ; d_in_mux[22] ; 11.570 ;        ;        ; 11.570 ;
+; q_mux[23]      ; d_in_mux[23] ; 10.120 ;        ;        ; 10.120 ;
+; q_mux[24]      ; d_in_mux[24] ; 9.978  ;        ;        ; 9.978  ;
+; q_mux[25]      ; d_in_mux[25] ; 10.333 ;        ;        ; 10.333 ;
+; q_mux[26]      ; d_in_mux[26] ; 10.633 ;        ;        ; 10.633 ;
+; q_mux[27]      ; d_in_mux[27] ; 9.928  ;        ;        ; 9.928  ;
+; q_mux[28]      ; d_in_mux[28] ; 9.208  ;        ;        ; 9.208  ;
+; q_mux[29]      ; d_in_mux[29] ; 10.672 ;        ;        ; 10.672 ;
+; q_mux[30]      ; d_in_mux[30] ; 10.968 ;        ;        ; 10.968 ;
+; q_mux[31]      ; d_in_mux[31] ; 9.583  ;        ;        ; 9.583  ;
++----------------+--------------+--------+--------+--------+--------+
+
+
++---------------------------------------------------------------+
+; Minimum Progagation Delay                                     ;
++----------------+--------------+-------+-------+-------+-------+
+; Input Port     ; Output Port  ; RR    ; RF    ; FR    ; FF    ;
++----------------+--------------+-------+-------+-------+-------+
+; MemtoReg       ; d_in_mux[0]  ; 5.906 ; 5.906 ; 5.906 ; 5.906 ;
+; MemtoReg       ; d_in_mux[1]  ; 5.741 ; 5.741 ; 5.741 ; 5.741 ;
+; MemtoReg       ; d_in_mux[2]  ; 7.208 ; 7.208 ; 7.208 ; 7.208 ;
+; MemtoReg       ; d_in_mux[3]  ; 5.872 ; 5.872 ; 5.872 ; 5.872 ;
+; MemtoReg       ; d_in_mux[4]  ; 5.651 ; 5.651 ; 5.651 ; 5.651 ;
+; MemtoReg       ; d_in_mux[5]  ; 5.689 ; 5.689 ; 5.689 ; 5.689 ;
+; MemtoReg       ; d_in_mux[6]  ; 7.210 ; 7.210 ; 7.210 ; 7.210 ;
+; MemtoReg       ; d_in_mux[7]  ; 5.886 ; 5.886 ; 5.886 ; 5.886 ;
+; MemtoReg       ; d_in_mux[8]  ; 5.646 ; 5.646 ; 5.646 ; 5.646 ;
+; MemtoReg       ; d_in_mux[9]  ; 5.891 ; 5.891 ; 5.891 ; 5.891 ;
+; MemtoReg       ; d_in_mux[10] ; 5.880 ; 5.880 ; 5.880 ; 5.880 ;
+; MemtoReg       ; d_in_mux[11] ; 5.573 ; 5.573 ; 5.573 ; 5.573 ;
+; MemtoReg       ; d_in_mux[12] ; 5.775 ; 5.775 ; 5.775 ; 5.775 ;
+; MemtoReg       ; d_in_mux[13] ; 5.571 ; 5.571 ; 5.571 ; 5.571 ;
+; MemtoReg       ; d_in_mux[14] ; 6.275 ; 6.275 ; 6.275 ; 6.275 ;
+; MemtoReg       ; d_in_mux[15] ; 6.292 ; 6.292 ; 6.292 ; 6.292 ;
+; MemtoReg       ; d_in_mux[16] ; 7.808 ; 7.808 ; 7.808 ; 7.808 ;
+; MemtoReg       ; d_in_mux[17] ; 6.021 ; 6.021 ; 6.021 ; 6.021 ;
+; MemtoReg       ; d_in_mux[18] ; 6.268 ; 6.268 ; 6.268 ; 6.268 ;
+; MemtoReg       ; d_in_mux[19] ; 6.217 ; 6.217 ; 6.217 ; 6.217 ;
+; MemtoReg       ; d_in_mux[20] ; 6.244 ; 6.244 ; 6.244 ; 6.244 ;
+; MemtoReg       ; d_in_mux[21] ; 6.228 ; 6.228 ; 6.228 ; 6.228 ;
+; MemtoReg       ; d_in_mux[22] ; 6.847 ; 6.847 ; 6.847 ; 6.847 ;
+; MemtoReg       ; d_in_mux[23] ; 6.149 ; 6.149 ; 6.149 ; 6.149 ;
+; MemtoReg       ; d_in_mux[24] ; 6.216 ; 6.216 ; 6.216 ; 6.216 ;
+; MemtoReg       ; d_in_mux[25] ; 6.330 ; 6.330 ; 6.330 ; 6.330 ;
+; MemtoReg       ; d_in_mux[26] ; 6.328 ; 6.328 ; 6.328 ; 6.328 ;
+; MemtoReg       ; d_in_mux[27] ; 6.041 ; 6.041 ; 6.041 ; 6.041 ;
+; MemtoReg       ; d_in_mux[28] ; 5.717 ; 5.717 ; 5.717 ; 5.717 ;
+; MemtoReg       ; d_in_mux[29] ; 5.696 ; 5.696 ; 5.696 ; 5.696 ;
+; MemtoReg       ; d_in_mux[30] ; 6.323 ; 6.323 ; 6.323 ; 6.323 ;
+; MemtoReg       ; d_in_mux[31] ; 5.786 ; 5.786 ; 5.786 ; 5.786 ;
+; aluout_mux[0]  ; d_in_mux[0]  ; 5.728 ;       ;       ; 5.728 ;
+; aluout_mux[1]  ; d_in_mux[1]  ; 5.887 ;       ;       ; 5.887 ;
+; aluout_mux[2]  ; d_in_mux[2]  ; 7.130 ;       ;       ; 7.130 ;
+; aluout_mux[3]  ; d_in_mux[3]  ; 5.866 ;       ;       ; 5.866 ;
+; aluout_mux[4]  ; d_in_mux[4]  ; 5.621 ;       ;       ; 5.621 ;
+; aluout_mux[5]  ; d_in_mux[5]  ; 5.719 ;       ;       ; 5.719 ;
+; aluout_mux[6]  ; d_in_mux[6]  ; 7.064 ;       ;       ; 7.064 ;
+; aluout_mux[7]  ; d_in_mux[7]  ; 5.638 ;       ;       ; 5.638 ;
+; aluout_mux[8]  ; d_in_mux[8]  ; 5.718 ;       ;       ; 5.718 ;
+; aluout_mux[9]  ; d_in_mux[9]  ; 5.901 ;       ;       ; 5.901 ;
+; aluout_mux[10] ; d_in_mux[10] ; 5.573 ;       ;       ; 5.573 ;
+; aluout_mux[11] ; d_in_mux[11] ; 5.457 ;       ;       ; 5.457 ;
+; aluout_mux[12] ; d_in_mux[12] ; 5.465 ;       ;       ; 5.465 ;
+; aluout_mux[13] ; d_in_mux[13] ; 6.028 ;       ;       ; 6.028 ;
+; aluout_mux[14] ; d_in_mux[14] ; 5.644 ;       ;       ; 5.644 ;
+; aluout_mux[15] ; d_in_mux[15] ; 5.891 ;       ;       ; 5.891 ;
+; aluout_mux[16] ; d_in_mux[16] ; 7.122 ;       ;       ; 7.122 ;
+; aluout_mux[17] ; d_in_mux[17] ; 5.634 ;       ;       ; 5.634 ;
+; aluout_mux[18] ; d_in_mux[18] ; 5.603 ;       ;       ; 5.603 ;
+; aluout_mux[19] ; d_in_mux[19] ; 5.434 ;       ;       ; 5.434 ;
+; aluout_mux[20] ; d_in_mux[20] ; 6.348 ;       ;       ; 6.348 ;
+; aluout_mux[21] ; d_in_mux[21] ; 5.610 ;       ;       ; 5.610 ;
+; aluout_mux[22] ; d_in_mux[22] ; 6.400 ;       ;       ; 6.400 ;
+; aluout_mux[23] ; d_in_mux[23] ; 5.702 ;       ;       ; 5.702 ;
+; aluout_mux[24] ; d_in_mux[24] ; 6.172 ;       ;       ; 6.172 ;
+; aluout_mux[25] ; d_in_mux[25] ; 6.582 ;       ;       ; 6.582 ;
+; aluout_mux[26] ; d_in_mux[26] ; 5.664 ;       ;       ; 5.664 ;
+; aluout_mux[27] ; d_in_mux[27] ; 5.354 ;       ;       ; 5.354 ;
+; aluout_mux[28] ; d_in_mux[28] ; 5.671 ;       ;       ; 5.671 ;
+; aluout_mux[29] ; d_in_mux[29] ; 5.221 ;       ;       ; 5.221 ;
+; aluout_mux[30] ; d_in_mux[30] ; 5.852 ;       ;       ; 5.852 ;
+; aluout_mux[31] ; d_in_mux[31] ; 5.302 ;       ;       ; 5.302 ;
+; q_mux[0]       ; d_in_mux[0]  ; 5.791 ;       ;       ; 5.791 ;
+; q_mux[1]       ; d_in_mux[1]  ; 5.650 ;       ;       ; 5.650 ;
+; q_mux[2]       ; d_in_mux[2]  ; 6.892 ;       ;       ; 6.892 ;
+; q_mux[3]       ; d_in_mux[3]  ; 5.808 ;       ;       ; 5.808 ;
+; q_mux[4]       ; d_in_mux[4]  ; 5.612 ;       ;       ; 5.612 ;
+; q_mux[5]       ; d_in_mux[5]  ; 5.727 ;       ;       ; 5.727 ;
+; q_mux[6]       ; d_in_mux[6]  ; 7.106 ;       ;       ; 7.106 ;
+; q_mux[7]       ; d_in_mux[7]  ; 5.677 ;       ;       ; 5.677 ;
+; q_mux[8]       ; d_in_mux[8]  ; 5.287 ;       ;       ; 5.287 ;
+; q_mux[9]       ; d_in_mux[9]  ; 5.794 ;       ;       ; 5.794 ;
+; q_mux[10]      ; d_in_mux[10] ; 5.947 ;       ;       ; 5.947 ;
+; q_mux[11]      ; d_in_mux[11] ; 5.424 ;       ;       ; 5.424 ;
+; q_mux[12]      ; d_in_mux[12] ; 5.618 ;       ;       ; 5.618 ;
+; q_mux[13]      ; d_in_mux[13] ; 5.380 ;       ;       ; 5.380 ;
+; q_mux[14]      ; d_in_mux[14] ; 5.951 ;       ;       ; 5.951 ;
+; q_mux[15]      ; d_in_mux[15] ; 6.303 ;       ;       ; 6.303 ;
+; q_mux[16]      ; d_in_mux[16] ; 7.352 ;       ;       ; 7.352 ;
+; q_mux[17]      ; d_in_mux[17] ; 5.374 ;       ;       ; 5.374 ;
+; q_mux[18]      ; d_in_mux[18] ; 5.808 ;       ;       ; 5.808 ;
+; q_mux[19]      ; d_in_mux[19] ; 5.511 ;       ;       ; 5.511 ;
+; q_mux[20]      ; d_in_mux[20] ; 5.451 ;       ;       ; 5.451 ;
+; q_mux[21]      ; d_in_mux[21] ; 5.665 ;       ;       ; 5.665 ;
+; q_mux[22]      ; d_in_mux[22] ; 6.362 ;       ;       ; 6.362 ;
+; q_mux[23]      ; d_in_mux[23] ; 5.600 ;       ;       ; 5.600 ;
+; q_mux[24]      ; d_in_mux[24] ; 5.546 ;       ;       ; 5.546 ;
+; q_mux[25]      ; d_in_mux[25] ; 5.700 ;       ;       ; 5.700 ;
+; q_mux[26]      ; d_in_mux[26] ; 5.798 ;       ;       ; 5.798 ;
+; q_mux[27]      ; d_in_mux[27] ; 5.487 ;       ;       ; 5.487 ;
+; q_mux[28]      ; d_in_mux[28] ; 5.194 ;       ;       ; 5.194 ;
+; q_mux[29]      ; d_in_mux[29] ; 6.028 ;       ;       ; 6.028 ;
+; q_mux[30]      ; d_in_mux[30] ; 5.898 ;       ;       ; 5.898 ;
+; q_mux[31]      ; d_in_mux[31] ; 5.322 ;       ;       ; 5.322 ;
++----------------+--------------+-------+-------+-------+-------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 65    ; 65   ;
+; Unconstrained Input Port Paths  ; 96    ; 96   ;
+; Unconstrained Output Ports      ; 32    ; 32   ;
+; Unconstrained Output Port Paths ; 96    ; 96   ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
+    Info: Version 10.1 Build 153 11/29/2010 SJ Web Edition
+    Info: Processing started: Sun Feb 05 01:03:43 2017
+Info: Command: quartus_sta mux_MemReg -c mux_MemReg
+Info: qsta_default_script.tcl version: #1
+Info: Low junction temperature is 0 degrees C
+Info: High junction temperature is 85 degrees C
+Critical Warning: Synopsys Design Constraints File file not found: 'mux_MemReg.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info: No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info: The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning: No clocks defined in design.
+Info: No clocks to report
+Info: Analyzing Slow Model
+Info: No fmax paths to report
+Info: No Setup paths to report
+Info: No Hold paths to report
+Info: No Recovery paths to report
+Info: No Removal paths to report
+Info: No Minimum Pulse Width paths to report
+Info: The selected device family is not supported by the report_metastability command.
+Info: Analyzing Fast Model
+Info: Started post-fitting delay annotation
+Warning: Found 32 output pins without output pin load capacitance assignment
+    Info: Pin "d_in_mux[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "d_in_mux[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "d_in_mux[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "d_in_mux[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "d_in_mux[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "d_in_mux[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "d_in_mux[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "d_in_mux[7]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "d_in_mux[8]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "d_in_mux[9]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "d_in_mux[10]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "d_in_mux[11]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "d_in_mux[12]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "d_in_mux[13]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "d_in_mux[14]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "d_in_mux[15]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "d_in_mux[16]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "d_in_mux[17]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "d_in_mux[18]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "d_in_mux[19]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "d_in_mux[20]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "d_in_mux[21]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "d_in_mux[22]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "d_in_mux[23]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "d_in_mux[24]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "d_in_mux[25]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "d_in_mux[26]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "d_in_mux[27]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "d_in_mux[28]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "d_in_mux[29]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "d_in_mux[30]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "d_in_mux[31]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+Info: Delay annotation completed successfully
+Info: No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info: The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning: No clocks defined in design.
+Info: No Setup paths to report
+Info: No Hold paths to report
+Info: No Recovery paths to report
+Info: No Removal paths to report
+Info: No Minimum Pulse Width paths to report
+Info: The selected device family is not supported by the report_metastability command.
+Info: Design is not fully constrained for setup requirements
+Info: Design is not fully constrained for hold requirements
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 353 megabytes
+    Info: Processing ended: Sun Feb 05 01:03:46 2017
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:02
+
+

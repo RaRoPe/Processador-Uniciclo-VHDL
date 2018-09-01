@@ -1,0 +1,57 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\MyPC\Desktop\PC\simulation\modelsim
+Epc
+Z1 w1486358201
+Z2 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z3 dC:\Users\MyPC\Desktop\PC\simulation\modelsim
+Z4 8C:/Users/MyPC/Desktop/PC/pc.vhd
+Z5 FC:/Users/MyPC/Desktop/PC/pc.vhd
+l0
+L4
+VUK?=6lhYfo[Y@hTB<FJVh1
+Z6 OV;C;6.6c;45
+31
+Z7 o-93 -work work -O0
+Z8 tExplicit 1
+!s100 n7AKMYRzlTNM0X?ZDGJY]2
+Abehavioral
+R2
+DEx4 work 2 pc 0 22 UK?=6lhYfo[Y@hTB<FJVh1
+l16
+L14
+VGEcAhVIR5c5^:MWS8M@g[0
+R6
+31
+Z9 Mx1 4 ieee 14 std_logic_1164
+R7
+R8
+!s100 MzZoZRO^;fPL5QSfekhNZ1
+Epc_tb
+Z10 w1486363358
+R2
+R3
+Z11 8C:/Users/MyPC/Desktop/PC/pc_tb.vhd
+Z12 FC:/Users/MyPC/Desktop/PC/pc_tb.vhd
+l0
+L30
+VRQJbeP3B=;2KOLL`GG>nj2
+!s100 8:`na6F[P5Q@z1S`_RlZR0
+R6
+31
+R7
+R8
+Apc_arch
+R2
+DEx4 work 5 pc_tb 0 22 RQJbeP3B=;2KOLL`GG>nj2
+l51
+L33
+VMcGh?I=i_5z8Y6SVCPJb61
+!s100 ei`HK3goS6lE7>BVHIm2l0
+R6
+31
+R9
+R7
+R8

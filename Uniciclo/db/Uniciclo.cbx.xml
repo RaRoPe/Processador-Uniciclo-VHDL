@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Uniciclo">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Uniciclo|MD:MD|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_lnc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Uniciclo|MI:MI|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_tl71.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

@@ -1,0 +1,19 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+ENTITY address_offset IS
+	port (
+		imm		: IN std_logic_vector(31 DOWNTO 0);
+		adr		: OUT std_logic_vector(7 DOWNTO 0)
+	);
+END address_offset;
+
+ARCHITECTURE address_calc OF address_offset IS
+	SIGNAL result	: std_logic_vector(31 DOWNTO 0);
+	SIGNAL aux		: unsigned(31 downto 0);
+BEGIN
+	aux <= unsigned(imm) - X"2000";
+	result <= std_logic_vector(shift_right (aux,2));
+	adr <= std_logic_vector(result(7 DOWNTO 0));
+END ARCHITECTURE address_calc;

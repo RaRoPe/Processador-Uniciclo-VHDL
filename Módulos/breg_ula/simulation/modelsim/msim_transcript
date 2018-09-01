@@ -1,0 +1,90 @@
+# Reading C:/altera/10.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do breg_ula_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\10.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\10.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/MyPC/Desktop/breg_ula/mips_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling package mips_pkg
+# vcom -93 -work work {C:/Users/MyPC/Desktop/breg_ula/ula.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package mips_pkg
+# -- Compiling entity ula
+# -- Compiling architecture behavioral of ula
+# ** Warning: C:/Users/MyPC/Desktop/breg_ula/ula.vhd(40): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# vcom -93 -work work {C:/Users/MyPC/Desktop/breg_ula/c_ula.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package mips_pkg
+# -- Compiling entity c_ula
+# -- Compiling architecture rtl2 of c_ula
+# vcom -93 -work work {C:/Users/MyPC/Desktop/breg_ula/breg.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package mips_pkg
+# -- Compiling entity breg
+# -- Compiling architecture rtl of breg
+# vcom -93 -work work {C:/Users/MyPC/Desktop/breg_ula/breg_ula.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package mips_pkg
+# -- Compiling entity breg_ula
+# -- Compiling architecture rtl of breg_ula
+# -- Loading entity ula
+# -- Loading entity breg
+# -- Loading entity c_ula
+# 
+# vcom -93 -work work {C:/Users/MyPC/Desktop/breg_ula/breg_ula_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity breg_ula_tb
+# -- Compiling architecture breg_ula_arch of breg_ula_tb
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc" breg_ula_tb
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps breg_ula_tb 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.breg_ula_tb(breg_ula_arch)
+# Loading work.mips_pkg
+# Loading work.breg_ula(rtl)
+# Loading work.ula(behavioral)
+# Loading work.breg(rtl)
+# Loading work.c_ula(rtl2)
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by:   Hostname:   ProcessID: 2
+#           Attempting to use alternate WLF file "./wlftnr2v0c".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftnr2v0c
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 15 ns
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /breg_ula_tb/i1/breg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /breg_ula_tb/i1/breg

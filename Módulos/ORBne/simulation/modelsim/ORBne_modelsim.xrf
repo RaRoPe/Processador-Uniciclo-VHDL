@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/MyPC/Desktop/ORBne/ORBne_tb.vhd
+source_file = 1, C:/Users/MyPC/Desktop/ORBne/ORBne.vhd
+source_file = 1, C:/Users/MyPC/Desktop/ORBne/db/ORBne.cbx.xml
+source_file = 1, c:/altera/10.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/10.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/10.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/10.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = ORBne
+instance = comp, \AND_BEQ~I\, AND_BEQ, ORBne, 1
+instance = comp, \AND_BNE~I\, AND_BNE, ORBne, 1
+instance = comp, \OR_out~0\, OR_out~0, ORBne, 1
+instance = comp, \OR_out~I\, OR_out, ORBne, 1

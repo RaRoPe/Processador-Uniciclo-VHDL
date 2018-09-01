@@ -1,0 +1,39 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Uniciclo/ORBne.vhd}
+vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Uniciclo/ANDBne.vhd}
+vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Uniciclo/addiComplete.vhd}
+vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Uniciclo/controle.vhd}
+vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Uniciclo/andPort.vhd}
+vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Uniciclo/pc.vhd}
+vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Uniciclo/orJump.vhd}
+vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Uniciclo/shiftL2_Jump.vhd}
+vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Uniciclo/sumBranch.vhd}
+vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Uniciclo/sumPC.vhd}
+vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Uniciclo/muxJump.vhd}
+vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Uniciclo/muxBranch.vhd}
+vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Uniciclo/signExtd.vhd}
+vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Uniciclo/shiftL2_Sign.vhd}
+vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Uniciclo/mux_MemReg.vhd}
+vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Uniciclo/mux_ALUSrc.vhd}
+vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Uniciclo/mux_regdst.vhd}
+vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Uniciclo/MI.vhd}
+vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Uniciclo/MD.vhd}
+vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Uniciclo/mips_pkg.vhd}
+vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Uniciclo/ula.vhd}
+vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Uniciclo/breg.vhd}
+vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Uniciclo/Uniciclo.vhd}
+
+vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Uniciclo/Uniciclo_tb.vhd}
+
+vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc" Uniciclo_tb
+
+add wave *
+view structure
+view signals
+run 5120 ps

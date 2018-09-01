@@ -1,0 +1,19 @@
+# Reading C:/altera/10.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do muxJump_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\10.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\10.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/MyPC/Desktop/muxJump/muxJump.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity muxjump
+# -- Compiling architecture behavioral of muxjump
+# 

@@ -1,0 +1,251 @@
+Quartus II 64-Bit
+Version 10.1 Build 153 11/29/2010 SJ Web Edition
+14
+1086
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+breg
+# storage
+db|breg_ula.(5).cnf
+db|breg_ula.(5).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+breg.vhd
+68369d6b3639f8311bd21c693de92867
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+wsize
+32
+PARAMETER_SIGNED_DEC
+USR
+isize
+5
+PARAMETER_SIGNED_DEC
+USR
+bregsize
+32
+PARAMETER_SIGNED_DEC
+USR
+ constraint(rs)
+4 downto 0
+PARAMETER_STRING
+USR
+ constraint(rt)
+4 downto 0
+PARAMETER_STRING
+USR
+ constraint(rd)
+4 downto 0
+PARAMETER_STRING
+USR
+ constraint(d_in)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(rega)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(regb)
+31 downto 0
+PARAMETER_STRING
+USR
+}
+# include_file {
+mips_pkg.vhd
+5f84e80cbb996934a610658854e5b
+}
+# hierarchies {
+breg:breg
+}
+# lmf
+|altera|10.1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+c_ula
+# storage
+db|breg_ula.(6).cnf
+db|breg_ula.(6).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+c_ula.vhd
+b323fdfb247453f7e157ba3d8b6bc01
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(func)
+5 downto 0
+PARAMETER_STRING
+USR
+ constraint(opula)
+1 downto 0
+PARAMETER_STRING
+USR
+ constraint(ctrula)
+3 downto 0
+PARAMETER_STRING
+USR
+}
+# include_file {
+mips_pkg.vhd
+5f84e80cbb996934a610658854e5b
+}
+# hierarchies {
+c_ula:c_ula
+}
+# lmf
+|altera|10.1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+breg_ula
+# storage
+db|breg_ula.(3).cnf
+db|breg_ula.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+breg_ula.vhd
+2a3d362dbea3c32bcec37ac34ca96dd9
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# include_file {
+c_ula.vhd
+b323fdfb247453f7e157ba3d8b6bc01
+ula.vhd
+929b85ac19a19988b47eb5b95094940
+mips_pkg.vhd
+5f84e80cbb996934a610658854e5b
+breg.vhd
+68369d6b3639f8311bd21c693de92867
+}
+# hierarchies {
+|
+}
+# lmf
+|altera|10.1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+ula
+# storage
+db|breg_ula.(4).cnf
+db|breg_ula.(4).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+ula.vhd
+929b85ac19a19988b47eb5b95094940
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+wsize
+32
+PARAMETER_SIGNED_DEC
+USR
+ constraint(ulop)
+3 downto 0
+PARAMETER_STRING
+USR
+ constraint(a)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(b)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(aluout)
+31 downto 0
+PARAMETER_STRING
+USR
+}
+# include_file {
+mips_pkg.vhd
+5f84e80cbb996934a610658854e5b
+}
+# hierarchies {
+ula:ula
+}
+# lmf
+|altera|10.1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# complete
+

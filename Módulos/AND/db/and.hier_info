@@ -1,0 +1,6 @@
+|andPort
+branchControl => and_out.IN0
+zeroULA => and_out.IN1
+and_out <= and_out.DB_MAX_OUTPUT_PORT_TYPE
+
+

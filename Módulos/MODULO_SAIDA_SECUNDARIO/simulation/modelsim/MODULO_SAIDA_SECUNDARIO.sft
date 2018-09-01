@@ -1,0 +1,5 @@
+set tool_name "ModelSim-Altera (VHDL)"
+set corner_file_list {
+	{{"Slow Model"} {MODULO_SAIDA_SECUNDARIO.vho MODULO_SAIDA_SECUNDARIO_vhd.sdo}}
+	{{"Fast Model"} {MODULO_SAIDA_SECUNDARIO_fast.vho MODULO_SAIDA_SECUNDARIO_vhd_fast.sdo}}
+}

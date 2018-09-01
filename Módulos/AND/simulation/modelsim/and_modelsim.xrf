@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/MyPC/Desktop/AND/andPort_tb.vhd
+source_file = 1, C:/Users/MyPC/Desktop/AND/andPort.vhd
+source_file = 1, C:/Users/MyPC/Desktop/AND/db/and.cbx.xml
+source_file = 1, c:/altera/10.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/10.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/10.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/10.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = andPort
+instance = comp, branchControl_aI, branchControl, andPort, 1
+instance = comp, zeroULA_aI, zeroULA, andPort, 1
+instance = comp, and_out_a0, and_out~0, andPort, 1
+instance = comp, and_out_aI, and_out, andPort, 1

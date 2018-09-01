@@ -1,0 +1,288 @@
+# Reading C:/altera/10.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Uniciclo_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\10.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\10.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/address_calc.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity address_calc
+# -- Compiling architecture behavioral of address_calc
+# vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/muxShamt.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity muxshamt
+# -- Compiling architecture behavioral of muxshamt
+# vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/concatShamt.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity concatshamt
+# -- Compiling architecture behavioral of concatshamt
+# vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/MODULO_SAIDA_INSTRUCTION.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity modulo_saida_instruction
+# -- Compiling architecture behavioral of modulo_saida_instruction
+# vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/MODULO_SAIDA_SECUNDARIO.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity modulo_saida_secundario
+# -- Compiling architecture behavioral of modulo_saida_secundario
+# vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/MODULO_SAIDA.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity modulo_saida
+# -- Compiling architecture behavioral of modulo_saida
+# vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/ORBne.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity orbne
+# -- Compiling architecture behavioral of orbne
+# vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/ANDBne.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity andbne
+# -- Compiling architecture behavioral of andbne
+# vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/addiComplete.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity addicomplete
+# -- Compiling architecture comportamental of addicomplete
+# vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/controle.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity controle
+# -- Compiling architecture behavioral of controle
+# vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/andPort.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity andport
+# -- Compiling architecture behavioral of andport
+# vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/pc.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity pc
+# -- Compiling architecture behavioral of pc
+# vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/orJump.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity orjump
+# -- Compiling architecture comportamental of orjump
+# vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/shiftL2_Jump.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity shiftl2_jump
+# -- Compiling architecture comportamental of shiftl2_jump
+# vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/sumBranch.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity sumbranch
+# -- Compiling architecture behavioral of sumbranch
+# vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/sumPC.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity sumpc
+# -- Compiling architecture behavioral of sumpc
+# vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/muxJump.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity muxjump
+# -- Compiling architecture behavioral of muxjump
+# vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/muxBranch.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity muxbranch
+# -- Compiling architecture behavioral of muxbranch
+# vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/signExtd.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity signextd
+# -- Compiling architecture behavioral of signextd
+# vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/shiftL2_Sign.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity shiftl2_sign
+# -- Compiling architecture comportamental of shiftl2_sign
+# vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/mux_MemReg.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity mux_memreg
+# -- Compiling architecture behavioral of mux_memreg
+# vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/mux_ALUSrc.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity mux_alusrc
+# -- Compiling architecture behavioral of mux_alusrc
+# vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/mux_regdst.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity mux_regdst
+# -- Compiling architecture behavioral of mux_regdst
+# vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/MI.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity mi
+# -- Compiling architecture syn of mi
+# vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/MD.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity md
+# -- Compiling architecture syn of md
+# vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/mips_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling package mips_pkg
+# vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/ula.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package mips_pkg
+# -- Compiling entity ula
+# -- Compiling architecture behavioral of ula
+# ** Warning: C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/ula.vhd(46): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/breg.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package mips_pkg
+# -- Compiling entity breg
+# -- Compiling architecture rtl of breg
+# vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/Uniciclo.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package mips_pkg
+# -- Compiling entity uniciclo
+# -- Compiling architecture rtl of uniciclo
+# -- Loading entity ula
+# -- Loading entity breg
+# -- Loading entity md
+# -- Loading entity mi
+# -- Loading entity mux_regdst
+# -- Loading entity mux_alusrc
+# -- Loading entity mux_memreg
+# -- Loading entity shiftl2_sign
+# -- Loading entity signextd
+# -- Loading entity muxbranch
+# -- Loading entity muxjump
+# -- Loading entity sumpc
+# -- Loading entity sumbranch
+# -- Loading entity shiftl2_jump
+# -- Loading entity orjump
+# -- Loading entity pc
+# -- Loading entity andport
+# -- Loading entity controle
+# -- Loading entity addicomplete
+# -- Loading entity andbne
+# -- Loading entity orbne
+# -- Loading entity modulo_saida
+# -- Loading entity modulo_saida_secundario
+# -- Loading entity modulo_saida_instruction
+# -- Loading entity concatshamt
+# -- Loading entity muxshamt
+# -- Loading entity address_calc
+# 
+# vcom -93 -work work {C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/Uniciclo_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity uniciclo_tb
+# -- Compiling architecture uniciclo_arch of uniciclo_tb
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc" Uniciclo_tb
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps Uniciclo_tb 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.uniciclo_tb(uniciclo_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.mips_pkg
+# Loading work.uniciclo(rtl)
+# Loading work.ula(behavioral)
+# Loading work.breg(rtl)
+# Loading work.md(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading std.textio(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# Loading work.mi(syn)
+# Loading work.mux_regdst(behavioral)
+# Loading work.mux_alusrc(behavioral)
+# Loading work.mux_memreg(behavioral)
+# Loading work.shiftl2_sign(comportamental)
+# Loading work.signextd(behavioral)
+# Loading work.muxbranch(behavioral)
+# Loading work.muxjump(behavioral)
+# Loading work.sumpc(behavioral)
+# Loading work.sumbranch(behavioral)
+# Loading work.shiftl2_jump(comportamental)
+# Loading work.orjump(comportamental)
+# Loading work.pc(behavioral)
+# Loading work.andport(behavioral)
+# Loading work.controle(behavioral)
+# Loading work.addicomplete(comportamental)
+# Loading work.andbne(behavioral)
+# Loading work.orbne(behavioral)
+# Loading work.modulo_saida(behavioral)
+# Loading work.modulo_saida_secundario(behavioral)
+# Loading work.modulo_saida_instruction(behavioral)
+# Loading work.concatshamt(behavioral)
+# Loading work.muxshamt(behavioral)
+# Loading work.address_calc(behavioral)
+# WARNING: No extended dataflow license exists
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 380 ps
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /uniciclo_tb/i1/breg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /uniciclo_tb/i1/breg

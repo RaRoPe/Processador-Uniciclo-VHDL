@@ -1,0 +1,60 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\MyPC\Desktop\sumPC\simulation\modelsim
+Esumpc
+Z1 w1486339634
+Z2 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z4 dC:\Users\MyPC\Desktop\sumPC\simulation\modelsim
+Z5 8C:/Users/MyPC/Desktop/sumPC/sumPC.vhd
+Z6 FC:/Users/MyPC/Desktop/sumPC/sumPC.vhd
+l0
+L5
+VbJf9blZSSPn`:1fFL0l581
+Z7 OV;C;6.6c;45
+31
+Z8 o-93 -work work -O0
+Z9 tExplicit 1
+!s100 <b9CXPgicePOnb<ToT@j]2
+Abehavioral
+R2
+R3
+DEx4 work 5 sumpc 0 22 bJf9blZSSPn`:1fFL0l581
+l17
+L15
+VUc_?j36U6V`PfTJXbCnT60
+R7
+31
+Z10 Mx2 4 ieee 14 std_logic_1164
+Mx1 4 ieee 11 numeric_std
+R8
+R9
+!s100 K;WomiJzeH:aEGLI8?fA20
+Esumpc_tb
+Z11 w1486340088
+R3
+R4
+Z12 8C:/Users/MyPC/Desktop/sumPC/sumPC_tb.vhd
+Z13 FC:/Users/MyPC/Desktop/sumPC/sumPC_tb.vhd
+l0
+L30
+VVR[bD7UThbF0Zf[0ZeGh^1
+!s100 ];][H4?bKHamW@QXWiDGY3
+R7
+31
+R8
+R9
+Asumpc_arch
+R3
+DEx4 work 8 sumpc_tb 0 22 VR[bD7UThbF0Zf[0ZeGh^1
+l51
+L33
+VFI_M2]>1i2ZSiKMlb1@l[3
+!s100 <YBL_NH5J]H^g8NS7V1ha3
+R7
+31
+Z14 Mx1 4 ieee 14 std_logic_1164
+R8
+R9

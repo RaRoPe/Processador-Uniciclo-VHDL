@@ -1,0 +1,842 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\MyPC\Documents\OAC\Projeto Final\Uniciclo\simulation\modelsim
+Eaddicomplete
+Z1 w1486550372
+Z2 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z3 dC:\Users\MyPC\Documents\OAC\Projeto Final\Uniciclo\simulation\modelsim
+Z4 8C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/addiComplete.vhd
+Z5 FC:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/addiComplete.vhd
+l0
+L4
+V<gQ770[2dbR:e^[n5NY@V1
+Z6 OV;C;6.6c;45
+31
+Z7 o-93 -work work -O0
+Z8 tExplicit 1
+!s100 PIQ@K>>D_<JmVz6DcV25z2
+Acomportamental
+R2
+Z9 DEx4 work 12 addicomplete 0 22 <gQ770[2dbR:e^[n5NY@V1
+l15
+L13
+V:JG_J;Y93NZ6>=J[EnH571
+R6
+31
+Z10 Mx1 4 ieee 14 std_logic_1164
+R7
+R8
+!s100 G99C9[Jh4mGaK=VcV`8?21
+Eaddress_calc
+Z11 w1486544102
+Z12 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+R2
+R3
+Z13 8C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/address_calc.vhd
+Z14 FC:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/address_calc.vhd
+l0
+L5
+V9zm<gbl<J]2a^?cCi:E_21
+R6
+31
+R7
+R8
+!s100 f^VORShPf4<_G_CBTnV8n2
+Abehavioral
+R12
+R2
+Z15 DEx4 work 12 address_calc 0 22 9zm<gbl<J]2a^?cCi:E_21
+l19
+L14
+VAC`dW2ZQi9j9WV4MnL@nI0
+R6
+31
+Z16 Mx2 4 ieee 14 std_logic_1164
+Z17 Mx1 4 ieee 11 numeric_std
+R7
+R8
+!s100 <Pn7jRa:=GYY=g4z70joV3
+Eandbne
+Z18 w1486382266
+R2
+R3
+Z19 8C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/ANDBne.vhd
+Z20 FC:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/ANDBne.vhd
+l0
+L4
+VI25SXnlgW71@njm9<BJJ01
+R6
+31
+R7
+R8
+!s100 4R]^BaXaFCm8MN34Y0GcM3
+Abehavioral
+R2
+Z21 DEx4 work 6 andbne 0 22 I25SXnlgW71@njm9<BJJ01
+l16
+L14
+Vm@4S65<C1@Cd681U0eYJ@2
+R6
+31
+R10
+R7
+R8
+!s100 ?<BO@Hf2cf?4>`_a7LWWz1
+Eandport
+Z22 w1486360641
+R2
+R3
+Z23 8C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/andPort.vhd
+Z24 FC:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/andPort.vhd
+l0
+L4
+VLAG:LfB`S1z?C=XjGaJF?2
+R6
+31
+R7
+R8
+!s100 9V@i[^WUD9[D?C]V567SY0
+Abehavioral
+R2
+Z25 DEx4 work 7 andport 0 22 LAG:LfB`S1z?C=XjGaJF?2
+l16
+L14
+VmH1aFRXK;?Cj27U0]0?Dg0
+R6
+31
+R10
+R7
+R8
+!s100 MSoR=QRg@n?2EInQfdn^f2
+Ebreg
+Z26 w1485383820
+Z27 DPx4 work 8 mips_pkg 0 22 o0zTfUdbbMQzCBz26g:923
+R12
+R2
+R3
+Z28 8C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/breg.vhd
+Z29 FC:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/breg.vhd
+l0
+L6
+VeoAXJXnMCzO`MLJBRjPe?3
+R6
+31
+R7
+R8
+!s100 O2I3:d02<5_1M>iLPklQN0
+Artl
+R27
+R12
+R2
+Z30 DEx4 work 4 breg 0 22 eoAXJXnMCzO`MLJBRjPe?3
+l26
+L20
+VbJD[azYGM2gIDWV4jVTeJ3
+R6
+31
+Z31 Mx3 4 ieee 14 std_logic_1164
+Z32 Mx2 4 ieee 11 numeric_std
+Z33 Mx1 4 work 8 mips_pkg
+R7
+R8
+!s100 D>>omojImOB4]i3QkMih=2
+Econcatshamt
+Z34 w1486479823
+R12
+R2
+R3
+Z35 8C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/concatShamt.vhd
+Z36 FC:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/concatShamt.vhd
+l0
+L5
+VJn1?0JoKTMZhT^STnzl`E0
+R6
+31
+R7
+R8
+!s100 EW^gYf^3mG4`CYnkhW[<A0
+Abehavioral
+R12
+R2
+Z37 DEx4 work 11 concatshamt 0 22 Jn1?0JoKTMZhT^STnzl`E0
+l14
+L12
+VU4Uom_EV2_20aVDNV]K`R3
+R6
+31
+R16
+R17
+R7
+R8
+!s100 Sg0IeOTD_U><Dc6QWGhS01
+Econtrole
+Z38 w1486584859
+R12
+R2
+R3
+Z39 8C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/controle.vhd
+Z40 FC:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/controle.vhd
+l0
+L5
+VTBD15CmSl`8VENj9jiWjk3
+R6
+31
+R7
+R8
+!s100 d76zb0OdWzYT1_Nc0oV0c2
+Abehavioral
+R12
+R2
+Z41 DEx4 work 8 controle 0 22 TBD15CmSl`8VENj9jiWjk3
+l36
+L24
+V3hzm78k=[SCZd1aNLR7z^2
+R6
+31
+R16
+R17
+R7
+R8
+!s100 9i4GjLze2_Tf8X=JO>c7Z2
+Emd
+Z42 w1486238337
+R2
+R3
+Z43 8C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/MD.vhd
+Z44 FC:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/MD.vhd
+l0
+L42
+Vb;SISA4YWTCEGkY55ZbSK3
+R6
+31
+R7
+R8
+!s100 kSl0;F04KOZWkA0KlZYO<2
+Asyn
+R2
+Z45 DEx4 work 2 md 0 22 b;SISA4YWTCEGkY55ZbSK3
+l86
+L54
+VZ6Ti_UQlUhXE@[bniM^i11
+R6
+31
+R10
+R7
+R8
+!s100 62eAL`>0Xc8J_BO=`>X743
+Emi
+Z46 w1486153450
+R2
+R3
+Z47 8C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/MI.vhd
+Z48 FC:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/MI.vhd
+l0
+L42
+VDLHogCKmPL`7=6:4[fm:F3
+R6
+31
+R7
+R8
+!s100 z8TmnGj]G<T?LWDeTGVk03
+Asyn
+R2
+Z49 DEx4 work 2 mi 0 22 DLHogCKmPL`7=6:4[fm:F3
+l78
+L51
+VB60Poi3OLC72UA6n2iE>[3
+R6
+31
+R10
+R7
+R8
+!s100 jcYXfoMQ2kFUmKXi7ZGBF0
+Pmips_pkg
+R12
+R2
+w1486544111
+R3
+8C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/mips_pkg.vhd
+FC:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/mips_pkg.vhd
+l0
+L5
+Vo0zTfUdbbMQzCBz26g:923
+R6
+31
+R16
+R17
+R7
+R8
+!s100 ]L]fK<fZd>zJEJ6JniJ]f2
+Emodulo_saida
+Z50 w1486423130
+R2
+R3
+Z51 8C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/MODULO_SAIDA.vhd
+Z52 FC:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/MODULO_SAIDA.vhd
+l0
+L4
+V4`Q5bOT1kiZoDH[2A`eJM1
+R6
+31
+R7
+R8
+!s100 2cAFFahnI5EVG06@HXK=h1
+Abehavioral
+R2
+Z53 DEx4 work 12 modulo_saida 0 22 4`Q5bOT1kiZoDH[2A`eJM1
+l29
+L27
+VogF>hE2;f96TeHJTDcno@1
+R6
+31
+R10
+R7
+R8
+!s100 :E`N_AK>ZbN0`Nz9>69@V3
+Emodulo_saida_instruction
+Z54 w1486466998
+R2
+R3
+Z55 8C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/MODULO_SAIDA_INSTRUCTION.vhd
+Z56 FC:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/MODULO_SAIDA_INSTRUCTION.vhd
+l0
+L4
+VMNhg<D2;8LJWH2WCF[?0z2
+R6
+31
+R7
+R8
+!s100 ?Y[S8^Z2QRn]JIDY=bCiP2
+Abehavioral
+R2
+Z57 DEx4 work 24 modulo_saida_instruction 0 22 MNhg<D2;8LJWH2WCF[?0z2
+l31
+L29
+VKZfQ@>lU2`O<__D@N;Q2a2
+R6
+31
+R10
+R7
+R8
+!s100 T;YN:i8B1>eIe5`N41=ak2
+Emodulo_saida_secundario
+Z58 w1486424171
+R2
+R3
+Z59 8C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/MODULO_SAIDA_SECUNDARIO.vhd
+Z60 FC:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/MODULO_SAIDA_SECUNDARIO.vhd
+l0
+L4
+V<mV1TRL3D^mlU]M>?LBkd1
+R6
+31
+R7
+R8
+!s100 zJYY3c12kmA5^d1FdI^X90
+Abehavioral
+R2
+Z61 DEx4 work 23 modulo_saida_secundario 0 22 <mV1TRL3D^mlU]M>?LBkd1
+l23
+L21
+V[>?ljh2g3XRKj878j8chT2
+R6
+31
+R10
+R7
+R8
+!s100 RT7`kTk`J_IEFao2Bk^Ug1
+Emux_alusrc
+Z62 w1486580014
+R2
+R3
+Z63 8C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/mux_ALUSrc.vhd
+Z64 FC:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/mux_ALUSrc.vhd
+l0
+L4
+VAnWV:_=jT?JgIT?Qjoc2F3
+R6
+31
+R7
+R8
+!s100 c_i6W=TYV]b=k?6c`@[2X3
+Abehavioral
+R2
+Z65 DEx4 work 10 mux_alusrc 0 22 AnWV:_=jT?JgIT?Qjoc2F3
+l18
+L16
+V07cfFzB^S7gR[g5;iRMI01
+R6
+31
+R10
+R7
+R8
+!s100 36R<n2m6L_Z:Sz`aQ9:f82
+Emux_memreg
+Z66 w1486260202
+R2
+R3
+Z67 8C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/mux_MemReg.vhd
+Z68 FC:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/mux_MemReg.vhd
+l0
+L4
+Vo;1h6UkPl>HX=IQO8;=9z0
+R6
+31
+R7
+R8
+!s100 ?:l8>;ZXS8iP]4m4^STDf1
+Abehavioral
+R2
+Z69 DEx4 work 10 mux_memreg 0 22 o;1h6UkPl>HX=IQO8;=9z0
+l17
+L15
+VABI[kz?^3E5eBXD<ZmE>]0
+R6
+31
+R10
+R7
+R8
+!s100 AbClJH72m]k:6IX8Wiaa22
+Emux_regdst
+Z70 w1486252949
+R2
+R3
+Z71 8C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/mux_regdst.vhd
+Z72 FC:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/mux_regdst.vhd
+l0
+L4
+VPHZjNfYK=8<7K?_FBc4Wf0
+R6
+31
+R7
+R8
+!s100 ?n7XXKo?dn3Hg_5Z_iZY=1
+Abehavioral
+R2
+Z73 DEx4 work 10 mux_regdst 0 22 PHZjNfYK=8<7K?_FBc4Wf0
+l17
+L15
+VOlCV7;F?RONJR0OU;jL5G3
+R6
+31
+R10
+R7
+R8
+!s100 Ki>6EK]LTm=GNaXc9KbW22
+Emuxbranch
+Z74 w1486321460
+R2
+R3
+Z75 8C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/muxBranch.vhd
+Z76 FC:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/muxBranch.vhd
+l0
+L4
+VeGQA`[PUM06U[LTFe4eDA0
+R6
+31
+R7
+R8
+!s100 67[^RIKSUlV7zg8:dkWVn0
+Abehavioral
+R2
+Z77 DEx4 work 9 muxbranch 0 22 eGQA`[PUM06U[LTFe4eDA0
+l17
+L15
+V8R=Ba@NZiSH;19S;Cm]=;1
+R6
+31
+R10
+R7
+R8
+!s100 WRA15CLN1bJ^Q7j[^^2l_0
+Emuxjump
+Z78 w1486331984
+R2
+R3
+Z79 8C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/muxJump.vhd
+Z80 FC:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/muxJump.vhd
+l0
+L4
+VTZ1[OBSA9K9mJHole[U?b0
+R6
+31
+R7
+R8
+!s100 _KiB6jla@=34<M<GKQHYH2
+Abehavioral
+R2
+Z81 DEx4 work 7 muxjump 0 22 TZ1[OBSA9K9mJHole[U?b0
+l17
+L15
+VfH5DVN@^2nb^jJE260;cj2
+R6
+31
+R10
+R7
+R8
+!s100 `WLYLMMFgdTg_1V`LflSi2
+Emuxshamt
+Z82 w1486484657
+R2
+R3
+Z83 8C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/muxShamt.vhd
+Z84 FC:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/muxShamt.vhd
+l0
+L4
+Vk==DeV2TOJ>ZX;;CoM]To1
+R6
+31
+R7
+R8
+!s100 jPMQGb;F:016V1`O]BzJG1
+Abehavioral
+R2
+Z85 DEx4 work 8 muxshamt 0 22 k==DeV2TOJ>ZX;;CoM]To1
+l17
+L15
+V?0<]]]iL7C?WhkZa3[jhn1
+R6
+31
+R10
+R7
+R8
+!s100 TKIANjOZ@G2GVSi?gWSg11
+Eorbne
+Z86 w1486383251
+R2
+R3
+Z87 8C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/ORBne.vhd
+Z88 FC:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/ORBne.vhd
+l0
+L4
+VN7=[D;Ae`<RkM:HNN85n40
+R6
+31
+R7
+R8
+!s100 DjPmCaX77kj0JRd:MZSRb2
+Abehavioral
+R2
+Z89 DEx4 work 5 orbne 0 22 N7=[D;Ae`<RkM:HNN85n40
+l16
+L14
+VCk9Pf`7;fk17f=`4>bRgo3
+R6
+31
+R10
+R7
+R8
+!s100 k<OjNP5Nno]][j7ma[J6_2
+Eorjump
+Z90 w1486344316
+R2
+R3
+Z91 8C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/orJump.vhd
+Z92 FC:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/orJump.vhd
+l0
+L4
+V`lTSYGVP8nmfVzJMc:6XD3
+R6
+31
+R7
+R8
+!s100 fMjP@QeV@g62MYhYFR8;43
+Acomportamental
+R2
+Z93 DEx4 work 6 orjump 0 22 `lTSYGVP8nmfVzJMc:6XD3
+l16
+L14
+V>Z;LT1I01D:V2PmoePHXF1
+R6
+31
+R10
+R7
+R8
+!s100 4_Q7z`K2d8F2nIam>Q1;W1
+Epc
+Z94 w1486486453
+R12
+R2
+R3
+Z95 8C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/pc.vhd
+Z96 FC:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/pc.vhd
+l0
+L5
+VETP[KFU4f@>gCE2Decm0B1
+R6
+31
+R7
+R8
+!s100 1YV1KGZ`>3kXnBS>_j0Nd1
+Abehavioral
+R12
+R2
+Z97 DEx4 work 2 pc 0 22 ETP[KFU4f@>gCE2Decm0B1
+l20
+L16
+VTa>;zYW^X5TQg2oNbV67`1
+R6
+31
+R16
+R17
+R7
+R8
+!s100 2R;W<ZPKV8I]DbegYU=jO1
+Eshiftl2_jump
+Z98 w1486341684
+R2
+R3
+Z99 8C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/shiftL2_Jump.vhd
+Z100 FC:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/shiftL2_Jump.vhd
+l0
+L4
+VLTO_iohf^N9Z0Mz067@MF0
+R6
+31
+R7
+R8
+!s100 7kCYR=zm=<^kjGTcHIU?h2
+Acomportamental
+R2
+Z101 DEx4 work 12 shiftl2_jump 0 22 LTO_iohf^N9Z0Mz067@MF0
+l15
+L13
+V>=mzfoM6[nheYE3KOB;n01
+R6
+31
+R10
+R7
+R8
+!s100 9?Me_X=n<z>=gh>5f@@cc1
+Eshiftl2_sign
+Z102 w1486298610
+R2
+R3
+Z103 8C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/shiftL2_Sign.vhd
+Z104 FC:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/shiftL2_Sign.vhd
+l0
+L4
+V3oN<g9KX2Hg1=W9^`k9Fa0
+R6
+31
+R7
+R8
+!s100 4[U_17Km7U5`3><AhQdaH3
+Acomportamental
+R2
+Z105 DEx4 work 12 shiftl2_sign 0 22 3oN<g9KX2Hg1=W9^`k9Fa0
+l15
+L13
+VTBGZ2j=_6CM0Imz;CSl8`0
+R6
+31
+R10
+R7
+R8
+!s100 e6;VX]2PE96^`YXZIKF:b1
+Esignextd
+Z106 w1486550215
+R12
+R2
+R3
+Z107 8C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/signExtd.vhd
+Z108 FC:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/signExtd.vhd
+l0
+L5
+V;4m9_ER]Gm;l1dKX29;gZ3
+R6
+31
+R7
+R8
+!s100 V17<Z^;LoRYfnLo[WSfWk1
+Abehavioral
+R12
+R2
+Z109 DEx4 work 8 signextd 0 22 ;4m9_ER]Gm;l1dKX29;gZ3
+l14
+L12
+V=UAK2_?5fO>45;0hzmMoK0
+R6
+31
+R16
+R17
+R7
+R8
+!s100 5<<jY?288c839OjF5TdN;3
+Esumbranch
+Z110 w1486338161
+R12
+R2
+R3
+Z111 8C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/sumBranch.vhd
+Z112 FC:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/sumBranch.vhd
+l0
+L5
+V93lbMSXIGCeYX4U;g25zo0
+R6
+31
+R7
+R8
+!s100 n4K6[hbUoM`=YVTIElA6c3
+Abehavioral
+R12
+R2
+Z113 DEx4 work 9 sumbranch 0 22 93lbMSXIGCeYX4U;g25zo0
+l17
+L15
+VIQYIg5SKTHmRdGdX@9<?A3
+R6
+31
+R16
+R17
+R7
+R8
+!s100 EY9KFlYzLT1VDTF2@HLJ80
+Esumpc
+Z114 w1486338177
+R12
+R2
+R3
+Z115 8C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/sumPC.vhd
+Z116 FC:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/sumPC.vhd
+l0
+L5
+VbJf9blZSSPn`:1fFL0l581
+R6
+31
+R7
+R8
+!s100 <b9CXPgicePOnb<ToT@j]2
+Abehavioral
+R12
+R2
+Z117 DEx4 work 5 sumpc 0 22 bJf9blZSSPn`:1fFL0l581
+l17
+L15
+VUc_?j36U6V`PfTJXbCnT60
+R6
+31
+R16
+R17
+R7
+R8
+!s100 K;WomiJzeH:aEGLI8?fA20
+Eula
+Z118 w1486551430
+R27
+R12
+R2
+R3
+Z119 8C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/ula.vhd
+Z120 FC:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/ula.vhd
+l0
+L6
+VVE1nKgneU^?RX@fAfaPNk0
+R6
+31
+R7
+R8
+!s100 H>lk^z2EF?_g^R=2WQhLn1
+Abehavioral
+R27
+R12
+R2
+Z121 DEx4 work 3 ula 0 22 VE1nKgneU^?RX@fAfaPNk0
+l24
+L15
+VOlaknMLfl[b@nm8;6A8KZ3
+R6
+31
+R31
+R32
+R33
+R7
+R8
+!s100 h9l<i?gBOWFT7fRmE?KhC3
+Euniciclo
+Z122 w1486550542
+R27
+R12
+R2
+R3
+Z123 8C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/Uniciclo.vhd
+Z124 FC:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/Uniciclo.vhd
+l0
+L6
+VVoN6L7[QR4>BA5;oU7^io0
+R6
+31
+R7
+R8
+!s100 7miSQCITMGKCBI?2o@fUa2
+Artl
+R15
+R85
+R37
+R57
+R61
+R53
+R89
+R21
+R9
+R41
+R25
+R97
+R93
+R101
+R113
+R117
+R81
+R77
+R109
+R105
+R69
+R65
+R73
+R49
+R45
+R30
+R121
+R27
+R12
+R2
+DEx4 work 8 uniciclo 0 22 VoN6L7[QR4>BA5;oU7^io0
+l79
+L43
+VPbLG>6Jek@=Dc??l2@8Sm1
+R6
+31
+R31
+R32
+R33
+R7
+R8
+!s100 LAM1>0Y7K1U]2L=Sz6F7L3
+Euniciclo_tb
+Z125 w1486523957
+R2
+R3
+Z126 8C:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/Uniciclo_tb.vhd
+Z127 FC:/Users/MyPC/Documents/OAC/Projeto Final/Uniciclo/Uniciclo_tb.vhd
+l0
+L30
+VPei0aoW?CaM8cX0]idAEg1
+!s100 jP>5ik1GE3WbFgnXlC4i63
+R6
+31
+R7
+R8
+Auniciclo_arch
+R2
+DEx4 work 11 uniciclo_tb 0 22 Pei0aoW?CaM8cX0]idAEg1
+l105
+L33
+V<?]Q9fOZ>O5NIChdI0F7C3
+!s100 YDE;Vb0A1:l7C^IVfznWY0
+R6
+31
+R10
+R7
+R8

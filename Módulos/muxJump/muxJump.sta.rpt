@@ -1,0 +1,897 @@
+TimeQuest Timing Analyzer report for muxJump
+Sun Feb 05 21:00:25 2017
+Quartus II 64-Bit Version 10.1 Build 153 11/29/2010 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Slow Model Fmax Summary
+  6. Slow Model Setup Summary
+  7. Slow Model Hold Summary
+  8. Slow Model Recovery Summary
+  9. Slow Model Removal Summary
+ 10. Slow Model Minimum Pulse Width Summary
+ 11. Propagation Delay
+ 12. Minimum Propagation Delay
+ 13. Fast Model Setup Summary
+ 14. Fast Model Hold Summary
+ 15. Fast Model Recovery Summary
+ 16. Fast Model Removal Summary
+ 17. Fast Model Minimum Pulse Width Summary
+ 18. Propagation Delay
+ 19. Minimum Propagation Delay
+ 20. Multicorner Timing Analysis Summary
+ 21. Progagation Delay
+ 22. Minimum Progagation Delay
+ 23. Clock Transfers
+ 24. Report TCCS
+ 25. Report RSKM
+ 26. Unconstrained Paths
+ 27. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                     ;
++--------------------+--------------------------------------------------+
+; Quartus II Version ; Version 10.1 Build 153 11/29/2010 SJ Web Edition ;
+; Revision Name      ; muxJump                                          ;
+; Device Family      ; Cyclone II                                       ;
+; Device Name        ; EP2C70F896C6                                     ;
+; Timing Models      ; Final                                            ;
+; Delay Model        ; Combined                                         ;
+; Rise/Fall Delays   ; Unavailable                                      ;
++--------------------+--------------------------------------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 2      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
+----------
+; Clocks ;
+----------
+No clocks to report.
+
+
+---------------------------
+; Slow Model Fmax Summary ;
+---------------------------
+No paths to report.
+
+
+----------------------------
+; Slow Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Slow Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Slow Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Slow Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Slow Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++----------------------------------------------------------------------+
+; Propagation Delay                                                    ;
++----------------+-----------------+--------+--------+--------+--------+
+; Input Port     ; Output Port     ; RR     ; RF     ; FR     ; FF     ;
++----------------+-----------------+--------+--------+--------+--------+
+; JumpSg         ; MuxJumpExit[0]  ; 10.809 ; 10.809 ; 10.809 ; 10.809 ;
+; JumpSg         ; MuxJumpExit[1]  ; 10.470 ; 10.470 ; 10.470 ; 10.470 ;
+; JumpSg         ; MuxJumpExit[2]  ; 13.384 ; 13.384 ; 13.384 ; 13.384 ;
+; JumpSg         ; MuxJumpExit[3]  ; 10.801 ; 10.801 ; 10.801 ; 10.801 ;
+; JumpSg         ; MuxJumpExit[4]  ; 10.152 ; 10.152 ; 10.152 ; 10.152 ;
+; JumpSg         ; MuxJumpExit[5]  ; 10.205 ; 10.205 ; 10.205 ; 10.205 ;
+; JumpSg         ; MuxJumpExit[6]  ; 13.402 ; 13.402 ; 13.402 ; 13.402 ;
+; JumpSg         ; MuxJumpExit[7]  ; 10.793 ; 10.793 ; 10.793 ; 10.793 ;
+; JumpSg         ; MuxJumpExit[8]  ; 10.130 ; 10.130 ; 10.130 ; 10.130 ;
+; JumpSg         ; MuxJumpExit[9]  ; 10.776 ; 10.776 ; 10.776 ; 10.776 ;
+; JumpSg         ; MuxJumpExit[10] ; 10.784 ; 10.784 ; 10.784 ; 10.784 ;
+; JumpSg         ; MuxJumpExit[11] ; 9.930  ; 9.930  ; 9.930  ; 9.930  ;
+; JumpSg         ; MuxJumpExit[12] ; 10.384 ; 10.384 ; 10.384 ; 10.384 ;
+; JumpSg         ; MuxJumpExit[13] ; 9.952  ; 9.952  ; 9.952  ; 9.952  ;
+; JumpSg         ; MuxJumpExit[14] ; 11.368 ; 11.368 ; 11.368 ; 11.368 ;
+; JumpSg         ; MuxJumpExit[15] ; 11.480 ; 11.480 ; 11.480 ; 11.480 ;
+; JumpSg         ; MuxJumpExit[16] ; 14.554 ; 14.554 ; 14.554 ; 14.554 ;
+; JumpSg         ; MuxJumpExit[17] ; 10.831 ; 10.831 ; 10.831 ; 10.831 ;
+; JumpSg         ; MuxJumpExit[18] ; 11.328 ; 11.328 ; 11.328 ; 11.328 ;
+; JumpSg         ; MuxJumpExit[19] ; 11.190 ; 11.190 ; 11.190 ; 11.190 ;
+; JumpSg         ; MuxJumpExit[20] ; 11.315 ; 11.315 ; 11.315 ; 11.315 ;
+; JumpSg         ; MuxJumpExit[21] ; 11.294 ; 11.294 ; 11.294 ; 11.294 ;
+; JumpSg         ; MuxJumpExit[22] ; 12.512 ; 12.512 ; 12.512 ; 12.512 ;
+; JumpSg         ; MuxJumpExit[23] ; 11.081 ; 11.081 ; 11.081 ; 11.081 ;
+; JumpSg         ; MuxJumpExit[24] ; 11.188 ; 11.188 ; 11.188 ; 11.188 ;
+; JumpSg         ; MuxJumpExit[25] ; 11.509 ; 11.509 ; 11.509 ; 11.509 ;
+; JumpSg         ; MuxJumpExit[26] ; 11.521 ; 11.521 ; 11.521 ; 11.521 ;
+; JumpSg         ; MuxJumpExit[27] ; 10.851 ; 10.851 ; 10.851 ; 10.851 ;
+; JumpSg         ; MuxJumpExit[28] ; 10.224 ; 10.224 ; 10.224 ; 10.224 ;
+; JumpSg         ; MuxJumpExit[29] ; 10.204 ; 10.204 ; 10.204 ; 10.204 ;
+; JumpSg         ; MuxJumpExit[30] ; 11.741 ; 11.741 ; 11.741 ; 11.741 ;
+; JumpSg         ; MuxJumpExit[31] ; 10.414 ; 10.414 ; 10.414 ; 10.414 ;
+; muxBr_exit[0]  ; MuxJumpExit[0]  ; 10.473 ;        ;        ; 10.473 ;
+; muxBr_exit[1]  ; MuxJumpExit[1]  ; 10.833 ;        ;        ; 10.833 ;
+; muxBr_exit[2]  ; MuxJumpExit[2]  ; 13.271 ;        ;        ; 13.271 ;
+; muxBr_exit[3]  ; MuxJumpExit[3]  ; 10.834 ;        ;        ; 10.834 ;
+; muxBr_exit[4]  ; MuxJumpExit[4]  ; 10.206 ;        ;        ; 10.206 ;
+; muxBr_exit[5]  ; MuxJumpExit[5]  ; 10.239 ;        ;        ; 10.239 ;
+; muxBr_exit[6]  ; MuxJumpExit[6]  ; 13.158 ;        ;        ; 13.158 ;
+; muxBr_exit[7]  ; MuxJumpExit[7]  ; 10.311 ;        ;        ; 10.311 ;
+; muxBr_exit[8]  ; MuxJumpExit[8]  ; 10.319 ;        ;        ; 10.319 ;
+; muxBr_exit[9]  ; MuxJumpExit[9]  ; 10.837 ;        ;        ; 10.837 ;
+; muxBr_exit[10] ; MuxJumpExit[10] ; 10.205 ;        ;        ; 10.205 ;
+; muxBr_exit[11] ; MuxJumpExit[11] ; 9.705  ;        ;        ; 9.705  ;
+; muxBr_exit[12] ; MuxJumpExit[12] ; 9.828  ;        ;        ; 9.828  ;
+; muxBr_exit[13] ; MuxJumpExit[13] ; 10.671 ;        ;        ; 10.671 ;
+; muxBr_exit[14] ; MuxJumpExit[14] ; 10.256 ;        ;        ; 10.256 ;
+; muxBr_exit[15] ; MuxJumpExit[15] ; 10.638 ;        ;        ; 10.638 ;
+; muxBr_exit[16] ; MuxJumpExit[16] ; 13.335 ;        ;        ; 13.335 ;
+; muxBr_exit[17] ; MuxJumpExit[17] ; 10.195 ;        ;        ; 10.195 ;
+; muxBr_exit[18] ; MuxJumpExit[18] ; 10.174 ;        ;        ; 10.174 ;
+; muxBr_exit[19] ; MuxJumpExit[19] ; 9.763  ;        ;        ; 9.763  ;
+; muxBr_exit[20] ; MuxJumpExit[20] ; 11.435 ;        ;        ; 11.435 ;
+; muxBr_exit[21] ; MuxJumpExit[21] ; 10.190 ;        ;        ; 10.190 ;
+; muxBr_exit[22] ; MuxJumpExit[22] ; 11.808 ;        ;        ; 11.808 ;
+; muxBr_exit[23] ; MuxJumpExit[23] ; 10.393 ;        ;        ; 10.393 ;
+; muxBr_exit[24] ; MuxJumpExit[24] ; 11.063 ;        ;        ; 11.063 ;
+; muxBr_exit[25] ; MuxJumpExit[25] ; 11.950 ;        ;        ; 11.950 ;
+; muxBr_exit[26] ; MuxJumpExit[26] ; 10.314 ;        ;        ; 10.314 ;
+; muxBr_exit[27] ; MuxJumpExit[27] ; 9.643  ;        ;        ; 9.643  ;
+; muxBr_exit[28] ; MuxJumpExit[28] ; 10.147 ;        ;        ; 10.147 ;
+; muxBr_exit[29] ; MuxJumpExit[29] ; 9.314  ;        ;        ; 9.314  ;
+; muxBr_exit[30] ; MuxJumpExit[30] ; 10.838 ;        ;        ; 10.838 ;
+; muxBr_exit[31] ; MuxJumpExit[31] ; 9.519  ;        ;        ; 9.519  ;
+; mux_shift[0]   ; MuxJumpExit[0]  ; 10.621 ;        ;        ; 10.621 ;
+; mux_shift[1]   ; MuxJumpExit[1]  ; 10.260 ;        ;        ; 10.260 ;
+; mux_shift[2]   ; MuxJumpExit[2]  ; 12.798 ;        ;        ; 12.798 ;
+; mux_shift[3]   ; MuxJumpExit[3]  ; 10.662 ;        ;        ; 10.662 ;
+; mux_shift[4]   ; MuxJumpExit[4]  ; 10.115 ;        ;        ; 10.115 ;
+; mux_shift[5]   ; MuxJumpExit[5]  ; 10.324 ;        ;        ; 10.324 ;
+; mux_shift[6]   ; MuxJumpExit[6]  ; 13.229 ;        ;        ; 13.229 ;
+; mux_shift[7]   ; MuxJumpExit[7]  ; 10.399 ;        ;        ; 10.399 ;
+; mux_shift[8]   ; MuxJumpExit[8]  ; 9.419  ;        ;        ; 9.419  ;
+; mux_shift[9]   ; MuxJumpExit[9]  ; 10.660 ;        ;        ; 10.660 ;
+; mux_shift[10]  ; MuxJumpExit[10] ; 10.933 ;        ;        ; 10.933 ;
+; mux_shift[11]  ; MuxJumpExit[11] ; 9.714  ;        ;        ; 9.714  ;
+; mux_shift[12]  ; MuxJumpExit[12] ; 10.068 ;        ;        ; 10.068 ;
+; mux_shift[13]  ; MuxJumpExit[13] ; 9.610  ;        ;        ; 9.610  ;
+; mux_shift[14]  ; MuxJumpExit[14] ; 10.790 ;        ;        ; 10.790 ;
+; mux_shift[15]  ; MuxJumpExit[15] ; 11.398 ;        ;        ; 11.398 ;
+; mux_shift[16]  ; MuxJumpExit[16] ; 13.856 ;        ;        ; 13.856 ;
+; mux_shift[17]  ; MuxJumpExit[17] ; 9.676  ;        ;        ; 9.676  ;
+; mux_shift[18]  ; MuxJumpExit[18] ; 10.423 ;        ;        ; 10.423 ;
+; mux_shift[19]  ; MuxJumpExit[19] ; 9.943  ;        ;        ; 9.943  ;
+; mux_shift[20]  ; MuxJumpExit[20] ; 9.883  ;        ;        ; 9.883  ;
+; mux_shift[21]  ; MuxJumpExit[21] ; 10.316 ;        ;        ; 10.316 ;
+; mux_shift[22]  ; MuxJumpExit[22] ; 11.570 ;        ;        ; 11.570 ;
+; mux_shift[23]  ; MuxJumpExit[23] ; 10.120 ;        ;        ; 10.120 ;
+; mux_shift[24]  ; MuxJumpExit[24] ; 9.978  ;        ;        ; 9.978  ;
+; mux_shift[25]  ; MuxJumpExit[25] ; 10.333 ;        ;        ; 10.333 ;
+; mux_shift[26]  ; MuxJumpExit[26] ; 10.633 ;        ;        ; 10.633 ;
+; mux_shift[27]  ; MuxJumpExit[27] ; 9.928  ;        ;        ; 9.928  ;
+; mux_shift[28]  ; MuxJumpExit[28] ; 9.208  ;        ;        ; 9.208  ;
+; mux_shift[29]  ; MuxJumpExit[29] ; 10.672 ;        ;        ; 10.672 ;
+; mux_shift[30]  ; MuxJumpExit[30] ; 10.968 ;        ;        ; 10.968 ;
+; mux_shift[31]  ; MuxJumpExit[31] ; 9.583  ;        ;        ; 9.583  ;
++----------------+-----------------+--------+--------+--------+--------+
+
+
++----------------------------------------------------------------------+
+; Minimum Propagation Delay                                            ;
++----------------+-----------------+--------+--------+--------+--------+
+; Input Port     ; Output Port     ; RR     ; RF     ; FR     ; FF     ;
++----------------+-----------------+--------+--------+--------+--------+
+; JumpSg         ; MuxJumpExit[0]  ; 10.809 ; 10.809 ; 10.809 ; 10.809 ;
+; JumpSg         ; MuxJumpExit[1]  ; 10.470 ; 10.470 ; 10.470 ; 10.470 ;
+; JumpSg         ; MuxJumpExit[2]  ; 13.384 ; 13.384 ; 13.384 ; 13.384 ;
+; JumpSg         ; MuxJumpExit[3]  ; 10.801 ; 10.801 ; 10.801 ; 10.801 ;
+; JumpSg         ; MuxJumpExit[4]  ; 10.152 ; 10.152 ; 10.152 ; 10.152 ;
+; JumpSg         ; MuxJumpExit[5]  ; 10.205 ; 10.205 ; 10.205 ; 10.205 ;
+; JumpSg         ; MuxJumpExit[6]  ; 13.402 ; 13.402 ; 13.402 ; 13.402 ;
+; JumpSg         ; MuxJumpExit[7]  ; 10.793 ; 10.793 ; 10.793 ; 10.793 ;
+; JumpSg         ; MuxJumpExit[8]  ; 10.130 ; 10.130 ; 10.130 ; 10.130 ;
+; JumpSg         ; MuxJumpExit[9]  ; 10.776 ; 10.776 ; 10.776 ; 10.776 ;
+; JumpSg         ; MuxJumpExit[10] ; 10.784 ; 10.784 ; 10.784 ; 10.784 ;
+; JumpSg         ; MuxJumpExit[11] ; 9.930  ; 9.930  ; 9.930  ; 9.930  ;
+; JumpSg         ; MuxJumpExit[12] ; 10.384 ; 10.384 ; 10.384 ; 10.384 ;
+; JumpSg         ; MuxJumpExit[13] ; 9.952  ; 9.952  ; 9.952  ; 9.952  ;
+; JumpSg         ; MuxJumpExit[14] ; 11.368 ; 11.368 ; 11.368 ; 11.368 ;
+; JumpSg         ; MuxJumpExit[15] ; 11.480 ; 11.480 ; 11.480 ; 11.480 ;
+; JumpSg         ; MuxJumpExit[16] ; 14.554 ; 14.554 ; 14.554 ; 14.554 ;
+; JumpSg         ; MuxJumpExit[17] ; 10.831 ; 10.831 ; 10.831 ; 10.831 ;
+; JumpSg         ; MuxJumpExit[18] ; 11.328 ; 11.328 ; 11.328 ; 11.328 ;
+; JumpSg         ; MuxJumpExit[19] ; 11.190 ; 11.190 ; 11.190 ; 11.190 ;
+; JumpSg         ; MuxJumpExit[20] ; 11.315 ; 11.315 ; 11.315 ; 11.315 ;
+; JumpSg         ; MuxJumpExit[21] ; 11.294 ; 11.294 ; 11.294 ; 11.294 ;
+; JumpSg         ; MuxJumpExit[22] ; 12.512 ; 12.512 ; 12.512 ; 12.512 ;
+; JumpSg         ; MuxJumpExit[23] ; 11.081 ; 11.081 ; 11.081 ; 11.081 ;
+; JumpSg         ; MuxJumpExit[24] ; 11.188 ; 11.188 ; 11.188 ; 11.188 ;
+; JumpSg         ; MuxJumpExit[25] ; 11.509 ; 11.509 ; 11.509 ; 11.509 ;
+; JumpSg         ; MuxJumpExit[26] ; 11.521 ; 11.521 ; 11.521 ; 11.521 ;
+; JumpSg         ; MuxJumpExit[27] ; 10.851 ; 10.851 ; 10.851 ; 10.851 ;
+; JumpSg         ; MuxJumpExit[28] ; 10.224 ; 10.224 ; 10.224 ; 10.224 ;
+; JumpSg         ; MuxJumpExit[29] ; 10.204 ; 10.204 ; 10.204 ; 10.204 ;
+; JumpSg         ; MuxJumpExit[30] ; 11.741 ; 11.741 ; 11.741 ; 11.741 ;
+; JumpSg         ; MuxJumpExit[31] ; 10.414 ; 10.414 ; 10.414 ; 10.414 ;
+; muxBr_exit[0]  ; MuxJumpExit[0]  ; 10.473 ;        ;        ; 10.473 ;
+; muxBr_exit[1]  ; MuxJumpExit[1]  ; 10.833 ;        ;        ; 10.833 ;
+; muxBr_exit[2]  ; MuxJumpExit[2]  ; 13.271 ;        ;        ; 13.271 ;
+; muxBr_exit[3]  ; MuxJumpExit[3]  ; 10.834 ;        ;        ; 10.834 ;
+; muxBr_exit[4]  ; MuxJumpExit[4]  ; 10.206 ;        ;        ; 10.206 ;
+; muxBr_exit[5]  ; MuxJumpExit[5]  ; 10.239 ;        ;        ; 10.239 ;
+; muxBr_exit[6]  ; MuxJumpExit[6]  ; 13.158 ;        ;        ; 13.158 ;
+; muxBr_exit[7]  ; MuxJumpExit[7]  ; 10.311 ;        ;        ; 10.311 ;
+; muxBr_exit[8]  ; MuxJumpExit[8]  ; 10.319 ;        ;        ; 10.319 ;
+; muxBr_exit[9]  ; MuxJumpExit[9]  ; 10.837 ;        ;        ; 10.837 ;
+; muxBr_exit[10] ; MuxJumpExit[10] ; 10.205 ;        ;        ; 10.205 ;
+; muxBr_exit[11] ; MuxJumpExit[11] ; 9.705  ;        ;        ; 9.705  ;
+; muxBr_exit[12] ; MuxJumpExit[12] ; 9.828  ;        ;        ; 9.828  ;
+; muxBr_exit[13] ; MuxJumpExit[13] ; 10.671 ;        ;        ; 10.671 ;
+; muxBr_exit[14] ; MuxJumpExit[14] ; 10.256 ;        ;        ; 10.256 ;
+; muxBr_exit[15] ; MuxJumpExit[15] ; 10.638 ;        ;        ; 10.638 ;
+; muxBr_exit[16] ; MuxJumpExit[16] ; 13.335 ;        ;        ; 13.335 ;
+; muxBr_exit[17] ; MuxJumpExit[17] ; 10.195 ;        ;        ; 10.195 ;
+; muxBr_exit[18] ; MuxJumpExit[18] ; 10.174 ;        ;        ; 10.174 ;
+; muxBr_exit[19] ; MuxJumpExit[19] ; 9.763  ;        ;        ; 9.763  ;
+; muxBr_exit[20] ; MuxJumpExit[20] ; 11.435 ;        ;        ; 11.435 ;
+; muxBr_exit[21] ; MuxJumpExit[21] ; 10.190 ;        ;        ; 10.190 ;
+; muxBr_exit[22] ; MuxJumpExit[22] ; 11.808 ;        ;        ; 11.808 ;
+; muxBr_exit[23] ; MuxJumpExit[23] ; 10.393 ;        ;        ; 10.393 ;
+; muxBr_exit[24] ; MuxJumpExit[24] ; 11.063 ;        ;        ; 11.063 ;
+; muxBr_exit[25] ; MuxJumpExit[25] ; 11.950 ;        ;        ; 11.950 ;
+; muxBr_exit[26] ; MuxJumpExit[26] ; 10.314 ;        ;        ; 10.314 ;
+; muxBr_exit[27] ; MuxJumpExit[27] ; 9.643  ;        ;        ; 9.643  ;
+; muxBr_exit[28] ; MuxJumpExit[28] ; 10.147 ;        ;        ; 10.147 ;
+; muxBr_exit[29] ; MuxJumpExit[29] ; 9.314  ;        ;        ; 9.314  ;
+; muxBr_exit[30] ; MuxJumpExit[30] ; 10.838 ;        ;        ; 10.838 ;
+; muxBr_exit[31] ; MuxJumpExit[31] ; 9.519  ;        ;        ; 9.519  ;
+; mux_shift[0]   ; MuxJumpExit[0]  ; 10.621 ;        ;        ; 10.621 ;
+; mux_shift[1]   ; MuxJumpExit[1]  ; 10.260 ;        ;        ; 10.260 ;
+; mux_shift[2]   ; MuxJumpExit[2]  ; 12.798 ;        ;        ; 12.798 ;
+; mux_shift[3]   ; MuxJumpExit[3]  ; 10.662 ;        ;        ; 10.662 ;
+; mux_shift[4]   ; MuxJumpExit[4]  ; 10.115 ;        ;        ; 10.115 ;
+; mux_shift[5]   ; MuxJumpExit[5]  ; 10.324 ;        ;        ; 10.324 ;
+; mux_shift[6]   ; MuxJumpExit[6]  ; 13.229 ;        ;        ; 13.229 ;
+; mux_shift[7]   ; MuxJumpExit[7]  ; 10.399 ;        ;        ; 10.399 ;
+; mux_shift[8]   ; MuxJumpExit[8]  ; 9.419  ;        ;        ; 9.419  ;
+; mux_shift[9]   ; MuxJumpExit[9]  ; 10.660 ;        ;        ; 10.660 ;
+; mux_shift[10]  ; MuxJumpExit[10] ; 10.933 ;        ;        ; 10.933 ;
+; mux_shift[11]  ; MuxJumpExit[11] ; 9.714  ;        ;        ; 9.714  ;
+; mux_shift[12]  ; MuxJumpExit[12] ; 10.068 ;        ;        ; 10.068 ;
+; mux_shift[13]  ; MuxJumpExit[13] ; 9.610  ;        ;        ; 9.610  ;
+; mux_shift[14]  ; MuxJumpExit[14] ; 10.790 ;        ;        ; 10.790 ;
+; mux_shift[15]  ; MuxJumpExit[15] ; 11.398 ;        ;        ; 11.398 ;
+; mux_shift[16]  ; MuxJumpExit[16] ; 13.856 ;        ;        ; 13.856 ;
+; mux_shift[17]  ; MuxJumpExit[17] ; 9.676  ;        ;        ; 9.676  ;
+; mux_shift[18]  ; MuxJumpExit[18] ; 10.423 ;        ;        ; 10.423 ;
+; mux_shift[19]  ; MuxJumpExit[19] ; 9.943  ;        ;        ; 9.943  ;
+; mux_shift[20]  ; MuxJumpExit[20] ; 9.883  ;        ;        ; 9.883  ;
+; mux_shift[21]  ; MuxJumpExit[21] ; 10.316 ;        ;        ; 10.316 ;
+; mux_shift[22]  ; MuxJumpExit[22] ; 11.570 ;        ;        ; 11.570 ;
+; mux_shift[23]  ; MuxJumpExit[23] ; 10.120 ;        ;        ; 10.120 ;
+; mux_shift[24]  ; MuxJumpExit[24] ; 9.978  ;        ;        ; 9.978  ;
+; mux_shift[25]  ; MuxJumpExit[25] ; 10.333 ;        ;        ; 10.333 ;
+; mux_shift[26]  ; MuxJumpExit[26] ; 10.633 ;        ;        ; 10.633 ;
+; mux_shift[27]  ; MuxJumpExit[27] ; 9.928  ;        ;        ; 9.928  ;
+; mux_shift[28]  ; MuxJumpExit[28] ; 9.208  ;        ;        ; 9.208  ;
+; mux_shift[29]  ; MuxJumpExit[29] ; 10.672 ;        ;        ; 10.672 ;
+; mux_shift[30]  ; MuxJumpExit[30] ; 10.968 ;        ;        ; 10.968 ;
+; mux_shift[31]  ; MuxJumpExit[31] ; 9.583  ;        ;        ; 9.583  ;
++----------------+-----------------+--------+--------+--------+--------+
+
+
+----------------------------
+; Fast Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Fast Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Fast Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Fast Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Fast Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++------------------------------------------------------------------+
+; Propagation Delay                                                ;
++----------------+-----------------+-------+-------+-------+-------+
+; Input Port     ; Output Port     ; RR    ; RF    ; FR    ; FF    ;
++----------------+-----------------+-------+-------+-------+-------+
+; JumpSg         ; MuxJumpExit[0]  ; 5.906 ; 5.906 ; 5.906 ; 5.906 ;
+; JumpSg         ; MuxJumpExit[1]  ; 5.741 ; 5.741 ; 5.741 ; 5.741 ;
+; JumpSg         ; MuxJumpExit[2]  ; 7.208 ; 7.208 ; 7.208 ; 7.208 ;
+; JumpSg         ; MuxJumpExit[3]  ; 5.872 ; 5.872 ; 5.872 ; 5.872 ;
+; JumpSg         ; MuxJumpExit[4]  ; 5.651 ; 5.651 ; 5.651 ; 5.651 ;
+; JumpSg         ; MuxJumpExit[5]  ; 5.689 ; 5.689 ; 5.689 ; 5.689 ;
+; JumpSg         ; MuxJumpExit[6]  ; 7.210 ; 7.210 ; 7.210 ; 7.210 ;
+; JumpSg         ; MuxJumpExit[7]  ; 5.886 ; 5.886 ; 5.886 ; 5.886 ;
+; JumpSg         ; MuxJumpExit[8]  ; 5.646 ; 5.646 ; 5.646 ; 5.646 ;
+; JumpSg         ; MuxJumpExit[9]  ; 5.891 ; 5.891 ; 5.891 ; 5.891 ;
+; JumpSg         ; MuxJumpExit[10] ; 5.880 ; 5.880 ; 5.880 ; 5.880 ;
+; JumpSg         ; MuxJumpExit[11] ; 5.573 ; 5.573 ; 5.573 ; 5.573 ;
+; JumpSg         ; MuxJumpExit[12] ; 5.775 ; 5.775 ; 5.775 ; 5.775 ;
+; JumpSg         ; MuxJumpExit[13] ; 5.571 ; 5.571 ; 5.571 ; 5.571 ;
+; JumpSg         ; MuxJumpExit[14] ; 6.275 ; 6.275 ; 6.275 ; 6.275 ;
+; JumpSg         ; MuxJumpExit[15] ; 6.292 ; 6.292 ; 6.292 ; 6.292 ;
+; JumpSg         ; MuxJumpExit[16] ; 7.808 ; 7.808 ; 7.808 ; 7.808 ;
+; JumpSg         ; MuxJumpExit[17] ; 6.021 ; 6.021 ; 6.021 ; 6.021 ;
+; JumpSg         ; MuxJumpExit[18] ; 6.268 ; 6.268 ; 6.268 ; 6.268 ;
+; JumpSg         ; MuxJumpExit[19] ; 6.217 ; 6.217 ; 6.217 ; 6.217 ;
+; JumpSg         ; MuxJumpExit[20] ; 6.244 ; 6.244 ; 6.244 ; 6.244 ;
+; JumpSg         ; MuxJumpExit[21] ; 6.228 ; 6.228 ; 6.228 ; 6.228 ;
+; JumpSg         ; MuxJumpExit[22] ; 6.847 ; 6.847 ; 6.847 ; 6.847 ;
+; JumpSg         ; MuxJumpExit[23] ; 6.149 ; 6.149 ; 6.149 ; 6.149 ;
+; JumpSg         ; MuxJumpExit[24] ; 6.216 ; 6.216 ; 6.216 ; 6.216 ;
+; JumpSg         ; MuxJumpExit[25] ; 6.330 ; 6.330 ; 6.330 ; 6.330 ;
+; JumpSg         ; MuxJumpExit[26] ; 6.328 ; 6.328 ; 6.328 ; 6.328 ;
+; JumpSg         ; MuxJumpExit[27] ; 6.041 ; 6.041 ; 6.041 ; 6.041 ;
+; JumpSg         ; MuxJumpExit[28] ; 5.717 ; 5.717 ; 5.717 ; 5.717 ;
+; JumpSg         ; MuxJumpExit[29] ; 5.696 ; 5.696 ; 5.696 ; 5.696 ;
+; JumpSg         ; MuxJumpExit[30] ; 6.323 ; 6.323 ; 6.323 ; 6.323 ;
+; JumpSg         ; MuxJumpExit[31] ; 5.786 ; 5.786 ; 5.786 ; 5.786 ;
+; muxBr_exit[0]  ; MuxJumpExit[0]  ; 5.728 ;       ;       ; 5.728 ;
+; muxBr_exit[1]  ; MuxJumpExit[1]  ; 5.887 ;       ;       ; 5.887 ;
+; muxBr_exit[2]  ; MuxJumpExit[2]  ; 7.130 ;       ;       ; 7.130 ;
+; muxBr_exit[3]  ; MuxJumpExit[3]  ; 5.866 ;       ;       ; 5.866 ;
+; muxBr_exit[4]  ; MuxJumpExit[4]  ; 5.621 ;       ;       ; 5.621 ;
+; muxBr_exit[5]  ; MuxJumpExit[5]  ; 5.719 ;       ;       ; 5.719 ;
+; muxBr_exit[6]  ; MuxJumpExit[6]  ; 7.064 ;       ;       ; 7.064 ;
+; muxBr_exit[7]  ; MuxJumpExit[7]  ; 5.638 ;       ;       ; 5.638 ;
+; muxBr_exit[8]  ; MuxJumpExit[8]  ; 5.718 ;       ;       ; 5.718 ;
+; muxBr_exit[9]  ; MuxJumpExit[9]  ; 5.901 ;       ;       ; 5.901 ;
+; muxBr_exit[10] ; MuxJumpExit[10] ; 5.573 ;       ;       ; 5.573 ;
+; muxBr_exit[11] ; MuxJumpExit[11] ; 5.457 ;       ;       ; 5.457 ;
+; muxBr_exit[12] ; MuxJumpExit[12] ; 5.465 ;       ;       ; 5.465 ;
+; muxBr_exit[13] ; MuxJumpExit[13] ; 6.028 ;       ;       ; 6.028 ;
+; muxBr_exit[14] ; MuxJumpExit[14] ; 5.644 ;       ;       ; 5.644 ;
+; muxBr_exit[15] ; MuxJumpExit[15] ; 5.891 ;       ;       ; 5.891 ;
+; muxBr_exit[16] ; MuxJumpExit[16] ; 7.122 ;       ;       ; 7.122 ;
+; muxBr_exit[17] ; MuxJumpExit[17] ; 5.634 ;       ;       ; 5.634 ;
+; muxBr_exit[18] ; MuxJumpExit[18] ; 5.603 ;       ;       ; 5.603 ;
+; muxBr_exit[19] ; MuxJumpExit[19] ; 5.434 ;       ;       ; 5.434 ;
+; muxBr_exit[20] ; MuxJumpExit[20] ; 6.348 ;       ;       ; 6.348 ;
+; muxBr_exit[21] ; MuxJumpExit[21] ; 5.610 ;       ;       ; 5.610 ;
+; muxBr_exit[22] ; MuxJumpExit[22] ; 6.400 ;       ;       ; 6.400 ;
+; muxBr_exit[23] ; MuxJumpExit[23] ; 5.702 ;       ;       ; 5.702 ;
+; muxBr_exit[24] ; MuxJumpExit[24] ; 6.172 ;       ;       ; 6.172 ;
+; muxBr_exit[25] ; MuxJumpExit[25] ; 6.582 ;       ;       ; 6.582 ;
+; muxBr_exit[26] ; MuxJumpExit[26] ; 5.664 ;       ;       ; 5.664 ;
+; muxBr_exit[27] ; MuxJumpExit[27] ; 5.354 ;       ;       ; 5.354 ;
+; muxBr_exit[28] ; MuxJumpExit[28] ; 5.671 ;       ;       ; 5.671 ;
+; muxBr_exit[29] ; MuxJumpExit[29] ; 5.221 ;       ;       ; 5.221 ;
+; muxBr_exit[30] ; MuxJumpExit[30] ; 5.852 ;       ;       ; 5.852 ;
+; muxBr_exit[31] ; MuxJumpExit[31] ; 5.302 ;       ;       ; 5.302 ;
+; mux_shift[0]   ; MuxJumpExit[0]  ; 5.791 ;       ;       ; 5.791 ;
+; mux_shift[1]   ; MuxJumpExit[1]  ; 5.650 ;       ;       ; 5.650 ;
+; mux_shift[2]   ; MuxJumpExit[2]  ; 6.892 ;       ;       ; 6.892 ;
+; mux_shift[3]   ; MuxJumpExit[3]  ; 5.808 ;       ;       ; 5.808 ;
+; mux_shift[4]   ; MuxJumpExit[4]  ; 5.612 ;       ;       ; 5.612 ;
+; mux_shift[5]   ; MuxJumpExit[5]  ; 5.727 ;       ;       ; 5.727 ;
+; mux_shift[6]   ; MuxJumpExit[6]  ; 7.106 ;       ;       ; 7.106 ;
+; mux_shift[7]   ; MuxJumpExit[7]  ; 5.677 ;       ;       ; 5.677 ;
+; mux_shift[8]   ; MuxJumpExit[8]  ; 5.287 ;       ;       ; 5.287 ;
+; mux_shift[9]   ; MuxJumpExit[9]  ; 5.794 ;       ;       ; 5.794 ;
+; mux_shift[10]  ; MuxJumpExit[10] ; 5.947 ;       ;       ; 5.947 ;
+; mux_shift[11]  ; MuxJumpExit[11] ; 5.424 ;       ;       ; 5.424 ;
+; mux_shift[12]  ; MuxJumpExit[12] ; 5.618 ;       ;       ; 5.618 ;
+; mux_shift[13]  ; MuxJumpExit[13] ; 5.380 ;       ;       ; 5.380 ;
+; mux_shift[14]  ; MuxJumpExit[14] ; 5.951 ;       ;       ; 5.951 ;
+; mux_shift[15]  ; MuxJumpExit[15] ; 6.303 ;       ;       ; 6.303 ;
+; mux_shift[16]  ; MuxJumpExit[16] ; 7.352 ;       ;       ; 7.352 ;
+; mux_shift[17]  ; MuxJumpExit[17] ; 5.374 ;       ;       ; 5.374 ;
+; mux_shift[18]  ; MuxJumpExit[18] ; 5.808 ;       ;       ; 5.808 ;
+; mux_shift[19]  ; MuxJumpExit[19] ; 5.511 ;       ;       ; 5.511 ;
+; mux_shift[20]  ; MuxJumpExit[20] ; 5.451 ;       ;       ; 5.451 ;
+; mux_shift[21]  ; MuxJumpExit[21] ; 5.665 ;       ;       ; 5.665 ;
+; mux_shift[22]  ; MuxJumpExit[22] ; 6.362 ;       ;       ; 6.362 ;
+; mux_shift[23]  ; MuxJumpExit[23] ; 5.600 ;       ;       ; 5.600 ;
+; mux_shift[24]  ; MuxJumpExit[24] ; 5.546 ;       ;       ; 5.546 ;
+; mux_shift[25]  ; MuxJumpExit[25] ; 5.700 ;       ;       ; 5.700 ;
+; mux_shift[26]  ; MuxJumpExit[26] ; 5.798 ;       ;       ; 5.798 ;
+; mux_shift[27]  ; MuxJumpExit[27] ; 5.487 ;       ;       ; 5.487 ;
+; mux_shift[28]  ; MuxJumpExit[28] ; 5.194 ;       ;       ; 5.194 ;
+; mux_shift[29]  ; MuxJumpExit[29] ; 6.028 ;       ;       ; 6.028 ;
+; mux_shift[30]  ; MuxJumpExit[30] ; 5.898 ;       ;       ; 5.898 ;
+; mux_shift[31]  ; MuxJumpExit[31] ; 5.322 ;       ;       ; 5.322 ;
++----------------+-----------------+-------+-------+-------+-------+
+
+
++------------------------------------------------------------------+
+; Minimum Propagation Delay                                        ;
++----------------+-----------------+-------+-------+-------+-------+
+; Input Port     ; Output Port     ; RR    ; RF    ; FR    ; FF    ;
++----------------+-----------------+-------+-------+-------+-------+
+; JumpSg         ; MuxJumpExit[0]  ; 5.906 ; 5.906 ; 5.906 ; 5.906 ;
+; JumpSg         ; MuxJumpExit[1]  ; 5.741 ; 5.741 ; 5.741 ; 5.741 ;
+; JumpSg         ; MuxJumpExit[2]  ; 7.208 ; 7.208 ; 7.208 ; 7.208 ;
+; JumpSg         ; MuxJumpExit[3]  ; 5.872 ; 5.872 ; 5.872 ; 5.872 ;
+; JumpSg         ; MuxJumpExit[4]  ; 5.651 ; 5.651 ; 5.651 ; 5.651 ;
+; JumpSg         ; MuxJumpExit[5]  ; 5.689 ; 5.689 ; 5.689 ; 5.689 ;
+; JumpSg         ; MuxJumpExit[6]  ; 7.210 ; 7.210 ; 7.210 ; 7.210 ;
+; JumpSg         ; MuxJumpExit[7]  ; 5.886 ; 5.886 ; 5.886 ; 5.886 ;
+; JumpSg         ; MuxJumpExit[8]  ; 5.646 ; 5.646 ; 5.646 ; 5.646 ;
+; JumpSg         ; MuxJumpExit[9]  ; 5.891 ; 5.891 ; 5.891 ; 5.891 ;
+; JumpSg         ; MuxJumpExit[10] ; 5.880 ; 5.880 ; 5.880 ; 5.880 ;
+; JumpSg         ; MuxJumpExit[11] ; 5.573 ; 5.573 ; 5.573 ; 5.573 ;
+; JumpSg         ; MuxJumpExit[12] ; 5.775 ; 5.775 ; 5.775 ; 5.775 ;
+; JumpSg         ; MuxJumpExit[13] ; 5.571 ; 5.571 ; 5.571 ; 5.571 ;
+; JumpSg         ; MuxJumpExit[14] ; 6.275 ; 6.275 ; 6.275 ; 6.275 ;
+; JumpSg         ; MuxJumpExit[15] ; 6.292 ; 6.292 ; 6.292 ; 6.292 ;
+; JumpSg         ; MuxJumpExit[16] ; 7.808 ; 7.808 ; 7.808 ; 7.808 ;
+; JumpSg         ; MuxJumpExit[17] ; 6.021 ; 6.021 ; 6.021 ; 6.021 ;
+; JumpSg         ; MuxJumpExit[18] ; 6.268 ; 6.268 ; 6.268 ; 6.268 ;
+; JumpSg         ; MuxJumpExit[19] ; 6.217 ; 6.217 ; 6.217 ; 6.217 ;
+; JumpSg         ; MuxJumpExit[20] ; 6.244 ; 6.244 ; 6.244 ; 6.244 ;
+; JumpSg         ; MuxJumpExit[21] ; 6.228 ; 6.228 ; 6.228 ; 6.228 ;
+; JumpSg         ; MuxJumpExit[22] ; 6.847 ; 6.847 ; 6.847 ; 6.847 ;
+; JumpSg         ; MuxJumpExit[23] ; 6.149 ; 6.149 ; 6.149 ; 6.149 ;
+; JumpSg         ; MuxJumpExit[24] ; 6.216 ; 6.216 ; 6.216 ; 6.216 ;
+; JumpSg         ; MuxJumpExit[25] ; 6.330 ; 6.330 ; 6.330 ; 6.330 ;
+; JumpSg         ; MuxJumpExit[26] ; 6.328 ; 6.328 ; 6.328 ; 6.328 ;
+; JumpSg         ; MuxJumpExit[27] ; 6.041 ; 6.041 ; 6.041 ; 6.041 ;
+; JumpSg         ; MuxJumpExit[28] ; 5.717 ; 5.717 ; 5.717 ; 5.717 ;
+; JumpSg         ; MuxJumpExit[29] ; 5.696 ; 5.696 ; 5.696 ; 5.696 ;
+; JumpSg         ; MuxJumpExit[30] ; 6.323 ; 6.323 ; 6.323 ; 6.323 ;
+; JumpSg         ; MuxJumpExit[31] ; 5.786 ; 5.786 ; 5.786 ; 5.786 ;
+; muxBr_exit[0]  ; MuxJumpExit[0]  ; 5.728 ;       ;       ; 5.728 ;
+; muxBr_exit[1]  ; MuxJumpExit[1]  ; 5.887 ;       ;       ; 5.887 ;
+; muxBr_exit[2]  ; MuxJumpExit[2]  ; 7.130 ;       ;       ; 7.130 ;
+; muxBr_exit[3]  ; MuxJumpExit[3]  ; 5.866 ;       ;       ; 5.866 ;
+; muxBr_exit[4]  ; MuxJumpExit[4]  ; 5.621 ;       ;       ; 5.621 ;
+; muxBr_exit[5]  ; MuxJumpExit[5]  ; 5.719 ;       ;       ; 5.719 ;
+; muxBr_exit[6]  ; MuxJumpExit[6]  ; 7.064 ;       ;       ; 7.064 ;
+; muxBr_exit[7]  ; MuxJumpExit[7]  ; 5.638 ;       ;       ; 5.638 ;
+; muxBr_exit[8]  ; MuxJumpExit[8]  ; 5.718 ;       ;       ; 5.718 ;
+; muxBr_exit[9]  ; MuxJumpExit[9]  ; 5.901 ;       ;       ; 5.901 ;
+; muxBr_exit[10] ; MuxJumpExit[10] ; 5.573 ;       ;       ; 5.573 ;
+; muxBr_exit[11] ; MuxJumpExit[11] ; 5.457 ;       ;       ; 5.457 ;
+; muxBr_exit[12] ; MuxJumpExit[12] ; 5.465 ;       ;       ; 5.465 ;
+; muxBr_exit[13] ; MuxJumpExit[13] ; 6.028 ;       ;       ; 6.028 ;
+; muxBr_exit[14] ; MuxJumpExit[14] ; 5.644 ;       ;       ; 5.644 ;
+; muxBr_exit[15] ; MuxJumpExit[15] ; 5.891 ;       ;       ; 5.891 ;
+; muxBr_exit[16] ; MuxJumpExit[16] ; 7.122 ;       ;       ; 7.122 ;
+; muxBr_exit[17] ; MuxJumpExit[17] ; 5.634 ;       ;       ; 5.634 ;
+; muxBr_exit[18] ; MuxJumpExit[18] ; 5.603 ;       ;       ; 5.603 ;
+; muxBr_exit[19] ; MuxJumpExit[19] ; 5.434 ;       ;       ; 5.434 ;
+; muxBr_exit[20] ; MuxJumpExit[20] ; 6.348 ;       ;       ; 6.348 ;
+; muxBr_exit[21] ; MuxJumpExit[21] ; 5.610 ;       ;       ; 5.610 ;
+; muxBr_exit[22] ; MuxJumpExit[22] ; 6.400 ;       ;       ; 6.400 ;
+; muxBr_exit[23] ; MuxJumpExit[23] ; 5.702 ;       ;       ; 5.702 ;
+; muxBr_exit[24] ; MuxJumpExit[24] ; 6.172 ;       ;       ; 6.172 ;
+; muxBr_exit[25] ; MuxJumpExit[25] ; 6.582 ;       ;       ; 6.582 ;
+; muxBr_exit[26] ; MuxJumpExit[26] ; 5.664 ;       ;       ; 5.664 ;
+; muxBr_exit[27] ; MuxJumpExit[27] ; 5.354 ;       ;       ; 5.354 ;
+; muxBr_exit[28] ; MuxJumpExit[28] ; 5.671 ;       ;       ; 5.671 ;
+; muxBr_exit[29] ; MuxJumpExit[29] ; 5.221 ;       ;       ; 5.221 ;
+; muxBr_exit[30] ; MuxJumpExit[30] ; 5.852 ;       ;       ; 5.852 ;
+; muxBr_exit[31] ; MuxJumpExit[31] ; 5.302 ;       ;       ; 5.302 ;
+; mux_shift[0]   ; MuxJumpExit[0]  ; 5.791 ;       ;       ; 5.791 ;
+; mux_shift[1]   ; MuxJumpExit[1]  ; 5.650 ;       ;       ; 5.650 ;
+; mux_shift[2]   ; MuxJumpExit[2]  ; 6.892 ;       ;       ; 6.892 ;
+; mux_shift[3]   ; MuxJumpExit[3]  ; 5.808 ;       ;       ; 5.808 ;
+; mux_shift[4]   ; MuxJumpExit[4]  ; 5.612 ;       ;       ; 5.612 ;
+; mux_shift[5]   ; MuxJumpExit[5]  ; 5.727 ;       ;       ; 5.727 ;
+; mux_shift[6]   ; MuxJumpExit[6]  ; 7.106 ;       ;       ; 7.106 ;
+; mux_shift[7]   ; MuxJumpExit[7]  ; 5.677 ;       ;       ; 5.677 ;
+; mux_shift[8]   ; MuxJumpExit[8]  ; 5.287 ;       ;       ; 5.287 ;
+; mux_shift[9]   ; MuxJumpExit[9]  ; 5.794 ;       ;       ; 5.794 ;
+; mux_shift[10]  ; MuxJumpExit[10] ; 5.947 ;       ;       ; 5.947 ;
+; mux_shift[11]  ; MuxJumpExit[11] ; 5.424 ;       ;       ; 5.424 ;
+; mux_shift[12]  ; MuxJumpExit[12] ; 5.618 ;       ;       ; 5.618 ;
+; mux_shift[13]  ; MuxJumpExit[13] ; 5.380 ;       ;       ; 5.380 ;
+; mux_shift[14]  ; MuxJumpExit[14] ; 5.951 ;       ;       ; 5.951 ;
+; mux_shift[15]  ; MuxJumpExit[15] ; 6.303 ;       ;       ; 6.303 ;
+; mux_shift[16]  ; MuxJumpExit[16] ; 7.352 ;       ;       ; 7.352 ;
+; mux_shift[17]  ; MuxJumpExit[17] ; 5.374 ;       ;       ; 5.374 ;
+; mux_shift[18]  ; MuxJumpExit[18] ; 5.808 ;       ;       ; 5.808 ;
+; mux_shift[19]  ; MuxJumpExit[19] ; 5.511 ;       ;       ; 5.511 ;
+; mux_shift[20]  ; MuxJumpExit[20] ; 5.451 ;       ;       ; 5.451 ;
+; mux_shift[21]  ; MuxJumpExit[21] ; 5.665 ;       ;       ; 5.665 ;
+; mux_shift[22]  ; MuxJumpExit[22] ; 6.362 ;       ;       ; 6.362 ;
+; mux_shift[23]  ; MuxJumpExit[23] ; 5.600 ;       ;       ; 5.600 ;
+; mux_shift[24]  ; MuxJumpExit[24] ; 5.546 ;       ;       ; 5.546 ;
+; mux_shift[25]  ; MuxJumpExit[25] ; 5.700 ;       ;       ; 5.700 ;
+; mux_shift[26]  ; MuxJumpExit[26] ; 5.798 ;       ;       ; 5.798 ;
+; mux_shift[27]  ; MuxJumpExit[27] ; 5.487 ;       ;       ; 5.487 ;
+; mux_shift[28]  ; MuxJumpExit[28] ; 5.194 ;       ;       ; 5.194 ;
+; mux_shift[29]  ; MuxJumpExit[29] ; 6.028 ;       ;       ; 6.028 ;
+; mux_shift[30]  ; MuxJumpExit[30] ; 5.898 ;       ;       ; 5.898 ;
+; mux_shift[31]  ; MuxJumpExit[31] ; 5.322 ;       ;       ; 5.322 ;
++----------------+-----------------+-------+-------+-------+-------+
+
+
++----------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                        ;
++------------------+-------+------+----------+---------+---------------------+
+; Clock            ; Setup ; Hold ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+-------+------+----------+---------+---------------------+
+; Worst-case Slack ; N/A   ; N/A  ; N/A      ; N/A     ; N/A                 ;
+; Design-wide TNS  ; 0.0   ; 0.0  ; 0.0      ; 0.0     ; 0.0                 ;
++------------------+-------+------+----------+---------+---------------------+
+
+
++----------------------------------------------------------------------+
+; Progagation Delay                                                    ;
++----------------+-----------------+--------+--------+--------+--------+
+; Input Port     ; Output Port     ; RR     ; RF     ; FR     ; FF     ;
++----------------+-----------------+--------+--------+--------+--------+
+; JumpSg         ; MuxJumpExit[0]  ; 10.809 ; 10.809 ; 10.809 ; 10.809 ;
+; JumpSg         ; MuxJumpExit[1]  ; 10.470 ; 10.470 ; 10.470 ; 10.470 ;
+; JumpSg         ; MuxJumpExit[2]  ; 13.384 ; 13.384 ; 13.384 ; 13.384 ;
+; JumpSg         ; MuxJumpExit[3]  ; 10.801 ; 10.801 ; 10.801 ; 10.801 ;
+; JumpSg         ; MuxJumpExit[4]  ; 10.152 ; 10.152 ; 10.152 ; 10.152 ;
+; JumpSg         ; MuxJumpExit[5]  ; 10.205 ; 10.205 ; 10.205 ; 10.205 ;
+; JumpSg         ; MuxJumpExit[6]  ; 13.402 ; 13.402 ; 13.402 ; 13.402 ;
+; JumpSg         ; MuxJumpExit[7]  ; 10.793 ; 10.793 ; 10.793 ; 10.793 ;
+; JumpSg         ; MuxJumpExit[8]  ; 10.130 ; 10.130 ; 10.130 ; 10.130 ;
+; JumpSg         ; MuxJumpExit[9]  ; 10.776 ; 10.776 ; 10.776 ; 10.776 ;
+; JumpSg         ; MuxJumpExit[10] ; 10.784 ; 10.784 ; 10.784 ; 10.784 ;
+; JumpSg         ; MuxJumpExit[11] ; 9.930  ; 9.930  ; 9.930  ; 9.930  ;
+; JumpSg         ; MuxJumpExit[12] ; 10.384 ; 10.384 ; 10.384 ; 10.384 ;
+; JumpSg         ; MuxJumpExit[13] ; 9.952  ; 9.952  ; 9.952  ; 9.952  ;
+; JumpSg         ; MuxJumpExit[14] ; 11.368 ; 11.368 ; 11.368 ; 11.368 ;
+; JumpSg         ; MuxJumpExit[15] ; 11.480 ; 11.480 ; 11.480 ; 11.480 ;
+; JumpSg         ; MuxJumpExit[16] ; 14.554 ; 14.554 ; 14.554 ; 14.554 ;
+; JumpSg         ; MuxJumpExit[17] ; 10.831 ; 10.831 ; 10.831 ; 10.831 ;
+; JumpSg         ; MuxJumpExit[18] ; 11.328 ; 11.328 ; 11.328 ; 11.328 ;
+; JumpSg         ; MuxJumpExit[19] ; 11.190 ; 11.190 ; 11.190 ; 11.190 ;
+; JumpSg         ; MuxJumpExit[20] ; 11.315 ; 11.315 ; 11.315 ; 11.315 ;
+; JumpSg         ; MuxJumpExit[21] ; 11.294 ; 11.294 ; 11.294 ; 11.294 ;
+; JumpSg         ; MuxJumpExit[22] ; 12.512 ; 12.512 ; 12.512 ; 12.512 ;
+; JumpSg         ; MuxJumpExit[23] ; 11.081 ; 11.081 ; 11.081 ; 11.081 ;
+; JumpSg         ; MuxJumpExit[24] ; 11.188 ; 11.188 ; 11.188 ; 11.188 ;
+; JumpSg         ; MuxJumpExit[25] ; 11.509 ; 11.509 ; 11.509 ; 11.509 ;
+; JumpSg         ; MuxJumpExit[26] ; 11.521 ; 11.521 ; 11.521 ; 11.521 ;
+; JumpSg         ; MuxJumpExit[27] ; 10.851 ; 10.851 ; 10.851 ; 10.851 ;
+; JumpSg         ; MuxJumpExit[28] ; 10.224 ; 10.224 ; 10.224 ; 10.224 ;
+; JumpSg         ; MuxJumpExit[29] ; 10.204 ; 10.204 ; 10.204 ; 10.204 ;
+; JumpSg         ; MuxJumpExit[30] ; 11.741 ; 11.741 ; 11.741 ; 11.741 ;
+; JumpSg         ; MuxJumpExit[31] ; 10.414 ; 10.414 ; 10.414 ; 10.414 ;
+; muxBr_exit[0]  ; MuxJumpExit[0]  ; 10.473 ;        ;        ; 10.473 ;
+; muxBr_exit[1]  ; MuxJumpExit[1]  ; 10.833 ;        ;        ; 10.833 ;
+; muxBr_exit[2]  ; MuxJumpExit[2]  ; 13.271 ;        ;        ; 13.271 ;
+; muxBr_exit[3]  ; MuxJumpExit[3]  ; 10.834 ;        ;        ; 10.834 ;
+; muxBr_exit[4]  ; MuxJumpExit[4]  ; 10.206 ;        ;        ; 10.206 ;
+; muxBr_exit[5]  ; MuxJumpExit[5]  ; 10.239 ;        ;        ; 10.239 ;
+; muxBr_exit[6]  ; MuxJumpExit[6]  ; 13.158 ;        ;        ; 13.158 ;
+; muxBr_exit[7]  ; MuxJumpExit[7]  ; 10.311 ;        ;        ; 10.311 ;
+; muxBr_exit[8]  ; MuxJumpExit[8]  ; 10.319 ;        ;        ; 10.319 ;
+; muxBr_exit[9]  ; MuxJumpExit[9]  ; 10.837 ;        ;        ; 10.837 ;
+; muxBr_exit[10] ; MuxJumpExit[10] ; 10.205 ;        ;        ; 10.205 ;
+; muxBr_exit[11] ; MuxJumpExit[11] ; 9.705  ;        ;        ; 9.705  ;
+; muxBr_exit[12] ; MuxJumpExit[12] ; 9.828  ;        ;        ; 9.828  ;
+; muxBr_exit[13] ; MuxJumpExit[13] ; 10.671 ;        ;        ; 10.671 ;
+; muxBr_exit[14] ; MuxJumpExit[14] ; 10.256 ;        ;        ; 10.256 ;
+; muxBr_exit[15] ; MuxJumpExit[15] ; 10.638 ;        ;        ; 10.638 ;
+; muxBr_exit[16] ; MuxJumpExit[16] ; 13.335 ;        ;        ; 13.335 ;
+; muxBr_exit[17] ; MuxJumpExit[17] ; 10.195 ;        ;        ; 10.195 ;
+; muxBr_exit[18] ; MuxJumpExit[18] ; 10.174 ;        ;        ; 10.174 ;
+; muxBr_exit[19] ; MuxJumpExit[19] ; 9.763  ;        ;        ; 9.763  ;
+; muxBr_exit[20] ; MuxJumpExit[20] ; 11.435 ;        ;        ; 11.435 ;
+; muxBr_exit[21] ; MuxJumpExit[21] ; 10.190 ;        ;        ; 10.190 ;
+; muxBr_exit[22] ; MuxJumpExit[22] ; 11.808 ;        ;        ; 11.808 ;
+; muxBr_exit[23] ; MuxJumpExit[23] ; 10.393 ;        ;        ; 10.393 ;
+; muxBr_exit[24] ; MuxJumpExit[24] ; 11.063 ;        ;        ; 11.063 ;
+; muxBr_exit[25] ; MuxJumpExit[25] ; 11.950 ;        ;        ; 11.950 ;
+; muxBr_exit[26] ; MuxJumpExit[26] ; 10.314 ;        ;        ; 10.314 ;
+; muxBr_exit[27] ; MuxJumpExit[27] ; 9.643  ;        ;        ; 9.643  ;
+; muxBr_exit[28] ; MuxJumpExit[28] ; 10.147 ;        ;        ; 10.147 ;
+; muxBr_exit[29] ; MuxJumpExit[29] ; 9.314  ;        ;        ; 9.314  ;
+; muxBr_exit[30] ; MuxJumpExit[30] ; 10.838 ;        ;        ; 10.838 ;
+; muxBr_exit[31] ; MuxJumpExit[31] ; 9.519  ;        ;        ; 9.519  ;
+; mux_shift[0]   ; MuxJumpExit[0]  ; 10.621 ;        ;        ; 10.621 ;
+; mux_shift[1]   ; MuxJumpExit[1]  ; 10.260 ;        ;        ; 10.260 ;
+; mux_shift[2]   ; MuxJumpExit[2]  ; 12.798 ;        ;        ; 12.798 ;
+; mux_shift[3]   ; MuxJumpExit[3]  ; 10.662 ;        ;        ; 10.662 ;
+; mux_shift[4]   ; MuxJumpExit[4]  ; 10.115 ;        ;        ; 10.115 ;
+; mux_shift[5]   ; MuxJumpExit[5]  ; 10.324 ;        ;        ; 10.324 ;
+; mux_shift[6]   ; MuxJumpExit[6]  ; 13.229 ;        ;        ; 13.229 ;
+; mux_shift[7]   ; MuxJumpExit[7]  ; 10.399 ;        ;        ; 10.399 ;
+; mux_shift[8]   ; MuxJumpExit[8]  ; 9.419  ;        ;        ; 9.419  ;
+; mux_shift[9]   ; MuxJumpExit[9]  ; 10.660 ;        ;        ; 10.660 ;
+; mux_shift[10]  ; MuxJumpExit[10] ; 10.933 ;        ;        ; 10.933 ;
+; mux_shift[11]  ; MuxJumpExit[11] ; 9.714  ;        ;        ; 9.714  ;
+; mux_shift[12]  ; MuxJumpExit[12] ; 10.068 ;        ;        ; 10.068 ;
+; mux_shift[13]  ; MuxJumpExit[13] ; 9.610  ;        ;        ; 9.610  ;
+; mux_shift[14]  ; MuxJumpExit[14] ; 10.790 ;        ;        ; 10.790 ;
+; mux_shift[15]  ; MuxJumpExit[15] ; 11.398 ;        ;        ; 11.398 ;
+; mux_shift[16]  ; MuxJumpExit[16] ; 13.856 ;        ;        ; 13.856 ;
+; mux_shift[17]  ; MuxJumpExit[17] ; 9.676  ;        ;        ; 9.676  ;
+; mux_shift[18]  ; MuxJumpExit[18] ; 10.423 ;        ;        ; 10.423 ;
+; mux_shift[19]  ; MuxJumpExit[19] ; 9.943  ;        ;        ; 9.943  ;
+; mux_shift[20]  ; MuxJumpExit[20] ; 9.883  ;        ;        ; 9.883  ;
+; mux_shift[21]  ; MuxJumpExit[21] ; 10.316 ;        ;        ; 10.316 ;
+; mux_shift[22]  ; MuxJumpExit[22] ; 11.570 ;        ;        ; 11.570 ;
+; mux_shift[23]  ; MuxJumpExit[23] ; 10.120 ;        ;        ; 10.120 ;
+; mux_shift[24]  ; MuxJumpExit[24] ; 9.978  ;        ;        ; 9.978  ;
+; mux_shift[25]  ; MuxJumpExit[25] ; 10.333 ;        ;        ; 10.333 ;
+; mux_shift[26]  ; MuxJumpExit[26] ; 10.633 ;        ;        ; 10.633 ;
+; mux_shift[27]  ; MuxJumpExit[27] ; 9.928  ;        ;        ; 9.928  ;
+; mux_shift[28]  ; MuxJumpExit[28] ; 9.208  ;        ;        ; 9.208  ;
+; mux_shift[29]  ; MuxJumpExit[29] ; 10.672 ;        ;        ; 10.672 ;
+; mux_shift[30]  ; MuxJumpExit[30] ; 10.968 ;        ;        ; 10.968 ;
+; mux_shift[31]  ; MuxJumpExit[31] ; 9.583  ;        ;        ; 9.583  ;
++----------------+-----------------+--------+--------+--------+--------+
+
+
++------------------------------------------------------------------+
+; Minimum Progagation Delay                                        ;
++----------------+-----------------+-------+-------+-------+-------+
+; Input Port     ; Output Port     ; RR    ; RF    ; FR    ; FF    ;
++----------------+-----------------+-------+-------+-------+-------+
+; JumpSg         ; MuxJumpExit[0]  ; 5.906 ; 5.906 ; 5.906 ; 5.906 ;
+; JumpSg         ; MuxJumpExit[1]  ; 5.741 ; 5.741 ; 5.741 ; 5.741 ;
+; JumpSg         ; MuxJumpExit[2]  ; 7.208 ; 7.208 ; 7.208 ; 7.208 ;
+; JumpSg         ; MuxJumpExit[3]  ; 5.872 ; 5.872 ; 5.872 ; 5.872 ;
+; JumpSg         ; MuxJumpExit[4]  ; 5.651 ; 5.651 ; 5.651 ; 5.651 ;
+; JumpSg         ; MuxJumpExit[5]  ; 5.689 ; 5.689 ; 5.689 ; 5.689 ;
+; JumpSg         ; MuxJumpExit[6]  ; 7.210 ; 7.210 ; 7.210 ; 7.210 ;
+; JumpSg         ; MuxJumpExit[7]  ; 5.886 ; 5.886 ; 5.886 ; 5.886 ;
+; JumpSg         ; MuxJumpExit[8]  ; 5.646 ; 5.646 ; 5.646 ; 5.646 ;
+; JumpSg         ; MuxJumpExit[9]  ; 5.891 ; 5.891 ; 5.891 ; 5.891 ;
+; JumpSg         ; MuxJumpExit[10] ; 5.880 ; 5.880 ; 5.880 ; 5.880 ;
+; JumpSg         ; MuxJumpExit[11] ; 5.573 ; 5.573 ; 5.573 ; 5.573 ;
+; JumpSg         ; MuxJumpExit[12] ; 5.775 ; 5.775 ; 5.775 ; 5.775 ;
+; JumpSg         ; MuxJumpExit[13] ; 5.571 ; 5.571 ; 5.571 ; 5.571 ;
+; JumpSg         ; MuxJumpExit[14] ; 6.275 ; 6.275 ; 6.275 ; 6.275 ;
+; JumpSg         ; MuxJumpExit[15] ; 6.292 ; 6.292 ; 6.292 ; 6.292 ;
+; JumpSg         ; MuxJumpExit[16] ; 7.808 ; 7.808 ; 7.808 ; 7.808 ;
+; JumpSg         ; MuxJumpExit[17] ; 6.021 ; 6.021 ; 6.021 ; 6.021 ;
+; JumpSg         ; MuxJumpExit[18] ; 6.268 ; 6.268 ; 6.268 ; 6.268 ;
+; JumpSg         ; MuxJumpExit[19] ; 6.217 ; 6.217 ; 6.217 ; 6.217 ;
+; JumpSg         ; MuxJumpExit[20] ; 6.244 ; 6.244 ; 6.244 ; 6.244 ;
+; JumpSg         ; MuxJumpExit[21] ; 6.228 ; 6.228 ; 6.228 ; 6.228 ;
+; JumpSg         ; MuxJumpExit[22] ; 6.847 ; 6.847 ; 6.847 ; 6.847 ;
+; JumpSg         ; MuxJumpExit[23] ; 6.149 ; 6.149 ; 6.149 ; 6.149 ;
+; JumpSg         ; MuxJumpExit[24] ; 6.216 ; 6.216 ; 6.216 ; 6.216 ;
+; JumpSg         ; MuxJumpExit[25] ; 6.330 ; 6.330 ; 6.330 ; 6.330 ;
+; JumpSg         ; MuxJumpExit[26] ; 6.328 ; 6.328 ; 6.328 ; 6.328 ;
+; JumpSg         ; MuxJumpExit[27] ; 6.041 ; 6.041 ; 6.041 ; 6.041 ;
+; JumpSg         ; MuxJumpExit[28] ; 5.717 ; 5.717 ; 5.717 ; 5.717 ;
+; JumpSg         ; MuxJumpExit[29] ; 5.696 ; 5.696 ; 5.696 ; 5.696 ;
+; JumpSg         ; MuxJumpExit[30] ; 6.323 ; 6.323 ; 6.323 ; 6.323 ;
+; JumpSg         ; MuxJumpExit[31] ; 5.786 ; 5.786 ; 5.786 ; 5.786 ;
+; muxBr_exit[0]  ; MuxJumpExit[0]  ; 5.728 ;       ;       ; 5.728 ;
+; muxBr_exit[1]  ; MuxJumpExit[1]  ; 5.887 ;       ;       ; 5.887 ;
+; muxBr_exit[2]  ; MuxJumpExit[2]  ; 7.130 ;       ;       ; 7.130 ;
+; muxBr_exit[3]  ; MuxJumpExit[3]  ; 5.866 ;       ;       ; 5.866 ;
+; muxBr_exit[4]  ; MuxJumpExit[4]  ; 5.621 ;       ;       ; 5.621 ;
+; muxBr_exit[5]  ; MuxJumpExit[5]  ; 5.719 ;       ;       ; 5.719 ;
+; muxBr_exit[6]  ; MuxJumpExit[6]  ; 7.064 ;       ;       ; 7.064 ;
+; muxBr_exit[7]  ; MuxJumpExit[7]  ; 5.638 ;       ;       ; 5.638 ;
+; muxBr_exit[8]  ; MuxJumpExit[8]  ; 5.718 ;       ;       ; 5.718 ;
+; muxBr_exit[9]  ; MuxJumpExit[9]  ; 5.901 ;       ;       ; 5.901 ;
+; muxBr_exit[10] ; MuxJumpExit[10] ; 5.573 ;       ;       ; 5.573 ;
+; muxBr_exit[11] ; MuxJumpExit[11] ; 5.457 ;       ;       ; 5.457 ;
+; muxBr_exit[12] ; MuxJumpExit[12] ; 5.465 ;       ;       ; 5.465 ;
+; muxBr_exit[13] ; MuxJumpExit[13] ; 6.028 ;       ;       ; 6.028 ;
+; muxBr_exit[14] ; MuxJumpExit[14] ; 5.644 ;       ;       ; 5.644 ;
+; muxBr_exit[15] ; MuxJumpExit[15] ; 5.891 ;       ;       ; 5.891 ;
+; muxBr_exit[16] ; MuxJumpExit[16] ; 7.122 ;       ;       ; 7.122 ;
+; muxBr_exit[17] ; MuxJumpExit[17] ; 5.634 ;       ;       ; 5.634 ;
+; muxBr_exit[18] ; MuxJumpExit[18] ; 5.603 ;       ;       ; 5.603 ;
+; muxBr_exit[19] ; MuxJumpExit[19] ; 5.434 ;       ;       ; 5.434 ;
+; muxBr_exit[20] ; MuxJumpExit[20] ; 6.348 ;       ;       ; 6.348 ;
+; muxBr_exit[21] ; MuxJumpExit[21] ; 5.610 ;       ;       ; 5.610 ;
+; muxBr_exit[22] ; MuxJumpExit[22] ; 6.400 ;       ;       ; 6.400 ;
+; muxBr_exit[23] ; MuxJumpExit[23] ; 5.702 ;       ;       ; 5.702 ;
+; muxBr_exit[24] ; MuxJumpExit[24] ; 6.172 ;       ;       ; 6.172 ;
+; muxBr_exit[25] ; MuxJumpExit[25] ; 6.582 ;       ;       ; 6.582 ;
+; muxBr_exit[26] ; MuxJumpExit[26] ; 5.664 ;       ;       ; 5.664 ;
+; muxBr_exit[27] ; MuxJumpExit[27] ; 5.354 ;       ;       ; 5.354 ;
+; muxBr_exit[28] ; MuxJumpExit[28] ; 5.671 ;       ;       ; 5.671 ;
+; muxBr_exit[29] ; MuxJumpExit[29] ; 5.221 ;       ;       ; 5.221 ;
+; muxBr_exit[30] ; MuxJumpExit[30] ; 5.852 ;       ;       ; 5.852 ;
+; muxBr_exit[31] ; MuxJumpExit[31] ; 5.302 ;       ;       ; 5.302 ;
+; mux_shift[0]   ; MuxJumpExit[0]  ; 5.791 ;       ;       ; 5.791 ;
+; mux_shift[1]   ; MuxJumpExit[1]  ; 5.650 ;       ;       ; 5.650 ;
+; mux_shift[2]   ; MuxJumpExit[2]  ; 6.892 ;       ;       ; 6.892 ;
+; mux_shift[3]   ; MuxJumpExit[3]  ; 5.808 ;       ;       ; 5.808 ;
+; mux_shift[4]   ; MuxJumpExit[4]  ; 5.612 ;       ;       ; 5.612 ;
+; mux_shift[5]   ; MuxJumpExit[5]  ; 5.727 ;       ;       ; 5.727 ;
+; mux_shift[6]   ; MuxJumpExit[6]  ; 7.106 ;       ;       ; 7.106 ;
+; mux_shift[7]   ; MuxJumpExit[7]  ; 5.677 ;       ;       ; 5.677 ;
+; mux_shift[8]   ; MuxJumpExit[8]  ; 5.287 ;       ;       ; 5.287 ;
+; mux_shift[9]   ; MuxJumpExit[9]  ; 5.794 ;       ;       ; 5.794 ;
+; mux_shift[10]  ; MuxJumpExit[10] ; 5.947 ;       ;       ; 5.947 ;
+; mux_shift[11]  ; MuxJumpExit[11] ; 5.424 ;       ;       ; 5.424 ;
+; mux_shift[12]  ; MuxJumpExit[12] ; 5.618 ;       ;       ; 5.618 ;
+; mux_shift[13]  ; MuxJumpExit[13] ; 5.380 ;       ;       ; 5.380 ;
+; mux_shift[14]  ; MuxJumpExit[14] ; 5.951 ;       ;       ; 5.951 ;
+; mux_shift[15]  ; MuxJumpExit[15] ; 6.303 ;       ;       ; 6.303 ;
+; mux_shift[16]  ; MuxJumpExit[16] ; 7.352 ;       ;       ; 7.352 ;
+; mux_shift[17]  ; MuxJumpExit[17] ; 5.374 ;       ;       ; 5.374 ;
+; mux_shift[18]  ; MuxJumpExit[18] ; 5.808 ;       ;       ; 5.808 ;
+; mux_shift[19]  ; MuxJumpExit[19] ; 5.511 ;       ;       ; 5.511 ;
+; mux_shift[20]  ; MuxJumpExit[20] ; 5.451 ;       ;       ; 5.451 ;
+; mux_shift[21]  ; MuxJumpExit[21] ; 5.665 ;       ;       ; 5.665 ;
+; mux_shift[22]  ; MuxJumpExit[22] ; 6.362 ;       ;       ; 6.362 ;
+; mux_shift[23]  ; MuxJumpExit[23] ; 5.600 ;       ;       ; 5.600 ;
+; mux_shift[24]  ; MuxJumpExit[24] ; 5.546 ;       ;       ; 5.546 ;
+; mux_shift[25]  ; MuxJumpExit[25] ; 5.700 ;       ;       ; 5.700 ;
+; mux_shift[26]  ; MuxJumpExit[26] ; 5.798 ;       ;       ; 5.798 ;
+; mux_shift[27]  ; MuxJumpExit[27] ; 5.487 ;       ;       ; 5.487 ;
+; mux_shift[28]  ; MuxJumpExit[28] ; 5.194 ;       ;       ; 5.194 ;
+; mux_shift[29]  ; MuxJumpExit[29] ; 6.028 ;       ;       ; 6.028 ;
+; mux_shift[30]  ; MuxJumpExit[30] ; 5.898 ;       ;       ; 5.898 ;
+; mux_shift[31]  ; MuxJumpExit[31] ; 5.322 ;       ;       ; 5.322 ;
++----------------+-----------------+-------+-------+-------+-------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 65    ; 65   ;
+; Unconstrained Input Port Paths  ; 96    ; 96   ;
+; Unconstrained Output Ports      ; 32    ; 32   ;
+; Unconstrained Output Port Paths ; 96    ; 96   ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
+    Info: Version 10.1 Build 153 11/29/2010 SJ Web Edition
+    Info: Processing started: Sun Feb 05 21:00:22 2017
+Info: Command: quartus_sta muxJump -c muxJump
+Info: qsta_default_script.tcl version: #1
+Info: Low junction temperature is 0 degrees C
+Info: High junction temperature is 85 degrees C
+Critical Warning: Synopsys Design Constraints File file not found: 'muxJump.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info: No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info: The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning: No clocks defined in design.
+Info: No clocks to report
+Info: Analyzing Slow Model
+Info: No fmax paths to report
+Info: No Setup paths to report
+Info: No Hold paths to report
+Info: No Recovery paths to report
+Info: No Removal paths to report
+Info: No Minimum Pulse Width paths to report
+Info: The selected device family is not supported by the report_metastability command.
+Info: Analyzing Fast Model
+Info: Started post-fitting delay annotation
+Warning: Found 32 output pins without output pin load capacitance assignment
+    Info: Pin "MuxJumpExit[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "MuxJumpExit[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "MuxJumpExit[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "MuxJumpExit[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "MuxJumpExit[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "MuxJumpExit[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "MuxJumpExit[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "MuxJumpExit[7]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "MuxJumpExit[8]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "MuxJumpExit[9]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "MuxJumpExit[10]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "MuxJumpExit[11]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "MuxJumpExit[12]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "MuxJumpExit[13]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "MuxJumpExit[14]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "MuxJumpExit[15]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "MuxJumpExit[16]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "MuxJumpExit[17]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "MuxJumpExit[18]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "MuxJumpExit[19]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "MuxJumpExit[20]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "MuxJumpExit[21]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "MuxJumpExit[22]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "MuxJumpExit[23]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "MuxJumpExit[24]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "MuxJumpExit[25]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "MuxJumpExit[26]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "MuxJumpExit[27]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "MuxJumpExit[28]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "MuxJumpExit[29]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "MuxJumpExit[30]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "MuxJumpExit[31]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+Info: Delay annotation completed successfully
+Info: No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info: The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning: No clocks defined in design.
+Info: No Setup paths to report
+Info: No Hold paths to report
+Info: No Recovery paths to report
+Info: No Removal paths to report
+Info: No Minimum Pulse Width paths to report
+Info: The selected device family is not supported by the report_metastability command.
+Info: Design is not fully constrained for setup requirements
+Info: Design is not fully constrained for hold requirements
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 353 megabytes
+    Info: Processing ended: Sun Feb 05 21:00:25 2017
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:02
+
+

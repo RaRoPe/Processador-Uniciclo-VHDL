@@ -1,0 +1,57 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\MyPC\Desktop\ORBne\simulation\modelsim
+Eorbne
+Z1 w1486386851
+Z2 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z3 dC:\Users\MyPC\Desktop\ORBne\simulation\modelsim
+Z4 8C:/Users/MyPC/Desktop/ORBne/ORBne.vhd
+Z5 FC:/Users/MyPC/Desktop/ORBne/ORBne.vhd
+l0
+L4
+VN7=[D;Ae`<RkM:HNN85n40
+Z6 OV;C;6.6c;45
+31
+Z7 o-93 -work work -O0
+Z8 tExplicit 1
+!s100 DjPmCaX77kj0JRd:MZSRb2
+Abehavioral
+R2
+DEx4 work 5 orbne 0 22 N7=[D;Ae`<RkM:HNN85n40
+l16
+L14
+VCk9Pf`7;fk17f=`4>bRgo3
+R6
+31
+Z9 Mx1 4 ieee 14 std_logic_1164
+R7
+R8
+!s100 k<OjNP5Nno]][j7ma[J6_2
+Eorbne_tb
+Z10 w1486387160
+R2
+R3
+Z11 8C:/Users/MyPC/Desktop/ORBne/ORBne_tb.vhd
+Z12 FC:/Users/MyPC/Desktop/ORBne/ORBne_tb.vhd
+l0
+L30
+V=1;S9m:^VeNQ49KlE80GO3
+!s100 doe4^;4]b9l^^=5^><c^f1
+R6
+31
+R7
+R8
+Aorbne_arch
+R2
+DEx4 work 8 orbne_tb 0 22 =1;S9m:^VeNQ49KlE80GO3
+l45
+L32
+Vm5W9=G^O;l?cc@Phd0UHc2
+!s100 @OG72?ULk2l9>bjC:aimg2
+R6
+31
+R9
+R7
+R8

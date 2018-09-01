@@ -1,0 +1,473 @@
+TimeQuest Timing Analyzer report for shiftL2_Jump
+Sun Feb 05 23:46:14 2017
+Quartus II 64-Bit Version 10.1 Build 153 11/29/2010 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Slow Model Fmax Summary
+  6. Slow Model Setup Summary
+  7. Slow Model Hold Summary
+  8. Slow Model Recovery Summary
+  9. Slow Model Removal Summary
+ 10. Slow Model Minimum Pulse Width Summary
+ 11. Propagation Delay
+ 12. Minimum Propagation Delay
+ 13. Fast Model Setup Summary
+ 14. Fast Model Hold Summary
+ 15. Fast Model Recovery Summary
+ 16. Fast Model Removal Summary
+ 17. Fast Model Minimum Pulse Width Summary
+ 18. Propagation Delay
+ 19. Minimum Propagation Delay
+ 20. Multicorner Timing Analysis Summary
+ 21. Progagation Delay
+ 22. Minimum Progagation Delay
+ 23. Clock Transfers
+ 24. Report TCCS
+ 25. Report RSKM
+ 26. Unconstrained Paths
+ 27. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                     ;
++--------------------+--------------------------------------------------+
+; Quartus II Version ; Version 10.1 Build 153 11/29/2010 SJ Web Edition ;
+; Revision Name      ; shiftL2_Jump                                     ;
+; Device Family      ; Cyclone II                                       ;
+; Device Name        ; EP2C70F896C6                                     ;
+; Timing Models      ; Final                                            ;
+; Delay Model        ; Combined                                         ;
+; Rise/Fall Delays   ; Unavailable                                      ;
++--------------------+--------------------------------------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 2      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
+----------
+; Clocks ;
+----------
+No clocks to report.
+
+
+---------------------------
+; Slow Model Fmax Summary ;
+---------------------------
+No paths to report.
+
+
+----------------------------
+; Slow Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Slow Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Slow Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Slow Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Slow Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++-------------------------------------------------------+
+; Propagation Delay                                     ;
++-------------+---------------+-------+----+----+-------+
+; Input Port  ; Output Port   ; RR    ; RF ; FR ; FF    ;
++-------------+---------------+-------+----+----+-------+
+; insJump[0]  ; j_address[2]  ; 4.839 ;    ;    ; 4.839 ;
+; insJump[1]  ; j_address[3]  ; 4.820 ;    ;    ; 4.820 ;
+; insJump[2]  ; j_address[4]  ; 8.913 ;    ;    ; 8.913 ;
+; insJump[3]  ; j_address[5]  ; 8.839 ;    ;    ; 8.839 ;
+; insJump[4]  ; j_address[6]  ; 8.890 ;    ;    ; 8.890 ;
+; insJump[5]  ; j_address[7]  ; 7.906 ;    ;    ; 7.906 ;
+; insJump[6]  ; j_address[8]  ; 8.140 ;    ;    ; 8.140 ;
+; insJump[7]  ; j_address[9]  ; 7.980 ;    ;    ; 7.980 ;
+; insJump[8]  ; j_address[10] ; 8.785 ;    ;    ; 8.785 ;
+; insJump[9]  ; j_address[11] ; 7.944 ;    ;    ; 7.944 ;
+; insJump[10] ; j_address[12] ; 8.808 ;    ;    ; 8.808 ;
+; insJump[11] ; j_address[13] ; 8.821 ;    ;    ; 8.821 ;
+; insJump[12] ; j_address[14] ; 8.870 ;    ;    ; 8.870 ;
+; insJump[13] ; j_address[15] ; 8.831 ;    ;    ; 8.831 ;
+; insJump[14] ; j_address[16] ; 8.822 ;    ;    ; 8.822 ;
+; insJump[15] ; j_address[17] ; 8.879 ;    ;    ; 8.879 ;
+; insJump[16] ; j_address[18] ; 7.966 ;    ;    ; 7.966 ;
+; insJump[17] ; j_address[19] ; 8.883 ;    ;    ; 8.883 ;
+; insJump[18] ; j_address[20] ; 8.081 ;    ;    ; 8.081 ;
+; insJump[19] ; j_address[21] ; 7.994 ;    ;    ; 7.994 ;
+; insJump[20] ; j_address[22] ; 7.940 ;    ;    ; 7.940 ;
+; insJump[21] ; j_address[23] ; 8.944 ;    ;    ; 8.944 ;
+; insJump[22] ; j_address[24] ; 8.056 ;    ;    ; 8.056 ;
+; insJump[23] ; j_address[25] ; 8.842 ;    ;    ; 8.842 ;
+; insJump[24] ; j_address[26] ; 8.852 ;    ;    ; 8.852 ;
+; insJump[25] ; j_address[27] ; 8.831 ;    ;    ; 8.831 ;
++-------------+---------------+-------+----+----+-------+
+
+
++-------------------------------------------------------+
+; Minimum Propagation Delay                             ;
++-------------+---------------+-------+----+----+-------+
+; Input Port  ; Output Port   ; RR    ; RF ; FR ; FF    ;
++-------------+---------------+-------+----+----+-------+
+; insJump[0]  ; j_address[2]  ; 4.839 ;    ;    ; 4.839 ;
+; insJump[1]  ; j_address[3]  ; 4.820 ;    ;    ; 4.820 ;
+; insJump[2]  ; j_address[4]  ; 8.913 ;    ;    ; 8.913 ;
+; insJump[3]  ; j_address[5]  ; 8.839 ;    ;    ; 8.839 ;
+; insJump[4]  ; j_address[6]  ; 8.890 ;    ;    ; 8.890 ;
+; insJump[5]  ; j_address[7]  ; 7.906 ;    ;    ; 7.906 ;
+; insJump[6]  ; j_address[8]  ; 8.140 ;    ;    ; 8.140 ;
+; insJump[7]  ; j_address[9]  ; 7.980 ;    ;    ; 7.980 ;
+; insJump[8]  ; j_address[10] ; 8.785 ;    ;    ; 8.785 ;
+; insJump[9]  ; j_address[11] ; 7.944 ;    ;    ; 7.944 ;
+; insJump[10] ; j_address[12] ; 8.808 ;    ;    ; 8.808 ;
+; insJump[11] ; j_address[13] ; 8.821 ;    ;    ; 8.821 ;
+; insJump[12] ; j_address[14] ; 8.870 ;    ;    ; 8.870 ;
+; insJump[13] ; j_address[15] ; 8.831 ;    ;    ; 8.831 ;
+; insJump[14] ; j_address[16] ; 8.822 ;    ;    ; 8.822 ;
+; insJump[15] ; j_address[17] ; 8.879 ;    ;    ; 8.879 ;
+; insJump[16] ; j_address[18] ; 7.966 ;    ;    ; 7.966 ;
+; insJump[17] ; j_address[19] ; 8.883 ;    ;    ; 8.883 ;
+; insJump[18] ; j_address[20] ; 8.081 ;    ;    ; 8.081 ;
+; insJump[19] ; j_address[21] ; 7.994 ;    ;    ; 7.994 ;
+; insJump[20] ; j_address[22] ; 7.940 ;    ;    ; 7.940 ;
+; insJump[21] ; j_address[23] ; 8.944 ;    ;    ; 8.944 ;
+; insJump[22] ; j_address[24] ; 8.056 ;    ;    ; 8.056 ;
+; insJump[23] ; j_address[25] ; 8.842 ;    ;    ; 8.842 ;
+; insJump[24] ; j_address[26] ; 8.852 ;    ;    ; 8.852 ;
+; insJump[25] ; j_address[27] ; 8.831 ;    ;    ; 8.831 ;
++-------------+---------------+-------+----+----+-------+
+
+
+----------------------------
+; Fast Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Fast Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Fast Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Fast Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Fast Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++-------------------------------------------------------+
+; Propagation Delay                                     ;
++-------------+---------------+-------+----+----+-------+
+; Input Port  ; Output Port   ; RR    ; RF ; FR ; FF    ;
++-------------+---------------+-------+----+----+-------+
+; insJump[0]  ; j_address[2]  ; 2.574 ;    ;    ; 2.574 ;
+; insJump[1]  ; j_address[3]  ; 2.577 ;    ;    ; 2.577 ;
+; insJump[2]  ; j_address[4]  ; 5.087 ;    ;    ; 5.087 ;
+; insJump[3]  ; j_address[5]  ; 5.036 ;    ;    ; 5.036 ;
+; insJump[4]  ; j_address[6]  ; 5.062 ;    ;    ; 5.062 ;
+; insJump[5]  ; j_address[7]  ; 4.562 ;    ;    ; 4.562 ;
+; insJump[6]  ; j_address[8]  ; 4.679 ;    ;    ; 4.679 ;
+; insJump[7]  ; j_address[9]  ; 4.627 ;    ;    ; 4.627 ;
+; insJump[8]  ; j_address[10] ; 4.984 ;    ;    ; 4.984 ;
+; insJump[9]  ; j_address[11] ; 4.601 ;    ;    ; 4.601 ;
+; insJump[10] ; j_address[12] ; 5.005 ;    ;    ; 5.005 ;
+; insJump[11] ; j_address[13] ; 5.009 ;    ;    ; 5.009 ;
+; insJump[12] ; j_address[14] ; 5.036 ;    ;    ; 5.036 ;
+; insJump[13] ; j_address[15] ; 5.033 ;    ;    ; 5.033 ;
+; insJump[14] ; j_address[16] ; 5.006 ;    ;    ; 5.006 ;
+; insJump[15] ; j_address[17] ; 5.055 ;    ;    ; 5.055 ;
+; insJump[16] ; j_address[18] ; 4.622 ;    ;    ; 4.622 ;
+; insJump[17] ; j_address[19] ; 5.062 ;    ;    ; 5.062 ;
+; insJump[18] ; j_address[20] ; 4.701 ;    ;    ; 4.701 ;
+; insJump[19] ; j_address[21] ; 4.651 ;    ;    ; 4.651 ;
+; insJump[20] ; j_address[22] ; 4.587 ;    ;    ; 4.587 ;
+; insJump[21] ; j_address[23] ; 5.118 ;    ;    ; 5.118 ;
+; insJump[22] ; j_address[24] ; 4.702 ;    ;    ; 4.702 ;
+; insJump[23] ; j_address[25] ; 5.030 ;    ;    ; 5.030 ;
+; insJump[24] ; j_address[26] ; 5.039 ;    ;    ; 5.039 ;
+; insJump[25] ; j_address[27] ; 5.022 ;    ;    ; 5.022 ;
++-------------+---------------+-------+----+----+-------+
+
+
++-------------------------------------------------------+
+; Minimum Propagation Delay                             ;
++-------------+---------------+-------+----+----+-------+
+; Input Port  ; Output Port   ; RR    ; RF ; FR ; FF    ;
++-------------+---------------+-------+----+----+-------+
+; insJump[0]  ; j_address[2]  ; 2.574 ;    ;    ; 2.574 ;
+; insJump[1]  ; j_address[3]  ; 2.577 ;    ;    ; 2.577 ;
+; insJump[2]  ; j_address[4]  ; 5.087 ;    ;    ; 5.087 ;
+; insJump[3]  ; j_address[5]  ; 5.036 ;    ;    ; 5.036 ;
+; insJump[4]  ; j_address[6]  ; 5.062 ;    ;    ; 5.062 ;
+; insJump[5]  ; j_address[7]  ; 4.562 ;    ;    ; 4.562 ;
+; insJump[6]  ; j_address[8]  ; 4.679 ;    ;    ; 4.679 ;
+; insJump[7]  ; j_address[9]  ; 4.627 ;    ;    ; 4.627 ;
+; insJump[8]  ; j_address[10] ; 4.984 ;    ;    ; 4.984 ;
+; insJump[9]  ; j_address[11] ; 4.601 ;    ;    ; 4.601 ;
+; insJump[10] ; j_address[12] ; 5.005 ;    ;    ; 5.005 ;
+; insJump[11] ; j_address[13] ; 5.009 ;    ;    ; 5.009 ;
+; insJump[12] ; j_address[14] ; 5.036 ;    ;    ; 5.036 ;
+; insJump[13] ; j_address[15] ; 5.033 ;    ;    ; 5.033 ;
+; insJump[14] ; j_address[16] ; 5.006 ;    ;    ; 5.006 ;
+; insJump[15] ; j_address[17] ; 5.055 ;    ;    ; 5.055 ;
+; insJump[16] ; j_address[18] ; 4.622 ;    ;    ; 4.622 ;
+; insJump[17] ; j_address[19] ; 5.062 ;    ;    ; 5.062 ;
+; insJump[18] ; j_address[20] ; 4.701 ;    ;    ; 4.701 ;
+; insJump[19] ; j_address[21] ; 4.651 ;    ;    ; 4.651 ;
+; insJump[20] ; j_address[22] ; 4.587 ;    ;    ; 4.587 ;
+; insJump[21] ; j_address[23] ; 5.118 ;    ;    ; 5.118 ;
+; insJump[22] ; j_address[24] ; 4.702 ;    ;    ; 4.702 ;
+; insJump[23] ; j_address[25] ; 5.030 ;    ;    ; 5.030 ;
+; insJump[24] ; j_address[26] ; 5.039 ;    ;    ; 5.039 ;
+; insJump[25] ; j_address[27] ; 5.022 ;    ;    ; 5.022 ;
++-------------+---------------+-------+----+----+-------+
+
+
++----------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                        ;
++------------------+-------+------+----------+---------+---------------------+
+; Clock            ; Setup ; Hold ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+-------+------+----------+---------+---------------------+
+; Worst-case Slack ; N/A   ; N/A  ; N/A      ; N/A     ; N/A                 ;
+; Design-wide TNS  ; 0.0   ; 0.0  ; 0.0      ; 0.0     ; 0.0                 ;
++------------------+-------+------+----------+---------+---------------------+
+
+
++-------------------------------------------------------+
+; Progagation Delay                                     ;
++-------------+---------------+-------+----+----+-------+
+; Input Port  ; Output Port   ; RR    ; RF ; FR ; FF    ;
++-------------+---------------+-------+----+----+-------+
+; insJump[0]  ; j_address[2]  ; 4.839 ;    ;    ; 4.839 ;
+; insJump[1]  ; j_address[3]  ; 4.820 ;    ;    ; 4.820 ;
+; insJump[2]  ; j_address[4]  ; 8.913 ;    ;    ; 8.913 ;
+; insJump[3]  ; j_address[5]  ; 8.839 ;    ;    ; 8.839 ;
+; insJump[4]  ; j_address[6]  ; 8.890 ;    ;    ; 8.890 ;
+; insJump[5]  ; j_address[7]  ; 7.906 ;    ;    ; 7.906 ;
+; insJump[6]  ; j_address[8]  ; 8.140 ;    ;    ; 8.140 ;
+; insJump[7]  ; j_address[9]  ; 7.980 ;    ;    ; 7.980 ;
+; insJump[8]  ; j_address[10] ; 8.785 ;    ;    ; 8.785 ;
+; insJump[9]  ; j_address[11] ; 7.944 ;    ;    ; 7.944 ;
+; insJump[10] ; j_address[12] ; 8.808 ;    ;    ; 8.808 ;
+; insJump[11] ; j_address[13] ; 8.821 ;    ;    ; 8.821 ;
+; insJump[12] ; j_address[14] ; 8.870 ;    ;    ; 8.870 ;
+; insJump[13] ; j_address[15] ; 8.831 ;    ;    ; 8.831 ;
+; insJump[14] ; j_address[16] ; 8.822 ;    ;    ; 8.822 ;
+; insJump[15] ; j_address[17] ; 8.879 ;    ;    ; 8.879 ;
+; insJump[16] ; j_address[18] ; 7.966 ;    ;    ; 7.966 ;
+; insJump[17] ; j_address[19] ; 8.883 ;    ;    ; 8.883 ;
+; insJump[18] ; j_address[20] ; 8.081 ;    ;    ; 8.081 ;
+; insJump[19] ; j_address[21] ; 7.994 ;    ;    ; 7.994 ;
+; insJump[20] ; j_address[22] ; 7.940 ;    ;    ; 7.940 ;
+; insJump[21] ; j_address[23] ; 8.944 ;    ;    ; 8.944 ;
+; insJump[22] ; j_address[24] ; 8.056 ;    ;    ; 8.056 ;
+; insJump[23] ; j_address[25] ; 8.842 ;    ;    ; 8.842 ;
+; insJump[24] ; j_address[26] ; 8.852 ;    ;    ; 8.852 ;
+; insJump[25] ; j_address[27] ; 8.831 ;    ;    ; 8.831 ;
++-------------+---------------+-------+----+----+-------+
+
+
++-------------------------------------------------------+
+; Minimum Progagation Delay                             ;
++-------------+---------------+-------+----+----+-------+
+; Input Port  ; Output Port   ; RR    ; RF ; FR ; FF    ;
++-------------+---------------+-------+----+----+-------+
+; insJump[0]  ; j_address[2]  ; 2.574 ;    ;    ; 2.574 ;
+; insJump[1]  ; j_address[3]  ; 2.577 ;    ;    ; 2.577 ;
+; insJump[2]  ; j_address[4]  ; 5.087 ;    ;    ; 5.087 ;
+; insJump[3]  ; j_address[5]  ; 5.036 ;    ;    ; 5.036 ;
+; insJump[4]  ; j_address[6]  ; 5.062 ;    ;    ; 5.062 ;
+; insJump[5]  ; j_address[7]  ; 4.562 ;    ;    ; 4.562 ;
+; insJump[6]  ; j_address[8]  ; 4.679 ;    ;    ; 4.679 ;
+; insJump[7]  ; j_address[9]  ; 4.627 ;    ;    ; 4.627 ;
+; insJump[8]  ; j_address[10] ; 4.984 ;    ;    ; 4.984 ;
+; insJump[9]  ; j_address[11] ; 4.601 ;    ;    ; 4.601 ;
+; insJump[10] ; j_address[12] ; 5.005 ;    ;    ; 5.005 ;
+; insJump[11] ; j_address[13] ; 5.009 ;    ;    ; 5.009 ;
+; insJump[12] ; j_address[14] ; 5.036 ;    ;    ; 5.036 ;
+; insJump[13] ; j_address[15] ; 5.033 ;    ;    ; 5.033 ;
+; insJump[14] ; j_address[16] ; 5.006 ;    ;    ; 5.006 ;
+; insJump[15] ; j_address[17] ; 5.055 ;    ;    ; 5.055 ;
+; insJump[16] ; j_address[18] ; 4.622 ;    ;    ; 4.622 ;
+; insJump[17] ; j_address[19] ; 5.062 ;    ;    ; 5.062 ;
+; insJump[18] ; j_address[20] ; 4.701 ;    ;    ; 4.701 ;
+; insJump[19] ; j_address[21] ; 4.651 ;    ;    ; 4.651 ;
+; insJump[20] ; j_address[22] ; 4.587 ;    ;    ; 4.587 ;
+; insJump[21] ; j_address[23] ; 5.118 ;    ;    ; 5.118 ;
+; insJump[22] ; j_address[24] ; 4.702 ;    ;    ; 4.702 ;
+; insJump[23] ; j_address[25] ; 5.030 ;    ;    ; 5.030 ;
+; insJump[24] ; j_address[26] ; 5.039 ;    ;    ; 5.039 ;
+; insJump[25] ; j_address[27] ; 5.022 ;    ;    ; 5.022 ;
++-------------+---------------+-------+----+----+-------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 26    ; 26   ;
+; Unconstrained Input Port Paths  ; 26    ; 26   ;
+; Unconstrained Output Ports      ; 26    ; 26   ;
+; Unconstrained Output Port Paths ; 26    ; 26   ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
+    Info: Version 10.1 Build 153 11/29/2010 SJ Web Edition
+    Info: Processing started: Sun Feb 05 23:46:11 2017
+Info: Command: quartus_sta shiftL2_Jump -c shiftL2_Jump
+Info: qsta_default_script.tcl version: #1
+Info: Low junction temperature is 0 degrees C
+Info: High junction temperature is 85 degrees C
+Critical Warning: Synopsys Design Constraints File file not found: 'shiftL2_Jump.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info: No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info: The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning: No clocks defined in design.
+Info: No clocks to report
+Info: Analyzing Slow Model
+Info: No fmax paths to report
+Info: No Setup paths to report
+Info: No Hold paths to report
+Info: No Recovery paths to report
+Info: No Removal paths to report
+Info: No Minimum Pulse Width paths to report
+Info: The selected device family is not supported by the report_metastability command.
+Info: Analyzing Fast Model
+Info: Started post-fitting delay annotation
+Warning: Found 28 output pins without output pin load capacitance assignment
+    Info: Pin "j_address[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "j_address[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "j_address[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "j_address[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "j_address[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "j_address[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "j_address[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "j_address[7]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "j_address[8]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "j_address[9]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "j_address[10]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "j_address[11]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "j_address[12]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "j_address[13]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "j_address[14]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "j_address[15]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "j_address[16]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "j_address[17]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "j_address[18]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "j_address[19]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "j_address[20]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "j_address[21]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "j_address[22]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "j_address[23]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "j_address[24]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "j_address[25]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "j_address[26]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "j_address[27]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+Info: Delay annotation completed successfully
+Info: No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info: The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning: No clocks defined in design.
+Info: No Setup paths to report
+Info: No Hold paths to report
+Info: No Recovery paths to report
+Info: No Removal paths to report
+Info: No Minimum Pulse Width paths to report
+Info: The selected device family is not supported by the report_metastability command.
+Info: Design is not fully constrained for setup requirements
+Info: Design is not fully constrained for hold requirements
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 352 megabytes
+    Info: Processing ended: Sun Feb 05 23:46:14 2017
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:02
+
+

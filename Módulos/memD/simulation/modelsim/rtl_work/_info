@@ -1,0 +1,60 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\MyPC\Desktop\memD\simulation\modelsim
+Emd
+Z1 w1486511814
+Z2 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z3 dC:\Users\MyPC\Desktop\memD\simulation\modelsim
+Z4 8C:/Users/MyPC/Desktop/memD/MD.vhd
+Z5 FC:/Users/MyPC/Desktop/memD/MD.vhd
+l0
+L42
+Vb;SISA4YWTCEGkY55ZbSK3
+Z6 OV;C;6.6c;45
+31
+Z7 o-93 -work work -O0
+Z8 tExplicit 1
+!s100 kSl0;F04KOZWkA0KlZYO<2
+Asyn
+R2
+DEx4 work 2 md 0 22 b;SISA4YWTCEGkY55ZbSK3
+l86
+L54
+V@H8N[zJYR?O:4I[aF[:RB2
+R6
+31
+Z9 Mx1 4 ieee 14 std_logic_1164
+R7
+R8
+!s100 5eg2alfkU10GE?gVAbcLG2
+Emd_tb
+Z10 w1486507244
+Z11 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+R2
+R3
+Z12 8C:/Users/MyPC/Desktop/memD/MD_tb.vhd
+Z13 FC:/Users/MyPC/Desktop/memD/MD_tb.vhd
+l0
+L31
+VGUZ2@DiL29flGgR1lRAAB1
+!s100 1eB=M]l6>6UJ@Y8z8;BLI3
+R6
+31
+R7
+R8
+Amd_arch
+R11
+R2
+DEx4 work 5 md_tb 0 22 GUZ2@DiL29flGgR1lRAAB1
+l54
+L34
+V_4e0Rnd8[[o5QOY:B<4h_3
+!s100 SEIzAVPH32RXAiiZQW[BG2
+R6
+31
+Z14 Mx2 4 ieee 14 std_logic_1164
+Mx1 4 ieee 11 numeric_std
+R7
+R8

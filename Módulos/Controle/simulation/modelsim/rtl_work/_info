@@ -1,0 +1,60 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\MyPC\Desktop\Controle\simulation\modelsim
+Econtrole
+Z1 w1486379612
+Z2 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z4 dC:\Users\MyPC\Desktop\Controle\simulation\modelsim
+Z5 8C:/Users/MyPC/Desktop/Controle/controle.vhd
+Z6 FC:/Users/MyPC/Desktop/Controle/controle.vhd
+l0
+L5
+V04GZ9UclzN<?PEa05LPmA3
+Z7 OV;C;6.6c;45
+31
+Z8 o-93 -work work -O0
+Z9 tExplicit 1
+!s100 Yh8^o]ZnR<?^2TPXoM]Vz2
+Abehavioral
+R2
+R3
+DEx4 work 8 controle 0 22 04GZ9UclzN<?PEa05LPmA3
+l35
+L22
+VJE]50kk<dZ4>[4@SZCl1b3
+R7
+31
+Z10 Mx2 4 ieee 14 std_logic_1164
+Mx1 4 ieee 11 numeric_std
+R8
+R9
+!s100 f;8g6h_i6QaWa5BGGldFK2
+Econtrole_tb
+Z11 w1486379769
+R3
+R4
+Z12 8C:/Users/MyPC/Desktop/Controle/controle_tb.vhd
+Z13 FC:/Users/MyPC/Desktop/Controle/controle_tb.vhd
+l0
+L30
+Vb:PFXP`8gBMI]IR8ITXEH0
+!s100 TVhV[91f:kia1Fi_lBcRW0
+R7
+31
+R8
+R9
+Acontrole_arch
+R3
+DEx4 work 11 controle_tb 0 22 b:PFXP`8gBMI]IR8ITXEH0
+l73
+L33
+VK7nFEGX_8h0LYfbnRfc4]3
+!s100 ]b^8cb^f>[b<@J=oQI0Bl0
+R7
+31
+Z14 Mx1 4 ieee 14 std_logic_1164
+R8
+R9
